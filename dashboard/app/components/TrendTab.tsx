@@ -183,25 +183,36 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
   const [kwTab, setKwTab] = useState<KwTab>("stock");
   const [selectedDate, setSelectedDate] = useState<string | null>(null);
   const [historyAnalysis, setHistoryAnalysis] = useState<AnalysisData | null>(null);
+  const [historyNaver, setHistoryNaver] = useState<NaverData | null>(null);
+  const [historyMarket, setHistoryMarket] = useState<MarketData | null>(null);
   const [historyLoading, setHistoryLoading] = useState(false);
 
   useEffect(() => {
     if (!selectedDate) {
       setHistoryAnalysis(null);
+      setHistoryNaver(null);
+      setHistoryMarket(null);
       return;
     }
     setHistoryLoading(true);
-    fetch(`${RAW}/trend/history/${selectedDate}/result_analysis.json?t=${Date.now()}`, { cache: "no-store" })
-      .then((r) => (r.ok ? r.json() : null))
-      .catch(() => null)
-      .then((data) => {
-        setHistoryAnalysis(data);
-        setHistoryLoading(false);
-      });
+    const t = Date.now();
+    const base = `${RAW}/trend/history/${selectedDate}`;
+    Promise.all([
+      fetch(`${base}/result_analysis.json?t=${t}`, { cache: "no-store" }).then((r) => r.ok ? r.json() : null).catch(() => null),
+      fetch(`${base}/result_naver.json?t=${t}`,   { cache: "no-store" }).then((r) => r.ok ? r.json() : null).catch(() => null),
+      fetch(`${base}/result_market.json?t=${t}`,  { cache: "no-store" }).then((r) => r.ok ? r.json() : null).catch(() => null),
+    ]).then(([analysis, naver, market]) => {
+      setHistoryAnalysis(analysis);
+      setHistoryNaver(naver);
+      setHistoryMarket(market);
+      setHistoryLoading(false);
+    });
   }, [selectedDate]);
 
   const activeAnalysis = selectedDate ? historyAnalysis : analysis;
-  const mkt = market ? (showKosdaq ? market.kosdaq : market.kospi) : null;
+  const activeNaver = selectedDate ? historyNaver : naver;
+  const activeMarket = selectedDate ? historyMarket : market;
+  const mkt = activeMarket ? (showKosdaq ? activeMarket.kosdaq : activeMarket.kospi) : null;
 
   const allSorted = activeAnalysis
     ? [...activeAnalysis.top50]
@@ -247,17 +258,19 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-2">
             <h2 className="text-sm font-semibold text-slate-600 uppercase tracking-wide">시장 현황</h2>
-            {market && (
-              <span className="text-xs text-slate-400">({market.date} 전일 기준)</span>
+            {activeMarket && (
+              <span className="text-xs text-slate-400">({activeMarket.date} 전일 기준)</span>
             )}
-            <button
-              onClick={onRefreshMarket}
-              className="text-xs text-slate-400 hover:text-blue-500 transition-colors px-2 py-0.5 rounded-md hover:bg-blue-50"
-            >
-              ↻ 갱신
-            </button>
+            {!selectedDate && (
+              <button
+                onClick={onRefreshMarket}
+                className="text-xs text-slate-400 hover:text-blue-500 transition-colors px-2 py-0.5 rounded-md hover:bg-blue-50"
+              >
+                ↻ 갱신
+              </button>
+            )}
           </div>
-          {market && (
+          {activeMarket && (
             <div className="flex bg-slate-200 rounded-lg p-0.5 gap-0.5">
               {["KOSPI", "KOSDAQ"].map((m) => (
                 <button
@@ -276,7 +289,7 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
           )}
         </div>
 
-        {!market ? (
+        {!activeMarket ? (
           <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-6 text-center text-sm text-slate-400">
             시장 데이터 없음 — 다음 파이프라인 실행 후 자동 갱신됩니다.
           </div>
@@ -387,15 +400,15 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
           <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
             <div className="px-5 py-3 border-b border-slate-100 flex items-center justify-between">
               <h2 className="font-semibold text-slate-800">📈 네이버 검색 추이</h2>
-              {naver?.collected_at && (
-                <span className="text-xs text-slate-400">{naver.collected_at} 기준</span>
+              {activeNaver?.collected_at && (
+                <span className="text-xs text-slate-400">{activeNaver.collected_at} 기준</span>
               )}
             </div>
-            {!naver?.datalab?.length ? (
+            {!activeNaver?.datalab?.length ? (
               <p className="p-5 text-slate-400 text-sm">데이터 없음</p>
             ) : (
               <div className="divide-y divide-slate-50 max-h-72 overflow-auto">
-                {naver.datalab.map((item) => (
+                {activeNaver.datalab.map((item) => (
                   <div key={item.keyword} className="px-5 py-3 flex items-center justify-between gap-2">
                     <span className="text-sm font-medium text-slate-700">{item.keyword}</span>
                     <div className="flex items-center gap-2 shrink-0">
