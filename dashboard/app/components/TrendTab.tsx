@@ -68,7 +68,13 @@ function MarketCard({ title, emoji, items, bgClass, headerBg, headerText, rateCo
       ) : (
         <div className="divide-y divide-white/60 max-h-60 overflow-auto">
           {items.map((s) => (
-            <div key={s.ticker} className="px-4 py-2 flex items-center justify-between gap-2">
+            <a
+              key={s.ticker}
+              href={`https://finance.naver.com/item/main.naver?code=${s.ticker}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 flex items-center justify-between gap-2 hover:bg-white/40 transition-colors block"
+            >
               <div className="min-w-0">
                 <span className="text-sm font-medium text-slate-800 truncate block">{s.name}</span>
                 <span className="text-xs text-slate-400">{s.ticker}</span>
@@ -76,7 +82,7 @@ function MarketCard({ title, emoji, items, bgClass, headerBg, headerText, rateCo
               <span className={`text-sm font-bold shrink-0 ${rateColor(s.change_rate)}`}>
                 {s.change_rate > 0 ? "▲" : "▼"}{Math.abs(s.change_rate).toFixed(2)}%
               </span>
-            </div>
+            </a>
           ))}
         </div>
       )}
@@ -87,10 +93,13 @@ function MarketCard({ title, emoji, items, bgClass, headerBg, headerText, rateCo
 function KeywordTable({
   rows,
   dayFilter,
+  mode,
 }: {
   rows: AnalysisData["top50"];
   dayFilter: DayFilter;
+  mode: string;
 }) {
+  const isDayOnly = mode === "당일";
   if (rows.length === 0) {
     return <p className="p-5 text-slate-400 text-sm text-center">신호 없음</p>;
   }
@@ -103,8 +112,12 @@ function KeywordTable({
             <th className="px-4 py-2.5 text-left">키워드</th>
             <th className="px-4 py-2.5 text-right">점수</th>
             <th className="px-4 py-2.5 text-right hidden md:table-cell">1일</th>
-            <th className="px-4 py-2.5 text-right hidden md:table-cell">3일</th>
-            <th className="px-4 py-2.5 text-right hidden md:table-cell">7일</th>
+            <th className="px-4 py-2.5 text-right hidden md:table-cell">
+              3일{isDayOnly && <span className="ml-1 text-slate-300 normal-case">(누적중)</span>}
+            </th>
+            <th className="px-4 py-2.5 text-right hidden md:table-cell">
+              7일{isDayOnly && <span className="ml-1 text-slate-300 normal-case">(누적중)</span>}
+            </th>
             <th className="px-4 py-2.5 text-left">시그널</th>
           </tr>
         </thead>
@@ -115,7 +128,16 @@ function KeywordTable({
               className="border-t border-slate-50 hover:bg-slate-50 transition-colors"
             >
               <td className="px-4 py-2.5 text-slate-300 text-xs">{i + 1}</td>
-              <td className="px-4 py-2.5 font-semibold text-slate-800">{row.keyword}</td>
+              <td className="px-4 py-2.5 font-semibold text-slate-800">
+                <a
+                  href={`https://search.naver.com/search.naver?query=${encodeURIComponent(row.keyword)}+주식`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-600 transition-colors"
+                >
+                  {row.keyword}
+                </a>
+              </td>
               <td className="px-4 py-2.5 text-right">
                 <ScoreBadge score={getScore(row, dayFilter)} />
               </td>
@@ -123,10 +145,10 @@ function KeywordTable({
                 {(row.day1_score ?? 0).toFixed(0)}
               </td>
               <td className={`px-4 py-2.5 text-right text-xs hidden md:table-cell ${dayFilter === "3d" ? "font-bold text-slate-700" : "text-slate-400"}`}>
-                {(row.day3_score ?? 0).toFixed(0)}
+                {isDayOnly ? <span className="text-slate-300">–</span> : (row.day3_score ?? 0).toFixed(0)}
               </td>
               <td className={`px-4 py-2.5 text-right text-xs hidden md:table-cell ${dayFilter === "7d" ? "font-bold text-slate-700" : "text-slate-400"}`}>
-                {(row.day7_score ?? 0).toFixed(0)}
+                {isDayOnly ? <span className="text-slate-300">–</span> : (row.day7_score ?? 0).toFixed(0)}
               </td>
               <td className="px-4 py-2.5">
                 <div className="flex flex-wrap gap-1">
@@ -151,9 +173,11 @@ interface Props {
   naver: NaverData | null;
   market: MarketData | null;
   availableDates: string[];
+  onRefreshMarket: () => Promise<void>;
+  econUpdated: string;
 }
 
-export default function TrendTab({ analysis, econNews, naver, market, availableDates }: Props) {
+export default function TrendTab({ analysis, econNews, naver, market, availableDates, onRefreshMarket, econUpdated }: Props) {
   const [dayFilter, setDayFilter] = useState<DayFilter>("total");
   const [showKosdaq, setShowKosdaq] = useState(false);
   const [kwTab, setKwTab] = useState<KwTab>("stock");
@@ -230,6 +254,12 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
             {market && (
               <span className="text-xs text-slate-400">({market.date} 전일 기준)</span>
             )}
+            <button
+              onClick={onRefreshMarket}
+              className="text-xs text-slate-400 hover:text-blue-500 transition-colors px-2 py-0.5 rounded-md hover:bg-blue-50"
+            >
+              ↻ 갱신
+            </button>
           </div>
           {market && (
             <div className="flex bg-slate-200 rounded-lg p-0.5 gap-0.5">
@@ -350,7 +380,7 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
           ) : !activeAnalysis ? (
             <p className="p-5 text-slate-400 text-sm">데이터 없음</p>
           ) : (
-            <KeywordTable rows={displayRows} dayFilter={dayFilter} />
+            <KeywordTable rows={displayRows} dayFilter={dayFilter} mode={activeAnalysis.mode} />
           )}
         </div>
 
@@ -383,11 +413,14 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
           <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden flex-1">
             <div className="px-5 py-3 border-b border-slate-100 flex items-center justify-between">
               <h2 className="font-semibold text-slate-800">📰 경제 뉴스</h2>
-              {econNews && (
-                <span className="text-xs text-slate-400">
-                  {econNews.matched_count}/{econNews.total_articles}건
-                </span>
-              )}
+              <div className="text-right">
+                {econNews && (
+                  <p className="text-xs text-slate-400">{econNews.matched_count}/{econNews.total_articles}건</p>
+                )}
+                {econUpdated && (
+                  <p className="text-xs text-slate-300">갱신 {econUpdated}</p>
+                )}
+              </div>
             </div>
             {!econNews?.top_news?.length ? (
               <p className="p-5 text-slate-400 text-sm">데이터 없음</p>

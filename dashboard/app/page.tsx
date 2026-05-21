@@ -1,6 +1,7 @@
+// 주식 플랫폼 대시보드 — 트렌드 분석 + 뉴스 브리핑 메인 페이지
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import TrendTab from "./components/TrendTab";
 import NewsTab from "./components/NewsTab";
 
@@ -96,6 +97,18 @@ async function fetchJson<T>(url: string): Promise<T | null> {
   }
 }
 
+function getKstParts() {
+  const now = new Date();
+  const kst = new Date(now.toLocaleString("en-US", { timeZone: "Asia/Seoul" }));
+  const day = kst.getDay();
+  const h = kst.getHours();
+  const m = kst.getMinutes();
+  const minutes = h * 60 + m;
+  const open = day >= 1 && day <= 5 && minutes >= 540 && minutes < 930;
+  const timeStr = kst.toLocaleTimeString("ko-KR", { hour: "2-digit", minute: "2-digit", second: "2-digit" });
+  return { open, timeStr };
+}
+
 export default function Dashboard() {
   const [tab, setTab] = useState<Tab>("trend");
   const [analysis, setAnalysis] = useState<AnalysisData | null>(null);
@@ -106,6 +119,21 @@ export default function Dashboard() {
   const [availableDates, setAvailableDates] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [lastFetch, setLastFetch] = useState<string>("");
+  const [econUpdated, setEconUpdated] = useState<string>("");
+  const [kstTime, setKstTime] = useState<string>("");
+  const [marketOpen, setMarketOpen] = useState(false);
+
+  // KST 실시간 시계
+  useEffect(() => {
+    const tick = () => {
+      const { open, timeStr } = getKstParts();
+      setKstTime(timeStr);
+      setMarketOpen(open);
+    };
+    tick();
+    const id = setInterval(tick, 1000);
+    return () => clearInterval(id);
+  }, []);
 
   async function loadData() {
     setLoading(true);
@@ -123,33 +151,80 @@ export default function Dashboard() {
     setNews(ns);
     setMarket(mk);
     setAvailableDates(dates?.dates ?? []);
-    setLastFetch(new Date().toLocaleTimeString("ko-KR"));
+    const now = new Date().toLocaleTimeString("ko-KR");
+    setLastFetch(now);
+    setEconUpdated(now);
     setLoading(false);
   }
 
+  // 시장 데이터 단독 갱신 (네이버 검색추이 + 시장 현황)
+  const refreshMarket = useCallback(async () => {
+    const [mk, n] = await Promise.all([
+      fetchJson<MarketData>(`${RAW}/trend/result_market.json`),
+      fetchJson<NaverData>(`${RAW}/trend/result_naver.json`),
+    ]);
+    if (mk) setMarket(mk);
+    if (n) setNaver(n);
+    setLastFetch(new Date().toLocaleTimeString("ko-KR"));
+  }, []);
+
+  // 경제 뉴스 단독 갱신
+  const refreshEconNews = useCallback(async () => {
+    const e = await fetchJson<EconNewsData>(`${RAW}/trend/result_econ_news.json`);
+    if (e) setEconNews(e);
+    setEconUpdated(new Date().toLocaleTimeString("ko-KR"));
+  }, []);
+
   useEffect(() => { loadData(); }, []);
+
+  // 30분마다 시장 + 네이버 자동 갱신
+  useEffect(() => {
+    const id = setInterval(refreshMarket, 30 * 60 * 1000);
+    return () => clearInterval(id);
+  }, [refreshMarket]);
+
+  // 1시간마다 경제 뉴스 자동 갱신
+  useEffect(() => {
+    const id = setInterval(refreshEconNews, 60 * 60 * 1000);
+    return () => clearInterval(id);
+  }, [refreshEconNews]);
 
   const dataDate = analysis?.date ?? news?.date ?? "";
 
   return (
     <div className="min-h-screen bg-slate-100">
       {/* 헤더 */}
-      <header className="bg-white border-b border-slate-200 shadow-sm px-6 py-4 flex items-center justify-between">
+      <header className="bg-white border-b border-slate-200 shadow-sm px-6 py-3 flex items-center justify-between">
         <div>
           <h1 className="text-lg font-bold text-slate-900">📈 Stock Platform</h1>
-          {dataDate && (
-            <p className="text-xs text-slate-400 mt-0.5">데이터 기준: {dataDate}</p>
-          )}
+          <div className="flex items-center gap-3 mt-0.5">
+            {dataDate && (
+              <p className="text-xs text-slate-400">데이터 기준: {dataDate}</p>
+            )}
+            <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${
+              marketOpen
+                ? "bg-green-100 text-green-700"
+                : "bg-slate-100 text-slate-400"
+            }`}>
+              {marketOpen ? "● 장중" : "○ 장마감"} {kstTime}
+            </span>
+          </div>
         </div>
         <div className="flex items-center gap-3">
-          {lastFetch && (
-            <span className="text-xs text-slate-400">갱신 {lastFetch}</span>
-          )}
+          <div className="text-right hidden sm:block">
+            {lastFetch && (
+              <p className="text-xs text-slate-400">시장 갱신 {lastFetch}</p>
+            )}
+            {econUpdated && econUpdated !== lastFetch && (
+              <p className="text-xs text-slate-300">뉴스 갱신 {econUpdated}</p>
+            )}
+          </div>
           <button
             onClick={loadData}
-            className="text-xs bg-slate-100 hover:bg-slate-200 text-slate-600 px-3 py-1.5 rounded-lg transition-colors font-medium"
+            disabled={loading}
+            className="text-xs bg-blue-500 hover:bg-blue-600 disabled:bg-slate-200 text-white px-3 py-1.5 rounded-lg transition-colors font-medium"
           >
-            새로고침
+            {loading ? "갱신중..." : "새로고침"}
           </button>
         </div>
       </header>
@@ -180,7 +255,15 @@ export default function Dashboard() {
             데이터 불러오는 중...
           </div>
         ) : tab === "trend" ? (
-          <TrendTab analysis={analysis} econNews={econNews} naver={naver} market={market} availableDates={availableDates} />
+          <TrendTab
+            analysis={analysis}
+            econNews={econNews}
+            naver={naver}
+            market={market}
+            availableDates={availableDates}
+            onRefreshMarket={refreshMarket}
+            econUpdated={econUpdated}
+          />
         ) : (
           <NewsTab news={news} />
         )}
