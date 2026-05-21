@@ -218,31 +218,27 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
 
       {/* 날짜 선택 */}
       {availableDates.length > 0 && (
-        <div className="flex items-center gap-2 flex-wrap">
-          <span className="text-xs text-slate-500 font-medium shrink-0">날짜 선택:</span>
-          <button
-            onClick={() => setSelectedDate(null)}
-            className={`text-xs px-3 py-1.5 rounded-full font-medium transition-colors ${
-              !selectedDate
-                ? "bg-blue-500 text-white"
-                : "bg-slate-100 text-slate-500 hover:bg-slate-200"
-            }`}
+        <div className="flex items-center gap-2">
+          <label htmlFor="date-select" className="text-xs text-slate-500 font-medium shrink-0">날짜 선택</label>
+          <select
+            id="date-select"
+            value={selectedDate ?? ""}
+            onChange={(e) => setSelectedDate(e.target.value || null)}
+            className="text-xs border border-slate-200 rounded-lg px-3 py-1.5 bg-white text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-400 shadow-sm"
           >
-            최신
-          </button>
-          {availableDates.map((date) => (
+            <option value="">최신 (오늘)</option>
+            {availableDates.map((date) => (
+              <option key={date} value={date}>{date}</option>
+            ))}
+          </select>
+          {selectedDate && (
             <button
-              key={date}
-              onClick={() => setSelectedDate(date)}
-              className={`text-xs px-3 py-1.5 rounded-full font-medium transition-colors ${
-                selectedDate === date
-                  ? "bg-blue-500 text-white"
-                  : "bg-slate-100 text-slate-500 hover:bg-slate-200"
-              }`}
+              onClick={() => setSelectedDate(null)}
+              className="text-xs text-slate-400 hover:text-slate-600 px-2 py-1 rounded-md hover:bg-slate-100 transition-colors"
             >
-              {date}
+              최신으로
             </button>
-          ))}
+          )}
         </div>
       )}
 
