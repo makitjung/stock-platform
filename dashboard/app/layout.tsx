@@ -1,3 +1,4 @@
+// 앱 루트 레이아웃 — 메타데이터 및 공통 HTML 구조 정의
 import type { Metadata } from "next";
 import "./globals.css";
 
