@@ -1,12 +1,13 @@
 {
   "date": "2026-05-22",
-  "mode": "당일",
+  "mode": "3일비교",
   "total_analyzed": 533,
   "top50": [
     {
       "keyword": "삼성전자",
-      "total_score": 65,
+      "total_score": 67,
       "signals": [
+        "네이버 3일 누적 +66%",
         "YouTube 조회수 44,686,349",
         "공시 5639건",
         "매일경제 기사 언급",
@@ -41,7 +42,7 @@
         "매일경제 기사 언급"
       ],
       "day1_score": 65,
-      "day3_score": 0,
+      "day3_score": 2,
       "day7_score": 0,
       "is_stock": true
     },
@@ -236,6 +237,20 @@
       "is_stock": true
     },
     {
+      "keyword": "한성크린텍",
+      "total_score": 9,
+      "signals": [
+        "네이버 검색 당일 +140%",
+        "네이버 3일 누적 +193%",
+        "YouTube 3일 조회수 +197%",
+        "공시 5639건"
+      ],
+      "day1_score": 5,
+      "day3_score": 4,
+      "day7_score": 0,
+      "is_stock": true
+    },
+    {
       "keyword": "수소",
       "total_score": 9,
       "signals": [
@@ -250,6 +265,19 @@
       "is_stock": false
     },
     {
+      "keyword": "아주IB투자",
+      "total_score": 8,
+      "signals": [
+        "네이버 3일 누적 +319%",
+        "공시 5639건",
+        "매일경제 헤드라인 언급"
+      ],
+      "day1_score": 6,
+      "day3_score": 2,
+      "day7_score": 0,
+      "is_stock": true
+    },
+    {
       "keyword": "현대모비스",
       "total_score": 8,
       "signals": [
@@ -259,6 +287,19 @@
       ],
       "day1_score": 8,
       "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": true
+    },
+    {
+      "keyword": "아이진",
+      "total_score": 7,
+      "signals": [
+        "네이버 검색 당일 +156%",
+        "YouTube 3일 조회수 +143%",
+        "공시 5639건"
+      ],
+      "day1_score": 5,
+      "day3_score": 2,
       "day7_score": 0,
       "is_stock": true
     },
@@ -291,14 +332,28 @@
       "is_stock": false
     },
     {
-      "keyword": "아주IB투자",
+      "keyword": "졸스",
       "total_score": 6,
       "signals": [
-        "공시 5639건",
-        "매일경제 헤드라인 언급"
+        "네이버 검색 당일 +88%",
+        "네이버 3일 누적 +110%",
+        "공시 5639건"
       ],
-      "day1_score": 6,
-      "day3_score": 0,
+      "day1_score": 4,
+      "day3_score": 2,
+      "day7_score": 0,
+      "is_stock": true
+    },
+    {
+      "keyword": "코칩",
+      "total_score": 6,
+      "signals": [
+        "네이버 검색 당일 +52%",
+        "네이버 3일 누적 +1484%",
+        "공시 5639건"
+      ],
+      "day1_score": 4,
+      "day3_score": 2,
       "day7_score": 0,
       "is_stock": true
     },
@@ -378,30 +433,6 @@
       "is_stock": true
     },
     {
-      "keyword": "아이진",
-      "total_score": 5,
-      "signals": [
-        "네이버 검색 당일 +156%",
-        "공시 5639건"
-      ],
-      "day1_score": 5,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true
-    },
-    {
-      "keyword": "한성크린텍",
-      "total_score": 5,
-      "signals": [
-        "네이버 검색 당일 +140%",
-        "공시 5639건"
-      ],
-      "day1_score": 5,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true
-    },
-    {
       "keyword": "메이슨캐피탈",
       "total_score": 5,
       "signals": [
@@ -426,6 +457,18 @@
       "is_stock": true
     },
     {
+      "keyword": "KEC",
+      "total_score": 5,
+      "signals": [
+        "네이버 검색 당일 +66%",
+        "네이버 3일 누적 +218%"
+      ],
+      "day1_score": 3,
+      "day3_score": 2,
+      "day7_score": 0,
+      "is_stock": true
+    },
+    {
       "keyword": "소룩스",
       "total_score": 5,
       "signals": [
@@ -434,6 +477,66 @@
       ],
       "day1_score": 5,
       "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": true
+    },
+    {
+      "keyword": "이수화학",
+      "total_score": 5,
+      "signals": [
+        "네이버 3일 누적 +290%",
+        "공시 5639건"
+      ],
+      "day1_score": 3,
+      "day3_score": 2,
+      "day7_score": 0,
+      "is_stock": true
+    },
+    {
+      "keyword": "삼성전자우",
+      "total_score": 5,
+      "signals": [
+        "네이버 3일 누적 +1190%",
+        "공시 5639건"
+      ],
+      "day1_score": 3,
+      "day3_score": 2,
+      "day7_score": 0,
+      "is_stock": true
+    },
+    {
+      "keyword": "대원전선",
+      "total_score": 5,
+      "signals": [
+        "네이버 3일 누적 +68%",
+        "공시 5639건"
+      ],
+      "day1_score": 3,
+      "day3_score": 2,
+      "day7_score": 0,
+      "is_stock": true
+    },
+    {
+      "keyword": "피델릭스",
+      "total_score": 5,
+      "signals": [
+        "네이버 3일 누적 +320%",
+        "공시 5639건"
+      ],
+      "day1_score": 3,
+      "day3_score": 2,
+      "day7_score": 0,
+      "is_stock": true
+    },
+    {
+      "keyword": "SK증권",
+      "total_score": 5,
+      "signals": [
+        "네이버 3일 누적 +2859%",
+        "공시 5639건"
+      ],
+      "day1_score": 3,
+      "day3_score": 2,
       "day7_score": 0,
       "is_stock": true
     },
@@ -447,6 +550,30 @@
       ],
       "day1_score": 5,
       "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": true
+    },
+    {
+      "keyword": "코스모로보틱스",
+      "total_score": 5,
+      "signals": [
+        "네이버 3일 누적 +1442%",
+        "공시 5639건"
+      ],
+      "day1_score": 3,
+      "day3_score": 2,
+      "day7_score": 0,
+      "is_stock": true
+    },
+    {
+      "keyword": "대한광통신",
+      "total_score": 5,
+      "signals": [
+        "네이버 3일 누적 +1260%",
+        "공시 5639건"
+      ],
+      "day1_score": 3,
+      "day3_score": 2,
       "day7_score": 0,
       "is_stock": true
     },
@@ -487,26 +614,38 @@
       "is_stock": true
     },
     {
-      "keyword": "졸스",
+      "keyword": "센서뷰",
       "total_score": 4,
       "signals": [
-        "네이버 검색 당일 +88%",
+        "네이버 3일 누적 +1396%",
         "공시 5639건"
       ],
-      "day1_score": 4,
-      "day3_score": 0,
+      "day1_score": 2,
+      "day3_score": 2,
       "day7_score": 0,
       "is_stock": true
     },
     {
-      "keyword": "코칩",
+      "keyword": "현대바이오",
       "total_score": 4,
       "signals": [
-        "네이버 검색 당일 +52%",
+        "네이버 3일 누적 +1732%",
         "공시 5639건"
       ],
-      "day1_score": 4,
-      "day3_score": 0,
+      "day1_score": 2,
+      "day3_score": 2,
+      "day7_score": 0,
+      "is_stock": true
+    },
+    {
+      "keyword": "다이나믹솔루션",
+      "total_score": 4,
+      "signals": [
+        "네이버 3일 누적 +201%",
+        "공시 5639건"
+      ],
+      "day1_score": 2,
+      "day3_score": 2,
       "day7_score": 0,
       "is_stock": true
     },
@@ -537,6 +676,42 @@
       "is_stock": true
     },
     {
+      "keyword": "수젠텍",
+      "total_score": 4,
+      "signals": [
+        "네이버 3일 누적 +104%",
+        "공시 5639건"
+      ],
+      "day1_score": 2,
+      "day3_score": 2,
+      "day7_score": 0,
+      "is_stock": true
+    },
+    {
+      "keyword": "KX하이텍",
+      "total_score": 4,
+      "signals": [
+        "네이버 3일 누적 +55%",
+        "공시 5639건"
+      ],
+      "day1_score": 2,
+      "day3_score": 2,
+      "day7_score": 0,
+      "is_stock": true
+    },
+    {
+      "keyword": "MDS테크",
+      "total_score": 4,
+      "signals": [
+        "네이버 3일 누적 +390%",
+        "공시 5639건"
+      ],
+      "day1_score": 2,
+      "day3_score": 2,
+      "day7_score": 0,
+      "is_stock": true
+    },
+    {
       "keyword": "하나마이크론",
       "total_score": 4,
       "signals": [
@@ -549,169 +724,14 @@
       "is_stock": true
     },
     {
-      "keyword": "LG디스플레이",
+      "keyword": "삼성중공업",
       "total_score": 4,
       "signals": [
-        "YouTube 조회수 1,747,977",
+        "네이버 3일 누적 +885%",
         "공시 5639건"
       ],
-      "day1_score": 4,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true
-    },
-    {
-      "keyword": "클라우드",
-      "total_score": 4,
-      "signals": [
-        "공시 5639건",
-        "매일경제 헤드라인 언급"
-      ],
-      "day1_score": 4,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": false
-    },
-    {
-      "keyword": "KEC",
-      "total_score": 3,
-      "signals": [
-        "네이버 검색 당일 +66%"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true
-    },
-    {
-      "keyword": "이수화학",
-      "total_score": 3,
-      "signals": [
-        "공시 5639건"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true
-    },
-    {
-      "keyword": "진원생명과학",
-      "total_score": 3,
-      "signals": [
-        "공시 5639건"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true
-    },
-    {
-      "keyword": "에스에이엠티",
-      "total_score": 3,
-      "signals": [
-        "공시 5639건"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true
-    },
-    {
-      "keyword": "제주반도체",
-      "total_score": 3,
-      "signals": [
-        "공시 5639건"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true
-    },
-    {
-      "keyword": "SK네트웍스",
-      "total_score": 3,
-      "signals": [
-        "공시 5639건"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true
-    },
-    {
-      "keyword": "삼성전자우",
-      "total_score": 3,
-      "signals": [
-        "공시 5639건"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true
-    },
-    {
-      "keyword": "광전자",
-      "total_score": 3,
-      "signals": [
-        "공시 5639건"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true
-    },
-    {
-      "keyword": "SFA반도체",
-      "total_score": 3,
-      "signals": [
-        "공시 5639건"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true
-    },
-    {
-      "keyword": "휴림로봇",
-      "total_score": 3,
-      "signals": [
-        "공시 5639건"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true
-    },
-    {
-      "keyword": "대원전선",
-      "total_score": 3,
-      "signals": [
-        "공시 5639건"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true
-    },
-    {
-      "keyword": "피델릭스",
-      "total_score": 3,
-      "signals": [
-        "공시 5639건"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true
-    },
-    {
-      "keyword": "SK증권",
-      "total_score": 3,
-      "signals": [
-        "공시 5639건"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
+      "day1_score": 2,
+      "day3_score": 2,
       "day7_score": 0,
       "is_stock": true
     }
