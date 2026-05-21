@@ -17,6 +17,7 @@ export interface AnalysisData {
     day1_score: number;
     day3_score: number;
     day7_score: number;
+    is_stock?: boolean;
   }>;
 }
 
@@ -102,23 +103,26 @@ export default function Dashboard() {
   const [naver, setNaver] = useState<NaverData | null>(null);
   const [news, setNews] = useState<NewsData | null>(null);
   const [market, setMarket] = useState<MarketData | null>(null);
+  const [availableDates, setAvailableDates] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [lastFetch, setLastFetch] = useState<string>("");
 
   async function loadData() {
     setLoading(true);
-    const [a, e, n, ns, mk] = await Promise.all([
+    const [a, e, n, ns, mk, dates] = await Promise.all([
       fetchJson<AnalysisData>(`${RAW}/trend/result_analysis.json`),
       fetchJson<EconNewsData>(`${RAW}/trend/result_econ_news.json`),
       fetchJson<NaverData>(`${RAW}/trend/result_naver.json`),
       fetchJson<NewsData>(`${RAW}/news/latest_news.json`),
       fetchJson<MarketData>(`${RAW}/trend/result_market.json`),
+      fetchJson<{ dates: string[] }>(`${RAW}/trend/result_dates.json`),
     ]);
     setAnalysis(a);
     setEconNews(e);
     setNaver(n);
     setNews(ns);
     setMarket(mk);
+    setAvailableDates(dates?.dates ?? []);
     setLastFetch(new Date().toLocaleTimeString("ko-KR"));
     setLoading(false);
   }
@@ -176,7 +180,7 @@ export default function Dashboard() {
             데이터 불러오는 중...
           </div>
         ) : tab === "trend" ? (
-          <TrendTab analysis={analysis} econNews={econNews} naver={naver} market={market} />
+          <TrendTab analysis={analysis} econNews={econNews} naver={naver} market={market} availableDates={availableDates} />
         ) : (
           <NewsTab news={news} />
         )}

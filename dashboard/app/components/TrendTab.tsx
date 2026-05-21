@@ -1,9 +1,13 @@
+// 트렌드 분석 탭 — 날짜 선택, 종목/섹터 분리, 시장 현황 표시
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import type { AnalysisData, EconNewsData, NaverData, MarketData, MarketStock } from "../page";
 
+const RAW = "https://raw.githubusercontent.com/makitjung/stock-platform/main";
+
 type DayFilter = "total" | "1d" | "3d" | "7d";
+type KwTab = "stock" | "sector";
 
 const DAY_FILTERS: { key: DayFilter; label: string }[] = [
   { key: "total", label: "전체" },
@@ -32,14 +36,6 @@ function ScoreBadge({ score }: { score: number }) {
       {score.toFixed(0)}
     </span>
   );
-}
-
-function ChangeRate({ rate }: { rate: number }) {
-  if (rate > 0)
-    return <span className="text-sm font-bold text-red-500">▲{rate.toFixed(2)}%</span>;
-  if (rate < 0)
-    return <span className="text-sm font-bold text-blue-600">▼{Math.abs(rate).toFixed(2)}%</span>;
-  return <span className="text-sm text-slate-400">-</span>;
 }
 
 function NaverChangeRate({ rate }: { rate: number }) {
@@ -88,29 +84,145 @@ function MarketCard({ title, emoji, items, bgClass, headerBg, headerText, rateCo
   );
 }
 
+function KeywordTable({
+  rows,
+  dayFilter,
+}: {
+  rows: AnalysisData["top50"];
+  dayFilter: DayFilter;
+}) {
+  if (rows.length === 0) {
+    return <p className="p-5 text-slate-400 text-sm text-center">신호 없음</p>;
+  }
+  return (
+    <div className="overflow-auto max-h-[620px]">
+      <table className="w-full text-sm">
+        <thead className="sticky top-0 bg-white border-b border-slate-100 text-xs text-slate-400 uppercase tracking-wide">
+          <tr>
+            <th className="px-4 py-2.5 text-left w-8">#</th>
+            <th className="px-4 py-2.5 text-left">키워드</th>
+            <th className="px-4 py-2.5 text-right">점수</th>
+            <th className="px-4 py-2.5 text-right hidden md:table-cell">1일</th>
+            <th className="px-4 py-2.5 text-right hidden md:table-cell">3일</th>
+            <th className="px-4 py-2.5 text-right hidden md:table-cell">7일</th>
+            <th className="px-4 py-2.5 text-left">시그널</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row, i) => (
+            <tr
+              key={row.keyword}
+              className="border-t border-slate-50 hover:bg-slate-50 transition-colors"
+            >
+              <td className="px-4 py-2.5 text-slate-300 text-xs">{i + 1}</td>
+              <td className="px-4 py-2.5 font-semibold text-slate-800">{row.keyword}</td>
+              <td className="px-4 py-2.5 text-right">
+                <ScoreBadge score={getScore(row, dayFilter)} />
+              </td>
+              <td className={`px-4 py-2.5 text-right text-xs hidden md:table-cell ${dayFilter === "1d" ? "font-bold text-slate-700" : "text-slate-400"}`}>
+                {(row.day1_score ?? 0).toFixed(0)}
+              </td>
+              <td className={`px-4 py-2.5 text-right text-xs hidden md:table-cell ${dayFilter === "3d" ? "font-bold text-slate-700" : "text-slate-400"}`}>
+                {(row.day3_score ?? 0).toFixed(0)}
+              </td>
+              <td className={`px-4 py-2.5 text-right text-xs hidden md:table-cell ${dayFilter === "7d" ? "font-bold text-slate-700" : "text-slate-400"}`}>
+                {(row.day7_score ?? 0).toFixed(0)}
+              </td>
+              <td className="px-4 py-2.5">
+                <div className="flex flex-wrap gap-1">
+                  {(row.signals ?? []).slice(0, 3).map((s) => (
+                    <span key={s} className="text-xs bg-blue-50 text-blue-600 px-1.5 py-0.5 rounded-md">
+                      {s}
+                    </span>
+                  ))}
+                </div>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
 interface Props {
   analysis: AnalysisData | null;
   econNews: EconNewsData | null;
   naver: NaverData | null;
   market: MarketData | null;
+  availableDates: string[];
 }
 
-export default function TrendTab({ analysis, econNews, naver, market }: Props) {
+export default function TrendTab({ analysis, econNews, naver, market, availableDates }: Props) {
   const [dayFilter, setDayFilter] = useState<DayFilter>("total");
   const [showKosdaq, setShowKosdaq] = useState(false);
+  const [kwTab, setKwTab] = useState<KwTab>("stock");
+  const [selectedDate, setSelectedDate] = useState<string | null>(null);
+  const [historyAnalysis, setHistoryAnalysis] = useState<AnalysisData | null>(null);
+  const [historyLoading, setHistoryLoading] = useState(false);
 
+  useEffect(() => {
+    if (!selectedDate) {
+      setHistoryAnalysis(null);
+      return;
+    }
+    setHistoryLoading(true);
+    fetch(`${RAW}/trend/history/${selectedDate}/result_analysis.json?t=${Date.now()}`, { cache: "no-store" })
+      .then((r) => (r.ok ? r.json() : null))
+      .catch(() => null)
+      .then((data) => {
+        setHistoryAnalysis(data);
+        setHistoryLoading(false);
+      });
+  }, [selectedDate]);
+
+  const activeAnalysis = selectedDate ? historyAnalysis : analysis;
   const mkt = market ? (showKosdaq ? market.kosdaq : market.kospi) : null;
 
-  const sortedKeywords = analysis
-    ? [...analysis.top50]
+  const allSorted = activeAnalysis
+    ? [...activeAnalysis.top50]
         .sort((a, b) => getScore(b, dayFilter) - getScore(a, dayFilter))
         .filter((row) => getScore(row, dayFilter) > 0)
     : [];
 
+  const stockRows  = allSorted.filter((r) => r.is_stock === true);
+  const sectorRows = allSorted.filter((r) => r.is_stock !== true);
+  const displayRows = kwTab === "stock" ? stockRows : sectorRows;
+
   return (
     <div className="space-y-6">
 
-      {/* ── 시장 현황 ── */}
+      {/* 날짜 선택 */}
+      {availableDates.length > 0 && (
+        <div className="flex items-center gap-2 flex-wrap">
+          <span className="text-xs text-slate-500 font-medium shrink-0">날짜 선택:</span>
+          <button
+            onClick={() => setSelectedDate(null)}
+            className={`text-xs px-3 py-1.5 rounded-full font-medium transition-colors ${
+              !selectedDate
+                ? "bg-blue-500 text-white"
+                : "bg-slate-100 text-slate-500 hover:bg-slate-200"
+            }`}
+          >
+            최신
+          </button>
+          {availableDates.map((date) => (
+            <button
+              key={date}
+              onClick={() => setSelectedDate(date)}
+              className={`text-xs px-3 py-1.5 rounded-full font-medium transition-colors ${
+                selectedDate === date
+                  ? "bg-blue-500 text-white"
+                  : "bg-slate-100 text-slate-500 hover:bg-slate-200"
+              }`}
+            >
+              {date}
+            </button>
+          ))}
+        </div>
+      )}
+
+      {/* 시장 현황 */}
       <section>
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-2">
@@ -176,87 +288,69 @@ export default function TrendTab({ analysis, econNews, naver, market }: Props) {
         )}
       </section>
 
-      {/* ── 하단 2단 레이아웃 ── */}
+      {/* 하단 2단 레이아웃 */}
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
 
-        {/* Top 50 키워드 */}
+        {/* 키워드 패널 */}
         <div className="xl:col-span-2 bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
           <div className="px-5 py-3 border-b border-slate-100 flex flex-wrap items-center justify-between gap-3">
             <div>
-              <h2 className="font-semibold text-slate-800">🔥 Top 50 키워드</h2>
-              {analysis && (
+              <h2 className="font-semibold text-slate-800">🔥 Top 키워드</h2>
+              {activeAnalysis && (
                 <p className="text-xs text-slate-400 mt-0.5">
-                  {analysis.total_analyzed}개 분석 · {analysis.mode} 모드
+                  {activeAnalysis.date} · {activeAnalysis.total_analyzed}개 분석 · {activeAnalysis.mode} 모드
                 </p>
               )}
             </div>
-            <div className="flex bg-slate-100 rounded-lg p-0.5 gap-0.5">
-              {DAY_FILTERS.map(({ key, label }) => (
+            <div className="flex items-center gap-2 flex-wrap">
+              {/* 종목 / 섹터 탭 */}
+              <div className="flex bg-slate-100 rounded-lg p-0.5 gap-0.5">
                 <button
-                  key={key}
-                  onClick={() => setDayFilter(key)}
+                  onClick={() => setKwTab("stock")}
                   className={`text-xs px-3 py-1.5 rounded-md font-medium transition-colors ${
-                    dayFilter === key
+                    kwTab === "stock"
                       ? "bg-white text-slate-800 shadow-sm"
                       : "text-slate-500 hover:text-slate-700"
                   }`}
                 >
-                  {label}
+                  📈 종목 ({stockRows.length})
                 </button>
-              ))}
+                <button
+                  onClick={() => setKwTab("sector")}
+                  className={`text-xs px-3 py-1.5 rounded-md font-medium transition-colors ${
+                    kwTab === "sector"
+                      ? "bg-white text-slate-800 shadow-sm"
+                      : "text-slate-500 hover:text-slate-700"
+                  }`}
+                >
+                  🏭 섹터 ({sectorRows.length})
+                </button>
+              </div>
+              {/* 기간 필터 */}
+              <div className="flex bg-slate-100 rounded-lg p-0.5 gap-0.5">
+                {DAY_FILTERS.map(({ key, label }) => (
+                  <button
+                    key={key}
+                    onClick={() => setDayFilter(key)}
+                    className={`text-xs px-3 py-1.5 rounded-md font-medium transition-colors ${
+                      dayFilter === key
+                        ? "bg-white text-slate-800 shadow-sm"
+                        : "text-slate-500 hover:text-slate-700"
+                    }`}
+                  >
+                    {label}
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
 
-          {!analysis ? (
+          {historyLoading ? (
+            <p className="p-5 text-slate-400 text-sm text-center">불러오는 중...</p>
+          ) : !activeAnalysis ? (
             <p className="p-5 text-slate-400 text-sm">데이터 없음</p>
           ) : (
-            <div className="overflow-auto max-h-[620px]">
-              <table className="w-full text-sm">
-                <thead className="sticky top-0 bg-white border-b border-slate-100 text-xs text-slate-400 uppercase tracking-wide">
-                  <tr>
-                    <th className="px-4 py-2.5 text-left w-8">#</th>
-                    <th className="px-4 py-2.5 text-left">키워드</th>
-                    <th className="px-4 py-2.5 text-right">점수</th>
-                    <th className="px-4 py-2.5 text-right hidden md:table-cell">1일</th>
-                    <th className="px-4 py-2.5 text-right hidden md:table-cell">3일</th>
-                    <th className="px-4 py-2.5 text-right hidden md:table-cell">7일</th>
-                    <th className="px-4 py-2.5 text-left">시그널</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {sortedKeywords.map((row, i) => (
-                    <tr
-                      key={row.keyword}
-                      className="border-t border-slate-50 hover:bg-slate-50 transition-colors"
-                    >
-                      <td className="px-4 py-2.5 text-slate-300 text-xs">{i + 1}</td>
-                      <td className="px-4 py-2.5 font-semibold text-slate-800">{row.keyword}</td>
-                      <td className="px-4 py-2.5 text-right">
-                        <ScoreBadge score={getScore(row, dayFilter)} />
-                      </td>
-                      <td className={`px-4 py-2.5 text-right text-xs hidden md:table-cell ${dayFilter === "1d" ? "font-bold text-slate-700" : "text-slate-400"}`}>
-                        {(row.day1_score ?? 0).toFixed(0)}
-                      </td>
-                      <td className={`px-4 py-2.5 text-right text-xs hidden md:table-cell ${dayFilter === "3d" ? "font-bold text-slate-700" : "text-slate-400"}`}>
-                        {(row.day3_score ?? 0).toFixed(0)}
-                      </td>
-                      <td className={`px-4 py-2.5 text-right text-xs hidden md:table-cell ${dayFilter === "7d" ? "font-bold text-slate-700" : "text-slate-400"}`}>
-                        {(row.day7_score ?? 0).toFixed(0)}
-                      </td>
-                      <td className="px-4 py-2.5">
-                        <div className="flex flex-wrap gap-1">
-                          {(row.signals ?? []).slice(0, 3).map((s) => (
-                            <span key={s} className="text-xs bg-blue-50 text-blue-600 px-1.5 py-0.5 rounded-md">
-                              {s}
-                            </span>
-                          ))}
-                        </div>
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
+            <KeywordTable rows={displayRows} dayFilter={dayFilter} />
           )}
         </div>
 

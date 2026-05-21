@@ -1,12 +1,14 @@
+// 뉴스 브리핑 탭 — 종목별 필터 사이드바 포함
 "use client";
 
+import { useState } from "react";
 import type { NewsData, NewsItem } from "../page";
 
 interface Props {
   news: NewsData | null;
 }
 
-function StockCard({
+function NewsCard({
   name,
   sub,
   items,
@@ -20,9 +22,7 @@ function StockCard({
       <div className="px-4 py-3 border-b border-slate-100 flex items-center justify-between">
         <h3 className="font-semibold text-slate-800 text-sm">{name}</h3>
         <div className="flex items-center gap-2">
-          {sub && (
-            <span className="text-xs text-slate-400">{sub}</span>
-          )}
+          {sub && <span className="text-xs text-slate-400">{sub}</span>}
           <span className="text-xs bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full">
             {items.length}건
           </span>
@@ -55,6 +55,8 @@ function StockCard({
 }
 
 export default function NewsTab({ news }: Props) {
+  const [selected, setSelected] = useState<string | null>(null);
+
   if (!news) {
     return (
       <div className="flex items-center justify-center h-64 text-slate-400 text-sm">
@@ -63,43 +65,145 @@ export default function NewsTab({ news }: Props) {
     );
   }
 
-  const totalKr = news.kr.reduce((s, v) => s + v.items.length, 0);
-  const totalUs = news.us.reduce((s, v) => s + v.items.length, 0);
+  type StockEntry = { name: string; sub: string; items: NewsItem[]; region: "kr" | "us" };
+  const allStocks: StockEntry[] = [
+    ...news.kr.map((s) => ({ name: s.name, sub: s.sector, items: s.items, region: "kr" as const })),
+    ...news.us.map((s) => ({ name: s.name, sub: s.ticker, items: s.items, region: "us" as const })),
+  ];
+
+  const displayStocks = selected
+    ? allStocks.filter((s) => s.name === selected)
+    : allStocks;
+
+  const totalCount = allStocks.reduce((sum, s) => sum + s.items.length, 0);
+  const krStocks = allStocks.filter((s) => s.region === "kr");
+  const usStocks = allStocks.filter((s) => s.region === "us");
 
   return (
-    <div className="space-y-8">
-      <div>
-        <div className="flex items-center gap-3 mb-4">
-          <h2 className="text-base font-semibold text-slate-800">🇰🇷 국내 종목</h2>
-          <span className="text-xs text-slate-400 bg-slate-100 px-2 py-0.5 rounded-full">{totalKr}건</span>
-        </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-          {news.kr.map((stock) => (
-            <StockCard
-              key={stock.name}
-              name={stock.name}
-              sub={stock.sector}
-              items={stock.items}
-            />
-          ))}
-        </div>
-      </div>
+    <div className="flex gap-4 h-full">
 
-      <div>
-        <div className="flex items-center gap-3 mb-4">
-          <h2 className="text-base font-semibold text-slate-800">🇺🇸 미국 종목</h2>
-          <span className="text-xs text-slate-400 bg-slate-100 px-2 py-0.5 rounded-full">{totalUs}건</span>
+      {/* 종목 선택 사이드바 */}
+      <aside className="w-44 shrink-0 bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden self-start sticky top-6">
+        <div className="px-3 py-2.5 border-b border-slate-100">
+          <p className="text-xs font-semibold text-slate-600 uppercase tracking-wide">종목 선택</p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-          {news.us.map((stock) => (
-            <StockCard
-              key={stock.name}
-              name={stock.name}
-              sub={stock.ticker}
-              items={stock.items}
-            />
+        <div className="overflow-auto max-h-[calc(100vh-200px)]">
+          <button
+            onClick={() => setSelected(null)}
+            className={`w-full text-left px-3 py-2 text-xs font-medium transition-colors ${
+              !selected
+                ? "bg-blue-50 text-blue-600"
+                : "text-slate-600 hover:bg-slate-50"
+            }`}
+          >
+            전체 ({allStocks.length}종목 / {totalCount}건)
+          </button>
+
+          {krStocks.length > 0 && (
+            <div className="px-3 py-1.5 text-xs text-slate-400 font-medium bg-slate-50 border-t border-slate-100">
+              🇰🇷 국내
+            </div>
+          )}
+          {krStocks.map((s) => (
+            <button
+              key={s.name}
+              onClick={() => setSelected(s.name === selected ? null : s.name)}
+              className={`w-full text-left px-3 py-2 text-xs transition-colors flex items-center justify-between gap-1 ${
+                selected === s.name
+                  ? "bg-blue-50 text-blue-600 font-medium"
+                  : "text-slate-700 hover:bg-slate-50"
+              }`}
+            >
+              <span className="truncate">{s.name}</span>
+              <span className={`shrink-0 text-xs px-1 py-0.5 rounded ${
+                selected === s.name ? "bg-blue-100 text-blue-600" : "bg-slate-100 text-slate-400"
+              }`}>
+                {s.items.length}
+              </span>
+            </button>
+          ))}
+
+          {usStocks.length > 0 && (
+            <div className="px-3 py-1.5 text-xs text-slate-400 font-medium bg-slate-50 border-t border-slate-100">
+              🇺🇸 미국
+            </div>
+          )}
+          {usStocks.map((s) => (
+            <button
+              key={s.name}
+              onClick={() => setSelected(s.name === selected ? null : s.name)}
+              className={`w-full text-left px-3 py-2 text-xs transition-colors flex items-center justify-between gap-1 ${
+                selected === s.name
+                  ? "bg-blue-50 text-blue-600 font-medium"
+                  : "text-slate-700 hover:bg-slate-50"
+              }`}
+            >
+              <span className="truncate">{s.name}</span>
+              <span className={`shrink-0 text-xs px-1 py-0.5 rounded ${
+                selected === s.name ? "bg-blue-100 text-blue-600" : "bg-slate-100 text-slate-400"
+              }`}>
+                {s.items.length}
+              </span>
+            </button>
           ))}
         </div>
+      </aside>
+
+      {/* 뉴스 본문 */}
+      <div className="flex-1 min-w-0">
+        {selected ? (
+          /* 선택된 종목 단일 뷰 */
+          <div className="space-y-4">
+            <div className="flex items-center gap-2">
+              <h2 className="text-base font-semibold text-slate-800">{selected}</h2>
+              <button
+                onClick={() => setSelected(null)}
+                className="text-xs text-slate-400 hover:text-slate-600 bg-slate-100 px-2 py-0.5 rounded-full"
+              >
+                전체 보기
+              </button>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {displayStocks.map((s) => (
+                <NewsCard key={s.name} name={s.name} sub={s.sub} items={s.items} />
+              ))}
+            </div>
+          </div>
+        ) : (
+          /* 전체 보기 */
+          <div className="space-y-8">
+            {krStocks.length > 0 && (
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <h2 className="text-base font-semibold text-slate-800">🇰🇷 국내 종목</h2>
+                  <span className="text-xs text-slate-400 bg-slate-100 px-2 py-0.5 rounded-full">
+                    {krStocks.reduce((s, v) => s + v.items.length, 0)}건
+                  </span>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                  {krStocks.map((s) => (
+                    <NewsCard key={s.name} name={s.name} sub={s.sub} items={s.items} />
+                  ))}
+                </div>
+              </div>
+            )}
+            {usStocks.length > 0 && (
+              <div>
+                <div className="flex items-center gap-3 mb-4">
+                  <h2 className="text-base font-semibold text-slate-800">🇺🇸 미국 종목</h2>
+                  <span className="text-xs text-slate-400 bg-slate-100 px-2 py-0.5 rounded-full">
+                    {usStocks.reduce((s, v) => s + v.items.length, 0)}건
+                  </span>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+                  {usStocks.map((s) => (
+                    <NewsCard key={s.name} name={s.name} sub={s.sub} items={s.items} />
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+        )}
       </div>
     </div>
   );
