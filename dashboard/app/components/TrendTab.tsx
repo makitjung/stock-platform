@@ -385,8 +385,11 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
 
           {/* 네이버 검색 추이 */}
           <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
-            <div className="px-5 py-3 border-b border-slate-100">
+            <div className="px-5 py-3 border-b border-slate-100 flex items-center justify-between">
               <h2 className="font-semibold text-slate-800">📈 네이버 검색 추이</h2>
+              {naver?.collected_at && (
+                <span className="text-xs text-slate-400">{naver.collected_at} 기준</span>
+              )}
             </div>
             {!naver?.datalab?.length ? (
               <p className="p-5 text-slate-400 text-sm">데이터 없음</p>
@@ -413,8 +416,8 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
                 {econNews && (
                   <p className="text-xs text-slate-400">{econNews.matched_count}/{econNews.total_articles}건</p>
                 )}
-                {econUpdated && (
-                  <p className="text-xs text-slate-300">갱신 {econUpdated}</p>
+                {econNews?.collected_at && (
+                  <p className="text-xs text-slate-400">{econNews.collected_at} 기준</p>
                 )}
               </div>
             </div>

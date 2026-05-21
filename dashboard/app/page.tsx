@@ -36,6 +36,7 @@ export interface EconNewsItem {
 
 export interface EconNewsData {
   date: string;
+  collected_at?: string;
   total_articles: number;
   matched_count: number;
   top_news: EconNewsItem[];
@@ -43,6 +44,7 @@ export interface EconNewsData {
 
 export interface NaverData {
   date: string;
+  collected_at?: string;
   datalab: Array<{
     keyword: string;
     recent: number;
