@@ -16,35 +16,35 @@ function StockCard({
   items: NewsItem[];
 }) {
   return (
-    <div className="bg-slate-800 rounded-xl border border-slate-700 overflow-hidden">
-      <div className="px-4 py-3 border-b border-slate-700 flex items-center justify-between">
-        <h3 className="font-semibold text-white text-sm">{name}</h3>
+    <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+      <div className="px-4 py-3 border-b border-slate-100 flex items-center justify-between">
+        <h3 className="font-semibold text-slate-800 text-sm">{name}</h3>
         <div className="flex items-center gap-2">
           {sub && (
-            <span className="text-xs text-slate-500">{sub}</span>
+            <span className="text-xs text-slate-400">{sub}</span>
           )}
-          <span className="text-xs bg-slate-700 text-slate-400 px-2 py-0.5 rounded-full">
+          <span className="text-xs bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full">
             {items.length}건
           </span>
         </div>
       </div>
       {items.length === 0 ? (
-        <p className="px-4 py-3 text-xs text-slate-500">수집된 뉴스 없음</p>
+        <p className="px-4 py-3 text-xs text-slate-400">수집된 뉴스 없음</p>
       ) : (
-        <ul className="divide-y divide-slate-700/40">
+        <ul className="divide-y divide-slate-50">
           {items.slice(0, 5).map((it, i) => (
             <li key={i} className="px-4 py-2.5">
               <a
                 href={it.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-xs text-slate-300 hover:text-blue-400 transition-colors leading-relaxed block"
+                className="text-xs text-slate-700 hover:text-blue-600 transition-colors leading-relaxed block"
               >
                 {it.title}
               </a>
               <div className="flex items-center gap-2 mt-1">
-                <span className="text-xs text-slate-600">{it.date}</span>
-                <span className="text-xs text-slate-600">{it.source}</span>
+                <span className="text-xs text-slate-400">{it.date}</span>
+                <span className="text-xs text-slate-400">{it.source}</span>
               </div>
             </li>
           ))}
@@ -70,8 +70,8 @@ export default function NewsTab({ news }: Props) {
     <div className="space-y-8">
       <div>
         <div className="flex items-center gap-3 mb-4">
-          <h2 className="text-base font-semibold text-white">🇰🇷 국내 종목</h2>
-          <span className="text-xs text-slate-400">{totalKr}건</span>
+          <h2 className="text-base font-semibold text-slate-800">🇰🇷 국내 종목</h2>
+          <span className="text-xs text-slate-400 bg-slate-100 px-2 py-0.5 rounded-full">{totalKr}건</span>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           {news.kr.map((stock) => (
@@ -87,8 +87,8 @@ export default function NewsTab({ news }: Props) {
 
       <div>
         <div className="flex items-center gap-3 mb-4">
-          <h2 className="text-base font-semibold text-white">🇺🇸 미국 종목</h2>
-          <span className="text-xs text-slate-400">{totalUs}건</span>
+          <h2 className="text-base font-semibold text-slate-800">🇺🇸 미국 종목</h2>
+          <span className="text-xs text-slate-400 bg-slate-100 px-2 py-0.5 rounded-full">{totalUs}건</span>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
           {news.us.map((stock) => (

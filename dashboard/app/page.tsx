@@ -63,6 +63,26 @@ export interface NewsData {
   us: Array<{ name: string; ticker: string; sector: string; items: NewsItem[] }>;
 }
 
+export interface MarketStock {
+  ticker: string;
+  name: string;
+  close: number;
+  change_rate: number;
+}
+
+export interface MarketSection {
+  상한가: MarketStock[];
+  하한가: MarketStock[];
+  급등: MarketStock[];
+  급락: MarketStock[];
+}
+
+export interface MarketData {
+  date: string;
+  kospi: MarketSection;
+  kosdaq: MarketSection;
+}
+
 type Tab = "trend" | "news";
 
 async function fetchJson<T>(url: string): Promise<T | null> {
@@ -81,21 +101,24 @@ export default function Dashboard() {
   const [econNews, setEconNews] = useState<EconNewsData | null>(null);
   const [naver, setNaver] = useState<NaverData | null>(null);
   const [news, setNews] = useState<NewsData | null>(null);
+  const [market, setMarket] = useState<MarketData | null>(null);
   const [loading, setLoading] = useState(true);
   const [lastFetch, setLastFetch] = useState<string>("");
 
   async function loadData() {
     setLoading(true);
-    const [a, e, n, ns] = await Promise.all([
+    const [a, e, n, ns, mk] = await Promise.all([
       fetchJson<AnalysisData>(`${RAW}/trend/result_analysis.json`),
       fetchJson<EconNewsData>(`${RAW}/trend/result_econ_news.json`),
       fetchJson<NaverData>(`${RAW}/trend/result_naver.json`),
       fetchJson<NewsData>(`${RAW}/news/latest_news.json`),
+      fetchJson<MarketData>(`${RAW}/trend/result_market.json`),
     ]);
     setAnalysis(a);
     setEconNews(e);
     setNaver(n);
     setNews(ns);
+    setMarket(mk);
     setLastFetch(new Date().toLocaleTimeString("ko-KR"));
     setLoading(false);
   }
@@ -105,28 +128,30 @@ export default function Dashboard() {
   const dataDate = analysis?.date ?? news?.date ?? "";
 
   return (
-    <div className="min-h-screen bg-slate-900 text-slate-200">
-      <header className="border-b border-slate-700 px-6 py-4 flex items-center justify-between">
+    <div className="min-h-screen bg-slate-100">
+      {/* 헤더 */}
+      <header className="bg-white border-b border-slate-200 shadow-sm px-6 py-4 flex items-center justify-between">
         <div>
-          <h1 className="text-xl font-bold text-white">📈 Stock Platform</h1>
+          <h1 className="text-lg font-bold text-slate-900">📈 Stock Platform</h1>
           {dataDate && (
             <p className="text-xs text-slate-400 mt-0.5">데이터 기준: {dataDate}</p>
           )}
         </div>
         <div className="flex items-center gap-3">
           {lastFetch && (
-            <span className="text-xs text-slate-500">갱신 {lastFetch}</span>
+            <span className="text-xs text-slate-400">갱신 {lastFetch}</span>
           )}
           <button
             onClick={loadData}
-            className="text-xs bg-slate-700 hover:bg-slate-600 px-3 py-1.5 rounded-md transition-colors"
+            className="text-xs bg-slate-100 hover:bg-slate-200 text-slate-600 px-3 py-1.5 rounded-lg transition-colors font-medium"
           >
             새로고침
           </button>
         </div>
       </header>
 
-      <nav className="border-b border-slate-700 px-6">
+      {/* 탭 */}
+      <nav className="bg-white border-b border-slate-200 px-6">
         <div className="flex gap-0">
           {(["trend", "news"] as Tab[]).map((t) => (
             <button
@@ -134,8 +159,8 @@ export default function Dashboard() {
               onClick={() => setTab(t)}
               className={`px-5 py-3 text-sm font-medium border-b-2 transition-colors ${
                 tab === t
-                  ? "border-blue-500 text-blue-400"
-                  : "border-transparent text-slate-400 hover:text-slate-200"
+                  ? "border-blue-500 text-blue-600"
+                  : "border-transparent text-slate-500 hover:text-slate-700"
               }`}
             >
               {t === "trend" ? "📊 트렌드 분석" : "📰 뉴스 브리핑"}
@@ -144,13 +169,14 @@ export default function Dashboard() {
         </div>
       </nav>
 
-      <main className="px-6 py-6">
+      {/* 본문 */}
+      <main className="px-6 py-6 max-w-screen-2xl mx-auto">
         {loading ? (
-          <div className="flex items-center justify-center h-64 text-slate-400">
-            데이터 로딩 중...
+          <div className="flex items-center justify-center h-64 text-slate-400 text-sm">
+            데이터 불러오는 중...
           </div>
         ) : tab === "trend" ? (
-          <TrendTab analysis={analysis} econNews={econNews} naver={naver} />
+          <TrendTab analysis={analysis} econNews={econNews} naver={naver} market={market} />
         ) : (
           <NewsTab news={news} />
         )}
