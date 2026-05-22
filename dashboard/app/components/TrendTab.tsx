@@ -2,7 +2,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import type { AnalysisData, EconNewsData, NaverData, MarketData, MarketStock } from "../page";
+import type { AnalysisData, EconNewsData, NaverData, MarketData, MarketStock, MarketSection } from "../page";
 
 const RAW = "https://raw.githubusercontent.com/makitjung/stock-platform/main";
 
@@ -44,6 +44,14 @@ function NaverChangeRate({ rate }: { rate: number }) {
   if (rate < 0)
     return <span className="text-xs font-semibold text-blue-600">▼{Math.abs(rate).toFixed(1)}%</span>;
   return <span className="text-xs text-slate-400">-</span>;
+}
+
+function isMarketAllEmpty(m: MarketData | null): boolean {
+  if (!m) return true;
+  const empty = (s: MarketSection) =>
+    s.상한가.length === 0 && s.급등.length === 0 &&
+    s.급락.length === 0 && s.하한가.length === 0;
+  return empty(m.kospi) && empty(m.kosdaq);
 }
 
 interface MarketCardProps {
@@ -211,7 +219,8 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
 
   const activeAnalysis = selectedDate ? historyAnalysis : analysis;
   const activeNaver = selectedDate ? historyNaver : naver;
-  const activeMarket = selectedDate ? historyMarket : market;
+  const historyIsEmpty = selectedDate !== null && isMarketAllEmpty(historyMarket);
+  const activeMarket = (selectedDate && !historyIsEmpty) ? historyMarket : market;
   const mkt = activeMarket ? (showKosdaq ? activeMarket.kosdaq : activeMarket.kospi) : null;
 
   const allSorted = activeAnalysis
@@ -260,6 +269,12 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
             <h2 className="text-sm font-semibold text-slate-600 uppercase tracking-wide">시장 현황</h2>
             {activeMarket && (
               <span className="text-xs text-slate-400">({activeMarket.date} 전일 기준)</span>
+            )}
+            {historyIsEmpty && selectedDate && (
+              <span className="text-xs text-amber-500">장마감(15:30) 후 업데이트 예정 — 전일 데이터 표시 중</span>
+            )}
+            {!selectedDate && isMarketAllEmpty(market) && market !== null && (
+              <span className="text-xs text-amber-500">장 시작 전 — 09:00 이후 순차 업데이트</span>
             )}
             {!selectedDate && (
               <button
@@ -408,7 +423,7 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
               <p className="p-5 text-slate-400 text-sm">데이터 없음</p>
             ) : (
               <div className="divide-y divide-slate-50 max-h-72 overflow-auto">
-                {activeNaver.datalab.map((item) => (
+                {[...activeNaver.datalab].sort((a, b) => b.recent - a.recent).map((item) => (
                   <div key={item.keyword} className="px-5 py-3 flex items-center justify-between gap-2">
                     <span className="text-sm font-medium text-slate-700">{item.keyword}</span>
                     <div className="flex items-center gap-2 shrink-0">

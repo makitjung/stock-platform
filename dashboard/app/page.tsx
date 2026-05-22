@@ -179,11 +179,12 @@ export default function Dashboard() {
 
   useEffect(() => { loadData(); }, []);
 
-  // 30분마다 시장 + 네이버 자동 갱신
+  // 장중(09:00-15:30 KST)에는 10분, 장외에는 30분마다 시장 + 네이버 자동 갱신
   useEffect(() => {
-    const id = setInterval(refreshMarket, 30 * 60 * 1000);
+    const intervalMs = marketOpen ? 10 * 60 * 1000 : 30 * 60 * 1000;
+    const id = setInterval(refreshMarket, intervalMs);
     return () => clearInterval(id);
-  }, [refreshMarket]);
+  }, [refreshMarket, marketOpen]);
 
   // 1시간마다 경제 뉴스 자동 갱신
   useEffect(() => {
