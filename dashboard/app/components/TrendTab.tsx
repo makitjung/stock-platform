@@ -38,6 +38,21 @@ function ScoreBadge({ score }: { score: number }) {
   );
 }
 
+function formatPub(pub: string): string {
+  if (!pub) return "";
+  const d = new Date(pub);
+  if (isNaN(d.getTime())) return "";
+  const now = new Date();
+  const sameDay =
+    d.getDate() === now.getDate() &&
+    d.getMonth() === now.getMonth() &&
+    d.getFullYear() === now.getFullYear();
+  const timeStr = d.toLocaleTimeString("ko-KR", { hour: "2-digit", minute: "2-digit" });
+  if (sameDay) return timeStr;
+  const dateStr = `${String(d.getMonth() + 1).padStart(2, "0")}/${String(d.getDate()).padStart(2, "0")}`;
+  return `${dateStr} ${timeStr}`;
+}
+
 function NaverChangeRate({ rate }: { rate: number }) {
   if (rate > 0)
     return <span className="text-xs font-semibold text-red-500">▲{Math.abs(rate).toFixed(1)}%</span>;
@@ -267,8 +282,10 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-2">
             <h2 className="text-sm font-semibold text-slate-600 uppercase tracking-wide">시장 현황</h2>
-            {activeMarket && (
-              <span className="text-xs text-slate-400">({activeMarket.date} 전일 기준)</span>
+            {activeMarket && !historyIsEmpty && (
+              <span className="text-xs text-slate-400">
+                {!selectedDate ? "(실시간)" : `(${selectedDate} 마감 기준)`}
+              </span>
             )}
             {historyIsEmpty && selectedDate && (
               <span className="text-xs text-amber-500">장마감(15:30) 후 업데이트 예정 — 전일 데이터 표시 중</span>
@@ -465,6 +482,9 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
                     </a>
                     <div className="flex items-center gap-2 mt-1.5 flex-wrap">
                       <span className="text-xs text-slate-400">{item.source}</span>
+                      {item.pub && (
+                        <span className="text-xs text-slate-400">{formatPub(item.pub)}</span>
+                      )}
                       {(item.matched_keywords ?? []).slice(0, 2).map((kw) => (
                         <span key={kw} className="text-xs bg-slate-100 text-slate-500 px-1.5 py-0.5 rounded">
                           {kw}
