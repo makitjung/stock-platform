@@ -212,12 +212,17 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
   const [historyLoading, setHistoryLoading] = useState(false);
 
   useEffect(() => {
+    // 이전 날짜 데이터를 즉시 초기화해 stale 데이터 노출 방지
+    setHistoryAnalysis(null);
+    setHistoryNaver(null);
+    setHistoryMarket(null);
+
     if (!selectedDate) {
-      setHistoryAnalysis(null);
-      setHistoryNaver(null);
-      setHistoryMarket(null);
+      setHistoryLoading(false);
       return;
     }
+
+    let cancelled = false;
     setHistoryLoading(true);
     const t = Date.now();
     const base = `${RAW}/trend/history/${selectedDate}`;
@@ -226,11 +231,14 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
       fetch(`${base}/result_naver.json?t=${t}`,   { cache: "no-store" }).then((r) => r.ok ? r.json() : null).catch(() => null),
       fetch(`${base}/result_market.json?t=${t}`,  { cache: "no-store" }).then((r) => r.ok ? r.json() : null).catch(() => null),
     ]).then(([analysis, naver, market]) => {
+      if (cancelled) return;
       setHistoryAnalysis(analysis);
       setHistoryNaver(naver);
       setHistoryMarket(market);
       setHistoryLoading(false);
     });
+
+    return () => { cancelled = true; };
   }, [selectedDate]);
 
   const activeAnalysis = selectedDate ? historyAnalysis : analysis;
@@ -435,11 +443,26 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
           <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
             <div className="px-5 py-3 border-b border-slate-100 flex items-center justify-between">
               <h2 className="font-semibold text-slate-800">📈 네이버 검색 추이</h2>
-              {activeNaver?.collected_at && (
-                <span className="text-xs text-slate-400">{activeNaver.collected_at} 기준</span>
-              )}
+              <div className="flex items-center gap-2">
+                {selectedDate ? (
+                  <span className="text-xs text-slate-400">{selectedDate} 기준</span>
+                ) : activeNaver?.collected_at ? (
+                  <span className="text-xs text-slate-400">{activeNaver.collected_at} 기준</span>
+                ) : null}
+                {!selectedDate && (
+                  <button
+                    onClick={onRefreshMarket}
+                    className="text-xs text-slate-400 hover:text-blue-500 transition-colors px-2 py-0.5 rounded-md hover:bg-blue-50"
+                    title="네이버 검색추이 새로고침"
+                  >
+                    ↻
+                  </button>
+                )}
+              </div>
             </div>
-            {!activeNaver?.datalab?.length ? (
+            {historyLoading ? (
+              <p className="p-5 text-slate-400 text-sm text-center">불러오는 중...</p>
+            ) : !activeNaver?.datalab?.length ? (
               <p className="p-5 text-slate-400 text-sm">데이터 없음</p>
             ) : (
               <div className="divide-y divide-slate-50 max-h-72 overflow-auto">
