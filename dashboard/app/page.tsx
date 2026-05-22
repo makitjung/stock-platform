@@ -19,7 +19,61 @@ export interface AnalysisData {
     day3_score: number;
     day7_score: number;
     is_stock?: boolean;
+    streak_days?: number;
+    code?: string;
   }>;
+}
+
+export interface BacktestHorizon {
+  sample: number;
+  win_rate: number | null;
+  avg_return: number | null;
+  avg_win?: number;
+  avg_loss?: number;
+}
+
+export interface BacktestData {
+  date: string;
+  generated_at?: string;
+  status: string;
+  min_score?: number;
+  horizons: Record<string, BacktestHorizon>;
+  rank_horizon?: string | null;
+  total_signals?: number;
+}
+
+export interface WatchStock {
+  name: string;
+  ticker: string;
+  sector?: string;
+  price: number | null;
+  change_rate: number | null;
+  market: string;
+}
+
+export interface WatchlistLiveData {
+  date: string;
+  collected_at?: string;
+  kr: WatchStock[];
+  us: WatchStock[];
+}
+
+export interface ReportItem {
+  title: string;
+  broker: string;
+  date: string;
+  link: string;
+  source: string;
+  matched: string;
+  kind: string;
+  code?: string;
+}
+
+export interface ReportsData {
+  date: string;
+  generated_at?: string;
+  count: number;
+  reports: ReportItem[];
 }
 
 export interface EconNewsItem {
@@ -56,7 +110,7 @@ export interface NaverData {
 
 export interface NewsItem {
   title: string;
-  link: string;
+  url: string;
   date: string;
   source: string;
 }
@@ -118,8 +172,10 @@ export default function Dashboard() {
   const [naver, setNaver] = useState<NaverData | null>(null);
   const [news, setNews] = useState<NewsData | null>(null);
   const [market, setMarket] = useState<MarketData | null>(null);
+  const [backtest, setBacktest] = useState<BacktestData | null>(null);
+  const [watchlist, setWatchlist] = useState<WatchlistLiveData | null>(null);
+  const [reports, setReports] = useState<ReportsData | null>(null);
   const [availableDates, setAvailableDates] = useState<string[]>([]);
-  const [emptyMarketDates, setEmptyMarketDates] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [lastFetch, setLastFetch] = useState<string>("");
   const [econUpdated, setEconUpdated] = useState<string>("");
@@ -140,21 +196,26 @@ export default function Dashboard() {
 
   async function loadData() {
     setLoading(true);
-    const [a, e, n, ns, mk, dates] = await Promise.all([
+    const [a, e, n, ns, mk, dates, bt, wl] = await Promise.all([
       fetchJson<AnalysisData>(`${RAW}/trend/result_analysis.json`),
       fetchJson<EconNewsData>(`${RAW}/trend/result_econ_news.json`),
       fetchJson<NaverData>(`${RAW}/trend/result_naver.json`),
       fetchJson<NewsData>(`${RAW}/news/latest_news.json`),
       fetchJson<MarketData>(`${RAW}/trend/result_market.json`),
-      fetchJson<{ dates: string[]; empty_market?: string[] }>(`${RAW}/trend/result_dates.json`),
+      fetchJson<{ dates: string[] }>(`${RAW}/trend/result_dates.json`),
+      fetchJson<BacktestData>(`${RAW}/trend/result_backtest.json`),
+      fetchJson<WatchlistLiveData>(`${RAW}/trend/result_watchlist_live.json`),
     ]);
+    const rp = await fetchJson<ReportsData>(`${RAW}/trend/result_reports.json`);
     setAnalysis(a);
     setEconNews(e);
     setNaver(n);
     setNews(ns);
     setMarket(mk);
+    setBacktest(bt);
+    setWatchlist(wl);
+    setReports(rp);
     setAvailableDates(dates?.dates ?? []);
-    setEmptyMarketDates(dates?.empty_market ?? []);
     const now = new Date().toLocaleTimeString("ko-KR");
     setLastFetch(now);
     setEconUpdated(now);
@@ -163,12 +224,14 @@ export default function Dashboard() {
 
   // 시장 데이터 단독 갱신 (네이버 검색추이 + 시장 현황)
   const refreshMarket = useCallback(async () => {
-    const [mk, n] = await Promise.all([
+    const [mk, n, wl] = await Promise.all([
       fetchJson<MarketData>(`${RAW}/trend/result_market.json`),
       fetchJson<NaverData>(`${RAW}/trend/result_naver.json`),
+      fetchJson<WatchlistLiveData>(`${RAW}/trend/result_watchlist_live.json`),
     ]);
     if (mk) setMarket(mk);
     if (n) setNaver(n);
+    if (wl) setWatchlist(wl);
     setLastFetch(new Date().toLocaleTimeString("ko-KR"));
   }, []);
 
@@ -265,8 +328,10 @@ export default function Dashboard() {
             econNews={econNews}
             naver={naver}
             market={market}
+            backtest={backtest}
+            watchlist={watchlist}
+            reports={reports}
             availableDates={availableDates}
-            emptyMarketDates={emptyMarketDates}
             onRefreshMarket={refreshMarket}
             econUpdated={econUpdated}
           />

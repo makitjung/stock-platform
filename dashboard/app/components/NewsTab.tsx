@@ -35,7 +35,7 @@ function NewsCard({
           {items.slice(0, 5).map((it, i) => (
             <li key={i} className="px-4 py-2.5">
               <a
-                href={it.link}
+                href={it.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-xs text-slate-700 hover:text-blue-600 transition-colors leading-relaxed block"

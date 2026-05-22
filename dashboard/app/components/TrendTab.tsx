@@ -2,7 +2,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import type { AnalysisData, EconNewsData, NaverData, MarketData, MarketStock, MarketSection } from "../page";
+import type { AnalysisData, EconNewsData, NaverData, MarketData, MarketStock, MarketSection, BacktestData, WatchlistLiveData, WatchStock, ReportsData } from "../page";
 
 const RAW = "https://raw.githubusercontent.com/makitjung/stock-platform/main";
 
@@ -153,13 +153,20 @@ function KeywordTable({
               <td className="px-4 py-2.5 text-slate-300 text-xs">{i + 1}</td>
               <td className="px-4 py-2.5 font-semibold text-slate-800">
                 <a
-                  href={`https://search.naver.com/search.naver?query=${encodeURIComponent(row.keyword)}+주식`}
+                  href={row.code
+                    ? `https://finance.naver.com/item/main.naver?code=${row.code}`
+                    : `https://finance.naver.com/search/searchList.naver?query=${encodeURIComponent(row.keyword)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-blue-600 transition-colors"
                 >
                   {row.keyword}
                 </a>
+                {(row.streak_days ?? 1) >= 2 && (
+                  <span className="ml-1.5 inline-block text-[10px] font-bold text-orange-600 bg-orange-50 border border-orange-200 rounded-full px-1.5 py-0.5 align-middle">
+                    🔥{row.streak_days}일
+                  </span>
+                )}
               </td>
               <td className="px-4 py-2.5 text-right">
                 <ScoreBadge score={getScore(row, dayFilter)} />
@@ -190,18 +197,155 @@ function KeywordTable({
   );
 }
 
+function BacktestStrip({ bt }: { bt: BacktestData | null }) {
+  if (!bt || bt.status !== "ok") return null;
+  const entries = Object.entries(bt.horizons).filter(([, v]) => v.sample > 0);
+  if (entries.length === 0) return null;
+  return (
+    <section className="bg-white rounded-xl border border-slate-200 shadow-sm p-4">
+      <div className="flex items-center gap-2 mb-3">
+        <h2 className="text-sm font-semibold text-slate-600 uppercase tracking-wide">🎯 강신호 적중률</h2>
+        <span className="text-xs text-slate-400">7점↑ 신호 이후 주가 · 누적 검증 (표본 {bt.total_signals ?? 0})</span>
+      </div>
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        {entries.map(([h, v]) => {
+          const win = v.win_rate ?? 0;
+          const avg = v.avg_return ?? 0;
+          return (
+            <div key={h} className="rounded-lg border border-slate-100 bg-slate-50 px-4 py-3">
+              <p className="text-xs text-slate-400 font-medium">+{h}거래일 후</p>
+              <p className={`text-2xl font-extrabold ${win >= 50 ? "text-green-600" : "text-red-500"}`}>
+                {win.toFixed(0)}%
+              </p>
+              <p className="text-xs text-slate-400 mt-0.5">
+                평균 <span className={avg > 0 ? "text-red-500 font-semibold" : avg < 0 ? "text-blue-600 font-semibold" : ""}>
+                  {avg > 0 ? "+" : ""}{avg.toFixed(2)}%
+                </span> · 표본 {v.sample}건
+              </p>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  );
+}
+
+function WatchRow({ s }: { s: WatchStock }) {
+  const r = s.change_rate;
+  const href = s.market === "KR"
+    ? `https://finance.naver.com/item/main.naver?code=${s.ticker}`
+    : `https://finance.yahoo.com/quote/${s.ticker}`;
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="px-4 py-2 flex items-center justify-between gap-2 hover:bg-slate-50 transition-colors"
+    >
+      <div className="min-w-0">
+        <span className="text-sm font-medium text-slate-800 truncate block">{s.name}</span>
+        <span className="text-xs text-slate-400">{s.ticker}{s.sector ? ` · ${s.sector}` : ""}</span>
+      </div>
+      <div className="text-right shrink-0">
+        {s.price != null && <span className="block text-xs text-slate-500">{s.price.toLocaleString()}</span>}
+        {r == null ? (
+          <span className="text-xs text-slate-300">-</span>
+        ) : (
+          <span className={`text-sm font-bold ${r > 0 ? "text-red-500" : r < 0 ? "text-blue-600" : "text-slate-400"}`}>
+            {r > 0 ? "▲" : r < 0 ? "▼" : ""}{Math.abs(r).toFixed(2)}%
+          </span>
+        )}
+      </div>
+    </a>
+  );
+}
+
+function WatchlistLive({ wl }: { wl: WatchlistLiveData | null }) {
+  if (!wl || (wl.kr.length === 0 && wl.us.length === 0)) return null;
+  const sortByMove = (a: WatchStock, b: WatchStock) =>
+    Math.abs(b.change_rate ?? 0) - Math.abs(a.change_rate ?? 0);
+  const kr = [...wl.kr].sort(sortByMove);
+  const us = [...wl.us].sort(sortByMove);
+  return (
+    <section>
+      <div className="flex items-center gap-2 mb-3">
+        <h2 className="text-sm font-semibold text-slate-600 uppercase tracking-wide">⭐ 내 종목 실시간</h2>
+        {wl.collected_at && <span className="text-xs text-slate-400">{wl.collected_at} 기준 · 등락순</span>}
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+          <div className="px-4 py-2.5 bg-slate-100 flex items-center justify-between">
+            <h3 className="font-bold text-sm text-slate-700">🇰🇷 국내</h3>
+            <span className="text-xs text-slate-400">{kr.length}종목</span>
+          </div>
+          <div className="divide-y divide-slate-50 max-h-72 overflow-auto">
+            {kr.map((s) => <WatchRow key={s.ticker} s={s} />)}
+          </div>
+        </div>
+        <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+          <div className="px-4 py-2.5 bg-slate-100 flex items-center justify-between">
+            <h3 className="font-bold text-sm text-slate-700">🇺🇸 미국</h3>
+            <span className="text-xs text-slate-400">{us.length}종목</span>
+          </div>
+          <div className="divide-y divide-slate-50 max-h-72 overflow-auto">
+            {us.map((s) => <WatchRow key={s.ticker} s={s} />)}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function ReportsCard({ reports }: { reports: ReportsData | null }) {
+  if (!reports || reports.reports.length === 0) return null;
+  return (
+    <section className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
+      <div className="px-5 py-3 border-b border-slate-100 flex items-center justify-between">
+        <h2 className="font-semibold text-slate-800">📑 증권사 리포트</h2>
+        <span className="text-xs text-slate-400">내 종목·섹터·신호 매칭 {reports.count}건</span>
+      </div>
+      <div className="divide-y divide-slate-50 max-h-80 overflow-auto">
+        {reports.reports.map((r, i) => (
+          <a
+            key={i}
+            href={r.link || "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-5 py-3 block hover:bg-slate-50 transition-colors"
+          >
+            <div className="flex items-center gap-2 flex-wrap">
+              <span className={`text-xs font-bold px-1.5 py-0.5 rounded ${
+                r.kind === "종목" ? "bg-blue-50 text-blue-600" : "bg-emerald-50 text-emerald-600"}`}>
+                {r.matched}
+              </span>
+              <span className="text-sm text-slate-700 leading-snug">{r.title}</span>
+            </div>
+            <div className="flex items-center gap-2 mt-1">
+              <span className="text-xs text-slate-400">{r.broker}</span>
+              <span className="text-xs text-slate-400">{r.date}</span>
+              <span className="text-xs text-slate-300 ml-auto">{r.source}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  );
+}
+
 interface Props {
   analysis: AnalysisData | null;
   econNews: EconNewsData | null;
   naver: NaverData | null;
   market: MarketData | null;
+  backtest: BacktestData | null;
+  watchlist: WatchlistLiveData | null;
+  reports: ReportsData | null;
   availableDates: string[];
-  emptyMarketDates: string[];
   onRefreshMarket: () => Promise<void>;
   econUpdated: string;
 }
 
-export default function TrendTab({ analysis, econNews, naver, market, availableDates, emptyMarketDates, onRefreshMarket, econUpdated }: Props) {
+export default function TrendTab({ analysis, econNews, naver, market, backtest, watchlist, reports, availableDates, onRefreshMarket, econUpdated }: Props) {
   const [dayFilter, setDayFilter] = useState<DayFilter>("total");
   const [showKosdaq, setShowKosdaq] = useState(false);
   const [kwTab, setKwTab] = useState<KwTab>("stock");
@@ -212,17 +356,12 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
   const [historyLoading, setHistoryLoading] = useState(false);
 
   useEffect(() => {
-    // 이전 날짜 데이터를 즉시 초기화해 stale 데이터 노출 방지
-    setHistoryAnalysis(null);
-    setHistoryNaver(null);
-    setHistoryMarket(null);
-
     if (!selectedDate) {
-      setHistoryLoading(false);
+      setHistoryAnalysis(null);
+      setHistoryNaver(null);
+      setHistoryMarket(null);
       return;
     }
-
-    let cancelled = false;
     setHistoryLoading(true);
     const t = Date.now();
     const base = `${RAW}/trend/history/${selectedDate}`;
@@ -231,20 +370,17 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
       fetch(`${base}/result_naver.json?t=${t}`,   { cache: "no-store" }).then((r) => r.ok ? r.json() : null).catch(() => null),
       fetch(`${base}/result_market.json?t=${t}`,  { cache: "no-store" }).then((r) => r.ok ? r.json() : null).catch(() => null),
     ]).then(([analysis, naver, market]) => {
-      if (cancelled) return;
       setHistoryAnalysis(analysis);
       setHistoryNaver(naver);
       setHistoryMarket(market);
       setHistoryLoading(false);
     });
-
-    return () => { cancelled = true; };
   }, [selectedDate]);
 
   const activeAnalysis = selectedDate ? historyAnalysis : analysis;
   const activeNaver = selectedDate ? historyNaver : naver;
   const historyIsEmpty = selectedDate !== null && isMarketAllEmpty(historyMarket);
-  const activeMarket = selectedDate ? historyMarket : market;
+  const activeMarket = (selectedDate && !historyIsEmpty) ? historyMarket : market;
   const mkt = activeMarket ? (showKosdaq ? activeMarket.kosdaq : activeMarket.kospi) : null;
 
   const allSorted = activeAnalysis
@@ -272,9 +408,7 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
           >
             <option value="">최신 (오늘)</option>
             {availableDates.map((date) => (
-              <option key={date} value={date}>
-                {emptyMarketDates.includes(date) ? `${date} (시장 데이터 없음)` : date}
-              </option>
+              <option key={date} value={date}>{date}</option>
             ))}
           </select>
           {selectedDate && (
@@ -299,7 +433,7 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
               </span>
             )}
             {historyIsEmpty && selectedDate && (
-              <span className="text-xs text-amber-500">이 날의 시장 데이터 없음 (휴장일이거나 수집 전)</span>
+              <span className="text-xs text-amber-500">장마감(15:30) 후 업데이트 예정 — 전일 데이터 표시 중</span>
             )}
             {!selectedDate && isMarketAllEmpty(market) && market !== null && (
               <span className="text-xs text-amber-500">장 시작 전 — 09:00 이후 순차 업데이트</span>
@@ -369,6 +503,15 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
           </div>
         )}
       </section>
+
+      {/* 강신호 적중률 (백테스트) — 최신 보기에서만 */}
+      {!selectedDate && <BacktestStrip bt={backtest} />}
+
+      {/* 내 종목 실시간 — 최신 보기에서만 */}
+      {!selectedDate && <WatchlistLive wl={watchlist} />}
+
+      {/* 증권사 리포트 — 최신 보기에서만 */}
+      {!selectedDate && <ReportsCard reports={reports} />}
 
       {/* 하단 2단 레이아웃 */}
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
@@ -443,26 +586,11 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
           <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
             <div className="px-5 py-3 border-b border-slate-100 flex items-center justify-between">
               <h2 className="font-semibold text-slate-800">📈 네이버 검색 추이</h2>
-              <div className="flex items-center gap-2">
-                {selectedDate ? (
-                  <span className="text-xs text-slate-400">{selectedDate} 기준</span>
-                ) : activeNaver?.collected_at ? (
-                  <span className="text-xs text-slate-400">{activeNaver.collected_at} 기준</span>
-                ) : null}
-                {!selectedDate && (
-                  <button
-                    onClick={onRefreshMarket}
-                    className="text-xs text-slate-400 hover:text-blue-500 transition-colors px-2 py-0.5 rounded-md hover:bg-blue-50"
-                    title="네이버 검색추이 새로고침"
-                  >
-                    ↻
-                  </button>
-                )}
-              </div>
+              {activeNaver?.collected_at && (
+                <span className="text-xs text-slate-400">{activeNaver.collected_at} 기준</span>
+              )}
             </div>
-            {historyLoading ? (
-              <p className="p-5 text-slate-400 text-sm text-center">불러오는 중...</p>
-            ) : !activeNaver?.datalab?.length ? (
+            {!activeNaver?.datalab?.length ? (
               <p className="p-5 text-slate-400 text-sm">데이터 없음</p>
             ) : (
               <div className="divide-y divide-slate-50 max-h-72 overflow-auto">
