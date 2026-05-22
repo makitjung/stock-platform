@@ -1,7 +1,7 @@
 {
   "date": "2026-05-22",
   "mode": "3일비교",
-  "total_analyzed": 464,
+  "total_analyzed": 471,
   "top50": [
     {
       "keyword": "삼성전자",
@@ -433,6 +433,19 @@
       "streak_days": 1
     },
     {
+      "keyword": "AMD",
+      "total_score": 5,
+      "signals": [
+        "Reddit 29건",
+        "네이버뉴스 헤드라인 언급"
+      ],
+      "day1_score": 5,
+      "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": false,
+      "streak_days": 1
+    },
+    {
       "keyword": "KEC",
       "total_score": 4,
       "signals": [
@@ -711,19 +724,6 @@
       "signals": [
         "공시 11건",
         "매일경제 기사 언급"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true,
-      "streak_days": 1
-    },
-    {
-      "keyword": "현대건설",
-      "total_score": 3,
-      "signals": [
-        "공시 8건",
-        "네이버뉴스 기사 언급"
       ],
       "day1_score": 3,
       "day3_score": 0,
