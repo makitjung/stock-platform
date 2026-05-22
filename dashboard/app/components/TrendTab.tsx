@@ -235,7 +235,7 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
   const activeAnalysis = selectedDate ? historyAnalysis : analysis;
   const activeNaver = selectedDate ? historyNaver : naver;
   const historyIsEmpty = selectedDate !== null && isMarketAllEmpty(historyMarket);
-  const activeMarket = (selectedDate && !historyIsEmpty) ? historyMarket : market;
+  const activeMarket = selectedDate ? historyMarket : market;
   const mkt = activeMarket ? (showKosdaq ? activeMarket.kosdaq : activeMarket.kospi) : null;
 
   const allSorted = activeAnalysis
@@ -288,7 +288,7 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
               </span>
             )}
             {historyIsEmpty && selectedDate && (
-              <span className="text-xs text-amber-500">장마감(15:30) 후 업데이트 예정 — 전일 데이터 표시 중</span>
+              <span className="text-xs text-amber-500">이 날의 시장 데이터 없음 (휴장일이거나 수집 전)</span>
             )}
             {!selectedDate && isMarketAllEmpty(market) && market !== null && (
               <span className="text-xs text-amber-500">장 시작 전 — 09:00 이후 순차 업데이트</span>
