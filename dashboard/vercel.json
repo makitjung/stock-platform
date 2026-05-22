@@ -1,3 +1,0 @@
-{
-  "ignoreCommand": "git diff ${VERCEL_GIT_PREVIOUS_SHA:-HEAD^} HEAD --quiet -- . 2>/dev/null || exit 1"
-}
