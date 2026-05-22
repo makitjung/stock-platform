@@ -196,11 +196,12 @@ interface Props {
   naver: NaverData | null;
   market: MarketData | null;
   availableDates: string[];
+  emptyMarketDates: string[];
   onRefreshMarket: () => Promise<void>;
   econUpdated: string;
 }
 
-export default function TrendTab({ analysis, econNews, naver, market, availableDates, onRefreshMarket, econUpdated }: Props) {
+export default function TrendTab({ analysis, econNews, naver, market, availableDates, emptyMarketDates, onRefreshMarket, econUpdated }: Props) {
   const [dayFilter, setDayFilter] = useState<DayFilter>("total");
   const [showKosdaq, setShowKosdaq] = useState(false);
   const [kwTab, setKwTab] = useState<KwTab>("stock");
@@ -263,7 +264,9 @@ export default function TrendTab({ analysis, econNews, naver, market, availableD
           >
             <option value="">최신 (오늘)</option>
             {availableDates.map((date) => (
-              <option key={date} value={date}>{date}</option>
+              <option key={date} value={date}>
+                {emptyMarketDates.includes(date) ? `${date} (시장 데이터 없음)` : date}
+              </option>
             ))}
           </select>
           {selectedDate && (

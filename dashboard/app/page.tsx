@@ -119,6 +119,7 @@ export default function Dashboard() {
   const [news, setNews] = useState<NewsData | null>(null);
   const [market, setMarket] = useState<MarketData | null>(null);
   const [availableDates, setAvailableDates] = useState<string[]>([]);
+  const [emptyMarketDates, setEmptyMarketDates] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [lastFetch, setLastFetch] = useState<string>("");
   const [econUpdated, setEconUpdated] = useState<string>("");
@@ -145,7 +146,7 @@ export default function Dashboard() {
       fetchJson<NaverData>(`${RAW}/trend/result_naver.json`),
       fetchJson<NewsData>(`${RAW}/news/latest_news.json`),
       fetchJson<MarketData>(`${RAW}/trend/result_market.json`),
-      fetchJson<{ dates: string[] }>(`${RAW}/trend/result_dates.json`),
+      fetchJson<{ dates: string[]; empty_market?: string[] }>(`${RAW}/trend/result_dates.json`),
     ]);
     setAnalysis(a);
     setEconNews(e);
@@ -153,6 +154,7 @@ export default function Dashboard() {
     setNews(ns);
     setMarket(mk);
     setAvailableDates(dates?.dates ?? []);
+    setEmptyMarketDates(dates?.empty_market ?? []);
     const now = new Date().toLocaleTimeString("ko-KR");
     setLastFetch(now);
     setEconUpdated(now);
@@ -264,6 +266,7 @@ export default function Dashboard() {
             naver={naver}
             market={market}
             availableDates={availableDates}
+            emptyMarketDates={emptyMarketDates}
             onRefreshMarket={refreshMarket}
             econUpdated={econUpdated}
           />
