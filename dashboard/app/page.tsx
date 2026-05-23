@@ -121,6 +121,30 @@ export interface NewsData {
   us: Array<{ name: string; ticker: string; sector: string; items: NewsItem[] }>;
 }
 
+export interface BackfillItem {
+  title:  string;
+  date:   string;
+  url:    string;
+  source: string;
+  score:  number;
+}
+
+export interface BackfillStock {
+  name:         string;
+  sector?:      string;
+  ticker?:      string;
+  folder?:      string;
+  generated_at: string;
+  items:        BackfillItem[];
+}
+
+export interface BackfillIndex {
+  generated_at: string;
+  top_n:        number;
+  kr:           BackfillStock[];
+  us:           BackfillStock[];
+}
+
 export interface MarketStock {
   ticker: string;
   name: string;
@@ -175,6 +199,7 @@ export default function Dashboard() {
   const [backtest, setBacktest] = useState<BacktestData | null>(null);
   const [watchlist, setWatchlist] = useState<WatchlistLiveData | null>(null);
   const [reports, setReports] = useState<ReportsData | null>(null);
+  const [backfill, setBackfill] = useState<BackfillIndex | null>(null);
   const [availableDates, setAvailableDates] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [lastFetch, setLastFetch] = useState<string>("");
@@ -207,6 +232,7 @@ export default function Dashboard() {
       fetchJson<WatchlistLiveData>(`${RAW}/trend/result_watchlist_live.json`),
     ]);
     const rp = await fetchJson<ReportsData>(`${RAW}/trend/result_reports.json`);
+    const bf = await fetchJson<BackfillIndex>(`${RAW}/news/backfill_index.json`);
     setAnalysis(a);
     setEconNews(e);
     setNaver(n);
@@ -215,6 +241,7 @@ export default function Dashboard() {
     setBacktest(bt);
     setWatchlist(wl);
     setReports(rp);
+    setBackfill(bf);
     setAvailableDates(dates?.dates ?? []);
     const now = new Date().toLocaleTimeString("ko-KR");
     setLastFetch(now);
@@ -336,7 +363,7 @@ export default function Dashboard() {
             econUpdated={econUpdated}
           />
         ) : (
-          <NewsTab news={news} />
+          <NewsTab news={news} backfill={backfill} />
         )}
       </main>
     </div>

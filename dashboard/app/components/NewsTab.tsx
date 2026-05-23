@@ -1,22 +1,55 @@
-// 뉴스 브리핑 탭 — 종목별 필터 사이드바 포함
+// 뉴스 브리핑 탭 — 종목별 필터 사이드바 + 1년치 핵심 기사 펼치기 + 워치리스트 편집 패널
 "use client";
 
 import { useState } from "react";
-import type { NewsData, NewsItem } from "../page";
+import type { NewsData, NewsItem, BackfillIndex, BackfillItem } from "../page";
+import WatchlistEditor from "./WatchlistEditor";
 
 interface Props {
-  news: NewsData | null;
+  news:     NewsData | null;
+  backfill: BackfillIndex | null;
+}
+
+function BackfillPanel({ items }: { items: BackfillItem[] }) {
+  if (!items || items.length === 0) {
+    return <p className="px-4 py-3 text-xs text-slate-400">수집 대기 중 — Mac Mini가 3분 내에 백필합니다.</p>;
+  }
+  return (
+    <ul className="divide-y divide-slate-50 bg-amber-50/30">
+      {items.map((it, i) => (
+        <li key={i} className="px-4 py-2">
+          <a
+            href={it.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs text-slate-700 hover:text-blue-600 transition-colors leading-relaxed block"
+          >
+            <span className="inline-block min-w-[1.5rem] text-amber-600 font-semibold">{i + 1}.</span>
+            {it.title}
+          </a>
+          <div className="flex items-center gap-2 mt-1 ml-6">
+            <span className="text-xs text-slate-400">{it.date}</span>
+            <span className="text-xs text-amber-600">중요도 {it.score}</span>
+            <span className="text-xs text-slate-400 ml-auto">{it.source}</span>
+          </div>
+        </li>
+      ))}
+    </ul>
+  );
 }
 
 function NewsCard({
   name,
   sub,
   items,
+  backfillItems,
 }: {
   name: string;
   sub: string;
   items: NewsItem[];
+  backfillItems: BackfillItem[];
 }) {
+  const [showBackfill, setShowBackfill] = useState(false);
   return (
     <div className="bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden">
       <div className="px-4 py-3 border-b border-slate-100 flex items-center justify-between">
@@ -50,12 +83,22 @@ function NewsCard({
           ))}
         </ul>
       )}
+
+      <button
+        onClick={() => setShowBackfill(v => !v)}
+        className="w-full px-4 py-2 text-xs text-amber-700 hover:bg-amber-50 border-t border-slate-100 transition-colors flex items-center justify-between"
+      >
+        <span>📚 1년치 핵심 기사 {backfillItems.length > 0 ? `(${backfillItems.length})` : ""}</span>
+        <span>{showBackfill ? "접기 ▲" : "펼치기 ▼"}</span>
+      </button>
+      {showBackfill && <BackfillPanel items={backfillItems} />}
     </div>
   );
 }
 
-export default function NewsTab({ news }: Props) {
+export default function NewsTab({ news, backfill }: Props) {
   const [selected, setSelected] = useState<string | null>(null);
+  const [editorOpen, setEditorOpen] = useState(false);
 
   if (!news) {
     return (
@@ -64,6 +107,11 @@ export default function NewsTab({ news }: Props) {
       </div>
     );
   }
+
+  // 백필 인덱스를 종목명으로 빠르게 조회할 수 있도록 맵으로 변환
+  const backfillByName = new Map<string, BackfillItem[]>();
+  (backfill?.kr ?? []).forEach(s => backfillByName.set(s.name, s.items));
+  (backfill?.us ?? []).forEach(s => backfillByName.set(s.name, s.items));
 
   type StockEntry = { name: string; sub: string; items: NewsItem[]; region: "kr" | "us" };
   const allStocks: StockEntry[] = [
@@ -84,8 +132,15 @@ export default function NewsTab({ news }: Props) {
 
       {/* 종목 선택 사이드바 */}
       <aside className="w-44 shrink-0 bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden self-start sticky top-6">
-        <div className="px-3 py-2.5 border-b border-slate-100">
+        <div className="px-3 py-2.5 border-b border-slate-100 flex items-center justify-between gap-1">
           <p className="text-xs font-semibold text-slate-600 uppercase tracking-wide">종목 선택</p>
+          <button
+            onClick={() => setEditorOpen(true)}
+            title="워치리스트 편집"
+            className="text-xs px-1.5 py-0.5 rounded-md bg-blue-50 text-blue-600 hover:bg-blue-100 transition-colors"
+          >
+            ⚙️ 편집
+          </button>
         </div>
         <div className="overflow-auto max-h-[calc(100vh-200px)]">
           <button
@@ -165,7 +220,7 @@ export default function NewsTab({ news }: Props) {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {displayStocks.map((s) => (
-                <NewsCard key={s.name} name={s.name} sub={s.sub} items={s.items} />
+                <NewsCard key={s.name} name={s.name} sub={s.sub} items={s.items} backfillItems={backfillByName.get(s.name) ?? []} />
               ))}
             </div>
           </div>
@@ -182,7 +237,7 @@ export default function NewsTab({ news }: Props) {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
                   {krStocks.map((s) => (
-                    <NewsCard key={s.name} name={s.name} sub={s.sub} items={s.items} />
+                    <NewsCard key={s.name} name={s.name} sub={s.sub} items={s.items} backfillItems={backfillByName.get(s.name) ?? []} />
                   ))}
                 </div>
               </div>
@@ -197,7 +252,7 @@ export default function NewsTab({ news }: Props) {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
                   {usStocks.map((s) => (
-                    <NewsCard key={s.name} name={s.name} sub={s.sub} items={s.items} />
+                    <NewsCard key={s.name} name={s.name} sub={s.sub} items={s.items} backfillItems={backfillByName.get(s.name) ?? []} />
                   ))}
                 </div>
               </div>
@@ -205,6 +260,8 @@ export default function NewsTab({ news }: Props) {
           </div>
         )}
       </div>
+
+      <WatchlistEditor open={editorOpen} onClose={() => setEditorOpen(false)} />
     </div>
   );
 }
