@@ -1,8 +1,8 @@
 {
   "date": "2026-05-23",
-  "collected_at": "2026-05-23 13:00",
-  "total_articles": 314,
-  "matched_count": 108,
+  "collected_at": "2026-05-23 14:00",
+  "total_articles": 317,
+  "matched_count": 112,
   "top_news": [
     {
       "source": "네이버뉴스",
@@ -37,6 +37,19 @@
       "via": "naver_api",
       "importance": 13,
       "matched_keywords": [],
+      "score": 13
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "[진정자의 시진핑 이야기 | 진리·정의·자유] 평양가는 시진핑, 5월의 ...",
+      "link": "https://www.ajunews.com/view/20260523125009639",
+      "desc": "미국과는 관세와 반도체, AI 패권과 대만 문제를 놓고 힘겨루기를 하면서도 경제 관계의 완전한 단절은... 중국과 인도는 세계 GDP의 상당 부분을 차지했고, 실크로드와 해상무역의 중심 역시 아시아였다. 그러나 영국...",
+      "pub": "Sat, 23 May 2026 13:02:00 +0900",
+      "via": "naver_api",
+      "importance": 12,
+      "matched_keywords": [
+        "반도체"
+      ],
       "score": 13
     },
     {
@@ -84,11 +97,26 @@
       "importance": 10,
       "matched_keywords": [
         "원전",
+        "반도체",
         "방산",
-        "삼성전자",
-        "반도체"
+        "삼성전자"
       ],
       "score": 16
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "AI 버블론 잠재운 엔비디아…다음주도 반도체주 달릴까 [인베스팅 인사...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004623905?sid=101",
+      "desc": "특히 AI 서버 투자 확대는 메모리 가격 상승과 함께 국내 반도체 기업 실적 개선 기대를 동시에 키우고 있다. 실제 증권가에서는 삼성전자 목표주가를 줄줄이 상향하고 있다. NH투자증권은 삼성전자의 목표주가를...",
+      "pub": "Sat, 23 May 2026 13:01:00 +0900",
+      "via": "naver_api",
+      "importance": 10,
+      "matched_keywords": [
+        "NH투자증권",
+        "반도체",
+        "삼성전자"
+      ],
+      "score": 15
     },
     {
       "source": "네이버뉴스",
@@ -99,8 +127,8 @@
       "via": "naver_api",
       "importance": 10,
       "matched_keywords": [
-        "반도체",
-        "SK하이닉스"
+        "SK하이닉스",
+        "반도체"
       ],
       "score": 12
     },
@@ -125,9 +153,9 @@
       "importance": 9,
       "matched_keywords": [
         "주성엔지니어링",
-        "삼성전자",
+        "SK하이닉스",
         "반도체",
-        "SK하이닉스"
+        "삼성전자"
       ],
       "score": 15
     },
@@ -166,39 +194,15 @@
       "via": "naver_api",
       "importance": 9,
       "matched_keywords": [
+        "로봇",
+        "현대모비스",
         "LS ELECTRIC",
         "한미반도체",
-        "방산",
-        "현대차",
         "반도체",
-        "로봇",
-        "현대모비스"
+        "방산",
+        "현대차"
       ],
       "score": 22
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "트럼프, 이란 공습 재개 검토하나…백악관 긴박한 움직임",
-      "link": "https://www.sentv.co.kr/article/view/sentv202605230020",
-      "desc": "호르무즈 해협과 중동 원유 시설이 군사 충돌에 노출될 경우 국제유가와 글로벌 금융시장의 변동성이 급격히 확대될 가능성이 크다. 시장에서는 미국·이란 협상 결과가 향후 원자재·증시 흐름의 핵심 변수로 부상하고...",
-      "pub": "Sat, 23 May 2026 11:46:00 +0900",
-      "via": "naver_api",
-      "importance": 9,
-      "matched_keywords": [],
-      "score": 9
-    },
-    {
-      "source": "매일경제",
-      "title": "“상반기는 숨고르기”…대웅제약 목표가 하향에도 증권가 기대 살아있다, 왜?",
-      "link": "https://www.mk.co.kr/news/stock/12055216",
-      "desc": "DS투자증권은 22일 대웅제약에 대해 올 1분기 실적이 시장 기대치를 하회했다며 목표주가를 기존 21만원에서 19만원으로 하향 조정했다. 다만 보툴리눔 톡신 ‘나보타’의 수익성이 ..",
-      "pub": "Fri, 22 May 2026 08:10:39 +09:00",
-      "via": "rss",
-      "importance": 8,
-      "matched_keywords": [
-        "제약"
-      ],
-      "score": 11
     }
   ],
   "articles": [
@@ -211,13 +215,13 @@
       "via": "naver_api",
       "importance": 9,
       "matched_keywords": [
+        "로봇",
+        "현대모비스",
         "LS ELECTRIC",
         "한미반도체",
-        "방산",
-        "현대차",
         "반도체",
-        "로봇",
-        "현대모비스"
+        "방산",
+        "현대차"
       ],
       "score": 22
     },
@@ -231,10 +235,10 @@
       "importance": 2,
       "matched_keywords": [
         "삼성전기",
-        "삼성전자",
+        "현대모비스",
         "대우건설",
         "제룡산업",
-        "현대모비스"
+        "삼성전자"
       ],
       "score": 17
     },
@@ -248,9 +252,9 @@
       "importance": 10,
       "matched_keywords": [
         "원전",
+        "반도체",
         "방산",
-        "삼성전자",
-        "반도체"
+        "삼성전자"
       ],
       "score": 16
     },
@@ -263,9 +267,9 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "바이오",
+        "로봇",
         "반도체",
-        "로봇"
+        "바이오"
       ],
       "score": 15
     },
@@ -279,9 +283,9 @@
       "importance": 9,
       "matched_keywords": [
         "주성엔지니어링",
-        "삼성전자",
+        "SK하이닉스",
         "반도체",
-        "SK하이닉스"
+        "삼성전자"
       ],
       "score": 15
     },
@@ -299,6 +303,34 @@
       "score": 15
     },
     {
+      "source": "네이버뉴스",
+      "title": "AI 버블론 잠재운 엔비디아…다음주도 반도체주 달릴까 [인베스팅 인사...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004623905?sid=101",
+      "desc": "특히 AI 서버 투자 확대는 메모리 가격 상승과 함께 국내 반도체 기업 실적 개선 기대를 동시에 키우고 있다. 실제 증권가에서는 삼성전자 목표주가를 줄줄이 상향하고 있다. NH투자증권은 삼성전자의 목표주가를...",
+      "pub": "Sat, 23 May 2026 13:01:00 +0900",
+      "via": "naver_api",
+      "importance": 10,
+      "matched_keywords": [
+        "NH투자증권",
+        "반도체",
+        "삼성전자"
+      ],
+      "score": 15
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "[진정자의 시진핑 이야기 | 진리·정의·자유] 평양가는 시진핑, 5월의 ...",
+      "link": "https://www.ajunews.com/view/20260523125009639",
+      "desc": "미국과는 관세와 반도체, AI 패권과 대만 문제를 놓고 힘겨루기를 하면서도 경제 관계의 완전한 단절은... 중국과 인도는 세계 GDP의 상당 부분을 차지했고, 실크로드와 해상무역의 중심 역시 아시아였다. 그러나 영국...",
+      "pub": "Sat, 23 May 2026 13:02:00 +0900",
+      "via": "naver_api",
+      "importance": 12,
+      "matched_keywords": [
+        "반도체"
+      ],
+      "score": 13
+    },
+    {
       "source": "매일경제",
       "title": "“잠깐 숨 좀 고르고”…30만 신고가 쓴 삼성전자, SK하이닉스와 동반 하락",
       "link": "https://www.mk.co.kr/news/stock/12055419",
@@ -307,8 +339,8 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "삼성전자",
-        "SK하이닉스"
+        "SK하이닉스",
+        "삼성전자"
       ],
       "score": 12
     },
@@ -321,9 +353,9 @@
       "via": "rss",
       "importance": 5,
       "matched_keywords": [
+        "수소",
         "방산",
-        "현대차",
-        "수소"
+        "현대차"
       ],
       "score": 12
     },
@@ -336,23 +368,22 @@
       "via": "naver_api",
       "importance": 10,
       "matched_keywords": [
-        "반도체",
-        "SK하이닉스"
+        "SK하이닉스",
+        "반도체"
       ],
       "score": 12
     },
     {
       "source": "네이버뉴스",
-      "title": "삼성바이오로직스 노사협상 시나리오...삼전식 '패키지 딜'이 해법?",
-      "link": "https://www.pharmnews.com/news/articleView.html?idxno=303720",
-      "desc": "제약바이오산업 관계자들이 가장 우려하는 대목은 바이오의약품 위탁생산(CDMO) 산업이 가진 독특한 공정 특성이다. 살아있는 세포를 배양하고 정제하는 바이오 공정은 24시간 중단 없이 유기적으로 가동되어야 하는 '연속...",
-      "pub": "Sat, 23 May 2026 10:42:00 +0900",
+      "title": "삼천당제약, S-PASS 글로벌 특허 정비 완료 소식 급등세 흐름…13,000원 ...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=576502",
+      "desc": "특히 바이오 업계에서는 플랫폼 기술의 권리 구조와 국제 특허 체계 정비 여부가 글로벌 제약사와의 협상력에 직접 연결되는 핵심 요소로 평가된다. 삼천당제약은 S-PASS 플랫폼과 관련해 PCT 국제특허 출원인 변경 절차와...",
+      "pub": "Sat, 23 May 2026 13:20:00 +0900",
       "via": "naver_api",
-      "importance": 5,
+      "importance": 8,
       "matched_keywords": [
-        "바이오",
         "제약",
-        "삼성바이오로직스"
+        "바이오"
       ],
       "score": 12
     },
@@ -405,9 +436,9 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "방산",
+        "빛과전자",
         "반도체",
-        "빛과전자"
+        "방산"
       ],
       "score": 11
     },
@@ -459,8 +490,8 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 10
     },
@@ -473,8 +504,8 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 10
     },
@@ -487,8 +518,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "삼성전자",
-        "카카오"
+        "카카오",
+        "삼성전자"
       ],
       "score": 10
     },
@@ -501,8 +532,8 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "스테이블코인",
-        "엔터"
+        "엔터",
+        "스테이블코인"
       ],
       "score": 10
     },
@@ -515,17 +546,17 @@
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
-        "전기차",
-        "반도체"
+        "반도체",
+        "전기차"
       ],
       "score": 10
     },
     {
       "source": "네이버뉴스",
-      "title": "미 무역대표부 &quot;반도체 전면 관세 적절한 시점에&quot;",
-      "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005842116",
-      "desc": "이번 발언은 미국 정부가 검토 중인 무역확장법 232조 기반의 반도체 품목 관세를 염두에 둔 것으로 해석됩니다. 232조는 국가안보를 이유로 특정 품목에 관세를 부과할 수 있는 조항입니다. 현재 미국은 중국 등으로...",
-      "pub": "Sat, 23 May 2026 11:58:00 +0900",
+      "title": "3년 안에 세계 반도체 시설 50%가 美 온다니 [트럼프 스톡커]",
+      "link": "https://n.news.naver.com/mnews/article/011/0004623899?sid=104",
+      "desc": "美무역대표 “칩 관세 당장은 없지만 적절한 시점에 부과”...추후 무역 무기로 남겨둬 대만이 이처럼 미국의 무리한 요구에 일단 순응하는 태도를 보이는 것은 심각한 안보 문제 때문이다. 내년 시진핑 국가주석 4연임...",
+      "pub": "Sat, 23 May 2026 12:06:00 +0900",
       "via": "naver_api",
       "importance": 7,
       "matched_keywords": [
@@ -535,15 +566,15 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "키움증권 &quot;AI·바이오 분석 수요 확대…토모큐브 재평가 가능성&quot;",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=454899",
-      "desc": "업계에서는 AI 기반 바이오 데이터 분석 시장 확대와 함께 정밀 이미징 장비 수요도 빠르게 증가할 것으로 보고 있다. 특히 글로벌 제약사와 연구기관들이 세포 분석 효율성을 높이기 위해 차세대 이미징 장비 도입을...",
-      "pub": "Sat, 23 May 2026 10:46:00 +0900",
+      "title": "[듣는뉴스/알아BIO] 한타·에볼라에 '팬데믹 시즌2' 위기감 커지나",
+      "link": "https://n.news.naver.com/mnews/article/422/0000867735?sid=101",
+      "desc": "※ [듣는뉴스/문형민의 알아BIO]는 제약·바이오·의료 이슈를 취재해 쉽게 설명하는 연재 기사인 '문형민의 알아BIO'를 AI 기술을 활용해 팟캐스트 형태의 '듣는 뉴스'로 재해석한 콘텐츠입니다. 최근 대형 크루즈선의...",
+      "pub": "Sat, 23 May 2026 13:01:00 +0900",
       "via": "naver_api",
-      "importance": 6,
+      "importance": 8,
       "matched_keywords": [
-        "바이오",
-        "제약"
+        "제약",
+        "바이오"
       ],
       "score": 10
     },
@@ -556,9 +587,9 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "파두",
+        "로봇",
         "반도체",
-        "로봇"
+        "파두"
       ],
       "score": 9
     },
@@ -584,22 +615,24 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "삼성전자",
+        "SK하이닉스",
         "반도체",
-        "SK하이닉스"
+        "삼성전자"
       ],
       "score": 9
     },
     {
       "source": "네이버뉴스",
-      "title": "3년 안에 세계 반도체 시설 50%가 美 온다니 [트럼프 스톡커]",
-      "link": "https://n.news.naver.com/mnews/article/011/0004623899?sid=104",
-      "desc": "규모의 반도체 제조 시설을 건설하고 있다. 모바일 시대부터 적응 실패로 하향세를 겪던 인텔도 지난해 8월 트럼프 행정부가 지분 9.9%를 인수해 최대주주가 된 이후 기사회생하고 있다. AI 칩 수요가 엔비디아 중심의...",
-      "pub": "Sat, 23 May 2026 12:06:00 +0900",
+      "title": "[자본中심] 빅파마의 신약 창고 된 중국 바이오",
+      "link": "https://n.news.naver.com/mnews/article/018/0006288908?sid=101",
+      "desc": "중국 장쑤성 우시에 위치한 아스트라제네카 중국 커머셜 이노베이션센터(CCIC) (사진=로이터) 제약·바이오 데이터 업체 팜큐브에 따르면 지난해 중화권 바이오 기업의 라이선스아웃 거래 규모가 1377억달러(208조 9000억원)...",
+      "pub": "Sat, 23 May 2026 13:06:00 +0900",
       "via": "naver_api",
-      "importance": 6,
+      "importance": 4,
       "matched_keywords": [
-        "반도체"
+        "아스트",
+        "제약",
+        "바이오"
       ],
       "score": 9
     },
@@ -651,8 +684,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "현대차",
-        "인공지능"
+        "인공지능",
+        "현대차"
       ],
       "score": 8
     },
@@ -665,8 +698,8 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 8
     },
@@ -699,15 +732,15 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "[올댓차이나] 中 상무부, 글로벌 제약사와 좌담회…“제약시장 개방 확...",
-      "link": "https://n.news.naver.com/mnews/article/003/0013963670?sid=104",
-      "desc": "의약·바이오 산업의 혁신 생태계도 비교적 완비돼 있다고 설명했다. 그러면서 링 부부장은 “이런 환경이 다국적 제약기업들의 중국 내 장기 발전에 거대한 기회를 제공할 것”이라고 주장했다. 링 부부장은 중국이...",
-      "pub": "Sat, 23 May 2026 11:32:00 +0900",
+      "title": "권기창 후보 &quot;안동을 글로벌 헴프 바이오 거점으로&quot;",
+      "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4073630",
+      "desc": "국민의힘 권기창 안동시장 후보가 산업용 헴프(Hemp)를 앞세운 바이오·제약 산업 육성 전략을 전면에 내세웠다. 단순 실증사업 수준에 머물렀던 기존 헴프 특구 사업을 원료의약품 생산과 글로벌 수출 산업으로 확장해...",
+      "pub": "Sat, 23 May 2026 13:42:00 +0900",
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "바이오",
-        "제약"
+        "제약",
+        "바이오"
       ],
       "score": 8
     },
@@ -734,11 +767,11 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "올릭스",
         "SK텔레콤",
         "SK하이닉스",
         "RFHIC",
-        "한화오션"
+        "한화오션",
+        "올릭스"
       ],
       "score": 7
     },
@@ -816,8 +849,8 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "채비",
         "기아",
+        "채비",
         "현대차"
       ],
       "score": 7
@@ -831,8 +864,8 @@
       "via": "rss",
       "importance": 3,
       "matched_keywords": [
-        "삼성전자",
-        "반도체"
+        "반도체",
+        "삼성전자"
       ],
       "score": 7
     },
@@ -912,8 +945,8 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "현대차",
-        "로봇"
+        "로봇",
+        "현대차"
       ],
       "score": 6
     },
@@ -939,8 +972,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "삼성전자",
-        "인공지능"
+        "인공지능",
+        "삼성전자"
       ],
       "score": 6
     },
@@ -981,8 +1014,35 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "현대차",
-        "수소"
+        "수소",
+        "현대차"
+      ],
+      "score": 6
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "삼성전자 성과급 논쟁 후폭풍…'합리적 성과 체계' 구축해야",
+      "link": "https://n.news.naver.com/mnews/article/665/0000007421?sid=101",
+      "desc": "중국 2위, 세계 6위 파운드리 업체인 화홍반도체 주가도 강세였다. 삼성전자가 파업에 돌입할 경우 글로벌 D램과 낸드 공급이 감소할 것으로 전망되면서 중국 반도체 기업들이 이를 대체할 후보로 거론됐기 때문이다....",
+      "pub": "Sat, 23 May 2026 13:20:00 +0900",
+      "via": "naver_api",
+      "importance": 2,
+      "matched_keywords": [
+        "반도체",
+        "삼성전자"
+      ],
+      "score": 6
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "범여권 일제히 봉하마을행...박근혜, 대구 유세 등판 예고",
+      "link": "https://n.news.naver.com/mnews/article/052/0002356999?sid=004",
+      "desc": "지금 반도체 슈퍼사이클로 인해서 초과세수가 많이 걷힐 것 같고 이런 큰 재원을 어떻게든 중앙정부와 잘... 했는데 주가폭락법이 되고 있거든요. 그래서 이 문제가 좀 커질 것 같고 무엇보다도 저는 5. 18정신을 훼손하는...",
+      "pub": "Sat, 23 May 2026 12:53:00 +0900",
+      "via": "naver_api",
+      "importance": 5,
+      "matched_keywords": [
+        "반도체"
       ],
       "score": 6
     },
@@ -1190,8 +1250,8 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "미래에셋증권",
-        "SK텔레콤"
+        "SK텔레콤",
+        "미래에셋증권"
       ],
       "score": 4
     },
@@ -1259,8 +1319,8 @@
       "via": "naver_api",
       "importance": 2,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 4
     },
@@ -1552,19 +1612,6 @@
     },
     {
       "source": "매일경제",
-      "title": "한국콜마 항노화 화장품 소재 개발",
-      "link": "https://www.mk.co.kr/news/business/12054606",
-      "desc": "한국콜마가 피부 노화를 일으키는 물질만 선택해 제거하는 항노화 화장품 소재를 개발했다. 제약에서 사용하는 '표적 항암 치료' 원리와 약물전달시스템(DDS) 기술을 화장품에 적용한 ..",
-      "pub": "Thu, 21 May 2026 17:08:40 +09:00",
-      "via": "rss",
-      "importance": 2,
-      "matched_keywords": [
-        "제약"
-      ],
-      "score": 3
-    },
-    {
-      "source": "매일경제",
       "title": "“5년 묶고 절세” vs “하루 2배 베팅”…투자 열풍 속 재테크 전략은 [캥거루족 탈출기⑲]",
       "link": "https://www.mk.co.kr/news/economy/12056171",
       "desc": "국민성장펀드 출시 직후 일부 채널 완판 삼성전자·SK하이닉스 2배 추종 ETF도 관심 장기 절세형 vs 초고위험 단타형 투자 대비“천천히 불릴까, 세게 베팅할까.” 정부가 세제 혜..",
@@ -1572,8 +1619,21 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "삼성전자",
-        "SK하이닉스"
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "score": 2
+    },
+    {
+      "source": "매일경제",
+      "title": "최승호 삼전 노조위원장 “내달 재신임 투표…정계 진출 생각 없어”",
+      "link": "https://www.mk.co.kr/news/business/12056204",
+      "desc": "최승호 삼성그룹 초기업노동조합 삼성전자지부 위원장이 2026년 임금·단체협약 잠정 합의안 찬반 투표 결과 여부와 관계없이 위원장 재신임 투표를 6월 내에 진행하겠다고 밝혔다. 23..",
+      "pub": "Sat, 23 May 2026 13:54:48 +09:00",
+      "via": "rss",
+      "importance": 1,
+      "matched_keywords": [
+        "삼성전자"
       ],
       "score": 2
     },
@@ -1680,13 +1740,13 @@
       "via": "naver_api",
       "importance": 9,
       "matched_keywords": [
+        "로봇",
+        "현대모비스",
         "LS ELECTRIC",
         "한미반도체",
-        "방산",
-        "현대차",
         "반도체",
-        "로봇",
-        "현대모비스"
+        "방산",
+        "현대차"
       ],
       "score": 22
     },
@@ -1700,10 +1760,10 @@
       "importance": 2,
       "matched_keywords": [
         "삼성전기",
-        "삼성전자",
+        "현대모비스",
         "대우건설",
         "제룡산업",
-        "현대모비스"
+        "삼성전자"
       ],
       "score": 17
     },
@@ -1717,9 +1777,9 @@
       "importance": 10,
       "matched_keywords": [
         "원전",
+        "반도체",
         "방산",
-        "삼성전자",
-        "반도체"
+        "삼성전자"
       ],
       "score": 16
     },
@@ -1732,9 +1792,9 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "바이오",
+        "로봇",
         "반도체",
-        "로봇"
+        "바이오"
       ],
       "score": 15
     },
@@ -1748,9 +1808,9 @@
       "importance": 9,
       "matched_keywords": [
         "주성엔지니어링",
-        "삼성전자",
+        "SK하이닉스",
         "반도체",
-        "SK하이닉스"
+        "삼성전자"
       ],
       "score": 15
     },
@@ -1768,6 +1828,34 @@
       "score": 15
     },
     {
+      "source": "네이버뉴스",
+      "title": "AI 버블론 잠재운 엔비디아…다음주도 반도체주 달릴까 [인베스팅 인사...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004623905?sid=101",
+      "desc": "특히 AI 서버 투자 확대는 메모리 가격 상승과 함께 국내 반도체 기업 실적 개선 기대를 동시에 키우고 있다. 실제 증권가에서는 삼성전자 목표주가를 줄줄이 상향하고 있다. NH투자증권은 삼성전자의 목표주가를...",
+      "pub": "Sat, 23 May 2026 13:01:00 +0900",
+      "via": "naver_api",
+      "importance": 10,
+      "matched_keywords": [
+        "NH투자증권",
+        "반도체",
+        "삼성전자"
+      ],
+      "score": 15
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "[진정자의 시진핑 이야기 | 진리·정의·자유] 평양가는 시진핑, 5월의 ...",
+      "link": "https://www.ajunews.com/view/20260523125009639",
+      "desc": "미국과는 관세와 반도체, AI 패권과 대만 문제를 놓고 힘겨루기를 하면서도 경제 관계의 완전한 단절은... 중국과 인도는 세계 GDP의 상당 부분을 차지했고, 실크로드와 해상무역의 중심 역시 아시아였다. 그러나 영국...",
+      "pub": "Sat, 23 May 2026 13:02:00 +0900",
+      "via": "naver_api",
+      "importance": 12,
+      "matched_keywords": [
+        "반도체"
+      ],
+      "score": 13
+    },
+    {
       "source": "매일경제",
       "title": "“잠깐 숨 좀 고르고”…30만 신고가 쓴 삼성전자, SK하이닉스와 동반 하락",
       "link": "https://www.mk.co.kr/news/stock/12055419",
@@ -1776,8 +1864,8 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "삼성전자",
-        "SK하이닉스"
+        "SK하이닉스",
+        "삼성전자"
       ],
       "score": 12
     },
@@ -1790,9 +1878,9 @@
       "via": "rss",
       "importance": 5,
       "matched_keywords": [
+        "수소",
         "방산",
-        "현대차",
-        "수소"
+        "현대차"
       ],
       "score": 12
     },
@@ -1805,23 +1893,22 @@
       "via": "naver_api",
       "importance": 10,
       "matched_keywords": [
-        "반도체",
-        "SK하이닉스"
+        "SK하이닉스",
+        "반도체"
       ],
       "score": 12
     },
     {
       "source": "네이버뉴스",
-      "title": "삼성바이오로직스 노사협상 시나리오...삼전식 '패키지 딜'이 해법?",
-      "link": "https://www.pharmnews.com/news/articleView.html?idxno=303720",
-      "desc": "제약바이오산업 관계자들이 가장 우려하는 대목은 바이오의약품 위탁생산(CDMO) 산업이 가진 독특한 공정 특성이다. 살아있는 세포를 배양하고 정제하는 바이오 공정은 24시간 중단 없이 유기적으로 가동되어야 하는 '연속...",
-      "pub": "Sat, 23 May 2026 10:42:00 +0900",
+      "title": "삼천당제약, S-PASS 글로벌 특허 정비 완료 소식 급등세 흐름…13,000원 ...",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=576502",
+      "desc": "특히 바이오 업계에서는 플랫폼 기술의 권리 구조와 국제 특허 체계 정비 여부가 글로벌 제약사와의 협상력에 직접 연결되는 핵심 요소로 평가된다. 삼천당제약은 S-PASS 플랫폼과 관련해 PCT 국제특허 출원인 변경 절차와...",
+      "pub": "Sat, 23 May 2026 13:20:00 +0900",
       "via": "naver_api",
-      "importance": 5,
+      "importance": 8,
       "matched_keywords": [
-        "바이오",
         "제약",
-        "삼성바이오로직스"
+        "바이오"
       ],
       "score": 12
     },
@@ -1874,9 +1961,9 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "방산",
+        "빛과전자",
         "반도체",
-        "빛과전자"
+        "방산"
       ],
       "score": 11
     },
@@ -1928,46 +2015,18 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
-      ],
-      "score": 10
-    },
-    {
-      "source": "매일경제",
-      "title": "“반도체 슈퍼사이클 좋긴 한데, 너무 쏠리네”…톱10 기업 수출 비중 50% 돌파",
-      "link": "https://www.mk.co.kr/news/economy/12054468",
-      "desc": "1분기 전체 수출 38% 증가 반도체 업은 대기업 53% 중견 7.4%·중기 10.7% 그쳐인공지능(AI) 붐에 따른 반도체 슈퍼사이클 영향으로 올해 1분기 대기업 수출이 통계 작..",
-      "pub": "Thu, 21 May 2026 15:16:32 +09:00",
-      "via": "rss",
-      "importance": 6,
-      "matched_keywords": [
-        "반도체",
-        "인공지능"
-      ],
-      "score": 10
-    },
-    {
-      "source": "매일경제",
-      "title": "삼성전자 노조 갈등 극적 합의에…후폭풍 몰아치는 카카오",
-      "link": "https://www.mk.co.kr/news/business/12054967",
-      "desc": "삼성전자가 성과급 사태를 극적으로 봉합하면서 총파업 위기를 넘어선 가운데, 보상 체계 개편을 둘러싼 갈등의 불씨가 정보기술(IT) 일번지로 옮겨붙는 모양새다. 인적 자원이 핵심인 ..",
-      "pub": "Thu, 21 May 2026 21:07:37 +09:00",
-      "via": "rss",
-      "importance": 4,
-      "matched_keywords": [
-        "삼성전자",
-        "카카오"
+        "인공지능",
+        "반도체"
       ],
       "score": 10
     }
   ],
   "keyword_summary": {
-    "반도체": 26,
+    "반도체": 29,
     "DB": 3,
-    "삼성전자": 23,
-    "바이오": 4,
+    "삼성전자": 26,
     "로봇": 8,
+    "바이오": 5,
     "브이엠": 1,
     "삼성전기": 2,
     "원전": 3,
@@ -1989,12 +2048,12 @@
     "인공지능": 14,
     "에코프로비엠": 1,
     "에코프로": 1,
-    "미래에셋증권": 2,
     "SK텔레콤": 3,
+    "미래에셋증권": 2,
     "스테이블코인": 2,
-    "올릭스": 1,
     "RFHIC": 1,
     "한화오션": 1,
+    "올릭스": 1,
     "한화투자증권": 1,
     "티씨머티리얼즈": 1,
     "이수화학": 1,
@@ -2013,10 +2072,11 @@
     "SK이노베이션": 1,
     "수소": 2,
     "엔터": 1,
+    "NH투자증권": 1,
     "전기차": 1,
     "빛과전자": 1,
     "LS ELECTRIC": 1,
     "한미반도체": 1,
-    "삼성바이오로직스": 1
+    "아스트": 1
   }
 }
