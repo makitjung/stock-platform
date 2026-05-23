@@ -1,16 +1,19 @@
 {
   "date": "2026-05-23",
   "mode": "3일비교",
-  "total_analyzed": 228,
+  "total_analyzed": 232,
   "top50": [
     {
       "keyword": "삼성전자",
-      "total_score": 39,
+      "total_score": 43,
       "signals": [
         "매일경제 헤드라인 언급",
-        "네이버뉴스 헤드라인 언급",
+        "매일경제 기사 언급",
         "매일경제 헤드라인 언급",
         "네이버뉴스 헤드라인 언급",
+        "네이버뉴스 기사 언급",
+        "매일경제 헤드라인 언급",
+        "네이버뉴스 기사 언급",
         "매일경제 헤드라인 언급",
         "매일경제 기사 언급",
         "한국경제 헤드라인 언급",
@@ -22,15 +25,17 @@
         "한국경제 헤드라인 언급",
         "매일경제 기사 언급",
         "매일경제 기사 언급",
+        "매일경제 기사 언급",
         "매일경제 헤드라인 언급",
         "매일경제 기사 언급",
-        "네이버뉴스 헤드라인 언급",
+        "매일경제 기사 언급",
+        "매일경제 기사 언급",
         "매일경제 기사 언급",
         "매일경제 기사 언급",
         "매일경제 기사 언급",
         "매일경제 기사 언급"
       ],
-      "day1_score": 39,
+      "day1_score": 43,
       "day3_score": 0,
       "day7_score": 0,
       "is_stock": true,
@@ -39,27 +44,29 @@
     },
     {
       "keyword": "반도체",
-      "total_score": 39,
+      "total_score": 43,
       "signals": [
         "한국경제 헤드라인 언급",
-        "네이버뉴스 헤드라인 언급",
-        "네이버뉴스 헤드라인 언급",
+        "매일경제 헤드라인 언급",
         "한국경제 헤드라인 언급",
-        "매일경제 헤드라인 언급",
-        "매일경제 헤드라인 언급",
-        "매일경제 헤드라인 언급",
         "네이버뉴스 헤드라인 언급",
-        "매일경제 기사 언급",
+        "네이버뉴스 기사 언급",
+        "네이버뉴스 헤드라인 언급",
         "매일경제 헤드라인 언급",
         "매일경제 헤드라인 언급",
+        "매일경제 헤드라인 언급",
         "매일경제 기사 언급",
-        "매일경제 기사 언급",
+        "매일경제 헤드라인 언급",
         "매일경제 헤드라인 언급",
         "매일경제 기사 언급",
         "네이버뉴스 기사 언급",
-        "매일경제 기사 언급"
+        "매일경제 기사 언급",
+        "매일경제 헤드라인 언급",
+        "한국경제 헤드라인 언급",
+        "매일경제 기사 언급",
+        "네이버뉴스 기사 언급"
       ],
-      "day1_score": 39,
+      "day1_score": 43,
       "day3_score": 0,
       "day7_score": 0,
       "is_stock": false,
@@ -67,8 +74,9 @@
     },
     {
       "keyword": "현대차",
-      "total_score": 17,
+      "total_score": 20,
       "signals": [
+        "네이버뉴스 헤드라인 언급",
         "매일경제 헤드라인 언급",
         "매일경제 헤드라인 언급",
         "매일경제 헤드라인 언급",
@@ -76,7 +84,7 @@
         "매일경제 헤드라인 언급",
         "한국경제 헤드라인 언급"
       ],
-      "day1_score": 17,
+      "day1_score": 20,
       "day3_score": 0,
       "day7_score": 0,
       "is_stock": true,
@@ -85,27 +93,47 @@
     },
     {
       "keyword": "로봇",
-      "total_score": 15,
+      "total_score": 19,
       "signals": [
+        "네이버뉴스 헤드라인 언급",
         "한국경제 헤드라인 언급",
+        "네이버뉴스 기사 언급",
         "매일경제 기사 언급",
         "한국경제 헤드라인 언급",
         "한국경제 헤드라인 언급",
         "한국경제 헤드라인 언급",
-        "한국경제 헤드라인 언급"
+        "매일경제 헤드라인 언급"
       ],
-      "day1_score": 15,
+      "day1_score": 19,
       "day3_score": 0,
       "day7_score": 0,
       "is_stock": false,
       "streak_days": 2
     },
     {
+      "keyword": "LG",
+      "total_score": 16,
+      "signals": [
+        "네이버뉴스 헤드라인 언급",
+        "매일경제 헤드라인 언급",
+        "한국경제 헤드라인 언급",
+        "매일경제 헤드라인 언급",
+        "매일경제 헤드라인 언급",
+        "매일경제 기사 언급",
+        "매일경제 기사 언급"
+      ],
+      "day1_score": 16,
+      "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": true,
+      "code": "003550",
+      "streak_days": 3
+    },
+    {
       "keyword": "인공지능",
       "total_score": 14,
       "signals": [
         "네이버뉴스 기사 언급",
-        "네이버뉴스 기사 언급",
         "매일경제 기사 언급",
         "매일경제 기사 언급",
         "매일경제 기사 언급",
@@ -117,7 +145,8 @@
         "매일경제 기사 언급",
         "매일경제 기사 언급",
         "매일경제 기사 언급",
-        "매일경제 기사 언급"
+        "매일경제 기사 언급",
+        "네이버뉴스 기사 언급"
       ],
       "day1_score": 14,
       "day3_score": 0,
@@ -126,58 +155,20 @@
       "streak_days": 3
     },
     {
-      "keyword": "바이오",
-      "total_score": 13,
+      "keyword": "LG전자",
+      "total_score": 10,
       "signals": [
         "네이버뉴스 헤드라인 언급",
         "한국경제 헤드라인 언급",
-        "네이버뉴스 헤드라인 언급",
-        "네이버뉴스 기사 언급",
-        "네이버뉴스 기사 언급",
-        "네이버뉴스 기사 언급",
-        "네이버뉴스 기사 언급"
-      ],
-      "day1_score": 13,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": false,
-      "streak_days": 3
-    },
-    {
-      "keyword": "LG",
-      "total_score": 13,
-      "signals": [
         "매일경제 헤드라인 언급",
-        "한국경제 헤드라인 언급",
-        "매일경제 헤드라인 언급",
-        "매일경제 헤드라인 언급",
-        "매일경제 기사 언급",
         "매일경제 기사 언급"
       ],
-      "day1_score": 13,
+      "day1_score": 10,
       "day3_score": 0,
       "day7_score": 0,
       "is_stock": true,
-      "code": "003550",
-      "streak_days": 3
-    },
-    {
-      "keyword": "제약",
-      "total_score": 11,
-      "signals": [
-        "네이버뉴스 기사 언급",
-        "네이버뉴스 헤드라인 언급",
-        "매일경제 헤드라인 언급",
-        "네이버뉴스 기사 언급",
-        "네이버뉴스 기사 언급",
-        "네이버뉴스 기사 언급",
-        "매일경제 기사 언급"
-      ],
-      "day1_score": 11,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": false,
-      "streak_days": 3
+      "code": "066570",
+      "streak_days": 4
     },
     {
       "keyword": "SK텔레콤",
@@ -211,19 +202,71 @@
       "streak_days": 2
     },
     {
-      "keyword": "LG전자",
-      "total_score": 7,
+      "keyword": "SK하이닉스",
+      "total_score": 8,
       "signals": [
-        "한국경제 헤드라인 언급",
+        "매일경제 기사 언급",
         "매일경제 헤드라인 언급",
+        "네이버뉴스 기사 언급",
+        "네이버뉴스 기사 언급",
+        "매일경제 기사 언급",
         "매일경제 기사 언급"
       ],
-      "day1_score": 7,
+      "day1_score": 8,
       "day3_score": 0,
       "day7_score": 0,
       "is_stock": true,
-      "code": "066570",
+      "code": "000660",
       "streak_days": 4
+    },
+    {
+      "keyword": "바이오",
+      "total_score": 8,
+      "signals": [
+        "한국경제 헤드라인 언급",
+        "네이버뉴스 기사 언급",
+        "네이버뉴스 기사 언급",
+        "네이버뉴스 기사 언급",
+        "네이버뉴스 기사 언급",
+        "네이버뉴스 기사 언급"
+      ],
+      "day1_score": 8,
+      "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": false,
+      "streak_days": 3
+    },
+    {
+      "keyword": "제약",
+      "total_score": 8,
+      "signals": [
+        "매일경제 헤드라인 언급",
+        "네이버뉴스 기사 언급",
+        "네이버뉴스 기사 언급",
+        "네이버뉴스 기사 언급",
+        "네이버뉴스 기사 언급",
+        "네이버뉴스 기사 언급"
+      ],
+      "day1_score": 8,
+      "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": false,
+      "streak_days": 3
+    },
+    {
+      "keyword": "기업은행",
+      "total_score": 8,
+      "signals": [
+        "네이버뉴스 헤드라인 언급",
+        "매일경제 헤드라인 언급",
+        "매일경제 헤드라인 언급"
+      ],
+      "day1_score": 8,
+      "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": true,
+      "code": "024110",
+      "streak_days": 2
     },
     {
       "keyword": "삼성전기",
@@ -256,6 +299,21 @@
       "streak_days": 3
     },
     {
+      "keyword": "기아",
+      "total_score": 7,
+      "signals": [
+        "중요공시 1건",
+        "네이버뉴스 헤드라인 언급",
+        "매일경제 헤드라인 언급"
+      ],
+      "day1_score": 7,
+      "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": true,
+      "code": "000270",
+      "streak_days": 3
+    },
+    {
       "keyword": "이수화학",
       "total_score": 6,
       "signals": [
@@ -282,20 +340,6 @@
       "streak_days": 1
     },
     {
-      "keyword": "AMD",
-      "total_score": 6,
-      "signals": [
-        "Reddit 29건",
-        "네이버뉴스 기사 언급",
-        "네이버뉴스 헤드라인 언급"
-      ],
-      "day1_score": 6,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": false,
-      "streak_days": 2
-    },
-    {
       "keyword": "수소",
       "total_score": 6,
       "signals": [
@@ -307,6 +351,20 @@
       "day7_score": 0,
       "is_stock": false,
       "streak_days": 2
+    },
+    {
+      "keyword": "HMM",
+      "total_score": 6,
+      "signals": [
+        "매일경제 헤드라인 언급",
+        "한국경제 헤드라인 언급"
+      ],
+      "day1_score": 6,
+      "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": true,
+      "code": "011200",
+      "streak_days": 1
     },
     {
       "keyword": "소룩스",
@@ -323,31 +381,17 @@
       "streak_days": 4
     },
     {
-      "keyword": "기업은행",
+      "keyword": "방산",
       "total_score": 5,
       "signals": [
-        "매일경제 헤드라인 언급",
-        "매일경제 헤드라인 언급"
-      ],
-      "day1_score": 5,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true,
-      "code": "024110",
-      "streak_days": 2
-    },
-    {
-      "keyword": "대한항공",
-      "total_score": 5,
-      "signals": [
-        "매일경제 헤드라인 언급",
+        "매일경제 기사 언급",
+        "네이버뉴스 기사 언급",
         "한국경제 헤드라인 언급"
       ],
       "day1_score": 5,
       "day3_score": 0,
       "day7_score": 0,
-      "is_stock": true,
-      "code": "003490",
+      "is_stock": false,
       "streak_days": 3
     },
     {
@@ -393,7 +437,21 @@
       "streak_days": 2
     },
     {
-      "keyword": "SK하이닉스",
+      "keyword": "빛과전자",
+      "total_score": 4,
+      "signals": [
+        "중요공시 2건",
+        "네이버뉴스 헤드라인 언급"
+      ],
+      "day1_score": 4,
+      "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": true,
+      "code": "069540",
+      "streak_days": 2
+    },
+    {
+      "keyword": "대한항공",
       "total_score": 4,
       "signals": [
         "매일경제 헤드라인 언급",
@@ -403,62 +461,8 @@
       "day3_score": 0,
       "day7_score": 0,
       "is_stock": true,
-      "code": "000660",
-      "streak_days": 4
-    },
-    {
-      "keyword": "대한광통신",
-      "total_score": 4,
-      "signals": [
-        "네이버뉴스 기사 언급",
-        "네이버뉴스 헤드라인 언급"
-      ],
-      "day1_score": 4,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true,
-      "code": "010170",
-      "streak_days": 1
-    },
-    {
-      "keyword": "기아",
-      "total_score": 4,
-      "signals": [
-        "중요공시 1건",
-        "매일경제 헤드라인 언급"
-      ],
-      "day1_score": 4,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true,
-      "code": "000270",
+      "code": "003490",
       "streak_days": 3
-    },
-    {
-      "keyword": "방산",
-      "total_score": 4,
-      "signals": [
-        "매일경제 기사 언급",
-        "한국경제 헤드라인 언급"
-      ],
-      "day1_score": 4,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": false,
-      "streak_days": 3
-    },
-    {
-      "keyword": "클라우드",
-      "total_score": 4,
-      "signals": [
-        "매일경제 헤드라인 언급",
-        "매일경제 헤드라인 언급"
-      ],
-      "day1_score": 4,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": false,
-      "streak_days": 2
     },
     {
       "keyword": "케이피항공산업",
@@ -566,20 +570,6 @@
       "streak_days": 2
     },
     {
-      "keyword": "진원생명과학",
-      "total_score": 3,
-      "signals": [
-        "네이버 검색 당일 +62%",
-        "네이버뉴스 기사 언급"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true,
-      "code": "011000",
-      "streak_days": 4
-    },
-    {
       "keyword": "티씨머티리얼즈",
       "total_score": 3,
       "signals": [
@@ -591,19 +581,6 @@
       "is_stock": true,
       "code": "125020",
       "streak_days": 2
-    },
-    {
-      "keyword": "광전자",
-      "total_score": 3,
-      "signals": [
-        "네이버뉴스 헤드라인 언급"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true,
-      "code": "017900",
-      "streak_days": 1
     },
     {
       "keyword": "스피어",
@@ -698,16 +675,54 @@
       "streak_days": 3
     },
     {
-      "keyword": "HMM",
+      "keyword": "엔터",
       "total_score": 3,
       "signals": [
-        "매일경제 헤드라인 언급"
+        "네이버뉴스 헤드라인 언급"
+      ],
+      "day1_score": 3,
+      "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": false,
+      "streak_days": 1
+    },
+    {
+      "keyword": "삼성증권",
+      "total_score": 3,
+      "signals": [
+        "한국경제 헤드라인 언급"
       ],
       "day1_score": 3,
       "day3_score": 0,
       "day7_score": 0,
       "is_stock": true,
-      "code": "011200",
+      "code": "016360",
+      "streak_days": 1
+    },
+    {
+      "keyword": "클라우드",
+      "total_score": 3,
+      "signals": [
+        "네이버뉴스 기사 언급",
+        "매일경제 헤드라인 언급"
+      ],
+      "day1_score": 3,
+      "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": false,
+      "streak_days": 2
+    },
+    {
+      "keyword": "게임",
+      "total_score": 3,
+      "signals": [
+        "매일경제 기사 언급",
+        "한국경제 헤드라인 언급"
+      ],
+      "day1_score": 3,
+      "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": false,
       "streak_days": 1
     },
     {
