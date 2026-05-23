@@ -1,7 +1,7 @@
 {
   "date": "2026-05-23",
   "mode": "3일비교",
-  "total_analyzed": 232,
+  "total_analyzed": 203,
   "top50": [
     {
       "keyword": "삼성전자",
@@ -317,7 +317,7 @@
       "keyword": "이수화학",
       "total_score": 6,
       "signals": [
-        "네이버 검색 당일 +114%",
+        "네이버 검색 당일 +173%",
         "매일경제 헤드라인 언급"
       ],
       "day1_score": 6,
@@ -328,16 +328,18 @@
       "streak_days": 4
     },
     {
-      "keyword": "Apple",
+      "keyword": "소룩스",
       "total_score": 6,
       "signals": [
-        "Google 급상승 검색어 등장 (US)"
+        "네이버 검색 당일 +104%",
+        "중요공시 3건"
       ],
       "day1_score": 6,
       "day3_score": 0,
       "day7_score": 0,
-      "is_stock": false,
-      "streak_days": 1
+      "is_stock": true,
+      "code": "290690",
+      "streak_days": 4
     },
     {
       "keyword": "수소",
@@ -367,18 +369,16 @@
       "streak_days": 1
     },
     {
-      "keyword": "소룩스",
+      "keyword": "Apple",
       "total_score": 5,
       "signals": [
-        "네이버 검색 당일 +85%",
-        "중요공시 3건"
+        "Google 급상승 검색어 등장 (US)"
       ],
       "day1_score": 5,
       "day3_score": 0,
       "day7_score": 0,
-      "is_stock": true,
-      "code": "290690",
-      "streak_days": 4
+      "is_stock": false,
+      "streak_days": 1
     },
     {
       "keyword": "방산",
@@ -398,7 +398,7 @@
       "keyword": "한성크린텍",
       "total_score": 4,
       "signals": [
-        "네이버 검색 당일 +256%",
+        "네이버 검색 당일 +316%",
         "중요공시 2건"
       ],
       "day1_score": 4,
@@ -409,10 +409,24 @@
       "streak_days": 4
     },
     {
+      "keyword": "엑스플러스",
+      "total_score": 4,
+      "signals": [
+        "네이버 검색 당일 +232%",
+        "중요공시 1건"
+      ],
+      "day1_score": 4,
+      "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": true,
+      "code": "373200",
+      "streak_days": 2
+    },
+    {
       "keyword": "아이로보틱스",
       "total_score": 4,
       "signals": [
-        "네이버 검색 당일 +137%",
+        "네이버 검색 당일 +161%",
         "중요공시 1건"
       ],
       "day1_score": 4,
@@ -423,17 +437,31 @@
       "streak_days": 4
     },
     {
-      "keyword": "대우건설",
+      "keyword": "주성엔지니어링",
       "total_score": 4,
       "signals": [
-        "중요공시 2건",
+        "네이버 검색 당일 +54%",
+        "매일경제 기사 언급",
+        "매일경제 기사 언급"
+      ],
+      "day1_score": 4,
+      "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": true,
+      "code": "036930",
+      "streak_days": 1
+    },
+    {
+      "keyword": "티씨머티리얼즈",
+      "total_score": 4,
+      "signals": [
         "매일경제 헤드라인 언급"
       ],
       "day1_score": 4,
       "day3_score": 0,
       "day7_score": 0,
       "is_stock": true,
-      "code": "047040",
+      "code": "125020",
       "streak_days": 2
     },
     {
@@ -448,6 +476,20 @@
       "day7_score": 0,
       "is_stock": true,
       "code": "069540",
+      "streak_days": 2
+    },
+    {
+      "keyword": "대우건설",
+      "total_score": 4,
+      "signals": [
+        "중요공시 2건",
+        "매일경제 헤드라인 언급"
+      ],
+      "day1_score": 4,
+      "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": true,
+      "code": "047040",
       "streak_days": 2
     },
     {
@@ -468,7 +510,7 @@
       "keyword": "케이피항공산업",
       "total_score": 3,
       "signals": [
-        "네이버 검색 당일 +1424%"
+        "네이버 검색 당일 +1680%"
       ],
       "day1_score": 3,
       "day3_score": 0,
@@ -481,7 +523,7 @@
       "keyword": "티웨이홀딩스",
       "total_score": 3,
       "signals": [
-        "네이버 검색 당일 +721%"
+        "네이버 검색 당일 +890%"
       ],
       "day1_score": 3,
       "day3_score": 0,
@@ -494,7 +536,7 @@
       "keyword": "아이진",
       "total_score": 3,
       "signals": [
-        "네이버 검색 당일 +338%"
+        "네이버 검색 당일 +431%"
       ],
       "day1_score": 3,
       "day3_score": 0,
@@ -507,7 +549,7 @@
       "keyword": "코칩",
       "total_score": 3,
       "signals": [
-        "네이버 검색 당일 +160%"
+        "네이버 검색 당일 +251%"
       ],
       "day1_score": 3,
       "day3_score": 0,
@@ -517,23 +559,10 @@
       "streak_days": 3
     },
     {
-      "keyword": "켄코아에어로스페이스",
-      "total_score": 3,
-      "signals": [
-        "네이버 검색 당일 +157%"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true,
-      "code": "274090",
-      "streak_days": 3
-    },
-    {
       "keyword": "KEC",
       "total_score": 3,
       "signals": [
-        "네이버 검색 당일 +156%"
+        "네이버 검색 당일 +219%"
       ],
       "day1_score": 3,
       "day3_score": 0,
@@ -543,10 +572,36 @@
       "streak_days": 2
     },
     {
+      "keyword": "켄코아에어로스페이스",
+      "total_score": 3,
+      "signals": [
+        "네이버 검색 당일 +196%"
+      ],
+      "day1_score": 3,
+      "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": true,
+      "code": "274090",
+      "streak_days": 3
+    },
+    {
+      "keyword": "삼화콘덴서",
+      "total_score": 3,
+      "signals": [
+        "네이버 검색 당일 +189%"
+      ],
+      "day1_score": 3,
+      "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": true,
+      "code": "001820",
+      "streak_days": 2
+    },
+    {
       "keyword": "메이슨캐피탈",
       "total_score": 3,
       "signals": [
-        "네이버 검색 당일 +151%"
+        "네이버 검색 당일 +180%"
       ],
       "day1_score": 3,
       "day3_score": 0,
@@ -556,31 +611,45 @@
       "streak_days": 4
     },
     {
-      "keyword": "엑스플러스",
+      "keyword": "엑셀세라퓨틱스",
       "total_score": 3,
       "signals": [
-        "네이버 검색 당일 +66%",
+        "네이버 검색 당일 +118%"
+      ],
+      "day1_score": 3,
+      "day3_score": 0,
+      "day7_score": 0,
+      "is_stock": true,
+      "code": "373110",
+      "streak_days": 1
+    },
+    {
+      "keyword": "파인텍",
+      "total_score": 3,
+      "signals": [
+        "네이버 검색 당일 +89%",
         "중요공시 1건"
       ],
       "day1_score": 3,
       "day3_score": 0,
       "day7_score": 0,
       "is_stock": true,
-      "code": "373200",
-      "streak_days": 2
+      "code": "131760",
+      "streak_days": 1
     },
     {
-      "keyword": "티씨머티리얼즈",
+      "keyword": "비큐AI",
       "total_score": 3,
       "signals": [
-        "매일경제 헤드라인 언급"
+        "네이버 검색 당일 +67%",
+        "중요공시 2건"
       ],
       "day1_score": 3,
       "day3_score": 0,
       "day7_score": 0,
       "is_stock": true,
-      "code": "125020",
-      "streak_days": 2
+      "code": "148780",
+      "streak_days": 1
     },
     {
       "keyword": "스피어",
@@ -698,72 +767,6 @@
       "is_stock": true,
       "code": "016360",
       "streak_days": 1
-    },
-    {
-      "keyword": "클라우드",
-      "total_score": 3,
-      "signals": [
-        "네이버뉴스 기사 언급",
-        "매일경제 헤드라인 언급"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": false,
-      "streak_days": 2
-    },
-    {
-      "keyword": "게임",
-      "total_score": 3,
-      "signals": [
-        "매일경제 기사 언급",
-        "한국경제 헤드라인 언급"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": false,
-      "streak_days": 1
-    },
-    {
-      "keyword": "원전",
-      "total_score": 3,
-      "signals": [
-        "한국경제 헤드라인 언급",
-        "매일경제 기사 언급"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": false,
-      "streak_days": 1
-    },
-    {
-      "keyword": "SG",
-      "total_score": 3,
-      "signals": [
-        "한국경제 헤드라인 언급",
-        "매일경제 기사 언급"
-      ],
-      "day1_score": 3,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true,
-      "code": "255220",
-      "streak_days": 2
-    },
-    {
-      "keyword": "삼화콘덴서",
-      "total_score": 2,
-      "signals": [
-        "네이버 검색 당일 +66%"
-      ],
-      "day1_score": 2,
-      "day3_score": 0,
-      "day7_score": 0,
-      "is_stock": true,
-      "code": "001820",
-      "streak_days": 2
     }
   ]
 }
