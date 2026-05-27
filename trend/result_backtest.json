@@ -1,15 +1,15 @@
 {
-  "date": "2026-05-27",
-  "generated_at": "2026-05-27 06:54",
+  "date": "2026-05-28",
+  "generated_at": "2026-05-28 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 19,
-      "win_rate": 78.9,
-      "avg_return": 3.81,
-      "avg_win": 5.38,
-      "avg_loss": -2.08
+      "sample": 50,
+      "win_rate": 56.0,
+      "avg_return": 1.9,
+      "avg_win": 5.26,
+      "avg_loss": -2.38
     },
     "5": {
       "sample": 0,
@@ -44,63 +44,63 @@
       }
     },
     {
-      "date": "2026-05-20",
-      "keyword": "삼성전자",
+      "date": "2026-05-23",
+      "keyword": "SK하이닉스",
       "returns": {
-        "1": 8.51,
+        "1": 9.31,
         "5": null
       }
     },
     {
-      "date": "2026-05-22",
-      "keyword": "빛과전자",
+      "date": "2026-05-24",
+      "keyword": "SK하이닉스",
       "returns": {
-        "1": 5.75,
+        "1": 9.31,
         "5": null
       }
     }
   ],
   "worst": [
     {
-      "date": "2026-05-21",
+      "date": "2026-05-26",
+      "keyword": "리노공업",
+      "returns": {
+        "1": -7.49,
+        "5": null
+      }
+    },
+    {
+      "date": "2026-05-23",
       "keyword": "LG",
       "returns": {
-        "1": -3.66,
+        "1": -3.67,
         "5": null
       }
     },
     {
-      "date": "2026-05-21",
-      "keyword": "삼성전자",
+      "date": "2026-05-24",
+      "keyword": "LG",
       "returns": {
-        "1": -2.34,
+        "1": -3.67,
         "5": null
       }
     },
     {
-      "date": "2026-05-21",
-      "keyword": "현대차",
+      "date": "2026-05-25",
+      "keyword": "LG",
       "returns": {
-        "1": -1.65,
+        "1": -3.67,
         "5": null
       }
     },
     {
-      "date": "2026-05-22",
-      "keyword": "SK텔레콤",
+      "date": "2026-05-26",
+      "keyword": "LG",
       "returns": {
-        "1": -0.68,
-        "5": null
-      }
-    },
-    {
-      "date": "2026-05-21",
-      "keyword": "SK하이닉스",
-      "returns": {
-        "1": 0.05,
+        "1": -3.67,
         "5": null
       }
     }
   ],
-  "total_signals": 57
+  "total_signals": 70
 }
