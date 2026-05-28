@@ -1,106 +1,44 @@
 {
-  "date": "2026-05-28",
-  "generated_at": "2026-05-28 06:54",
+  "date": "2026-05-29",
+  "generated_at": "2026-05-29 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 50,
-      "win_rate": 56.0,
-      "avg_return": 1.9,
-      "avg_win": 5.26,
-      "avg_loss": -2.38
+      "sample": 57,
+      "win_rate": 56.1,
+      "avg_return": 2.06,
+      "avg_win": 5.47,
+      "avg_loss": -2.29
     },
     "5": {
-      "sample": 0,
-      "win_rate": null,
-      "avg_return": null
+      "sample": 1,
+      "win_rate": 100.0,
+      "avg_return": 8.51,
+      "avg_win": 8.51,
+      "avg_loss": 0.0
     }
   },
-  "rank_horizon": "1",
+  "rank_horizon": "5",
   "best": [
     {
-      "date": "2026-05-22",
-      "keyword": "삼성전기",
+      "date": "2026-05-20",
+      "keyword": "삼성전자",
       "returns": {
-        "1": 17.31,
-        "5": null
-      }
-    },
-    {
-      "date": "2026-05-22",
-      "keyword": "DB",
-      "returns": {
-        "1": 14.83,
-        "5": null
-      }
-    },
-    {
-      "date": "2026-05-21",
-      "keyword": "삼성전기",
-      "returns": {
-        "1": 11.3,
-        "5": null
-      }
-    },
-    {
-      "date": "2026-05-23",
-      "keyword": "SK하이닉스",
-      "returns": {
-        "1": 9.31,
-        "5": null
-      }
-    },
-    {
-      "date": "2026-05-24",
-      "keyword": "SK하이닉스",
-      "returns": {
-        "1": 9.31,
-        "5": null
+        "1": 8.51,
+        "5": 8.51
       }
     }
   ],
   "worst": [
     {
-      "date": "2026-05-26",
-      "keyword": "리노공업",
+      "date": "2026-05-20",
+      "keyword": "삼성전자",
       "returns": {
-        "1": -7.49,
-        "5": null
-      }
-    },
-    {
-      "date": "2026-05-23",
-      "keyword": "LG",
-      "returns": {
-        "1": -3.67,
-        "5": null
-      }
-    },
-    {
-      "date": "2026-05-24",
-      "keyword": "LG",
-      "returns": {
-        "1": -3.67,
-        "5": null
-      }
-    },
-    {
-      "date": "2026-05-25",
-      "keyword": "LG",
-      "returns": {
-        "1": -3.67,
-        "5": null
-      }
-    },
-    {
-      "date": "2026-05-26",
-      "keyword": "LG",
-      "returns": {
-        "1": -3.67,
-        "5": null
+        "1": 8.51,
+        "5": 8.51
       }
     }
   ],
-  "total_signals": 70
+  "total_signals": 75
 }
