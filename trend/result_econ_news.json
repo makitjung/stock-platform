@@ -1,20 +1,9 @@
 {
   "date": "2026-06-05",
-  "collected_at": "2026-06-05 06:50",
-  "total_articles": 315,
-  "matched_count": 98,
+  "collected_at": "2026-06-05 07:00",
+  "total_articles": 313,
+  "matched_count": 96,
   "top_news": [
-    {
-      "source": "네이버뉴스",
-      "title": "솔리디온, '우주·AI 데이터센터' 겸용 배터리 발표에 주가 350% 폭등",
-      "link": "https://www.g-enews.com/view.php?ud=202606050634097388e250e8e188_1",
-      "desc": "2024년 2월 허니콤 배터리와 누비아 브랜드 인터내셔널의 합병을 통해 기업인수목적회사(SPAC·스팩) 형태로 나스닥에 상장한 이후, 이번 우주 배터리 발표를 기점으로 본격적인 기술력을 증명해 나가겠다는 구상이다....",
-      "pub": "Fri, 05 Jun 2026 06:42:00 +0900",
-      "via": "naver_api",
-      "importance": 15,
-      "matched_keywords": [],
-      "score": 15
-    },
     {
       "source": "네이버뉴스",
       "title": "환율 1540원 돌파…'만스피' 꿈꾸던 시장에 덮친 달러 쇼크",
@@ -25,6 +14,20 @@
       "importance": 15,
       "matched_keywords": [],
       "score": 15
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "뉴욕증시, 업종별 엇갈린 행보… 다우 최고치, 반도체 급락",
+      "link": "https://www.tokenpost.kr/news/market/366386",
+      "desc": "유가 하락은 통상 인플레이션 부담을 덜어주는 요인으로 평가되지만, 이날 시장은 거시 변수보다 기업 실적과 업종별 수급 변화에 더 민감하게 반응했다. 이 같은 흐름은 앞으로도 인공지능 기대가 큰 기술주와 실적...",
+      "pub": "Fri, 05 Jun 2026 06:14:00 +0900",
+      "via": "naver_api",
+      "importance": 15,
+      "matched_keywords": [
+        "인공지능",
+        "반도체"
+      ],
+      "score": 19
     },
     {
       "source": "매일경제",
@@ -88,17 +91,14 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "[뉴욕증시 마감] 다우 사상 최고치…AI 반도체는 차익실현",
-      "link": "https://www.ajunews.com/view/20260605063747027",
-      "desc": "브로드컴 충격은 AMD, 마이크론, 퀄컴 등 주요 반도체주로 번졌다. 최근 AI 기대감으로 주가가 빠르게 오른 만큼 실적 눈높이를 충족하지 못한 종목에는 매도세가 집중됐다. 거시 지표는 경기 둔화 신호를 보였다....",
-      "pub": "Fri, 05 Jun 2026 06:40:00 +0900",
+      "title": "원달러 환율 1540원…17년만 최고치",
+      "link": "https://www.bntnews.co.kr/article/view/bnt202606050011",
+      "desc": "미·이란 군사적 충돌이 이어지면서 안전자산인 달러로 자금이 집중됐고, 미국 무역대표부(USTR)의 한국산 제품 관세 부과 발표까지 맞물리며 원화 약세 압력이 커졌다. 국제유가가 배럴당 100달러를 눈앞에 두고...",
+      "pub": "Fri, 05 Jun 2026 06:56:00 +0900",
       "via": "naver_api",
       "importance": 12,
-      "matched_keywords": [
-        "AMD",
-        "반도체"
-      ],
-      "score": 16
+      "matched_keywords": [],
+      "score": 12
     },
     {
       "source": "네이버뉴스",
@@ -144,38 +144,12 @@
       "via": "naver_api",
       "importance": 11,
       "matched_keywords": [
-        "바이오",
         "SK하이닉스",
-        "반도체",
-        "삼성전자"
+        "삼성전자",
+        "바이오",
+        "반도체"
       ],
       "score": 17
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "[서울데이터랩]미국 증시 혼조 마감…다우·S＆P500 오르고 나스닥은 약...",
-      "link": "https://n.news.naver.com/mnews/article/081/0003649845?sid=101",
-      "desc": "종합하면 이날 미국 증시는 다우와 S＆P500이 금융·헬스케어 중심의 강세로 상승했지만, 나스닥은 반도체주 급락의 영향으로 상대적으로 부진한 흐름을 보였다. 장 마감 이후 시간외 거래에서는 오라클이...",
-      "pub": "Fri, 05 Jun 2026 06:15:00 +0900",
-      "via": "naver_api",
-      "importance": 11,
-      "matched_keywords": [
-        "반도체"
-      ],
-      "score": 12
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "뉴욕증시, 업종별 엇갈린 행보… 다우 최고치, 반도체 급락",
-      "link": "https://www.tokenpost.kr/news/market/366386",
-      "desc": "그동안 반도체 업종이 미국 증시 상승을 주도해온 만큼, 실적 기대가 조금만 흔들려도 주가 변동성이 크게 나타날 수 있다는 점이 다시 확인됐다. 반면 헬스케어와 금융업종은 이날 다우지수 상승을 떠받쳤다. 미국...",
-      "pub": "Fri, 05 Jun 2026 06:14:00 +0900",
-      "via": "naver_api",
-      "importance": 11,
-      "matched_keywords": [
-        "반도체"
-      ],
-      "score": 14
     },
     {
       "source": "네이버뉴스",
@@ -187,9 +161,54 @@
       "importance": 11,
       "matched_keywords": [],
       "score": 11
+    },
+    {
+      "source": "매일경제",
+      "title": "“日 자동차 7개 다 합해도 삼전닉스 10분의 1”…韓기업 순익 18년만에 日 추월",
+      "link": "https://www.mk.co.kr/news/stock/12065723",
+      "desc": "“코스피 기업 순이익 71조엔 일본 토픽스 70조엔 추월예상“ 2008년 금융위기 이후 첫 역전삼성전자와 SK하이닉스가 이끄는 인공지능(AI) 메모리 반도체 호황에 힘입어 한국 주..",
+      "pub": "Thu, 04 Jun 2026 11:45:06 +09:00",
+      "via": "rss",
+      "importance": 10,
+      "matched_keywords": [
+        "인공지능",
+        "SK하이닉스",
+        "삼성전자",
+        "반도체"
+      ],
+      "score": 14
+    },
+    {
+      "source": "매일경제",
+      "title": "\"AI 데이터센터 잡아라\"… 동박3사 속도전",
+      "link": "https://www.mk.co.kr/news/business/12064998",
+      "desc": "국내 동박업계가 고부가가치 제품으로 사업 재편에 속도를 내고 있다. 전기차배터리 중심에서 에너지저장장치(ESS), 인공지능(AI) 데이터센터, 반도체 패키징 등에 쓰이는 고사양 제..",
+      "pub": "Wed, 03 Jun 2026 19:50:21 +09:00",
+      "via": "rss",
+      "importance": 10,
+      "matched_keywords": [
+        "인공지능",
+        "전기차",
+        "반도체"
+      ],
+      "score": 13
     }
   ],
   "articles": [
+    {
+      "source": "네이버뉴스",
+      "title": "뉴욕증시, 업종별 엇갈린 행보… 다우 최고치, 반도체 급락",
+      "link": "https://www.tokenpost.kr/news/market/366386",
+      "desc": "유가 하락은 통상 인플레이션 부담을 덜어주는 요인으로 평가되지만, 이날 시장은 거시 변수보다 기업 실적과 업종별 수급 변화에 더 민감하게 반응했다. 이 같은 흐름은 앞으로도 인공지능 기대가 큰 기술주와 실적...",
+      "pub": "Fri, 05 Jun 2026 06:14:00 +0900",
+      "via": "naver_api",
+      "importance": 15,
+      "matched_keywords": [
+        "인공지능",
+        "반도체"
+      ],
+      "score": 19
+    },
     {
       "source": "매일경제",
       "title": "최태원 AI반도체 광폭 행보 … TSMC 회장과 대만서 회동",
@@ -202,8 +221,8 @@
         "인공지능",
         "SK하이닉스",
         "AI반도체",
-        "반도체",
-        "TSMC"
+        "TSMC",
+        "반도체"
       ],
       "score": 17
     },
@@ -216,10 +235,10 @@
       "via": "naver_api",
       "importance": 11,
       "matched_keywords": [
-        "바이오",
         "SK하이닉스",
-        "반도체",
-        "삼성전자"
+        "삼성전자",
+        "바이오",
+        "반도체"
       ],
       "score": 17
     },
@@ -232,10 +251,10 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
         "LG",
-        "반도체",
-        "LG이노텍"
+        "인공지능",
+        "LG이노텍",
+        "반도체"
       ],
       "score": 16
     },
@@ -248,25 +267,27 @@
       "via": "rss",
       "importance": 8,
       "matched_keywords": [
-        "로봇",
-        "두산로보틱스",
         "LG",
+        "두산로보틱스",
+        "LG전자",
         "현대차",
-        "반도체",
-        "LG전자"
+        "로봇",
+        "반도체"
       ],
       "score": 16
     },
     {
       "source": "네이버뉴스",
-      "title": "[뉴욕증시 마감] 다우 사상 최고치…AI 반도체는 차익실현",
-      "link": "https://www.ajunews.com/view/20260605063747027",
-      "desc": "브로드컴 충격은 AMD, 마이크론, 퀄컴 등 주요 반도체주로 번졌다. 최근 AI 기대감으로 주가가 빠르게 오른 만큼 실적 눈높이를 충족하지 못한 종목에는 매도세가 집중됐다. 거시 지표는 경기 둔화 신호를 보였다....",
-      "pub": "Fri, 05 Jun 2026 06:40:00 +0900",
+      "title": "LG전자·네이버 파랗게 질렸는데…상한가 찍은 종목은?",
+      "link": "https://n.news.naver.com/mnews/article/374/0000514148?sid=101",
+      "desc": "외국인은 코스피 시장에서 약 7조 원 가까이 순매도하며 19거래일 연속 매도세를 이어갔고, 코스피는 1% 넘게 하락 마감했습니다. 반면 코스닥 시장은 분위기가 달랐습니다. 그동안 낙폭이 컸던 반도체 소재·부품·장비...",
+      "pub": "Fri, 05 Jun 2026 06:56:00 +0900",
       "via": "naver_api",
-      "importance": 12,
+      "importance": 6,
       "matched_keywords": [
-        "AMD",
+        "LG",
+        "LG전자",
+        "네이버",
         "반도체"
       ],
       "score": 16
@@ -281,8 +302,8 @@
       "importance": 8,
       "matched_keywords": [
         "LG",
-        "네이버",
-        "LG전자"
+        "LG전자",
+        "네이버"
       ],
       "score": 15
     },
@@ -310,8 +331,8 @@
       "matched_keywords": [
         "인공지능",
         "SK하이닉스",
-        "반도체",
-        "삼성전자"
+        "삼성전자",
+        "반도체"
       ],
       "score": 14
     },
@@ -324,10 +345,10 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "로봇",
         "인공지능",
         "조선",
-        "한화오션"
+        "한화오션",
+        "로봇"
       ],
       "score": 14
     },
@@ -337,19 +358,6 @@
       "link": "https://n.news.naver.com/mnews/article/422/0000871554?sid=101",
       "desc": "&lt;질문 1&gt; 밤사이 뉴욕 증시 3대 지수가 혼조세로 마감했습니다. 다우와 S&amp;P 지수는 올랐지만, 기술주 위주의 나스닥이 부진했던 건데요. 어떻게 보셨습니까? &lt;질문 2&gt; 오늘 시장에서는 반도체주의 대장격인 두 기업의...",
       "pub": "Fri, 05 Jun 2026 06:49:00 +0900",
-      "via": "naver_api",
-      "importance": 11,
-      "matched_keywords": [
-        "반도체"
-      ],
-      "score": 14
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "뉴욕증시, 업종별 엇갈린 행보… 다우 최고치, 반도체 급락",
-      "link": "https://www.tokenpost.kr/news/market/366386",
-      "desc": "그동안 반도체 업종이 미국 증시 상승을 주도해온 만큼, 실적 기대가 조금만 흔들려도 주가 변동성이 크게 나타날 수 있다는 점이 다시 확인됐다. 반면 헬스케어와 금융업종은 이날 다우지수 상승을 떠받쳤다. 미국...",
-      "pub": "Fri, 05 Jun 2026 06:14:00 +0900",
       "via": "naver_api",
       "importance": 11,
       "matched_keywords": [
@@ -372,20 +380,6 @@
       "score": 14
     },
     {
-      "source": "네이버뉴스",
-      "title": "[N2 모닝 경제 브리핑-6월 5일] 美 증시, 반도체 약세 속 혼조…마이크...",
-      "link": "https://www.news2day.co.kr/article/20260605500006",
-      "desc": "특히 미국 인공지능(AI) 반도체 기업 브로드컴이 시장 기대에 못 미치는 실적 전망을 제시하면서 반도체 관련주 전반에 매도세가 확산됐다. 반면 금융주와 헬스케어주는 강세를 보였다. 도널드 트럼프 미국...",
-      "pub": "Fri, 05 Jun 2026 06:12:00 +0900",
-      "via": "naver_api",
-      "importance": 10,
-      "matched_keywords": [
-        "인공지능",
-        "반도체"
-      ],
-      "score": 14
-    },
-    {
       "source": "매일경제",
       "title": "\"AI 데이터센터 잡아라\"… 동박3사 속도전",
       "link": "https://www.mk.co.kr/news/business/12064998",
@@ -394,8 +388,8 @@
       "via": "rss",
       "importance": 10,
       "matched_keywords": [
-        "전기차",
         "인공지능",
+        "전기차",
         "반도체"
       ],
       "score": 13
@@ -410,8 +404,8 @@
       "importance": 7,
       "matched_keywords": [
         "SK하이닉스",
-        "반도체",
-        "삼성전자"
+        "삼성전자",
+        "반도체"
       ],
       "score": 12
     },
@@ -438,32 +432,19 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "반도체",
-        "한미반도체"
-      ],
-      "score": 12
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "[뉴욕증시] 반도체주 뚝…다우는 1.7% 급등해 사상 최고치 경신",
-      "link": "https://n.news.naver.com/mnews/article/417/0001146189?sid=101",
-      "desc": "미국 뉴욕증시가 4일(현지시각) 반도체주 하락과 중동 사태 여파에 혼조세로 마친 가운데 다우지수는 사상 최고치를 경신했다. 이날 뉴욕증권거래소(NYSE)와 현지 경제 매체 등에 따르면 다우존스 30...",
-      "pub": "Fri, 05 Jun 2026 06:22:00 +0900",
-      "via": "naver_api",
-      "importance": 9,
-      "matched_keywords": [
+        "한미반도체",
         "반도체"
       ],
       "score": 12
     },
     {
       "source": "네이버뉴스",
-      "title": "[서울데이터랩]미국 증시 혼조 마감…다우·S＆P500 오르고 나스닥은 약...",
-      "link": "https://n.news.naver.com/mnews/article/081/0003649845?sid=101",
-      "desc": "종합하면 이날 미국 증시는 다우와 S＆P500이 금융·헬스케어 중심의 강세로 상승했지만, 나스닥은 반도체주 급락의 영향으로 상대적으로 부진한 흐름을 보였다. 장 마감 이후 시간외 거래에서는 오라클이...",
-      "pub": "Fri, 05 Jun 2026 06:15:00 +0900",
+      "title": "'브로드컴 쇼크'에 반도체주 흔들 … 뉴욕증시 혼조 속 마이크론 8%↓",
+      "link": "https://www.newdaily.co.kr/site/data/html/2026/06/05/2026060500012.html",
+      "desc": "뉴데일리 김진희 기자 = 반도체 업종 약세와 경기방어주 강세가 엇갈리며 미국 증시가 혼조세로 거래를 마쳤다. 브로드컴이 전날 내놓은 실적이 시장의 기대를 충족하지 못하면서 반도체주 전반에 차익실현 매물이...",
+      "pub": "Fri, 05 Jun 2026 06:56:00 +0900",
       "via": "naver_api",
-      "importance": 11,
+      "importance": 9,
       "matched_keywords": [
         "반도체"
       ],
@@ -492,8 +473,8 @@
       "importance": 2,
       "matched_keywords": [
         "LG",
-        "반도체",
-        "LG이노텍"
+        "LG이노텍",
+        "반도체"
       ],
       "score": 11
     },
@@ -507,9 +488,9 @@
       "importance": 7,
       "matched_keywords": [
         "LG",
+        "LG전자",
         "네이버",
-        "반도체",
-        "LG전자"
+        "반도체"
       ],
       "score": 11
     },
@@ -522,9 +503,9 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "삼성중공업",
         "조선",
-        "한화오션"
+        "한화오션",
+        "삼성중공업"
       ],
       "score": 11
     },
@@ -537,8 +518,8 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "로봇",
         "인공지능",
+        "로봇",
         "반도체"
       ],
       "score": 11
@@ -552,8 +533,8 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "로봇",
         "인공지능",
+        "로봇",
         "반도체"
       ],
       "score": 11
@@ -567,8 +548,8 @@
       "via": "rss",
       "importance": 7,
       "matched_keywords": [
-        "인공지능",
-        "LG"
+        "LG",
+        "인공지능"
       ],
       "score": 11
     },
@@ -588,10 +569,10 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "뉴욕증시, 반도체 약세·헬스케어 강세…다우 1.7%↑·나스닥 0.1%↓",
-      "link": "https://n.news.naver.com/mnews/article/055/0001361869?sid=104",
-      "desc": "스탠더드앤드푸어스(S&amp;P) 500 지수는 전장보다 30.63포인트(0.41%) 오른 7,584.31에, 기술주 중심의 나스닥 종합지수는 전장보다 23.02포인트(-0.09%) 떨어진 26,830.96에 각각 마감했습니다. 미국 반도체 기업 브로드컴이 전날...",
-      "pub": "Fri, 05 Jun 2026 06:40:00 +0900",
+      "title": "[오늘의 글로벌마켓] 뉴욕증시, 미 3대지수 혼조...반도체 매물에 나스...",
+      "link": "http://www.opinionnews.co.kr/news/articleView.html?idxno=139553",
+      "desc": "4일(현지시간) 뉴욕증시가 혼조세로 거래를 마쳤다. 사진=연합뉴스  뉴욕증시가 혼조 양상으로 거래를 마감했다. 브로드컴이 양호한 실적을 발표했음에도 불구하고 AI 매출 전망이 시장 기대에 미치지 못하면서...",
+      "pub": "Fri, 05 Jun 2026 06:52:00 +0900",
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
@@ -601,14 +582,14 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "독일 약가 규제에 제약업계 경고장…릴리·베링거 수조원 투자 철회",
-      "link": "https://www.yakup.com/news/index.html?mode=view&cat=12&nid=328119",
-      "desc": "최근 영국 정부가 미국과의 무역협상을 통해 의약품 관세 문제를 해결하고 신약 가치평가 체계를 조정하기로 한 것도 이러한 산업계 우려를 반영한 결과로 해석된다.글로벌 제약기업들이 연구개발과 생산투자의...",
-      "pub": "Fri, 05 Jun 2026 06:02:00 +0900",
+      "title": "[상보] 뉴욕증시, 중동 정세 완화·반도체주 약세에 혼조…다우 사상 최...",
+      "link": "https://www.etoday.co.kr/news/view/2590675",
+      "desc": "S&amp;P500지수는 전장 대비 30.63포인트(0.41%) 상승한 7584.31에, 나스닥지수는 전 거래일 대비 23.02포인트(0.09%) 밀린 2만6830.96에 각각 장을 끝냈다. 미국 국무부는 레바논과 이스라엘이 휴전에 합의했다고 밝혔다....",
+      "pub": "Fri, 05 Jun 2026 06:56:00 +0900",
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
-        "제약"
+        "반도체"
       ],
       "score": 11
     },
@@ -662,24 +643,8 @@
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
-        "바이오",
-        "제약"
-      ],
-      "score": 10
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "포스코퓨처엠 질주, LG화학 주춤… 6월 화학기업 브랜드 순위 대격변",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=457661",
-      "desc": "에코프로는 여전히 업계 최고 수준의 관심도와 시장 평가를 유지하고 있으나 최근 주가 변동성과 2차전지... 동박과 반도체 소재 사업에 대한 기대감이 확대되면서 브랜드 관심도가 급증한 것으로 분석된다. 5위는...",
-      "pub": "Fri, 05 Jun 2026 06:46:00 +0900",
-      "via": "naver_api",
-      "importance": 2,
-      "matched_keywords": [
-        "에코프로",
-        "LG",
-        "LG화학",
-        "반도체"
+        "제약",
+        "바이오"
       ],
       "score": 10
     },
@@ -705,8 +670,8 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "바이오",
-        "제약"
+        "제약",
+        "바이오"
       ],
       "score": 10
     },
@@ -719,8 +684,8 @@
       "via": "rss",
       "importance": 3,
       "matched_keywords": [
-        "에스제이그룹",
-        "진양화학"
+        "진양화학",
+        "에스제이그룹"
       ],
       "score": 9
     },
@@ -733,8 +698,8 @@
       "via": "rss",
       "importance": 5,
       "matched_keywords": [
-        "인공지능",
-        "LG"
+        "LG",
+        "인공지능"
       ],
       "score": 9
     },
@@ -747,8 +712,8 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
         "게임",
+        "인공지능",
         "반도체"
       ],
       "score": 9
@@ -763,21 +728,6 @@
       "importance": 8,
       "matched_keywords": [
         "반도체"
-      ],
-      "score": 9
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "아마존 넘어 코스트코·올리브영까지…제약사 화장품 美 공략 가속",
-      "link": "https://n.news.naver.com/mnews/article/421/0008986615?sid=103",
-      "desc": "국내 제약·바이오 기업 계열 브랜드가 입점했다. 대웅제약(069620) 계열 디엔코스메틱스의 '이지듀'와 동국제약(086450)의 '센텔리안24', 동아제약의 이너뷰티 브랜드 '아일로' 역시 미국 시장 확대에 나서고 있다....",
-      "pub": "Fri, 05 Jun 2026 06:20:00 +0900",
-      "via": "naver_api",
-      "importance": 4,
-      "matched_keywords": [
-        "바이오",
-        "제약",
-        "동국제약"
       ],
       "score": 9
     },
@@ -803,8 +753,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "삼성물산",
-        "SK증권"
+        "SK증권",
+        "삼성물산"
       ],
       "score": 8
     },
@@ -831,8 +781,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "반도체",
-        "TSMC"
+        "TSMC",
+        "반도체"
       ],
       "score": 8
     },
@@ -852,6 +802,20 @@
     },
     {
       "source": "네이버뉴스",
+      "title": "휴온스글로벌, &quot;합병 불가피…주주환원으로 설득 나선다&quot;",
+      "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=60062",
+      "desc": "합병을 통해 휴온스는 제약·바이오 통합 역량을 갖추고 R&amp;D 비중 확대를 통해 '혁신형 제약기업' 약가 우대 혜택을 노릴 수 있으며, 자본잠식 상태인 휴온스랩은 안정적인 연구 자금을 확보해 글로벌 기술이전을 가속화할 수...",
+      "pub": "Fri, 05 Jun 2026 06:56:00 +0900",
+      "via": "naver_api",
+      "importance": 6,
+      "matched_keywords": [
+        "제약",
+        "바이오"
+      ],
+      "score": 8
+    },
+    {
+      "source": "네이버뉴스",
       "title": "아리바이오 AR1001, 푸싱 선택 이유는 '경구용 글로벌 옵션'",
       "link": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3039761",
       "desc": "알츠하이머병 신약의 개발은 오랜 기간 제약·바이오 업계의 난제로 꼽혀왔다. 하지만 최근 아밀로이드 베타 표적 항체 치료제의 등장으로 신약개발 패러다임이 변화의 조짐을 보이고 있다. 레카네맙(제품명 레켐비)...",
@@ -859,8 +823,8 @@
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "바이오",
-        "제약"
+        "제약",
+        "바이오"
       ],
       "score": 8
     },
@@ -874,10 +838,10 @@
       "importance": 2,
       "matched_keywords": [
         "LG",
-        "네이버",
         "SK텔레콤",
         "원익IPS",
-        "LG전자"
+        "LG전자",
+        "네이버"
       ],
       "score": 7
     },
@@ -903,9 +867,9 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
+        "게임",
         "LG",
-        "LG디스플레이",
-        "게임"
+        "LG디스플레이"
       ],
       "score": 7
     },
@@ -919,8 +883,8 @@
       "importance": 2,
       "matched_keywords": [
         "미코",
-        "반도체",
-        "삼성전자"
+        "삼성전자",
+        "반도체"
       ],
       "score": 7
     },
@@ -934,6 +898,19 @@
       "importance": 4,
       "matched_keywords": [
         "전기차"
+      ],
+      "score": 7
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "마이크론 -7% 반도체 약세…&quot;가격 우려&quot;",
+      "link": "https://n.news.naver.com/mnews/article/055/0001361874?sid=104",
+      "desc": "밤사이 미국 뉴욕증시에서는 3대 메모리 반도체 회사 가운데 하나인 마이크론 주가가 크게 떨어졌습니다. 중국산이 밀려들며 중장기적으로 반도체 가격이 떨어질 수 있다는 보고서가 영향을 미쳤습니다. 뉴욕 김범주...",
+      "pub": "Fri, 05 Jun 2026 06:56:00 +0900",
+      "via": "naver_api",
+      "importance": 4,
+      "matched_keywords": [
+        "반도체"
       ],
       "score": 7
     },
@@ -975,8 +952,8 @@
       "matched_keywords": [
         "SK하이닉스",
         "삼성전기",
-        "반도체",
-        "삼성전자"
+        "삼성전자",
+        "반도체"
       ],
       "score": 6
     },
@@ -1266,8 +1243,8 @@
       "importance": 2,
       "matched_keywords": [
         "LG",
-        "네이버",
-        "LG전자"
+        "LG전자",
+        "네이버"
       ],
       "score": 5
     },
@@ -1280,8 +1257,8 @@
       "via": "naver_api",
       "importance": 3,
       "matched_keywords": [
-        "로봇",
-        "SK하이닉스"
+        "SK하이닉스",
+        "로봇"
       ],
       "score": 5
     },
@@ -1308,8 +1285,8 @@
       "via": "naver_api",
       "importance": 2,
       "matched_keywords": [
-        "바이오",
-        "제약"
+        "제약",
+        "바이오"
       ],
       "score": 4
     },
@@ -1550,6 +1527,20 @@
   ],
   "top20": [
     {
+      "source": "네이버뉴스",
+      "title": "뉴욕증시, 업종별 엇갈린 행보… 다우 최고치, 반도체 급락",
+      "link": "https://www.tokenpost.kr/news/market/366386",
+      "desc": "유가 하락은 통상 인플레이션 부담을 덜어주는 요인으로 평가되지만, 이날 시장은 거시 변수보다 기업 실적과 업종별 수급 변화에 더 민감하게 반응했다. 이 같은 흐름은 앞으로도 인공지능 기대가 큰 기술주와 실적...",
+      "pub": "Fri, 05 Jun 2026 06:14:00 +0900",
+      "via": "naver_api",
+      "importance": 15,
+      "matched_keywords": [
+        "인공지능",
+        "반도체"
+      ],
+      "score": 19
+    },
+    {
       "source": "매일경제",
       "title": "최태원 AI반도체 광폭 행보 … TSMC 회장과 대만서 회동",
       "link": "https://www.mk.co.kr/news/business/12066086",
@@ -1561,8 +1552,8 @@
         "인공지능",
         "SK하이닉스",
         "AI반도체",
-        "반도체",
-        "TSMC"
+        "TSMC",
+        "반도체"
       ],
       "score": 17
     },
@@ -1575,10 +1566,10 @@
       "via": "naver_api",
       "importance": 11,
       "matched_keywords": [
-        "바이오",
         "SK하이닉스",
-        "반도체",
-        "삼성전자"
+        "삼성전자",
+        "바이오",
+        "반도체"
       ],
       "score": 17
     },
@@ -1591,10 +1582,10 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
         "LG",
-        "반도체",
-        "LG이노텍"
+        "인공지능",
+        "LG이노텍",
+        "반도체"
       ],
       "score": 16
     },
@@ -1607,25 +1598,27 @@
       "via": "rss",
       "importance": 8,
       "matched_keywords": [
-        "로봇",
-        "두산로보틱스",
         "LG",
+        "두산로보틱스",
+        "LG전자",
         "현대차",
-        "반도체",
-        "LG전자"
+        "로봇",
+        "반도체"
       ],
       "score": 16
     },
     {
       "source": "네이버뉴스",
-      "title": "[뉴욕증시 마감] 다우 사상 최고치…AI 반도체는 차익실현",
-      "link": "https://www.ajunews.com/view/20260605063747027",
-      "desc": "브로드컴 충격은 AMD, 마이크론, 퀄컴 등 주요 반도체주로 번졌다. 최근 AI 기대감으로 주가가 빠르게 오른 만큼 실적 눈높이를 충족하지 못한 종목에는 매도세가 집중됐다. 거시 지표는 경기 둔화 신호를 보였다....",
-      "pub": "Fri, 05 Jun 2026 06:40:00 +0900",
+      "title": "LG전자·네이버 파랗게 질렸는데…상한가 찍은 종목은?",
+      "link": "https://n.news.naver.com/mnews/article/374/0000514148?sid=101",
+      "desc": "외국인은 코스피 시장에서 약 7조 원 가까이 순매도하며 19거래일 연속 매도세를 이어갔고, 코스피는 1% 넘게 하락 마감했습니다. 반면 코스닥 시장은 분위기가 달랐습니다. 그동안 낙폭이 컸던 반도체 소재·부품·장비...",
+      "pub": "Fri, 05 Jun 2026 06:56:00 +0900",
       "via": "naver_api",
-      "importance": 12,
+      "importance": 6,
       "matched_keywords": [
-        "AMD",
+        "LG",
+        "LG전자",
+        "네이버",
         "반도체"
       ],
       "score": 16
@@ -1640,8 +1633,8 @@
       "importance": 8,
       "matched_keywords": [
         "LG",
-        "네이버",
-        "LG전자"
+        "LG전자",
+        "네이버"
       ],
       "score": 15
     },
@@ -1669,8 +1662,8 @@
       "matched_keywords": [
         "인공지능",
         "SK하이닉스",
-        "반도체",
-        "삼성전자"
+        "삼성전자",
+        "반도체"
       ],
       "score": 14
     },
@@ -1683,10 +1676,10 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "로봇",
         "인공지능",
         "조선",
-        "한화오션"
+        "한화오션",
+        "로봇"
       ],
       "score": 14
     },
@@ -1696,19 +1689,6 @@
       "link": "https://n.news.naver.com/mnews/article/422/0000871554?sid=101",
       "desc": "&lt;질문 1&gt; 밤사이 뉴욕 증시 3대 지수가 혼조세로 마감했습니다. 다우와 S&amp;P 지수는 올랐지만, 기술주 위주의 나스닥이 부진했던 건데요. 어떻게 보셨습니까? &lt;질문 2&gt; 오늘 시장에서는 반도체주의 대장격인 두 기업의...",
       "pub": "Fri, 05 Jun 2026 06:49:00 +0900",
-      "via": "naver_api",
-      "importance": 11,
-      "matched_keywords": [
-        "반도체"
-      ],
-      "score": 14
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "뉴욕증시, 업종별 엇갈린 행보… 다우 최고치, 반도체 급락",
-      "link": "https://www.tokenpost.kr/news/market/366386",
-      "desc": "그동안 반도체 업종이 미국 증시 상승을 주도해온 만큼, 실적 기대가 조금만 흔들려도 주가 변동성이 크게 나타날 수 있다는 점이 다시 확인됐다. 반면 헬스케어와 금융업종은 이날 다우지수 상승을 떠받쳤다. 미국...",
-      "pub": "Fri, 05 Jun 2026 06:14:00 +0900",
       "via": "naver_api",
       "importance": 11,
       "matched_keywords": [
@@ -1731,20 +1711,6 @@
       "score": 14
     },
     {
-      "source": "네이버뉴스",
-      "title": "[N2 모닝 경제 브리핑-6월 5일] 美 증시, 반도체 약세 속 혼조…마이크...",
-      "link": "https://www.news2day.co.kr/article/20260605500006",
-      "desc": "특히 미국 인공지능(AI) 반도체 기업 브로드컴이 시장 기대에 못 미치는 실적 전망을 제시하면서 반도체 관련주 전반에 매도세가 확산됐다. 반면 금융주와 헬스케어주는 강세를 보였다. 도널드 트럼프 미국...",
-      "pub": "Fri, 05 Jun 2026 06:12:00 +0900",
-      "via": "naver_api",
-      "importance": 10,
-      "matched_keywords": [
-        "인공지능",
-        "반도체"
-      ],
-      "score": 14
-    },
-    {
       "source": "매일경제",
       "title": "\"AI 데이터센터 잡아라\"… 동박3사 속도전",
       "link": "https://www.mk.co.kr/news/business/12064998",
@@ -1753,8 +1719,8 @@
       "via": "rss",
       "importance": 10,
       "matched_keywords": [
-        "전기차",
         "인공지능",
+        "전기차",
         "반도체"
       ],
       "score": 13
@@ -1769,8 +1735,8 @@
       "importance": 7,
       "matched_keywords": [
         "SK하이닉스",
-        "반도체",
-        "삼성전자"
+        "삼성전자",
+        "반도체"
       ],
       "score": 12
     },
@@ -1797,32 +1763,19 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "반도체",
-        "한미반도체"
-      ],
-      "score": 12
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "[뉴욕증시] 반도체주 뚝…다우는 1.7% 급등해 사상 최고치 경신",
-      "link": "https://n.news.naver.com/mnews/article/417/0001146189?sid=101",
-      "desc": "미국 뉴욕증시가 4일(현지시각) 반도체주 하락과 중동 사태 여파에 혼조세로 마친 가운데 다우지수는 사상 최고치를 경신했다. 이날 뉴욕증권거래소(NYSE)와 현지 경제 매체 등에 따르면 다우존스 30...",
-      "pub": "Fri, 05 Jun 2026 06:22:00 +0900",
-      "via": "naver_api",
-      "importance": 9,
-      "matched_keywords": [
+        "한미반도체",
         "반도체"
       ],
       "score": 12
     },
     {
       "source": "네이버뉴스",
-      "title": "[서울데이터랩]미국 증시 혼조 마감…다우·S＆P500 오르고 나스닥은 약...",
-      "link": "https://n.news.naver.com/mnews/article/081/0003649845?sid=101",
-      "desc": "종합하면 이날 미국 증시는 다우와 S＆P500이 금융·헬스케어 중심의 강세로 상승했지만, 나스닥은 반도체주 급락의 영향으로 상대적으로 부진한 흐름을 보였다. 장 마감 이후 시간외 거래에서는 오라클이...",
-      "pub": "Fri, 05 Jun 2026 06:15:00 +0900",
+      "title": "'브로드컴 쇼크'에 반도체주 흔들 … 뉴욕증시 혼조 속 마이크론 8%↓",
+      "link": "https://www.newdaily.co.kr/site/data/html/2026/06/05/2026060500012.html",
+      "desc": "뉴데일리 김진희 기자 = 반도체 업종 약세와 경기방어주 강세가 엇갈리며 미국 증시가 혼조세로 거래를 마쳤다. 브로드컴이 전날 내놓은 실적이 시장의 기대를 충족하지 못하면서 반도체주 전반에 차익실현 매물이...",
+      "pub": "Fri, 05 Jun 2026 06:56:00 +0900",
       "via": "naver_api",
-      "importance": 11,
+      "importance": 9,
       "matched_keywords": [
         "반도체"
       ],
@@ -1840,10 +1793,41 @@
         "삼성화재"
       ],
       "score": 11
+    },
+    {
+      "source": "한국경제",
+      "title": "증설 나선 LG이노텍 \"2030년 반도체 기판 매출 3조\"",
+      "link": "https://www.hankyung.com/article/2026060480781",
+      "desc": "",
+      "pub": "Thu, 04 Jun 2026 17:36:30 +0900",
+      "via": "rss",
+      "importance": 2,
+      "matched_keywords": [
+        "LG",
+        "LG이노텍",
+        "반도체"
+      ],
+      "score": 11
+    },
+    {
+      "source": "매일경제",
+      "title": "'젠슨황株' 급락한 날, 코스닥은 날았다",
+      "link": "https://www.mk.co.kr/news/stock/12066136",
+      "desc": "젠슨 황 엔비디아 최고경영자(CEO)의 방한을 하루 앞둔 4일 LG전자·네이버 등 관련 수혜주로 주목받아온 종목들이 차익실현 매물 등장에 일제히 급락했다.\n여기에 반도체 설계 업체..",
+      "pub": "Thu, 04 Jun 2026 18:05:29 +09:00",
+      "via": "rss",
+      "importance": 7,
+      "matched_keywords": [
+        "LG",
+        "LG전자",
+        "네이버",
+        "반도체"
+      ],
+      "score": 11
     }
   ],
   "keyword_summary": {
-    "반도체": 43,
+    "반도체": 42,
     "삼성화재": 1,
     "라이콤": 1,
     "채비": 1,
@@ -1857,8 +1841,8 @@
     "삼성전자": 12,
     "바이오": 7,
     "인공지능": 18,
-    "네이버": 5,
-    "LG전자": 6,
+    "LG전자": 7,
+    "네이버": 6,
     "SK텔레콤": 1,
     "원익IPS": 2,
     "SK하이닉스": 7,
@@ -1867,15 +1851,15 @@
     "현대건설": 1,
     "게임": 3,
     "KT": 1,
-    "에스제이그룹": 1,
     "진양화학": 1,
+    "에스제이그룹": 1,
     "스테이블코인": 2,
     "조선": 2,
     "한화오션": 2,
     "테스": 1,
     "이브이첨단소재": 1,
-    "삼성물산": 1,
     "SK증권": 1,
+    "삼성물산": 1,
     "로봇": 6,
     "한국전력": 1,
     "철강": 1,
@@ -1887,10 +1871,6 @@
     "대한전선": 1,
     "전기차": 2,
     "두산로보틱스": 1,
-    "제약": 6,
-    "에코프로": 1,
-    "LG화학": 1,
-    "AMD": 1,
-    "동국제약": 1
+    "제약": 5
   }
 }
