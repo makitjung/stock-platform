@@ -1,22 +1,22 @@
 {
-  "date": "2026-06-05",
-  "generated_at": "2026-06-05 06:54",
+  "date": "2026-06-06",
+  "generated_at": "2026-06-06 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 110,
-      "win_rate": 50.9,
-      "avg_return": 1.28,
-      "avg_win": 6.66,
-      "avg_loss": -4.3
+      "sample": 128,
+      "win_rate": 46.1,
+      "avg_return": 0.66,
+      "avg_win": 6.5,
+      "avg_loss": -4.33
     },
     "5": {
-      "sample": 57,
-      "win_rate": 82.5,
-      "avg_return": 13.63,
-      "avg_win": 19.49,
-      "avg_loss": -13.88
+      "sample": 70,
+      "win_rate": 77.1,
+      "avg_return": 11.12,
+      "avg_win": 18.04,
+      "avg_loss": -12.22
     }
   },
   "rank_horizon": "5",
@@ -88,21 +88,21 @@
       }
     },
     {
+      "date": "2026-05-28",
+      "keyword": "서희건설",
+      "returns": {
+        "1": -14.77,
+        "5": -16.64
+      }
+    },
+    {
       "date": "2026-05-26",
       "keyword": "리노공업",
       "returns": {
         "1": -7.49,
         "5": -16.25
       }
-    },
-    {
-      "date": "2026-05-25",
-      "keyword": "소룩스",
-      "returns": {
-        "1": 3.95,
-        "5": -14.31
-      }
     }
   ],
-  "total_signals": 134
+  "total_signals": 142
 }
