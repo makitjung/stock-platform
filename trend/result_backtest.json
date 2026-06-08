@@ -1,108 +1,22 @@
 {
-  "date": "2026-06-08",
-  "generated_at": "2026-06-08 06:54",
+  "date": "2026-06-09",
+  "generated_at": "2026-06-09 06:51",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 128,
-      "win_rate": 46.1,
-      "avg_return": 0.66,
-      "avg_win": 6.5,
-      "avg_loss": -4.33
+      "sample": 0,
+      "win_rate": null,
+      "avg_return": null
     },
     "5": {
-      "sample": 70,
-      "win_rate": 77.1,
-      "avg_return": 11.12,
-      "avg_win": 18.04,
-      "avg_loss": -12.22
+      "sample": 0,
+      "win_rate": null,
+      "avg_return": null
     }
   },
-  "rank_horizon": "5",
-  "best": [
-    {
-      "date": "2026-05-21",
-      "keyword": "삼성전기",
-      "returns": {
-        "1": 11.3,
-        "5": 76.66
-      }
-    },
-    {
-      "date": "2026-05-23",
-      "keyword": "LG전자",
-      "returns": {
-        "1": -1.88,
-        "5": 63.88
-      }
-    },
-    {
-      "date": "2026-05-24",
-      "keyword": "LG전자",
-      "returns": {
-        "1": -1.88,
-        "5": 63.88
-      }
-    },
-    {
-      "date": "2026-05-22",
-      "keyword": "LG전자",
-      "returns": {
-        "1": 1.05,
-        "5": 60.55
-      }
-    },
-    {
-      "date": "2026-05-22",
-      "keyword": "삼성전기",
-      "returns": {
-        "1": 17.31,
-        "5": 49.63
-      }
-    }
-  ],
-  "worst": [
-    {
-      "date": "2026-05-22",
-      "keyword": "빛과전자",
-      "returns": {
-        "1": 5.75,
-        "5": -37.97
-      }
-    },
-    {
-      "date": "2026-05-23",
-      "keyword": "DB",
-      "returns": {
-        "1": -2.08,
-        "5": -18.42
-      }
-    },
-    {
-      "date": "2026-05-24",
-      "keyword": "DB",
-      "returns": {
-        "1": -2.08,
-        "5": -18.42
-      }
-    },
-    {
-      "date": "2026-05-28",
-      "keyword": "서희건설",
-      "returns": {
-        "1": -14.77,
-        "5": -16.64
-      }
-    },
-    {
-      "date": "2026-05-26",
-      "keyword": "리노공업",
-      "returns": {
-        "1": -7.49,
-        "5": -16.25
-      }
-    }
-  ],
+  "rank_horizon": null,
+  "best": [],
+  "worst": [],
   "total_signals": 155
 }
