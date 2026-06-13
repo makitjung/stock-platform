@@ -1,0 +1,19 @@
+# 비밀값
+.env
+
+# 가상환경·캐시
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# 로그·런타임 상태
+logs/
+
+# 프런트엔드 빌드 산출물
+node_modules/
+.vercel/
+
+# OS / 툴링
+.DS_Store
+.omc/
