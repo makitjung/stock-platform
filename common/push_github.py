@@ -1,7 +1,6 @@
 # GitHub stock-platform 저장소에 데이터 파일을 push하는 공용 유틸리티
 
 import os
-import glob
 import shutil
 import subprocess
 import fcntl
@@ -28,10 +27,7 @@ _FILES = [
 
 
 def _find_platform() -> str:
-    matches = glob.glob(os.path.expanduser("~/Library/CloudStorage/OneDrive-*/AI/stock-platform"))
-    if matches:
-        return matches[0]
-    # fallback: 이 파일 기준 한 단계 위 (common/ → stock-platform/)
+    # 이 파일 기준 한 단계 위 (common/ → stock-platform/). 코드 위치를 따라가 이식성 확보.
     return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 

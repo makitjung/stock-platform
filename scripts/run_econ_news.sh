@@ -1,9 +1,9 @@
 #!/bin/bash
 # 경제 뉴스 매시간 갱신: 수집 → GitHub push
 
-TREND_DIR="/Users/jinhyugjung/Library/CloudStorage/OneDrive-개인/AI/stock-platform/trend"
+TREND_DIR="$HOME/dev/stock-platform/trend"
 PYTHON="$HOME/.venvs/stock-platform/bin/python3"
-LOG="/Users/jinhyugjung/Library/CloudStorage/OneDrive-개인/AI/stock-platform/logs/trend/econ_news.log"
+LOG="$HOME/dev/stock-platform/logs/trend/econ_news.log"
 
 echo "--- 경제뉴스 갱신: $(date '+%H:%M:%S') ---" >> "$LOG"
 cd "$TREND_DIR"

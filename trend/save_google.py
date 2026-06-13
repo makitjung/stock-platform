@@ -20,7 +20,7 @@ data = [
     {"keyword": "KBI메탈", "recent": 5, "previous": 0, "change_rate": 0, "source": "google_trends_chrome"},
 ]
 
-path = "/Users/jinhyugjung/Library/CloudStorage/OneDrive-개인/AI/stock-trend/result_google.json"
+path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "result_google.json")
 
 existing = {}
 if os.path.exists(path):

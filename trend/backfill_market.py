@@ -1,7 +1,7 @@
 # history/ 폴더에서 result_market.json이 누락되거나 잘못된 날짜를 FDR로 소급 수집하는 스크립트
 #
 # 실행:
-#   cd ~/Library/CloudStorage/OneDrive-개인/AI/stock-platform/trend
+#   cd ~/dev/stock-platform/trend
 #   ~/.venvs/stock-platform/bin/python3 backfill_market.py           # 누락 날짜만 소급
 #   ~/.venvs/stock-platform/bin/python3 backfill_market.py --force   # 기존 파일 덮어쓰기
 #

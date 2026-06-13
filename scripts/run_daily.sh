@@ -1,7 +1,7 @@
 #!/bin/bash
 # 매일 아침 6:50 전체 파이프라인: 뉴스 수집 → 트렌드 수집/분석 → GitHub push
 
-PLATFORM_DIR="/Users/jinhyugjung/Library/CloudStorage/OneDrive-개인/AI/stock-platform"
+PLATFORM_DIR="$HOME/dev/stock-platform"
 TREND_DIR="$PLATFORM_DIR/trend"
 PYTHON="$HOME/.venvs/stock-platform/bin/python3"
 NEWS_LOG="$PLATFORM_DIR/logs/news/news.log"
