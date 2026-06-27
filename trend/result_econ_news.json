@@ -1,8 +1,8 @@
 {
   "date": "2026-06-27",
-  "collected_at": "2026-06-27 22:00",
+  "collected_at": "2026-06-27 23:00",
   "total_articles": 331,
-  "matched_count": 111,
+  "matched_count": 110,
   "top_news": [
     {
       "source": "매일경제",
@@ -26,9 +26,9 @@
       "via": "naver_api",
       "importance": 15,
       "matched_keywords": [
-        "SK",
         "반도체",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 18
     },
@@ -79,11 +79,11 @@
       "via": "rss",
       "importance": 13,
       "matched_keywords": [
-        "SK",
-        "삼성전자",
         "반도체",
+        "삼성전자",
         "인공지능",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 18
     },
@@ -121,10 +121,21 @@
       "via": "naver_api",
       "importance": 12,
       "matched_keywords": [
-        "조선",
-        "반도체"
+        "반도체",
+        "조선"
       ],
       "score": 16
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "[탐사보도 뉴스프리즘] 미·이란 전쟁 마무리 수순이지만…후폭풍은 이...",
+      "link": "https://n.news.naver.com/mnews/article/422/0000879160?sid=104",
+      "desc": "이렇게 쏟아부은 전쟁 비용은 탄약과 장비 소모 같은 군사비 지출에 그치지 않고 유가와 물가, 금리 상승... [프리즘3] 종전 합의에도…경제 짓누르는 '고환율·고물가' 미·이란 전쟁이 마무리 국면에 접어들었지만, 우리...",
+      "pub": "Sat, 27 Jun 2026 22:01:00 +0900",
+      "via": "naver_api",
+      "importance": 11,
+      "matched_keywords": [],
+      "score": 11
     },
     {
       "source": "네이버뉴스",
@@ -184,17 +195,6 @@
       "importance": 9,
       "matched_keywords": [],
       "score": 9
-    },
-    {
-      "source": "한국경제",
-      "title": "[속보] 코스피, 8%대 급락에 서킷브레이커 발동",
-      "link": "https://www.hankyung.com/article/2026062699326",
-      "desc": "",
-      "pub": "Fri, 26 Jun 2026 12:14:45 +0900",
-      "via": "rss",
-      "importance": 9,
-      "matched_keywords": [],
-      "score": 9
     }
   ],
   "articles": [
@@ -207,10 +207,10 @@
       "via": "rss",
       "importance": 9,
       "matched_keywords": [
-        "SK",
-        "삼성전자",
         "반도체",
-        "SK하이닉스"
+        "삼성전자",
+        "SK하이닉스",
+        "SK"
       ],
       "score": 21
     },
@@ -237,11 +237,11 @@
       "via": "rss",
       "importance": 13,
       "matched_keywords": [
-        "SK",
-        "삼성전자",
         "반도체",
+        "삼성전자",
         "인공지능",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 18
     },
@@ -254,9 +254,9 @@
       "via": "naver_api",
       "importance": 15,
       "matched_keywords": [
-        "SK",
         "반도체",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 18
     },
@@ -270,9 +270,9 @@
       "importance": 2,
       "matched_keywords": [
         "삼성물산",
+        "다스코",
         "대한항공",
         "SK",
-        "다스코",
         "광주신세계"
       ],
       "score": 17
@@ -313,10 +313,10 @@
       "via": "rss",
       "importance": 8,
       "matched_keywords": [
-        "SK",
         "반도체",
         "인공지능",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 16
     },
@@ -329,8 +329,8 @@
       "via": "naver_api",
       "importance": 12,
       "matched_keywords": [
-        "조선",
-        "반도체"
+        "반도체",
+        "조선"
       ],
       "score": 16
     },
@@ -356,9 +356,9 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "LG이노텍",
+        "LG",
         "반도체",
-        "LG"
+        "LG이노텍"
       ],
       "score": 15
     },
@@ -371,11 +371,11 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "SK",
         "반도체",
-        "인공지능",
         "SK텔레콤",
-        "SK하이닉스"
+        "인공지능",
+        "SK하이닉스",
+        "SK"
       ],
       "score": 15
     },
@@ -388,8 +388,8 @@
       "via": "rss",
       "importance": 8,
       "matched_keywords": [
-        "리가켐바이오",
-        "바이오"
+        "바이오",
+        "리가켐바이오"
       ],
       "score": 14
     },
@@ -402,9 +402,9 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
+        "원전",
         "삼성물산",
-        "삼성전자",
-        "원전"
+        "삼성전자"
       ],
       "score": 13
     },
@@ -417,9 +417,9 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "LG이노텍",
+        "LG",
         "반도체",
-        "LG"
+        "LG이노텍"
       ],
       "score": 13
     },
@@ -432,9 +432,9 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "SK",
+        "바이오",
         "로봇",
-        "바이오"
+        "SK"
       ],
       "score": 13
     },
@@ -461,9 +461,9 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "SK",
+        "LG",
         "반도체",
-        "LG"
+        "SK"
       ],
       "score": 13
     },
@@ -489,8 +489,8 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "SK",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 12
     },
@@ -509,21 +509,6 @@
       "score": 12
     },
     {
-      "source": "네이버뉴스",
-      "title": "[오너 리더십] '인재는 큰 나무처럼, AI는 고속도로처럼'…최태원 회장...",
-      "link": "https://www.financialpost.co.kr/news/articleView.html?idxno=264226",
-      "desc": "SK텔레콤의 주가가 폭락할 정도로 시장의 비웃음과 의문이 팽배했다. 하반기에만 4000억원에 가까운 적자를 기록하던 타이밍이었으나, 최 회장은 반도체 모임을 직접 만들어 2년 가까이 공부하며 'SK그룹의 미래를 위해...",
-      "pub": "Sat, 27 Jun 2026 19:44:00 +0900",
-      "via": "naver_api",
-      "importance": 9,
-      "matched_keywords": [
-        "SK",
-        "반도체",
-        "SK텔레콤"
-      ],
-      "score": 12
-    },
-    {
       "source": "한국경제",
       "title": "SK하이닉스 ADR, 美반도체 ETF 편입된다",
       "link": "https://www.hankyung.com/article/2026062607971",
@@ -532,9 +517,9 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "SK",
         "반도체",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 11
     },
@@ -547,8 +532,8 @@
       "via": "rss",
       "importance": 5,
       "matched_keywords": [
-        "LG이노텍",
-        "LG"
+        "LG",
+        "LG이노텍"
       ],
       "score": 11
     },
@@ -561,9 +546,9 @@
       "via": "rss",
       "importance": 8,
       "matched_keywords": [
-        "현대차",
         "인공지능",
-        "카카오"
+        "카카오",
+        "현대차"
       ],
       "score": 11
     },
@@ -589,10 +574,10 @@
       "via": "rss",
       "importance": 7,
       "matched_keywords": [
-        "SK",
-        "삼성전자",
         "반도체",
-        "SK하이닉스"
+        "삼성전자",
+        "SK하이닉스",
+        "SK"
       ],
       "score": 11
     },
@@ -605,8 +590,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "리가켐바이오",
         "바이오",
+        "리가켐바이오",
         "방산"
       ],
       "score": 11
@@ -714,8 +699,8 @@
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "SK",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 10
     },
@@ -741,9 +726,9 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "SK",
         "삼성전자",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 9
     },
@@ -756,9 +741,9 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "게임",
         "카카오게임즈",
-        "카카오"
+        "카카오",
+        "게임"
       ],
       "score": 9
     },
@@ -771,11 +756,11 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "원익IPS",
         "반도체",
-        "한미반도체",
         "삼성전기",
-        "주성엔지니어링"
+        "원익IPS",
+        "주성엔지니어링",
+        "한미반도체"
       ],
       "score": 9
     },
@@ -840,8 +825,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "SK",
-        "삼성전자"
+        "삼성전자",
+        "SK"
       ],
       "score": 8
     },
@@ -854,8 +839,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "삼성전자",
-        "반도체"
+        "반도체",
+        "삼성전자"
       ],
       "score": 8
     },
@@ -868,8 +853,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "LG전자",
-        "LG"
+        "LG",
+        "LG전자"
       ],
       "score": 8
     },
@@ -895,10 +880,10 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "SK",
-        "삼성전자",
         "반도체",
-        "SK하이닉스"
+        "삼성전자",
+        "SK하이닉스",
+        "SK"
       ],
       "score": 8
     },
@@ -911,8 +896,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "카카오뱅크",
-        "카카오"
+        "카카오",
+        "카카오뱅크"
       ],
       "score": 8
     },
@@ -925,8 +910,8 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
-        "전기차"
+        "전기차",
+        "인공지능"
       ],
       "score": 8
     },
@@ -939,8 +924,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "LG전자",
-        "LG"
+        "LG",
+        "LG전자"
       ],
       "score": 8
     },
@@ -966,8 +951,8 @@
       "via": "naver_api",
       "importance": 2,
       "matched_keywords": [
-        "SK",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 8
     },
@@ -980,10 +965,10 @@
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "오텍",
-        "제약",
         "에임드바이오",
-        "바이오"
+        "바이오",
+        "제약",
+        "오텍"
       ],
       "score": 8
     },
@@ -1074,9 +1059,9 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "SK",
         "인공지능",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 7
     },
@@ -1102,9 +1087,9 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "로봇",
+        "LG",
         "신성델타테크",
-        "LG"
+        "로봇"
       ],
       "score": 7
     },
@@ -1117,9 +1102,9 @@
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "오텍",
+        "바이오",
         "제약",
-        "바이오"
+        "오텍"
       ],
       "score": 7
     },
@@ -1132,8 +1117,8 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "SK",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 6
     },
@@ -1146,8 +1131,8 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "SK",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 6
     },
@@ -1186,10 +1171,10 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "SK",
-        "삼성전자",
         "반도체",
-        "SK하이닉스"
+        "삼성전자",
+        "SK하이닉스",
+        "SK"
       ],
       "score": 6
     },
@@ -1215,8 +1200,8 @@
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "제약",
-        "바이오"
+        "바이오",
+        "제약"
       ],
       "score": 6
     },
@@ -1229,8 +1214,8 @@
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "제약",
-        "바이오"
+        "바이오",
+        "제약"
       ],
       "score": 6
     },
@@ -1373,9 +1358,9 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "SK",
         "삼성전자",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 5
     },
@@ -1427,8 +1412,8 @@
       "via": "rss",
       "importance": 3,
       "matched_keywords": [
-        "카카오뱅크",
-        "카카오"
+        "카카오",
+        "카카오뱅크"
       ],
       "score": 5
     },
@@ -1441,8 +1426,8 @@
       "via": "rss",
       "importance": 3,
       "matched_keywords": [
-        "카카오뱅크",
-        "카카오"
+        "카카오",
+        "카카오뱅크"
       ],
       "score": 5
     },
@@ -1507,9 +1492,9 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "SK",
+        "반도체",
         "삼성전자",
-        "반도체"
+        "SK"
       ],
       "score": 5
     },
@@ -1522,9 +1507,9 @@
       "via": "naver_api",
       "importance": 2,
       "matched_keywords": [
-        "SK",
         "삼성전자",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 5
     },
@@ -1747,10 +1732,10 @@
       "via": "rss",
       "importance": 9,
       "matched_keywords": [
-        "SK",
-        "삼성전자",
         "반도체",
-        "SK하이닉스"
+        "삼성전자",
+        "SK하이닉스",
+        "SK"
       ],
       "score": 21
     },
@@ -1777,11 +1762,11 @@
       "via": "rss",
       "importance": 13,
       "matched_keywords": [
-        "SK",
-        "삼성전자",
         "반도체",
+        "삼성전자",
         "인공지능",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 18
     },
@@ -1794,9 +1779,9 @@
       "via": "naver_api",
       "importance": 15,
       "matched_keywords": [
-        "SK",
         "반도체",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 18
     },
@@ -1810,9 +1795,9 @@
       "importance": 2,
       "matched_keywords": [
         "삼성물산",
+        "다스코",
         "대한항공",
         "SK",
-        "다스코",
         "광주신세계"
       ],
       "score": 17
@@ -1853,10 +1838,10 @@
       "via": "rss",
       "importance": 8,
       "matched_keywords": [
-        "SK",
         "반도체",
         "인공지능",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 16
     },
@@ -1869,8 +1854,8 @@
       "via": "naver_api",
       "importance": 12,
       "matched_keywords": [
-        "조선",
-        "반도체"
+        "반도체",
+        "조선"
       ],
       "score": 16
     },
@@ -1896,9 +1881,9 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "LG이노텍",
+        "LG",
         "반도체",
-        "LG"
+        "LG이노텍"
       ],
       "score": 15
     },
@@ -1911,11 +1896,11 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "SK",
         "반도체",
-        "인공지능",
         "SK텔레콤",
-        "SK하이닉스"
+        "인공지능",
+        "SK하이닉스",
+        "SK"
       ],
       "score": 15
     },
@@ -1928,8 +1913,8 @@
       "via": "rss",
       "importance": 8,
       "matched_keywords": [
-        "리가켐바이오",
-        "바이오"
+        "바이오",
+        "리가켐바이오"
       ],
       "score": 14
     },
@@ -1942,9 +1927,9 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
+        "원전",
         "삼성물산",
-        "삼성전자",
-        "원전"
+        "삼성전자"
       ],
       "score": 13
     },
@@ -1957,9 +1942,9 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "LG이노텍",
+        "LG",
         "반도체",
-        "LG"
+        "LG이노텍"
       ],
       "score": 13
     },
@@ -1972,9 +1957,9 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "SK",
+        "바이오",
         "로봇",
-        "바이오"
+        "SK"
       ],
       "score": 13
     },
@@ -2001,9 +1986,9 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "SK",
+        "LG",
         "반도체",
-        "LG"
+        "SK"
       ],
       "score": 13
     },
@@ -2029,41 +2014,41 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "SK",
-        "SK하이닉스"
+        "SK하이닉스",
+        "SK"
       ],
       "score": 12
     }
   ],
   "keyword_summary": {
-    "반도체": 48,
-    "SK": 25,
+    "반도체": 47,
     "삼성전자": 16,
+    "SK": 24,
     "SK하이닉스": 18,
-    "게임": 1,
     "카카오게임즈": 1,
     "카카오": 5,
+    "게임": 1,
     "엔터": 1,
     "LG": 9,
     "LG전자": 2,
     "전기차": 3,
     "KB금융": 3,
-    "삼성물산": 2,
     "원전": 1,
+    "삼성물산": 2,
     "인공지능": 22,
-    "리가켐바이오": 2,
     "바이오": 7,
+    "리가켐바이오": 2,
     "젠큐릭스": 1,
-    "원익IPS": 1,
-    "한미반도체": 2,
     "삼성전기": 1,
+    "원익IPS": 1,
     "주성엔지니어링": 1,
+    "한미반도체": 2,
     "동양": 1,
     "LG이노텍": 3,
     "로봇": 3,
     "현대차": 2,
-    "대한항공": 1,
     "다스코": 1,
+    "대한항공": 1,
     "광주신세계": 1,
     "조선": 4,
     "방산": 1,
@@ -2072,7 +2057,7 @@
     "SG": 1,
     "신성델타테크": 1,
     "한국콜마": 1,
-    "SK텔레콤": 2,
+    "SK텔레콤": 1,
     "클라우드": 1,
     "제약": 4,
     "오텍": 2,
