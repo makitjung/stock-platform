@@ -1,34 +1,26 @@
 {
-  "date": "2026-07-02",
-  "generated_at": "2026-07-02 06:54",
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
       "sample": 309,
-      "win_rate": 41.4,
-      "avg_return": -0.48,
-      "avg_win": 5.86,
-      "avg_loss": -4.96
+      "win_rate": 41.1,
+      "avg_return": -0.67,
+      "avg_win": 5.8,
+      "avg_loss": -5.19
     },
     "5": {
-      "sample": 249,
-      "win_rate": 39.0,
-      "avg_return": -3.05,
-      "avg_win": 12.14,
-      "avg_loss": -12.74
+      "sample": 244,
+      "win_rate": 36.1,
+      "avg_return": -4.09,
+      "avg_win": 11.42,
+      "avg_loss": -12.84
     }
   },
   "rank_horizon": "5",
   "best": [
-    {
-      "date": "2026-05-23",
-      "keyword": "LG전자",
-      "returns": {
-        "1": -1.88,
-        "5": 63.88
-      }
-    },
     {
       "date": "2026-05-24",
       "keyword": "LG전자",
@@ -55,6 +47,14 @@
     },
     {
       "date": "2026-06-13",
+      "keyword": "SK하이닉스",
+      "returns": {
+        "1": 4.11,
+        "5": 27.58
+      }
+    },
+    {
+      "date": "2026-06-14",
       "keyword": "SK하이닉스",
       "returns": {
         "1": 4.11,
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 331
+  "total_signals": 332
 }
