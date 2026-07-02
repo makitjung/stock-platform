@@ -1,9 +1,22 @@
 {
   "date": "2026-07-02",
-  "collected_at": "2026-07-02 22:00",
-  "total_articles": 325,
-  "matched_count": 125,
+  "collected_at": "2026-07-02 23:00",
+  "total_articles": 320,
+  "matched_count": 123,
   "top_news": [
+    {
+      "source": "네이버뉴스",
+      "title": "코스피 8,000선 붕괴…반도체주 급락에 매도세 확산",
+      "link": "https://www.tokenpost.kr/news/market/374585",
+      "desc": "이날 코스피·코스닥·코넥스를 합한 국내 증시 전체 시가총액은 6천741조2천40억원으로 줄어 지난달 11일 이후 다시 7천조원을 밑돌았다. 유가증권시장 거래대금은 49조7천990억원, 코스닥시장 거래대금은...",
+      "pub": "Thu, 02 Jul 2026 22:16:00 +0900",
+      "via": "naver_api",
+      "importance": 15,
+      "matched_keywords": [
+        "반도체"
+      ],
+      "score": 18
+    },
     {
       "source": "매일경제",
       "title": "염블리 “9천피 너무 급하게 와…이번 조정, 대외 충격 아닌 단순 수급 과정”",
@@ -32,14 +45,18 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "재경차관 “환율 쏠림 심화될 경우 즉시 시장안정조치”",
-      "link": "https://n.news.naver.com/mnews/article/022/0004140134?sid=101",
-      "desc": "(Fed·연준) 금리 인상 가능성 확대, 외국인 투자자 주식 순매도 지속 등으로 변동성이 확대됐다”며 이같이 밝혔다. 이날 서울 외환시장에서 원·달러 환율은 전날보다 0.9원 오른 1555.8원에 주간거래를 마쳤다. 전날 1554....",
-      "pub": "Thu, 02 Jul 2026 21:02:00 +0900",
+      "title": "[사설]코스피 8,000 붕괴…외풍에 휘둘리는 '홀짝 게임' 증시",
+      "link": "https://n.news.naver.com/mnews/article/417/0001150088?sid=110",
+      "desc": "2일 코스피는 전날보다 7.9% 하락한 7,648.09로 마감했고, 코스닥도 6.7% 내렸다. 전날 뉴욕증시에서 마이크론 테크놀러지 등 반도체 관련주가 폭락한 영향이 컸다. 초인공지능(ASI) 개발을 위해 막대한 인프라를 구축한...",
+      "pub": "Thu, 02 Jul 2026 22:00:00 +0900",
       "via": "naver_api",
       "importance": 14,
-      "matched_keywords": [],
-      "score": 14
+      "matched_keywords": [
+        "게임",
+        "반도체",
+        "인공지능"
+      ],
+      "score": 19
     },
     {
       "source": "한국경제",
@@ -63,14 +80,41 @@
       "via": "rss",
       "importance": 13,
       "matched_keywords": [
-        "SK하이닉스",
-        "SK",
         "삼성전자",
-        "인공지능",
+        "SK",
+        "클라우드",
+        "SK하이닉스",
         "반도체",
-        "클라우드"
+        "인공지능"
       ],
       "score": 19
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "삼성전자·SK하이닉스 주가 급락, 한국 증시 전반적 동요",
+      "link": "https://www.tokenpost.kr/news/market/374591",
+      "desc": "이날 두 회사는 각각 9.06%, 14.57% 떨어져 장을 마쳤고, 반도체 업종을 중심으로 투자 심리가 급격히 위축되면서 코스피와 코스닥도 동반 약세를 나타냈다. 유가증권시장에서 삼성전자는 28만6천원에 거래를...",
+      "pub": "Thu, 02 Jul 2026 22:46:00 +0900",
+      "via": "naver_api",
+      "importance": 13,
+      "matched_keywords": [
+        "삼성전자",
+        "SK",
+        "SK하이닉스",
+        "반도체"
+      ],
+      "score": 23
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "[사설] 중동발 고물가에 1600원 넘보는 환율, 재정 확장 신중해야",
+      "link": "https://n.news.naver.com/mnews/article/022/0004140162?sid=110",
+      "desc": "고물가·고환율 방어를 위해 돈줄 죄기는 불가피한 선택이다. 한국은행은 기준금리 인상에 실기해서는 안 될 것이다. 긴축 충격에도 만반의 대비 태세를 갖춰야 한다. 빚으로 버티는 영세 자영업자와 서민 등 취약계층의...",
+      "pub": "Thu, 02 Jul 2026 22:45:00 +0900",
+      "via": "naver_api",
+      "importance": 13,
+      "matched_keywords": [],
+      "score": 13
     },
     {
       "source": "네이버뉴스",
@@ -81,21 +125,10 @@
       "via": "naver_api",
       "importance": 12,
       "matched_keywords": [
-        "반도체",
-        "클라우드"
+        "클라우드",
+        "반도체"
       ],
       "score": 16
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "코스피, 15거래일 만에 '8천피' 깨졌다",
-      "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=552853",
-      "desc": "급락장에 이날 코스피와 코스닥시장 모두 프로그램 매도호가 일시 효력정지(매도 사이드카)가 발동됐다. 원·달러 환율도 외국인 투자자들의 국내 주식 대규모 매도 등의 영향으로 이틀 연속 1천550원대를...",
-      "pub": "Thu, 02 Jul 2026 21:34:00 +0900",
-      "via": "naver_api",
-      "importance": 12,
-      "matched_keywords": [],
-      "score": 12
     },
     {
       "source": "매일경제",
@@ -106,11 +139,11 @@
       "via": "rss",
       "importance": 11,
       "matched_keywords": [
-        "SK하이닉스",
-        "SK",
         "삼성전자",
-        "인공지능",
-        "반도체"
+        "SK",
+        "SK하이닉스",
+        "반도체",
+        "인공지능"
       ],
       "score": 20
     },
@@ -123,43 +156,32 @@
       "via": "rss",
       "importance": 11,
       "matched_keywords": [
-        "인공지능",
-        "반도체"
+        "반도체",
+        "인공지능"
       ],
       "score": 15
     },
     {
       "source": "네이버뉴스",
-      "title": "삼성전자·SK하이닉스 왜 급락했나…OECD &quot;반도체 호황 종료 시기상조&quot;",
-      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16121498",
-      "desc": "코스피와 코스닥지수도 고점 대비 각각 약 22%, 41% 내렸다. ○ 메타 구상 보도에 AI 투자 과잉 논란이 커졌다 블룸버그 통신은 메타가 내부적으로 '메타 컴퓨트' 계획을 출범하고 자사 데이터센터 인프라를 활용한...",
-      "pub": "Thu, 02 Jul 2026 21:54:00 +0900",
+      "title": "[경제 진단] 고개 든 '스테그플레이션' 공포… 생활물가 3.4% 폭등과 한은...",
+      "link": "https://www.businesskorea.co.kr/news/articleView.html?idxno=272408",
+      "desc": "오늘 국내 증시가 외국인들의 4조 원 넘는 폭탄 매도로 폭락한 배경에는 이러한 고금리 장기화에 따른 한국 기업들의 이익 체력 둔화 우려가 깊게 깔려 있다. 한은에 요구되는 고차방정식 현재 한국 경제는 성장률을...",
+      "pub": "Thu, 02 Jul 2026 22:36:00 +0900",
       "via": "naver_api",
       "importance": 11,
-      "matched_keywords": [
-        "SK하이닉스",
-        "SK",
-        "삼성전자",
-        "반도체"
-      ],
-      "score": 23
+      "matched_keywords": [],
+      "score": 11
     },
     {
       "source": "네이버뉴스",
-      "title": "[투자전략] 삼성전자·SK하이닉스 EPS 상향, 방산·조선·자동차 소외",
-      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16121486",
-      "desc": "보고서는 기업 실적을 예상할 수 있는 가장 간단하고 강력한 지표로 원·달러 환율을 들었다. EPS는 원·달러 환율에 1~2년가량 후행하면서 밀접한 상관관계를 보인다고 설명했다. 환율 변화는 수출주 실적 전망과...",
-      "pub": "Thu, 02 Jul 2026 21:44:00 +0900",
+      "title": "[뉴욕개장] 美 고용 둔화에 금리인상 우려 완화…3대 지수 상승 출발",
+      "link": "https://n.news.naver.com/mnews/article/421/0009038398?sid=104",
+      "desc": "미국 뉴욕증시가 2일(현지시간) 상승 출발했다. 6월 고용 증가폭이 예상의 절반 수준에 그치면서 연방준비제도(Fed·연준)의 추가 금리 인상 기대가 완화된 데 따른 것을 보인다. 로이터통신에 따르면 이날 개장...",
+      "pub": "Thu, 02 Jul 2026 22:40:00 +0900",
       "via": "naver_api",
       "importance": 11,
-      "matched_keywords": [
-        "SK하이닉스",
-        "SK",
-        "삼성전자",
-        "방산",
-        "조선"
-      ],
-      "score": 26
+      "matched_keywords": [],
+      "score": 11
     },
     {
       "source": "한국경제",
@@ -170,9 +192,9 @@
       "via": "rss",
       "importance": 10,
       "matched_keywords": [
-        "SK하이닉스",
+        "삼성전자",
         "SK",
-        "삼성전자"
+        "SK하이닉스"
       ],
       "score": 19
     },
@@ -189,63 +211,40 @@
         "바이오"
       ],
       "score": 14
-    },
-    {
-      "source": "매일경제",
-      "title": "韓에 달러 순공급, 대만 8분의 1 … 역대급 수출도 고환율 못막아",
-      "link": "https://www.mk.co.kr/news/economy/12088021",
-      "desc": "올해 하반기 시작과 동시에 달러당 원화값이 1560원 선까지 급락하며 원화 가치가 글로벌 금융위기 이후 17년 만에 최저치를 기록하고 있다. 고환율은 수출 기업의 가격 경쟁력을 제..",
-      "pub": "Wed, 01 Jul 2026 18:01:46 +09:00",
-      "via": "rss",
-      "importance": 10,
-      "matched_keywords": [],
-      "score": 10
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "[속보] 미국 6월 실업률 4.2%, 비농업 부문 고용 57000명 증가했다…'증...",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=586194",
-      "desc": "앞서 지난 1일(현지시간) 미국 증시 3대 지수는 동반 약세를 기록했다. 다우 산업지수는 0.03% 내린 52305.24에, 나스닥 종합지수는 0.66% 하락한 26040.03에, S&amp;P500 지수는 0.22% 내린 7483.23에 거래를 마쳤다....",
-      "pub": "Thu, 02 Jul 2026 21:34:00 +0900",
-      "via": "naver_api",
-      "importance": 10,
-      "matched_keywords": [],
-      "score": 10
     }
   ],
   "articles": [
     {
       "source": "네이버뉴스",
-      "title": "[투자전략] 삼성전자·SK하이닉스 EPS 상향, 방산·조선·자동차 소외",
-      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16121486",
-      "desc": "보고서는 기업 실적을 예상할 수 있는 가장 간단하고 강력한 지표로 원·달러 환율을 들었다. EPS는 원·달러 환율에 1~2년가량 후행하면서 밀접한 상관관계를 보인다고 설명했다. 환율 변화는 수출주 실적 전망과...",
-      "pub": "Thu, 02 Jul 2026 21:44:00 +0900",
+      "title": "삼성전자·SK하이닉스 주가 급락, 한국 증시 전반적 동요",
+      "link": "https://www.tokenpost.kr/news/market/374591",
+      "desc": "이날 두 회사는 각각 9.06%, 14.57% 떨어져 장을 마쳤고, 반도체 업종을 중심으로 투자 심리가 급격히 위축되면서 코스피와 코스닥도 동반 약세를 나타냈다. 유가증권시장에서 삼성전자는 28만6천원에 거래를...",
+      "pub": "Thu, 02 Jul 2026 22:46:00 +0900",
       "via": "naver_api",
-      "importance": 11,
+      "importance": 13,
       "matched_keywords": [
-        "SK하이닉스",
-        "SK",
         "삼성전자",
-        "방산",
-        "조선"
+        "SK",
+        "SK하이닉스",
+        "반도체"
       ],
-      "score": 26
+      "score": 23
     },
     {
       "source": "네이버뉴스",
       "title": "삼성전자·SK하이닉스 왜 급락했나…OECD &quot;반도체 호황 종료 시기상조&quot;",
       "link": "https://www.topstarnews.net/news/articleView.html?idxno=16121498",
-      "desc": "코스피와 코스닥지수도 고점 대비 각각 약 22%, 41% 내렸다. ○ 메타 구상 보도에 AI 투자 과잉 논란이 커졌다 블룸버그 통신은 메타가 내부적으로 '메타 컴퓨트' 계획을 출범하고 자사 데이터센터 인프라를 활용한...",
+      "desc": "시장에서는 메타 보도가 투자심리를 흔든 직접 계기로 작용했지만, 실제 AI 반도체 수요 둔화나 국내 반도체 기업 실적 악화가 확인된 단계는 아니라는 반론도 제기됐다. 연합뉴스에 따르면 이날 코스피는 장중 7,616....",
       "pub": "Thu, 02 Jul 2026 21:54:00 +0900",
       "via": "naver_api",
-      "importance": 11,
+      "importance": 9,
       "matched_keywords": [
-        "SK하이닉스",
-        "SK",
         "삼성전자",
+        "SK",
+        "SK하이닉스",
         "반도체"
       ],
-      "score": 23
+      "score": 21
     },
     {
       "source": "매일경제",
@@ -256,11 +255,11 @@
       "via": "rss",
       "importance": 11,
       "matched_keywords": [
-        "SK하이닉스",
-        "SK",
         "삼성전자",
-        "인공지능",
-        "반도체"
+        "SK",
+        "SK하이닉스",
+        "반도체",
+        "인공지능"
       ],
       "score": 20
     },
@@ -273,9 +272,9 @@
       "via": "rss",
       "importance": 10,
       "matched_keywords": [
-        "SK하이닉스",
+        "삼성전자",
         "SK",
-        "삼성전자"
+        "SK하이닉스"
       ],
       "score": 19
     },
@@ -288,14 +287,42 @@
       "via": "rss",
       "importance": 13,
       "matched_keywords": [
-        "SK하이닉스",
-        "SK",
         "삼성전자",
-        "인공지능",
+        "SK",
+        "클라우드",
+        "SK하이닉스",
         "반도체",
-        "클라우드"
+        "인공지능"
       ],
       "score": 19
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "[사설]코스피 8,000 붕괴…외풍에 휘둘리는 '홀짝 게임' 증시",
+      "link": "https://n.news.naver.com/mnews/article/417/0001150088?sid=110",
+      "desc": "2일 코스피는 전날보다 7.9% 하락한 7,648.09로 마감했고, 코스닥도 6.7% 내렸다. 전날 뉴욕증시에서 마이크론 테크놀러지 등 반도체 관련주가 폭락한 영향이 컸다. 초인공지능(ASI) 개발을 위해 막대한 인프라를 구축한...",
+      "pub": "Thu, 02 Jul 2026 22:00:00 +0900",
+      "via": "naver_api",
+      "importance": 14,
+      "matched_keywords": [
+        "게임",
+        "반도체",
+        "인공지능"
+      ],
+      "score": 19
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "코스피 8,000선 붕괴…반도체주 급락에 매도세 확산",
+      "link": "https://www.tokenpost.kr/news/market/374585",
+      "desc": "이날 코스피·코스닥·코넥스를 합한 국내 증시 전체 시가총액은 6천741조2천40억원으로 줄어 지난달 11일 이후 다시 7천조원을 밑돌았다. 유가증권시장 거래대금은 49조7천990억원, 코스닥시장 거래대금은...",
+      "pub": "Thu, 02 Jul 2026 22:16:00 +0900",
+      "via": "naver_api",
+      "importance": 15,
+      "matched_keywords": [
+        "반도체"
+      ],
+      "score": 18
     },
     {
       "source": "네이버뉴스",
@@ -348,9 +375,9 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "SK하이닉스",
         "SK",
         "이차전지",
+        "SK하이닉스",
         "셀트리온",
         "바이오",
         "반도체"
@@ -366,8 +393,8 @@
       "via": "naver_api",
       "importance": 12,
       "matched_keywords": [
-        "반도체",
-        "클라우드"
+        "클라우드",
+        "반도체"
       ],
       "score": 16
     },
@@ -380,11 +407,11 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "삼성전자우",
-        "SK하이닉스",
-        "SK",
         "삼성전자",
-        "삼성전기"
+        "SK",
+        "SK하이닉스",
+        "삼성전기",
+        "삼성전자우"
       ],
       "score": 15
     },
@@ -410,42 +437,8 @@
       "via": "rss",
       "importance": 11,
       "matched_keywords": [
-        "인공지능",
-        "반도체"
-      ],
-      "score": 15
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "충북도, SK하이닉스·셀트리온 투자 TF 가동",
-      "link": "http://www.dynews.co.kr/news/articleView.html?idxno=856609",
-      "desc": "국내 바이오 업계를 대표하는 셀트리온제약을 중심으로 바이오의약품 생산과 연구개잘의 핵심 거점으로 도약하고, 대한민국 첨단 바이오산업의 요충지로 자리매김해 나갈 계획이다. 신용한 지사는 &quot;쉽지 않은 투자...",
-      "pub": "Thu, 02 Jul 2026 21:12:00 +0900",
-      "via": "naver_api",
-      "importance": 4,
-      "matched_keywords": [
-        "제약",
-        "SK하이닉스",
-        "SK",
-        "셀트리온",
-        "바이오"
-      ],
-      "score": 15
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "SK하이닉스 이어 셀트리온도 초대형 투자.. &quot;오송에 2조 원&quot;",
-      "link": "http://news.mbccb.co.kr/home/sub.php?menukey=61&mod=view&RECEIVE_DATE=20260702&SEQUENCE=4288",
-      "desc": "◀ SYNC ▶유영호/셀트리온제약 대표이사 \\&quot;이번 투자 계획은 단순한 시설 확장이 아니라 지역과 함께 성장하고 국가 바이오헬스 산업 경쟁력을 높이기 위한 미래 투자라는 점에서 그 의미가 있다고 생각합니다...",
-      "pub": "Thu, 02 Jul 2026 21:02:00 +0900",
-      "via": "naver_api",
-      "importance": 4,
-      "matched_keywords": [
-        "제약",
-        "SK하이닉스",
-        "SK",
-        "셀트리온",
-        "바이오"
+        "반도체",
+        "인공지능"
       ],
       "score": 15
     },
@@ -459,8 +452,8 @@
       "importance": 9,
       "matched_keywords": [
         "SK",
-        "반도체",
-        "클라우드"
+        "클라우드",
+        "반도체"
       ],
       "score": 14
     },
@@ -487,8 +480,8 @@
       "via": "rss",
       "importance": 7,
       "matched_keywords": [
-        "전기차",
-        "로봇"
+        "로봇",
+        "전기차"
       ],
       "score": 13
     },
@@ -501,9 +494,24 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
+        "로봇",
         "현대차",
-        "현대모비스",
-        "로봇"
+        "현대모비스"
+      ],
+      "score": 13
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "“하반기 만스피 간다…뭐타고? 반도체!”…증권가 전망",
+      "link": "https://n.news.naver.com/mnews/article/021/0002802024?sid=101",
+      "desc": "미국 국채 금리의 변동성이 다시 커지거나 환율 부담이 장기화될 경우 외인 수급이 흔들리며 단기적인 지수 롤러코스터 장세가 연출될 수 있다는 지적이다. 강대승 SK증권 연구원은 “하반기도 증시 방향성과...",
+      "pub": "Thu, 02 Jul 2026 22:36:00 +0900",
+      "via": "naver_api",
+      "importance": 8,
+      "matched_keywords": [
+        "SK",
+        "SK증권",
+        "반도체"
       ],
       "score": 13
     },
@@ -516,10 +524,10 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "SK하이닉스",
-        "아모레퍼시픽",
         "SK",
-        "SK스퀘어"
+        "SK스퀘어",
+        "SK하이닉스",
+        "아모레퍼시픽"
       ],
       "score": 12
     },
@@ -534,8 +542,8 @@
       "matched_keywords": [
         "SK",
         "이차전지",
-        "인공지능",
-        "반도체"
+        "반도체",
+        "인공지능"
       ],
       "score": 12
     },
@@ -549,9 +557,9 @@
       "importance": 4,
       "matched_keywords": [
         "LG전자",
+        "조선",
         "LG",
-        "인공지능",
-        "조선"
+        "인공지능"
       ],
       "score": 12
     },
@@ -564,40 +572,25 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "SK하이닉스",
-        "SK",
         "삼성전자",
+        "SK",
+        "SK하이닉스",
         "반도체"
       ],
       "score": 12
     },
     {
       "source": "네이버뉴스",
-      "title": "메타발 ‘상투’일까, 일시적 ‘조정’일까…급락 중인 삼전·닉스 주가...",
-      "link": "https://n.news.naver.com/mnews/article/032/0003455859?sid=101",
-      "desc": "상반기 반도체 주가가 가파르게 오른 데 따른 차익 실현과 포트폴리오 리밸런싱(자산 재조정), 원화 환율 변동 등이 복합적으로 작용한 결과로 풀이된다.삼성전자와 SK하이닉스 모두 지난달 19일부터 9거래일 연속...",
-      "pub": "Thu, 02 Jul 2026 21:40:00 +0900",
+      "title": "코스피 8% ‘뚝’…급락장에 초고수들이 저가매수한 ‘톱3’는?",
+      "link": "https://n.news.naver.com/mnews/article/016/0002665095?sid=101",
+      "desc": "하지만 초고수 투자자들은 급락장에서 반도체 대장주와 반도체 관련주를 저가매수 기회로 삼고... NH투자증권은 전날 “AI 서버향 MLCC 수요 확대에 따른 업황 사이클이 본격화되고 있다”면서 삼성전기의...",
+      "pub": "Thu, 02 Jul 2026 22:26:00 +0900",
       "via": "naver_api",
-      "importance": 8,
+      "importance": 9,
       "matched_keywords": [
-        "SK하이닉스",
-        "SK",
-        "삼성전자",
-        "반도체"
-      ],
-      "score": 12
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "[올댓차이나] 대만 증시, 美 반도체 약세로 나흘만에 반락 마감…0.58%↓",
-      "link": "https://n.news.naver.com/mnews/article/003/0014044033?sid=104",
-      "desc": "대만 타이베이 증시는 2일 전날 뉴욕 증시에서 기술주 약세 여파로 반도체 관련주에 매도세가... 83%, 인공지능(AI) 서버용 전원장치주 타이다 전자 1.01%, AI 서버주 광다전뇌 0.81%, 화방전자 3.42%, 난야과기...",
-      "pub": "Thu, 02 Jul 2026 19:59:00 +0900",
-      "via": "naver_api",
-      "importance": 8,
-      "matched_keywords": [
-        "인공지능",
-        "반도체"
+        "삼성전기",
+        "반도체",
+        "NH투자증권"
       ],
       "score": 12
     },
@@ -610,20 +603,7 @@
       "via": "rss",
       "importance": 9,
       "matched_keywords": [
-        "인공지능",
-        "반도체"
-      ],
-      "score": 11
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "해외 자금·개인 투자자 몰린 일본 증시, '아시아 대장주'로 부상",
-      "link": "https://www.tokenpost.kr/news/market/374577",
-      "desc": "이 같은 흐름은 앞으로도 인공지능 관련 투자 확대와 일본 정부의 성장 정책이 유지될 경우 이어질 가능성이 있지만, 해외 자금 의존도가 높아진 만큼 글로벌 금리와 환율, 경기 변수에 따라 변동성이 커질 가능성도...",
-      "pub": "Thu, 02 Jul 2026 21:56:00 +0900",
-      "via": "naver_api",
-      "importance": 10,
-      "matched_keywords": [
+        "반도체",
         "인공지능"
       ],
       "score": 11
@@ -637,9 +617,9 @@
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
+        "클라우드",
         "Meta",
-        "반도체",
-        "클라우드"
+        "반도체"
       ],
       "score": 11
     },
@@ -694,8 +674,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "반도체",
-        "한미반도체"
+        "한미반도체",
+        "반도체"
       ],
       "score": 10
     },
@@ -721,8 +701,8 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
-        "클라우드"
+        "클라우드",
+        "인공지능"
       ],
       "score": 10
     },
@@ -748,9 +728,9 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "SK하이닉스",
-        "SK",
         "삼성전자",
+        "SK",
+        "SK하이닉스",
         "반도체"
       ],
       "score": 10
@@ -764,8 +744,8 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
-        "반도체"
+        "반도체",
+        "인공지능"
       ],
       "score": 10
     },
@@ -784,14 +764,13 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "코스닥 머니무브 본격화…국민성장펀드·연기금에 쏠린 눈",
-      "link": "http://www.newstomato.com/ReadNews.aspx?no=1305963&inflow=N",
-      "desc": "주가가 30거래일 연속 1000원 미만이면 관리종목으로 지정되고 이후 90거래일 중 45거래일 이상 1000원을... AI와 반도체, 바이오 등 하위 밸류체인 업체에 유입해 매출과 이익 성장으로 이어진다면 코스닥 시장은 한 단계...",
-      "pub": "Thu, 02 Jul 2026 21:38:00 +0900",
+      "title": "미국증시 고용 둔화에도 상승, 반도체주·테슬라는 압박",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16121559",
+      "desc": "미국증시(뉴욕증시)는 2일 장초반 상승 출발했다. 6월 비농업 고용 증가폭이 예상치를 크게 밑돌면서 경기 측면의 불안은 커졌지만, 시장은 이를 먼저 연준의 추가 긴축 부담이 낮아지는 재료로 해석했다. 다만 상승...",
+      "pub": "Thu, 02 Jul 2026 22:48:00 +0900",
       "via": "naver_api",
-      "importance": 8,
+      "importance": 7,
       "matched_keywords": [
-        "바이오",
         "반도체"
       ],
       "score": 10
@@ -861,8 +840,8 @@
       "via": "rss",
       "importance": 3,
       "matched_keywords": [
-        "LG",
-        "로봇"
+        "로봇",
+        "LG"
       ],
       "score": 9
     },
@@ -875,8 +854,8 @@
       "via": "rss",
       "importance": 3,
       "matched_keywords": [
-        "LG",
-        "로봇"
+        "로봇",
+        "LG"
       ],
       "score": 9
     },
@@ -902,12 +881,12 @@
       "via": "rss",
       "importance": 3,
       "matched_keywords": [
-        "삼성전자우",
-        "SK하이닉스",
-        "SK",
         "삼성전자",
+        "SK",
+        "SK하이닉스",
+        "삼성전기",
         "LS ELECTRIC",
-        "삼성전기"
+        "삼성전자우"
       ],
       "score": 9
     },
@@ -920,9 +899,9 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "SK하이닉스",
         "SK",
-        "SK스퀘어"
+        "SK스퀘어",
+        "SK하이닉스"
       ],
       "score": 9
     },
@@ -935,48 +914,9 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "인공지능",
+        "로봇",
         "기아",
-        "로봇"
-      ],
-      "score": 9
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "반도체 랠리에도…상반기 투자자가 가장 많이 본 리포트는 ‘우주’ [투...",
-      "link": "https://n.news.naver.com/mnews/article/016/0002665087?sid=101",
-      "desc": "상반기 코스피 9000 시대를 이끈 것은 반도체였지만 투자자들이 가장 많이 찾아본 리포트는 우주경제를... 아이디어) 코스닥, 언제까지 의심만 할 수는 없다’(2087건) 등이 상위권에 이름을 올렸다. 상위권 리포트의...",
-      "pub": "Thu, 02 Jul 2026 21:40:00 +0900",
-      "via": "naver_api",
-      "importance": 6,
-      "matched_keywords": [
-        "반도체"
-      ],
-      "score": 9
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "뉴욕증시 프리뷰, 고용지표 앞둔 뉴욕증시 '숨 고르기'…반도체 차익실...",
-      "link": "https://www.newspim.com/news/view/20260702001177",
-      "desc": "S&amp;P500 E-미니 선물은 강보합권에서 움직였고, 나스닥100 E-미니 선물은 12.25포인트(0.04%) 하락했다. 미국 뉴욕증권거래소의 트레이더 [사진=로이터 뉴스핌] ◆ 비농업 고용 발표 주목 시장 참가자들의 관심은 이날 오전...",
-      "pub": "Thu, 02 Jul 2026 21:21:00 +0900",
-      "via": "naver_api",
-      "importance": 6,
-      "matched_keywords": [
-        "반도체"
-      ],
-      "score": 9
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "BNK금융, 순이익 감소 전망… 4대 금융지주는 ‘역대 최대’",
-      "link": "http://www.knnews.co.kr/news/articleView.php?idxno=1545532",
-      "desc": "지난 2분기 시장금리 상승과 환율 변동성 확대가 지방은행 수익성에 영향을 미쳤을 것으로 관측된다. 이에 BNK금융지주는 확정 실적이 아닌 전망치라고 설명했다. 메리츠금융지주는 7084억 원으로 4.0...",
-      "pub": "Thu, 02 Jul 2026 21:34:00 +0900",
-      "via": "naver_api",
-      "importance": 8,
-      "matched_keywords": [
-        "BNK금융지주"
+        "인공지능"
       ],
       "score": 9
     },
@@ -1016,14 +956,14 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
-        "반도체"
+        "반도체",
+        "인공지능"
       ],
       "score": 8
     },
     {
       "source": "매일경제",
-      "title": "SK \"반도체 생태계 키우자\" … 하이닉스 협력사 1.4조 지원",
+      "title": "SK \"반도체 생태계 키우자\" 하이닉스 협력사 1.4조 지원",
       "link": "https://www.mk.co.kr/news/business/12089138",
       "desc": "SK그룹이 1·2·3차 협력사를 아우르는 상생 협력 체계를 구축하고 대금 지급 조건 개선과 기술·금융 지원 확대에 나선다. 특히 반도체 소재·부품·장비(소부장) 협력사의 기술 경쟁..",
       "pub": "Thu, 02 Jul 2026 17:51:49 +09:00",
@@ -1058,8 +998,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "네이버",
-        "카카오"
+        "카카오",
+        "네이버"
       ],
       "score": 8
     },
@@ -1072,38 +1012,12 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "수소",
-        "현대로템",
+        "로봇",
         "방산",
-        "로봇"
+        "현대로템",
+        "수소"
       ],
       "score": 8
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "하반기 ‘ABCD’ 업종 “맑음”",
-      "link": "https://n.news.naver.com/mnews/article/032/0003455818?sid=101",
-      "desc": "기계와 철강 업종은 보호무역주의 확산에 발목이 잡혀 ‘흐림’으로 조사됐다. 기계는 미국의 관세 장벽 탓에 하반기 수출이 2.5% 감소한 279억8000만달러에 그칠 것으로 예측됐다. 철강 또한 유럽연합(EU)의 수입 규제...",
-      "pub": "Thu, 02 Jul 2026 20:30:00 +0900",
-      "via": "naver_api",
-      "importance": 7,
-      "matched_keywords": [
-        "철강"
-      ],
-      "score": 8
-    },
-    {
-      "source": "한국경제",
-      "title": "코스피, 美 반도체 한파에 장 초반 매도 사이드카 [종합]",
-      "link": "https://www.hankyung.com/article/2026070211126",
-      "desc": "",
-      "pub": "Thu, 02 Jul 2026 09:27:11 +0900",
-      "via": "rss",
-      "importance": 4,
-      "matched_keywords": [
-        "반도체"
-      ],
-      "score": 7
     },
     {
       "source": "한국경제",
@@ -1127,8 +1041,8 @@
       "via": "rss",
       "importance": 1,
       "matched_keywords": [
-        "네이버",
-        "카카오"
+        "카카오",
+        "네이버"
       ],
       "score": 7
     },
@@ -1206,8 +1120,8 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "하이브",
         "현대차",
+        "하이브",
         "기아"
       ],
       "score": 7
@@ -1227,14 +1141,29 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "비트코인(BTC), ETF 유출·트럼프 논란 속 6만 달러 '불안'...7월 ‘피바...",
-      "link": "http://coinreaders.com/245741",
-      "desc": "그는 미국 주식시장에서 하루 5,000억 달러가 증발했고, 엔비디아(Nvidia)와 마이크론(Micron)을 중심으로 인공지능(AI) 관련주 부담이 커졌다고 설명했다. 매그니피센트7도 6월 한 달 2조 3,000억 달러를 잃으며 최근...",
-      "pub": "Thu, 02 Jul 2026 19:02:00 +0900",
+      "title": "미국, 6월 고용 5만7000명 증가…노동 공급은 5년래 최저",
+      "link": "https://n.news.naver.com/mnews/article/215/0001257429?sid=101",
+      "desc": "반도체 종목 하락의 여파를 받아온 뉴욕증시도 소폭 반등을 시도하고 있다. 개장을 앞두고 오전 9시 10분 무렵 S&amp;P500 선물과 나스닥100 선물은 각각 0.18% 안팎의 소폭 상승세를 기록 중이다.",
+      "pub": "Thu, 02 Jul 2026 22:44:00 +0900",
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "인공지능"
+        "반도체"
+      ],
+      "score": 7
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "충북에 102조 원…“투자는 반갑지만”",
+      "link": "https://n.news.naver.com/mnews/article/056/0012210809?sid=101",
+      "desc": "[유영호/셀트리온제약 사장 : &quot;이번 투자 계획은 단순한 시설 확장이 아니라 지역과 함께 성장하고 국가 바이오헬스 산업 경쟁력을 높이기 위한 미래 투자라는 점에서 그 의미가 있다고 생각합니다.&quot;] 충청북도는 지원...",
+      "pub": "Thu, 02 Jul 2026 21:42:00 +0900",
+      "via": "naver_api",
+      "importance": 4,
+      "matched_keywords": [
+        "제약",
+        "셀트리온",
+        "바이오"
       ],
       "score": 7
     },
@@ -1315,8 +1244,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "반도체",
-        "클라우드"
+        "클라우드",
+        "반도체"
       ],
       "score": 6
     },
@@ -1342,9 +1271,9 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "SK하이닉스",
-        "SK",
         "삼성전자",
+        "SK",
+        "SK하이닉스",
         "반도체"
       ],
       "score": 6
@@ -1374,6 +1303,20 @@
       "matched_keywords": [
         "LG전자",
         "LG"
+      ],
+      "score": 6
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "휴온스, 인터비즈 포럼서 오픈 이노베이션 성과 인정…보건복지부 장관...",
+      "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=202936",
+      "desc": "사진은 휴온스 박경미 연구개발총괄 부사장(가운데)과 시상자인 한국신약개발연구조합 김정진 이사장(왼쪽), 보건복지부 제약바이오산업과 임강섭 과장(오른쪽). 휴온스는 지난 1일 제주 휘닉스 아일랜드에서 열린...",
+      "pub": "Thu, 02 Jul 2026 22:18:00 +0900",
+      "via": "naver_api",
+      "importance": 4,
+      "matched_keywords": [
+        "제약",
+        "바이오"
       ],
       "score": 6
     },
@@ -1547,6 +1490,19 @@
       "score": 5
     },
     {
+      "source": "네이버뉴스",
+      "title": "메타 한마디에 반도체 '와르르'…전문가들 &quot;과도한 공포&quot;",
+      "link": "https://n.news.naver.com/mnews/article/003/0014044090?sid=101",
+      "desc": "김 센터장은 &quot;현재는 기술적인 분석이나 펀더멘털의 변화보다 투자 심리가 먼저 악화된 상황&quot;이라며 &quot;실제 빅테크들의 투자 지출 축소 여부는 이달 말 예정된 메타 등 미국 주요 기업의 실적 발표를 통해 더욱 명확해질...",
+      "pub": "Thu, 02 Jul 2026 22:12:00 +0900",
+      "via": "naver_api",
+      "importance": 2,
+      "matched_keywords": [
+        "반도체"
+      ],
+      "score": 5
+    },
+    {
       "source": "한국경제",
       "title": "2년 표류 끝에…한화오션, 7.8조 KDDX 선도함 우선협상대상자 선정",
       "link": "https://www.hankyung.com/article/202607022441i",
@@ -1582,8 +1538,8 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "삼기",
-        "로봇"
+        "로봇",
+        "삼기"
       ],
       "score": 4
     },
@@ -1596,8 +1552,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "네이버",
-        "카카오"
+        "카카오",
+        "네이버"
       ],
       "score": 4
     },
@@ -1610,8 +1566,22 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "SK하이닉스",
-        "SK"
+        "SK",
+        "SK하이닉스"
+      ],
+      "score": 4
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "'충청권 국민보고회'...징계 내전 '전운' 고조",
+      "link": "https://n.news.naver.com/mnews/article/052/0002374042?sid=100",
+      "desc": "그러면 과연 이렇게 반도체 슈퍼 사이클의 흐름이 계속 이어질 것인가. 이것에 대한 시장의 의구심이 생기면서 미국 마이크론도 주가가 10% 넘게 하락하고 삼성전자, 하이닉스도 하락했어요. 그런데 우리 기업의 역사상...",
+      "pub": "Thu, 02 Jul 2026 22:47:00 +0900",
+      "via": "naver_api",
+      "importance": 2,
+      "matched_keywords": [
+        "삼성전자",
+        "반도체"
       ],
       "score": 4
     },
@@ -1806,8 +1776,8 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "네이버",
         "카카오",
+        "네이버",
         "삼성전기"
       ],
       "score": 3
@@ -1821,9 +1791,9 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "SK하이닉스",
+        "삼성전자",
         "SK",
-        "삼성전자"
+        "SK하이닉스"
       ],
       "score": 3
     },
@@ -1961,36 +1931,35 @@
   "top20": [
     {
       "source": "네이버뉴스",
-      "title": "[투자전략] 삼성전자·SK하이닉스 EPS 상향, 방산·조선·자동차 소외",
-      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16121486",
-      "desc": "보고서는 기업 실적을 예상할 수 있는 가장 간단하고 강력한 지표로 원·달러 환율을 들었다. EPS는 원·달러 환율에 1~2년가량 후행하면서 밀접한 상관관계를 보인다고 설명했다. 환율 변화는 수출주 실적 전망과...",
-      "pub": "Thu, 02 Jul 2026 21:44:00 +0900",
+      "title": "삼성전자·SK하이닉스 주가 급락, 한국 증시 전반적 동요",
+      "link": "https://www.tokenpost.kr/news/market/374591",
+      "desc": "이날 두 회사는 각각 9.06%, 14.57% 떨어져 장을 마쳤고, 반도체 업종을 중심으로 투자 심리가 급격히 위축되면서 코스피와 코스닥도 동반 약세를 나타냈다. 유가증권시장에서 삼성전자는 28만6천원에 거래를...",
+      "pub": "Thu, 02 Jul 2026 22:46:00 +0900",
       "via": "naver_api",
-      "importance": 11,
+      "importance": 13,
       "matched_keywords": [
-        "SK하이닉스",
-        "SK",
         "삼성전자",
-        "방산",
-        "조선"
+        "SK",
+        "SK하이닉스",
+        "반도체"
       ],
-      "score": 26
+      "score": 23
     },
     {
       "source": "네이버뉴스",
       "title": "삼성전자·SK하이닉스 왜 급락했나…OECD &quot;반도체 호황 종료 시기상조&quot;",
       "link": "https://www.topstarnews.net/news/articleView.html?idxno=16121498",
-      "desc": "코스피와 코스닥지수도 고점 대비 각각 약 22%, 41% 내렸다. ○ 메타 구상 보도에 AI 투자 과잉 논란이 커졌다 블룸버그 통신은 메타가 내부적으로 '메타 컴퓨트' 계획을 출범하고 자사 데이터센터 인프라를 활용한...",
+      "desc": "시장에서는 메타 보도가 투자심리를 흔든 직접 계기로 작용했지만, 실제 AI 반도체 수요 둔화나 국내 반도체 기업 실적 악화가 확인된 단계는 아니라는 반론도 제기됐다. 연합뉴스에 따르면 이날 코스피는 장중 7,616....",
       "pub": "Thu, 02 Jul 2026 21:54:00 +0900",
       "via": "naver_api",
-      "importance": 11,
+      "importance": 9,
       "matched_keywords": [
-        "SK하이닉스",
-        "SK",
         "삼성전자",
+        "SK",
+        "SK하이닉스",
         "반도체"
       ],
-      "score": 23
+      "score": 21
     },
     {
       "source": "매일경제",
@@ -2001,11 +1970,11 @@
       "via": "rss",
       "importance": 11,
       "matched_keywords": [
-        "SK하이닉스",
-        "SK",
         "삼성전자",
-        "인공지능",
-        "반도체"
+        "SK",
+        "SK하이닉스",
+        "반도체",
+        "인공지능"
       ],
       "score": 20
     },
@@ -2018,9 +1987,9 @@
       "via": "rss",
       "importance": 10,
       "matched_keywords": [
-        "SK하이닉스",
+        "삼성전자",
         "SK",
-        "삼성전자"
+        "SK하이닉스"
       ],
       "score": 19
     },
@@ -2033,14 +2002,42 @@
       "via": "rss",
       "importance": 13,
       "matched_keywords": [
-        "SK하이닉스",
-        "SK",
         "삼성전자",
-        "인공지능",
+        "SK",
+        "클라우드",
+        "SK하이닉스",
         "반도체",
-        "클라우드"
+        "인공지능"
       ],
       "score": 19
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "[사설]코스피 8,000 붕괴…외풍에 휘둘리는 '홀짝 게임' 증시",
+      "link": "https://n.news.naver.com/mnews/article/417/0001150088?sid=110",
+      "desc": "2일 코스피는 전날보다 7.9% 하락한 7,648.09로 마감했고, 코스닥도 6.7% 내렸다. 전날 뉴욕증시에서 마이크론 테크놀러지 등 반도체 관련주가 폭락한 영향이 컸다. 초인공지능(ASI) 개발을 위해 막대한 인프라를 구축한...",
+      "pub": "Thu, 02 Jul 2026 22:00:00 +0900",
+      "via": "naver_api",
+      "importance": 14,
+      "matched_keywords": [
+        "게임",
+        "반도체",
+        "인공지능"
+      ],
+      "score": 19
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "코스피 8,000선 붕괴…반도체주 급락에 매도세 확산",
+      "link": "https://www.tokenpost.kr/news/market/374585",
+      "desc": "이날 코스피·코스닥·코넥스를 합한 국내 증시 전체 시가총액은 6천741조2천40억원으로 줄어 지난달 11일 이후 다시 7천조원을 밑돌았다. 유가증권시장 거래대금은 49조7천990억원, 코스닥시장 거래대금은...",
+      "pub": "Thu, 02 Jul 2026 22:16:00 +0900",
+      "via": "naver_api",
+      "importance": 15,
+      "matched_keywords": [
+        "반도체"
+      ],
+      "score": 18
     },
     {
       "source": "네이버뉴스",
@@ -2093,9 +2090,9 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "SK하이닉스",
         "SK",
         "이차전지",
+        "SK하이닉스",
         "셀트리온",
         "바이오",
         "반도체"
@@ -2111,8 +2108,8 @@
       "via": "naver_api",
       "importance": 12,
       "matched_keywords": [
-        "반도체",
-        "클라우드"
+        "클라우드",
+        "반도체"
       ],
       "score": 16
     },
@@ -2125,11 +2122,11 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "삼성전자우",
-        "SK하이닉스",
-        "SK",
         "삼성전자",
-        "삼성전기"
+        "SK",
+        "SK하이닉스",
+        "삼성전기",
+        "삼성전자우"
       ],
       "score": 15
     },
@@ -2155,42 +2152,8 @@
       "via": "rss",
       "importance": 11,
       "matched_keywords": [
-        "인공지능",
-        "반도체"
-      ],
-      "score": 15
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "충북도, SK하이닉스·셀트리온 투자 TF 가동",
-      "link": "http://www.dynews.co.kr/news/articleView.html?idxno=856609",
-      "desc": "국내 바이오 업계를 대표하는 셀트리온제약을 중심으로 바이오의약품 생산과 연구개잘의 핵심 거점으로 도약하고, 대한민국 첨단 바이오산업의 요충지로 자리매김해 나갈 계획이다. 신용한 지사는 &quot;쉽지 않은 투자...",
-      "pub": "Thu, 02 Jul 2026 21:12:00 +0900",
-      "via": "naver_api",
-      "importance": 4,
-      "matched_keywords": [
-        "제약",
-        "SK하이닉스",
-        "SK",
-        "셀트리온",
-        "바이오"
-      ],
-      "score": 15
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "SK하이닉스 이어 셀트리온도 초대형 투자.. &quot;오송에 2조 원&quot;",
-      "link": "http://news.mbccb.co.kr/home/sub.php?menukey=61&mod=view&RECEIVE_DATE=20260702&SEQUENCE=4288",
-      "desc": "◀ SYNC ▶유영호/셀트리온제약 대표이사 \\&quot;이번 투자 계획은 단순한 시설 확장이 아니라 지역과 함께 성장하고 국가 바이오헬스 산업 경쟁력을 높이기 위한 미래 투자라는 점에서 그 의미가 있다고 생각합니다...",
-      "pub": "Thu, 02 Jul 2026 21:02:00 +0900",
-      "via": "naver_api",
-      "importance": 4,
-      "matched_keywords": [
-        "제약",
-        "SK하이닉스",
-        "SK",
-        "셀트리온",
-        "바이오"
+        "반도체",
+        "인공지능"
       ],
       "score": 15
     },
@@ -2204,8 +2167,8 @@
       "importance": 9,
       "matched_keywords": [
         "SK",
-        "반도체",
-        "클라우드"
+        "클라우드",
+        "반도체"
       ],
       "score": 14
     },
@@ -2232,8 +2195,8 @@
       "via": "rss",
       "importance": 7,
       "matched_keywords": [
-        "전기차",
-        "로봇"
+        "로봇",
+        "전기차"
       ],
       "score": 13
     },
@@ -2246,57 +2209,56 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
+        "로봇",
         "현대차",
-        "현대모비스",
-        "로봇"
+        "현대모비스"
       ],
       "score": 13
     },
     {
-      "source": "매일경제",
-      "title": "“삼전·SK스퀘어부터 팔았다”…국민연금 리밸런싱 첫날, 연기금 2천억 ‘팔자’",
-      "link": "https://www.mk.co.kr/news/economy/12087923",
-      "desc": "SK하이닉스·아모레퍼시픽은 사들여 “점진적 매도...시장 충격은 제한적”국민연금이 자산배분 재조정(리밸런싱)을 재개한 첫날인 1일 유가증권시장에서 연기금은 2000억원이 넘는 주식..",
-      "pub": "Wed, 01 Jul 2026 17:38:41 +09:00",
-      "via": "rss",
-      "importance": 4,
+      "source": "네이버뉴스",
+      "title": "“하반기 만스피 간다…뭐타고? 반도체!”…증권가 전망",
+      "link": "https://n.news.naver.com/mnews/article/021/0002802024?sid=101",
+      "desc": "미국 국채 금리의 변동성이 다시 커지거나 환율 부담이 장기화될 경우 외인 수급이 흔들리며 단기적인 지수 롤러코스터 장세가 연출될 수 있다는 지적이다. 강대승 SK증권 연구원은 “하반기도 증시 방향성과...",
+      "pub": "Thu, 02 Jul 2026 22:36:00 +0900",
+      "via": "naver_api",
+      "importance": 8,
       "matched_keywords": [
-        "SK하이닉스",
-        "아모레퍼시픽",
         "SK",
-        "SK스퀘어"
+        "SK증권",
+        "반도체"
       ],
-      "score": 12
+      "score": 13
     }
   ],
   "keyword_summary": {
     "현대모비스": 3,
-    "반도체": 40,
+    "반도체": 43,
     "스트라드비젼": 1,
     "삼성증권": 3,
     "DB": 3,
     "한화오션": 6,
-    "SK하이닉스": 18,
-    "SK": 26,
     "삼성전자": 16,
+    "SK": 24,
+    "SK하이닉스": 15,
     "성호전자": 1,
     "한국콜마": 1,
     "대우건설": 1,
     "로봇": 12,
     "전기차": 4,
     "LG": 4,
-    "셀트리온": 5,
-    "바이오": 9,
+    "셀트리온": 4,
+    "바이오": 8,
     "현대차": 5,
     "기아": 3,
-    "삼성전기": 5,
-    "방산": 4,
+    "삼성전기": 6,
+    "방산": 3,
     "한미반도체": 1,
-    "네이버": 4,
     "카카오": 4,
+    "네이버": 4,
     "클라우드": 7,
     "팸텍": 1,
-    "인공지능": 17,
+    "인공지능": 15,
     "엔터": 1,
     "제약": 6,
     "삼성전자우": 2,
@@ -2309,17 +2271,19 @@
     "테스": 2,
     "SK스퀘어": 2,
     "아모레퍼시픽": 1,
-    "철강": 2,
+    "철강": 1,
     "이차전지": 3,
     "한국전력": 1,
     "하이브": 1,
     "SG": 2,
     "GS": 1,
-    "수소": 1,
     "현대로템": 1,
+    "수소": 1,
     "LG전자": 2,
-    "조선": 2,
-    "BNK금융지주": 1,
+    "조선": 1,
+    "게임": 1,
+    "SK증권": 1,
+    "NH투자증권": 1,
     "Meta": 1
   }
 }
