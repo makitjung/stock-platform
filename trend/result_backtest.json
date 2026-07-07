@@ -1,32 +1,32 @@
 {
-  "date": "2026-07-07",
-  "generated_at": "2026-07-07 06:54",
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 305,
-      "win_rate": 42.3,
-      "avg_return": -0.75,
-      "avg_win": 5.58,
-      "avg_loss": -5.39
+      "sample": 323,
+      "win_rate": 39.9,
+      "avg_return": -1.43,
+      "avg_win": 4.76,
+      "avg_loss": -5.54
     },
     "5": {
-      "sample": 261,
-      "win_rate": 29.5,
-      "avg_return": -6.24,
-      "avg_win": 9.42,
-      "avg_loss": -12.8
+      "sample": 258,
+      "win_rate": 27.9,
+      "avg_return": -6.69,
+      "avg_win": 9.73,
+      "avg_loss": -13.05
     }
   },
   "rank_horizon": "5",
   "best": [
     {
-      "date": "2026-05-28",
-      "keyword": "LG전자",
+      "date": "2026-06-30",
+      "keyword": "삼호개발",
       "returns": {
-        "1": 29.93,
-        "5": 34.37
+        "1": 29.91,
+        "5": 28.53
       }
     },
     {
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 345
+  "total_signals": 342
 }
