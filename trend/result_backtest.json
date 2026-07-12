@@ -1,22 +1,22 @@
 {
-  "date": "2026-07-12",
-  "generated_at": "2026-07-12 06:54",
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 321,
-      "win_rate": 40.5,
-      "avg_return": -1.23,
-      "avg_win": 4.84,
-      "avg_loss": -5.37
+      "sample": 310,
+      "win_rate": 41.0,
+      "avg_return": -1.2,
+      "avg_win": 4.82,
+      "avg_loss": -5.38
     },
     "5": {
-      "sample": 263,
-      "win_rate": 28.9,
-      "avg_return": -6.11,
-      "avg_win": 9.3,
-      "avg_loss": -12.38
+      "sample": 252,
+      "win_rate": 29.8,
+      "avg_return": -5.8,
+      "avg_win": 9.37,
+      "avg_loss": -12.23
     }
   },
   "rank_horizon": "5",
@@ -80,14 +80,6 @@
       }
     },
     {
-      "date": "2026-06-02",
-      "keyword": "LG전자",
-      "returns": {
-        "1": -16.43,
-        "5": -42.93
-      }
-    },
-    {
       "date": "2026-06-30",
       "keyword": "성호전자",
       "returns": {
@@ -101,6 +93,14 @@
       "returns": {
         "1": -12.65,
         "5": -32.93
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "keyword": "LG전자",
+      "returns": {
+        "1": -7.62,
+        "5": -31.1
       }
     }
   ],
