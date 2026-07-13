@@ -1,22 +1,22 @@
 {
-  "date": "2026-07-13",
-  "generated_at": "2026-07-13 06:54",
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 310,
-      "win_rate": 41.0,
-      "avg_return": -1.2,
-      "avg_win": 4.82,
-      "avg_loss": -5.38
+      "sample": 308,
+      "win_rate": 41.2,
+      "avg_return": -1.25,
+      "avg_win": 4.78,
+      "avg_loss": -5.49
     },
     "5": {
-      "sample": 252,
-      "win_rate": 29.8,
-      "avg_return": -5.8,
-      "avg_win": 9.37,
-      "avg_loss": -12.23
+      "sample": 272,
+      "win_rate": 28.3,
+      "avg_return": -6.02,
+      "avg_win": 9.36,
+      "avg_loss": -12.09
     }
   },
   "rank_horizon": "5",
@@ -96,7 +96,7 @@
       }
     },
     {
-      "date": "2026-06-03",
+      "date": "2026-06-04",
       "keyword": "LG전자",
       "returns": {
         "1": -7.62,
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 347
+  "total_signals": 350
 }
