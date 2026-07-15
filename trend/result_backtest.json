@@ -1,26 +1,34 @@
 {
-  "date": "2026-07-15",
-  "generated_at": "2026-07-15 06:54",
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 329,
-      "win_rate": 40.7,
-      "avg_return": -1.33,
-      "avg_win": 4.73,
-      "avg_loss": -5.49
+      "sample": 337,
+      "win_rate": 43.9,
+      "avg_return": -0.75,
+      "avg_win": 5.18,
+      "avg_loss": -5.39
     },
     "5": {
-      "sample": 274,
-      "win_rate": 27.7,
-      "avg_return": -6.0,
-      "avg_win": 9.42,
-      "avg_loss": -11.91
+      "sample": 278,
+      "win_rate": 28.8,
+      "avg_return": -5.2,
+      "avg_win": 11.15,
+      "avg_loss": -11.81
     }
   },
   "rank_horizon": "5",
   "best": [
+    {
+      "date": "2026-07-08",
+      "keyword": "한성기업",
+      "returns": {
+        "1": 29.94,
+        "5": 189.82
+      }
+    },
     {
       "date": "2026-06-30",
       "keyword": "삼호개발",
@@ -47,14 +55,6 @@
     },
     {
       "date": "2026-06-14",
-      "keyword": "SK하이닉스",
-      "returns": {
-        "1": 4.11,
-        "5": 27.58
-      }
-    },
-    {
-      "date": "2026-06-15",
       "keyword": "SK하이닉스",
       "returns": {
         "1": 4.11,
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 354
+  "total_signals": 357
 }
