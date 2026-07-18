@@ -1,4 +1,4 @@
-# 주식 뉴스 최신본 — 2026-07-18
+# 주식 뉴스 최신본 — 2026-07-19
 
 ## 대륙제관
 - [[특징주] 엔피케이·웰스·우듬지팜 등 코스닥 80개 상장사, 20일 자사주...](https://www.newstnt.com/news/articleView.html?idxno=710630)
@@ -16,8 +16,8 @@
 - [[입찰 정보] 7월 15일자](https://www.todayenergy.kr/news/articleView.html?idxno=300436)
 - [추경호 대구시장, 소통·민생·경제·안전 종횡무진… "현장이 답" 민선...](https://www.polinews.co.kr/news/articleView.html?idxno=736881)
 - [7월 13일 입찰정보](https://www.gasnews.com/news/articleView.html?idxno=126039)
-- [인천 명신여고 과학인재들, 'AI·지식재산' 날개 달고 CEO 향해 뛴다](http://www.incheonin.com/news/articleView.html?idxno=119226)
 - [인천지식재산센터, 명신여고 창업캠프…인공지능·지식재산 활용 역량 ...](https://news.ifm.kr/news/articleView.html?idxno=474793)
+- [인천 명신여고 과학인재들, 'AI·지식재산' 날개 달고 CEO 향해 뛴다](http://www.incheonin.com/news/articleView.html?idxno=119226)
 - [현대모비스, 자동차부품 상장기업 2026년 7월 브랜드평판 1위](https://www.energy-news.co.kr/news/articleView.html?idxno=226644)
 - [자동차부품 브랜드 1위 현대모비스…한온시스템·한국타이어앤테크놀로...](https://www.pinpointnews.co.kr/news/articleView.html?idxno=466396)
 - [[브랜드평판] 현대모비스, 자동차부품 상장기업 7월 1위···한온시스템...](https://www.enetnews.co.kr/news/articleView.html?idxno=52119)
@@ -37,6 +37,9 @@
 - [두산밥캣·현대엘리베이터도 조정 뚜렷…기계주 숨 고르기](https://www.pinpointnews.co.kr/news/articleView.html?idxno=463396)
 
 ## 정다운
+- [연휴에 수도권 물폭탄…밤사이 피해 잇따라](https://www.obsnews.co.kr/news/articleView.html?idxno=1531105)
+- [주소가 스펙…연애 시장 통행증 된 아파트 [취재수첩]](https://n.news.naver.com/mnews/article/024/0000106953?sid=110)
+- [제주도의회 불자 의원 16명 '길상회' 출범… 자비·나눔 의정활동 다짐](https://n.news.naver.com/mnews/article/014/0005549548?sid=102)
 - [주말 특히 강한 장맛비…수도권 오늘 밤부터](https://www.obsnews.co.kr/news/articleView.html?idxno=1531066)
 - [[OBS 인섬 뉴스] 인천공항, '세계 최단 기록' 누적 이용객 10억 명 달성](https://www.obsnews.co.kr/news/articleView.html?idxno=1531018)
 - [[히든스테이지] 채비·미리, 위로·응원 담은 자작곡…유튜브 뉴스핌TV서...](https://www.newspim.com/news/view/20260716000876)
@@ -44,9 +47,6 @@
 - [통일촌 옛 양곡창고, '박물관'으로 탄생](https://www.obsnews.co.kr/news/articleView.html?idxno=1530946)
 - [[뉴스온]"픽 하고 쓰러져" 절체절명의 순간… 기적처럼 등장한 '경찰'](https://www.obsnews.co.kr/news/articleView.html?idxno=1530955)
 - [제주도의회 불자의원 모임 '길상회' 출범...회장에 한동수 의원](https://news.bbsi.co.kr/news/articleView.html?idxno=4095587)
-- [제13대 제주도의회 불자 모임 길상회 출범](https://www.headlinejeju.co.kr/news/articleView.html?idxno=596083)
-- [수원시, 장애인 자립 응원 '삼계탕 DAY' 성황… 200명 함께한 따뜻한 나...](https://www.cfnews.kr/news/article.html?no=110264)
-- [오리자조금, 오리고기 최대 57% 할인전 진행](https://www.chukkyung.co.kr/news/articleView.html?idxno=82065)
 
 ## 제이씨현시스템
 - [컴퓨터·주변기기주 주가 신바람… AI 인프라 투자 기대감 확산](https://www.pinpointnews.co.kr/news/articleView.html?idxno=466945)
@@ -61,18 +61,19 @@
 - [한화시스템, 드론 감시체계·방산 전자 장악… 차세대 K-방산 '지휘소' ...](https://www.pinpointnews.co.kr/news/articleView.html?idxno=459038)
 
 ## 하이브
-- ['K-팝' 엔하이픈·'라틴팝' 산토스 브라보스, 멕시코 월드컵 축제 달궜다](https://m.entertain.naver.com/article/003/0014073135)
-- [방탄소년단 ‘아리랑’ 글로벌 대박, 韓 세계 3위 음악 수출국 됐다](https://m.entertain.naver.com/article/609/0001147167)
-- [엔하이픈·산토스 브라보스, 월드컵 기념 멕시코 축제 출연](https://m.entertain.naver.com/article/001/0016200747)
-- [BTS ‘아리랑’ 효과…한국, 세계 3위 음악 수출국 '우뚝'](https://www.mediapen.com/news/view/1110753)
-- [&TEAM, 그래미 '글로벌 스핀 라이브' 출격…亞 넘어 美 행보 본격화](https://www.nc.press/news/articleView.html?idxno=621057)
-- [[N포커스] 美 피지컬 시장 삼킨 K팝…규제 뚫은 '역발상'의 명암](https://www.nc.press/news/articleView.html?idxno=621056)
-- [방탄소년단 'NORMAL' 한국어 버전 공개 "가장 솔직한 순간 담았다"](https://www.gpkorea.com/news/articleView.html?idxno=144821)
-- [쿠팡·배민의 ‘동의의결’ 기각 이유는?[박상영의 경제본색](20)](https://n.news.naver.com/mnews/article/033/0000051376?sid=101)
-- [코첼라부터 음방까지… 끝나지 않는 ‘가창력 논란’[임진모의 K팝 이야...](https://n.news.naver.com/mnews/article/033/0000051371?sid=103)
-- [화려함 뒤 '진짜' 방탄소년단..'NORMAL' 韓 음원·MV 공개](https://m.entertain.naver.com/article/109/0005572936)
+- [BTS 효과 끝났나…엔터 4사 시총 8조 증발](https://www.pinpointnews.co.kr/news/articleView.html?idxno=469396)
+- [삭풍 부는 엔터株, 올해 시총 8조 증발…목표가 평균 7% '뚝'](https://n.news.naver.com/mnews/article/001/0016201487?sid=101)
+- [민희진, "완승" 이후 아직까진 '감감 무소식'[★FOCUS]](https://m.entertain.naver.com/article/108/0003453988)
+- [‘활동 중단’ 마농, 인종차별 저격하더니...SNS 게시물 내로남불 뭇매](https://m.entertain.naver.com/article/410/0001132983)
+- [방탄소년단, 파리 공연에 9만 관객 몰렸다..마크롱 대통령 부부도 '직관...](https://m.entertain.naver.com/article/109/0005573640)
+- [에반, 데뷔 다큐 공개…‘라이드 오어 다이’ 제작기 담았다](https://www.mediapen.com/news/view/1110821)
+- [에반, 데뷔 싱글 제작기 담은 다큐멘터리 공개 “음악 무대 향한 열정 ...](https://m.entertain.naver.com/article/609/0001147335)
+- [방탄소년단 '아리랑', 英 상반기 빅데이터 앨범 톱40 진입](https://www.gpkorea.com/news/articleView.html?idxno=144829)
+- [BTS, 英 오피셜 차트 선정…"올해 가장 성공한 앨범"](https://m.entertain.naver.com/article/433/0000129109)
+- [르세라핌 아일릿 캣츠아이 컬래버 통했다‥글로벌 주요 차트서 순항](https://m.entertain.naver.com/article/609/0001147324)
 
 ## 필에너지
+- ["빛나기보다 배려한 손끝" 조성진이 차려낸 브람스 실내악 성찬 [스테이...](https://www.newdaily.co.kr/site/data/html/2026/07/18/2026071800012.html)
 - [울주복지재단 중부종합사회복지관, 재능기부 부채로 이웃에 시원한 응원...](https://www.ksilbo.co.kr/news/articleView.html?idxno=1062366)
 - [정혜성, '나솔사계' MC 활약 속 설레는 '미혼남녀' 행보](https://www.topstarnews.net/news/articleView.html?idxno=16136991)
 - ['드래곤즈 도그마 2: 다크 어리즌', "더 플레이하고 싶다"는 팬들의 바람](https://www.gamevu.co.kr/news/articleView.html?idxno=59394)
@@ -82,7 +83,6 @@
 - ["신곡 최초 공개" 프로미스나인, '킬링보이스' 뒤흔든 청량 라이브 [MHN:...](https://m.entertain.naver.com/article/445/0000439625)
 - [[기획] 아이폰에도 AI모델 쏙… ‘내 손 안의 DC’ 현실로 성큼](https://n.news.naver.com/mnews/article/029/0003037264?sid=105)
 - [[제약 뉴스브리핑] 한미사이언스, '에너지골드' 10년만에 패키지 리뉴얼](https://www.asiatime.co.kr/article/20260715500349)
-- [[제약업계 소식] 7월 15일](http://www.doctorstimes.com/news/articleView.html?idxno=239050)
 
 ## 포스코퓨처엠
 - [[주목 e-광물] 하얀 석유 '리튬'…"글로벌 패권 경쟁 속 韓·포스코 전략...](http://www.economytalk.kr/news/articleView.html?idxno=422807)
@@ -90,25 +90,27 @@
 - [포항 이차전지 인재 양성, 고교·대학 연계 본격화](https://www.kyongbuk.co.kr/news/articleView.html?idxno=4078529)
 - [業 확장 위해…‘트리플 코어’ 승부수 던지다 [CEO 라운지]](https://n.news.naver.com/mnews/article/024/0000106926?sid=102)
 - [[7월17일자] 비즈니스포스트 아침의 주요기사](https://www.businesspost.co.kr/BP?command=article_view&num=442566)
-- [대법 “포스코, 계열사 하청까지 직고용해야”](https://n.news.naver.com/mnews/article/005/0001861460?sid=102)
 - [이번엔 2차 하청 직원 "포스코가 직고용해야"](https://n.news.naver.com/mnews/article/015/0005310943?sid=102)
+- [대법 “포스코, 계열사 하청까지 직고용해야”](https://n.news.naver.com/mnews/article/005/0001861460?sid=102)
 - [포스코그룹, 공정위와 상생협약…2·3차 협력사까지 지원 확대](https://www.newsworks.co.kr/news/articleView.html?idxno=847474)
 - [‘7000명 직고용’이 다가 아니었다… 대법 패소로 2차 하청 직원까지 ...](https://n.news.naver.com/mnews/article/366/0001179846?sid=101)
 - [[더벨]금호석유화학, 공급과잉 돌파할 해법 'R&D'](https://www.thebell.co.kr/free/content/ArticleView.asp?key=202607161620406920102718)
 
 ## 네이버
-- [[AI돋보기] 챗GPT는 왜 'GPT'일까…AI 이름에 숨은 패권 전략](https://n.news.naver.com/mnews/article/001/0016200953?sid=105)
-- [잠잠했던 와이지엔터의 반격…빅뱅·베몬·트레저 총출동](https://www.pinpointnews.co.kr/news/articleView.html?idxno=469303)
-- [대기업만 웃나…지역 AI업계 참여 막막](https://www.cctoday.co.kr/news/articleView.html?idxno=2233410)
-- [[종목현미경]SK하닉, 평균 181만원에 샀다…손실구간 목전에 빅테크 실...](https://n.news.naver.com/mnews/article/421/0009065694?sid=101)
-- [하정우, 낙선 후 '부산 북갑' 안방 넘어 전국으로…'AI 전도사' 변신 이...](https://n.news.naver.com/mnews/article/119/0003112440?sid=100)
-- [서울사랑상품권 결제 QR코드, 토스 단말기로도 이용 가능해진다](https://www.wikitree.co.kr/articles/1146397)
-- [DN오토모티브, 공작기계 호황 타고 실적 레벨업…저평가 매력 부각](https://www.pinpointnews.co.kr/news/articleView.html?idxno=469291)
-- [8월 14일까지 신청받는다, 고령자 가속 페달 오조작 급발진 방지 장치 지...](https://n.news.naver.com/mnews/article/023/0003988277?sid=101)
-- [[로펌 입사하기] 낯선 분야 업무라도 겁 없는 도전자 환영](https://www.lawtimes.co.kr/news/articleView.html?idxno=223590)
-- [넥센타이어 반등 조건은 북미 회복… 신한투자 "구조적 개선 기대"](https://www.pinpointnews.co.kr/news/articleView.html?idxno=469308)
+- ["고객, 우리편 만들자"…카드사, 소속감 기반 신상품 선봬](https://it.chosun.com/news/articleView.html?idxno=2023092165912)
+- [“AI가 만들었다” 표시 의무화… 21일부터 ‘AI기본법 개정안’ 시행](https://www.kbmaeil.com/article/20260719500014)
+- [광안대교 품은 참이슬부터 보랏빛 오예스까지…여름 한정판 쏟아진다](https://n.news.naver.com/mnews/article/022/0004144035?sid=101)
+- [“맥주에 경회루, 국물요리는 3분”…유통가, ‘취향 한 끗’ 경쟁](https://n.news.naver.com/mnews/article/022/0004144033?sid=101)
+- [[AI기본법] ① 개정안 21일 시행…한국 AI 법제, 준비 마쳤다](https://n.news.naver.com/mnews/article/001/0016201465?sid=105)
+- [삼성 새 폴더블 출격 임박…이통3사, 사전 마케팅 경쟁](https://n.news.naver.com/mnews/article/031/0001043007?sid=105)
+- ['445억원 해킹' 두나무에 금감원 검사의견서 송부…제재 본격화](https://n.news.naver.com/mnews/article/001/0016201444?sid=101)
+- [무섭다…요즘 대한민국을 망치고 있는 최악의 문화 1위](https://www.wikitree.co.kr/articles/1146956)
+- [[단독]구글·메타·네이버·카카오에 청소년 SNS 규제 검토](https://n.news.naver.com/mnews/article/079/0004169564?sid=101)
+- [숏폼·라이브 신속 대응…홈쇼핑은 'AI 쇼호스트' 확산 중](https://www.pointdaily.co.kr/news/articleView.html?idxno=312225)
 
 ## 대한전선
+- [생산부터 시공까지···대한전선, 해저케이블 '승부수'](https://www.sisajournal-e.com/news/articleView.html?idxno=422489)
+- [7월 16일 대한전선 주가 2만원대 후반 마감 변동성 확대](https://www.topstarnews.net/news/articleView.html?idxno=16138514)
 - [K전선, 초고압·해저케이블서 금맥 캔다](https://n.news.naver.com/mnews/article/009/0005708834?sid=101)
 - [미래에셋증권, 7월 셋째주 HD현대일렉트릭 등 14종목 매수 추천](https://www.bigtanews.co.kr/article/view/big202607170005)
 - [[전력·전선이 경쟁력이다 上] 역대 최대 수주잔고 쌓은 대한전선...AI 전...](https://www.joongangenews.com/news/articleView.html?idxno=533202)
@@ -117,10 +119,9 @@
 - [대만 유사시에도 北이 中 군사 지원?… 평양 간 왕후닝, 대응 논의 가능...](https://n.news.naver.com/mnews/article/023/0003988098?sid=100)
 - [K-전선, 상반기 역대최대 실적 ‘노크’…생산능력 확대 총력](https://www.ekn.kr/web/view.php?key=20260716020032759)
 - [대한전선, 주가 7월 16일 2,250원 7.51% 하락 마감](https://www.topstarnews.net/news/articleView.html?idxno=16136817)
-- [미래에셋이 찍은 전력기기 최선호주는 효성중공업](https://dealsite.co.kr/articles/165463)
-- [박완수 경남지사 "도와 18개 시군은 한몸… 소통·협치로 '경남 대도약'...](https://www.pointe.co.kr/news/articleView.html?idxno=81848)
 
 ## 한전KPS
+- [우리기술 주가 1만원선 다시 내줬다…원전주 동반 약세 속 새 주 흐름 '...](https://www.cbci.co.kr/news/articleView.html?idxno=589989)
 - [두산에너빌리티 우리기술 등 원전주, 제헌절 휴장 이후 새 주간 향방은...](https://www.cbci.co.kr/news/articleView.html?idxno=589983)
 - [[위클립] 7월 3주](https://www.laborplus.co.kr/news/articleView.html?idxno=41164)
 - [한전KPS, 정의로운 전환 속 사장 인선 여전한 잡음…재공모 제동에 새 국...](https://www.kukinews.com/article/view/kuk202607160150)
@@ -130,55 +131,54 @@
 - [노·정 '직고용' 660명 합의…한전KPS, 인건비 부담 '빨간불'](https://dealsite.co.kr/articles/165398)
 - [[이넷뉴스 브랜드평판] 두산에너빌리티, 원자력발전 상장기업 7월 1위·...](https://www.enetnews.co.kr/news/articleView.html?idxno=52442)
 - [두산에너빌리티 우리기술 등 원전주 대부분 주가 강세…미국 물가 둔화...](https://www.cbci.co.kr/news/articleView.html?idxno=589486)
-- [법원, 한전KPS 사장 공모 중지 가처분 인용…김홍연 사장 체제 유지](https://www.ekn.kr/web/view.php?key=20260715022372874)
 
 ## 알테오젠
+- ['불굴의 트로이카' 집필 '글로벌 도전 3부작' 해피엔딩 되기를](https://www.hitnews.co.kr/news/articleView.html?idxno=77719)
+- ['세계 꼴찌 수익률' 추락한 코스닥…증권가 "'바텀피싱' 기회 있다"](https://n.news.naver.com/mnews/article/421/0009066238?sid=101)
+- [“삼전 줍고 하이닉스 던졌다”…6% 폭락장서 갈린 ‘상위 1%’ 선택 [숫...](https://n.news.naver.com/mnews/article/022/0004144024?sid=101)
+- [알테오젠, ALT-B4 경쟁력 재확인…시장 오해 해소에 플랫폼 가치 부각](https://www.pinpointnews.co.kr/news/articleView.html?idxno=469289)
+- [바이오주 장중 희비…대웅제약·선바이오 강세, 알테오젠·삼천당제약 ...](https://www.cbci.co.kr/news/articleView.html?idxno=590088)
 - [허가 행정과 조인트스템, 미프진… 오젬픽 페이스와 에스테틱](https://www.hitnews.co.kr/news/articleView.html?idxno=77720)
 - [[주간e종목] 현대약품, 경구용 임신중절약 미프진 허가 기대에 급등](https://www.sisajournal-e.com/news/articleView.html?idxno=422491)
 - [알테오젠, 코스피 이전상장 유보…30% 무상증자 결정](https://www.fetv.co.kr/news/articleView.html?idxno=306651)
 - [[국내증시 개장시황] 국내 증시 급락 출발, 외국인 대량 매도 주도](https://www.tokenpost.kr/news/market/378671)
 - ['코스닥 남는' 알테오젠, 새주장 주가 향방 이목…무상증자·이전상장 ...](https://www.cbci.co.kr/news/articleView.html?idxno=589774)
-- [코스피 급등세, 7천 선 회복하며 투자자들 기대 고조](https://www.gokorea.kr/news/articleView.html?idxno=872250)
-- [[26.7.16 증시 인싸잇] 반도체 쇼크에 코스피 6.37% 급락… 하루 만에 매...](https://www.mediawatch.kr/news/article.html?no=260401)
-- [[주간 코스닥 기관] 원익IPS 피에스케이 테스 브이엠 파두 ISC '폭풍 매수...](https://www.pinpointnews.co.kr/news/articleView.html?idxno=469217)
-- [[주간 코스닥 외국인] 테크윙·리가켐바이오 집중 매수…반도체는 차익...](https://www.pinpointnews.co.kr/news/articleView.html?idxno=469216)
-- [[제약공시 책갈피] 7월 3주차 - 알테오젠·에스티팜 外](https://www.medipana.com/news/articleView.html?idxno=414705)
 
 ## JYP
-- [상반기 숨 고른 JYP, 하반기 '스키즈 효과'로 반전 노린다](https://www.pinpointnews.co.kr/news/articleView.html?idxno=469312)
-- [영케이 "연습생 되기 전 연예인병 가장 심했다" 무슨 사연? [RE:뷰]](https://m.entertain.naver.com/article/213/0001394666)
-- [키키·하투하·악뮤, 빌보드 선정 상반기 최고의 K-팝](https://m.entertain.naver.com/article/003/0014073128)
-- ["SM 후배 인사 안 해 매니저 불러" 브라이언, '꼰대 선배' 인정…직접 예...](https://m.entertain.naver.com/article/445/0000439906)
-- [[7월18일자] 비즈니스포스트 아침의 주요기사](https://www.businesspost.co.kr/BP?command=article_view&num=442581)
-- [Why Spanish is becoming more common in K-pop](https://n.news.naver.com/mnews/article/044/0000287012?sid=104)
-- ['JYP 글로벌 그룹' 걸셋, 국내 본격 공략… 음악방송 첫 출격](https://m.entertain.naver.com/article/018/0006332211)
-- [트와이스 쯔위, JYP 떠난다... 그룹 활동은?](https://www.ggilbo.com/news/articleView.html?idxno=1169287)
-- [데이식스 영케이, 온탕과 냉탕 오가는 매력..한계 없는 소화력 입증](https://m.entertain.naver.com/article/109/0005572944)
-- [걸셋, 17일 신보 '챗' 공개…"팀 재편 후 첫 국내 음방 출격"](https://m.entertain.naver.com/article/433/0000129103)
+- [BTS 효과 끝났나…엔터 4사 시총 8조 증발](https://www.pinpointnews.co.kr/news/articleView.html?idxno=469396)
+- [삭풍 부는 엔터株, 올해 시총 8조 증발…목표가 평균 7% '뚝'](https://n.news.naver.com/mnews/article/001/0016201487?sid=101)
+- [박진영, 농구장 있는 집+두 딸 공개‥JYP 식구들 증언한 궁전급 스케일...](https://m.entertain.naver.com/article/609/0001147434)
+- ['3600억대 주식부자' 박진영, 농구장 갖춘 대저택 공개..두 딸도 등장 (...](https://m.entertain.naver.com/article/076/0004426762)
+- [함성보다 몰입, 관람보다 체험…공연계 새 트렌드 된 '필코노미'[Ce:포커...](http://www.celuvmedia.com/article.php?aid=1784404800524151007)
+- [크래비티 앨런, 새 헤어 컬러로 컴백 앨범 감각 더했다](https://www.topstarnews.net/news/articleView.html?idxno=16138859)
+- [[TOP주간이슈] 김수현 광고 촬영 및 SNS 재개-트와이스·세븐틴·NCT127 재...](https://www.topstarnews.net/news/articleView.html?idxno=16138787)
+- ['놀토' 선미·영케이, 훈훈한 미담 못 참는 '현실 남매 케미' 폭소](https://m.entertain.naver.com/article/421/0009066193)
+- [JYP 신인 걸그룹 '아워벌스데이', 프리 데뷔…'더 딴따라' 1위 조혜진 합...](https://m.entertain.naver.com/article/003/0014073716)
+- [‘JYP 사내이사직 사임’ 박진영, 작정한 6년만 서머송‥올해는 더 튄다](https://m.entertain.naver.com/article/609/0001147403)
 
 ## 금ETF
-- [[하반기 ETF 설계도] 삼성자산운용 “다음 테마는 AI 병목…KODEX로 선점...](https://www.news2day.co.kr/article/20260713500162)
-- [로빈후드 체인 거래량 2위 급등…밈코인 착시 넘어 사용성 입증될까](https://www.tokenpost.kr/news/blockchain/378875)
-- ["유가 12% 폭등"...금(XAU/USD), 왜 4,000달러 무너졌나](http://coinreaders.com/248278)
-- [블룸버그 애널리스트 “비트코인 현물 ETF, 금 ETF 주기 재현 가능성”](https://www.tokenpost.kr/news/breaking/378848)
-- [뉴욕증시 프리뷰, 반도체주 투매에 나스닥 선물 1.8% 급락...마이크론·...](https://www.newspim.com/news/view/20260717000205)
-- [18년 만에 공휴일로 돌아온 제헌절…태극기 오전 7시부터 오후 6시까지...](https://n.news.naver.com/mnews/article/586/0000133971?sid=102)
-- [온스당 3,988달러 금·55.73달러 은… 현직 대통령 트럼프發 연준 변수에...](https://www.tokenpost.kr/news/economy/378663)
-- [[한국 증시] 7월 17일 국내 주식시장 휴장한다, 왜?…재개 일정은](https://www.cbci.co.kr/news/articleView.html?idxno=589688)
-- [18년 만에 공휴일 된 제헌절…국내 주식시장 개장 여부는?](https://www.gukjenews.com/news/articleView.html?idxno=3638714)
-- [[뉴욕증시] TSMC發 반도체의 '왝더독'?···호실적에도 빅테크 동반 하...](https://www.seoulfn.com/news/articleView.html?idxno=633590)
+- [[마켓인사이트] 제헌절 연휴 美반도체 하락지속…韓증시 짓누르나](https://n.news.naver.com/mnews/article/001/0016201459?sid=101)
+- [금값 4000달러 공방… ‘건전한 조정’ vs ‘추세 훼손’ 갈림길](https://www.g-enews.com/view.php?ud=202607181715454207fbbec65dfb_1)
+- [오늘 금시세(금값)는?…다양해진 투자법 속 변동성도 '눈길'](https://www.cbci.co.kr/news/articleView.html?idxno=589996)
+- [로빈후드체인, DEX 거래량 한때 세계 2위...밈코인이 견인](https://www.digitaltoday.co.kr/news/articleView.html?idxno=685058)
+- [블룸버그 인텔리전스 “비트코인 ETF, 금 ETF 역사 따를 가능성”](https://www.tokenpost.kr/news/breaking/379065)
+- [암호화폐 시장 반등, 클래러티법이 상승장 문 열까?](http://coinreaders.com/248342)
+- [[마켓분석] 반도체에서 빠진 돈은 어디로 가나…금·비트코인·핀테크로...](https://www.tokenpost.kr/news/cryptocurrency/379010)
+- [오늘 은시세(은값)는?…'대외 변수에 따라 방향성 주시해야'](https://www.cbci.co.kr/news/articleView.html?idxno=589995)
+- [금시세(금값) 상승](http://www.kjdaily.com/article.php?aid=1784335346682566227)
+- ["7월 그냥 보냈다간 세금폭탄 맞는다"…전문가들 신신당부 [고정삼의 절...](https://n.news.naver.com/mnews/article/015/0005311191?sid=101)
 
 ## 은ETF
+- [오늘 금시세(금값)는?…다양해진 투자법 속 변동성도 '눈길'](https://www.cbci.co.kr/news/articleView.html?idxno=589996)
+- [로빈후드체인, DEX 거래량 한때 세계 2위...밈코인이 견인](https://www.digitaltoday.co.kr/news/articleView.html?idxno=685058)
+- [코인셰어스 "비트코인 당분간 박스권"…8만달러 돌파는 쉽지 않아](https://www.digitaltoday.co.kr/news/articleView.html?idxno=685022)
+- [오늘 은시세(은값)는?…'대외 변수에 따라 방향성 주시해야'](https://www.cbci.co.kr/news/articleView.html?idxno=589995)
+- [금시세(금값) 상승](http://www.kjdaily.com/article.php?aid=1784335346682566227)
 - [로빈후드 체인 거래량 2위 급등…밈코인 착시 넘어 사용성 입증될까](https://www.tokenpost.kr/news/blockchain/378875)
 - [온스당 3,988달러 금·55.73달러 은… 현직 대통령 트럼프發 연준 변수에...](https://www.tokenpost.kr/news/economy/378663)
 - [레버리지 ETF가 동전주 만든다…법조계 “이럴 때일수록 사전 대응해야...](https://www.ekn.kr/web/view.php?key=20260716022203091)
 - [카나리캐피탈, 비트코인 변수로 규제·기술적 반등 지목](https://www.khgames.co.kr/news/articleView.html?idxno=306461)
 - [단일종목 레버리지 예탁금, 현금 3천만 원으로 강화](https://n.news.naver.com/mnews/article/052/0002380606?sid=101)
-- [7월에 살 코인은 단 2개? 비트코인·하이퍼리퀴드가 선택된 이유](http://coinreaders.com/248027)
-- [드라마도, 자본시장도《오징어 게임》… 레버리지로 인생버리지 [이양승...](https://www.newdaily.co.kr/site/data/html/2026/07/16/2026071600090.html)
-- [온스당 4,056달러 금·57달러 은… 통화·정치·지정학 리스크 '복합 반...](https://www.tokenpost.kr/news/economy/378301)
-- [이 대통령 "삼전닉스 단일종목 레버리지 ETF 보완책 신속 마련"](https://n.news.naver.com/mnews/article/052/0002380047?sid=100)
-- [비트코인 선물시장 판 바뀐다…美, 24시간·고레버리지 상품 허용](https://www.ebn.co.kr/news/articleView.html?idxno=1716475)
 
 ## 구리ETF
 - [WTI · 천연가스 '급등' 속...美 위험자산 '위축' vs 금값은 '상승'](http://www.choicenews.co.kr/news/articleView.html?idxno=168353)
@@ -193,6 +193,7 @@
 - [[더밸류 브리핑] 오늘의 NH금융 소식...NH투자증권·NH-아문디자산운용](http://www.thevaluenews.co.kr/news/view.php?idx=200072)
 
 ## 엑센츄어
+- [Earn 14% While You Wait To Buy ACN Stock On Sale](https://www.trefis.com/articles/607716/earn-14-while-you-wait-to-buy-acn-stock-on-sale/2026-07-17?.tsrc=rss)
 - [After an Epic Fall, IBM Faces a Long Road Back to Relevance](https://finance.yahoo.com/m/2e3b2809-0131-3d8a-9a4e-445850238b0a/after-an-epic-fall%2C-ibm-faces.html?.tsrc=rss)
 - [What Could Reignite Accenture Stock From Here?](https://www.trefis.com/articles/607513/what-could-reignite-accenture-stock-from-here/2026-07-17?.tsrc=rss)
 - [Axios House: AI is reshaping America's industrial future](https://www.axios.com/2026/07/17/axios-house-dc-ai-reshaping-americas-industrial-future#utm_source=yahoo_finance&utm_medium=partner&utm_campaign=subs-partner-yahoo-finance-AI?.tsrc=rss)
@@ -202,21 +203,22 @@
 - [Accenture (ACN) Signs Multi-Million Euro Contract With the NATO Communications and Information Agency](https://finance.yahoo.com/markets/stocks/articles/accenture-acn-signs-multi-million-090846403.html?.tsrc=rss)
 - [Stock Market Today, July 14: IBM Plunges on Second-Quarter Warning as AI Shifts Enterprise Spending](https://www.fool.com/coverage/stock-market-today/2026/07/14/stock-market-today-july-14-ibm-plunges-on-second-quarter-warning-as-enterprise-spending-shifts/?.tsrc=rss)
 - [IonQ and 3 More Stocks That Together Make a Better IBM](https://finance.yahoo.com/m/8c3bb8bb-fc62-3149-b333-c7d58fdf9bc2/ionq-and-3-more-stocks-that.html?.tsrc=rss)
-- [IBM Warning Hits Software Stocks](https://finance.yahoo.com/markets/stocks/articles/ibm-warning-hits-software-stocks-192217475.html?.tsrc=rss)
 
 ## 오라클
+- [Bloom Energy’s AI Data Center Growth Story Is Starting to Crack](https://247wallst.com/investing/2026/07/18/bloom-energys-ai-data-center-growth-story-is-starting-to-crack/?.tsrc=rss)
+- [Big Tech's $182 Billion AI Debt Spree: How META, NVDA and AMZN Are Reshaping Credit Markets](https://finance.yahoo.com/technology/ai/articles/big-techs-182-billion-ai-100123901.html?.tsrc=rss)
 - [Jim Cramer Says Oracle Is “Going Down” and Avoid Every Liquor Stock. Here’s What He’d Buy Instead](https://247wallst.com/investing/2026/07/17/jim-cramer-says-oracle-is-going-down-and-avoid-every-liquor-stock-heres-what-hed-buy-instead/?.tsrc=rss)
+- [SpaceX Reportedly In Talks To Supply Pentagon With AI Computing Power Worth Billions](https://stocktwits.com/news-articles/markets/equity/space-x-reportedly-in-talks-to-supply-pentagon-with-ai-computing-power-worth-billions/cZZ7MHGR7MQ?.tsrc=rss)
 - [Did AI Just Cannibalize Microsoft’s Greatest Narrative?](https://www.trefis.com/articles/607708/did-ai-just-cannibalize-microsofts-greatest-narrative/2026-07-17?.tsrc=rss)
 - [Michael Burry Is Skeptical Of NVDA, ORCL And NFLX — But Bullish On This Sports Betting Stock](https://stocktwits.com/news-articles/markets/equity/michael-burry-adds-nvidia-puts-cuts-oracle-position-bullish-on-draftkings-questions-netflix-content-value/cZZ7M5dR7Mf?.tsrc=rss)
 - [US stocks sink this week, semiconductors walloped amid sell-off](https://finance.yahoo.com/video/us-stocks-sink-this-week-semiconductors-walloped-amid-sell-off-201117763.html?.tsrc=rss)
 - [Oracle Data Center Plan Hits New Setback](https://finance.yahoo.com/technology/articles/oracle-data-center-plan-hits-200032055.html?.tsrc=rss)
 - [The 'Invisible Speculative Bear Market' Is Coming Out of Hiding](https://finance.yahoo.com/m/19e70832-e060-35d4-afce-0a03116909da/the-%27invisible-speculative.html?.tsrc=rss)
 - [Is Oracle (ORCL) Using Japan’s Secure Government Cloud Push to Redefine Its AI Infrastructure Role?](https://finance.yahoo.com/technology/ai/articles/oracle-orcl-using-japan-secure-161212232.html?.tsrc=rss)
-- [The AI boom is increasingly built on debt, but investor demand is plunging just as hyperscalers ramp up their bond blitz](https://finance.yahoo.com/economy/articles/ai-boom-increasingly-built-debt-155704069.html?.tsrc=rss)
-- [ServiceNow Set to Report Q2 Earnings: Buy, Sell or Hold the Stock?](https://finance.yahoo.com/markets/stocks/articles/servicenow-set-report-q2-earnings-151900170.html?.tsrc=rss)
-- [Oracle is Falling Fast. Here’s Why This Wall Street Firm Believes The Stock Will Triple in 12 Months](https://247wallst.com/investing/2026/07/17/oracle-is-falling-fast-heres-why-this-wall-street-firm-believes-the-stock-will-triple-in-12-months/?.tsrc=rss)
 
 ## 노보노디스크
+- [Watch Out, Eli Lilly and Novo Nordisk: Viking Therapeutics Just Started Testing a Weight Loss Drug That Goes Beyond GLP-1](https://www.fool.com/investing/2026/07/18/watch-out-eli-lilly-and-novo-nordisk-viking-just/?.tsrc=rss)
+- [The Most Overlooked Reason Eli Lilly Stock Keeps Surging -- and It Has Nothing to Do With Weight Loss](https://www.fool.com/investing/2026/07/17/the-most-overlooked-reason-eli-lilly-stock-keeps-s/?.tsrc=rss)
 - [Wegovy Pill Just Changed the GLP-1 Market. Here's Why Eli Lilly Stock Could Still Win](https://www.fool.com/investing/2026/07/17/wegovy-pill-just-changed-the-glp-1-market-heres-wh/?.tsrc=rss)
 - [The Next Wave Of Peptides Could Be Here; What Does It Mean For Lilly, Novo?](https://finance.yahoo.com/m/891fdcab-5d41-39b1-bfd1-98e771fb1fa8/the-next-wave-of-peptides.html?.tsrc=rss)
 - [The First Oral Cholesterol Pill Is Here. Which of These 5 Stocks Benefits Most?](https://247wallst.com/investing/2026/07/17/the-first-oral-cholesterol-pill-is-here-which-of-these-5-stocks-benefits-most/?.tsrc=rss)
@@ -225,22 +227,21 @@
 - [Novo Nordisk (NVO) Ascends While Market Falls: Some Facts to Note](https://finance.yahoo.com/markets/stocks/articles/novo-nordisk-nvo-ascends-while-214502899.html?.tsrc=rss)
 - [Novo Nordisk (NYSE:NVO) Wins First EU Approval For Oral Wegovy In Weight Management](https://finance.yahoo.com/healthcare/articles/novo-nordisk-nyse-nvo-wins-171521336.html?.tsrc=rss)
 - [NVO Stock Up on EC Approval of Wegovy Pill to Treat Obesity](https://finance.yahoo.com/healthcare/articles/nvo-stock-ec-approval-wegovy-165500102.html?.tsrc=rss)
-- [Novo secures European approval for oral Wegovy to extend lead over Lilly](https://www.pharmaceutical-technology.com/news/novo-secures-european-approval-for-oral-wegovy-to-extend-lead-over-lilly/?.tsrc=rss)
-- [European Equities Traded in the US as American Depositary Receipts Edge Lower Thursday](https://finance.yahoo.com/markets/world-indices/articles/european-equities-traded-us-american-151624928.html?.tsrc=rss)
 
 ## 일라이릴리
+- [Watch Out, Eli Lilly and Novo Nordisk: Viking Therapeutics Just Started Testing a Weight Loss Drug That Goes Beyond GLP-1](https://www.fool.com/investing/2026/07/18/watch-out-eli-lilly-and-novo-nordisk-viking-just/?.tsrc=rss)
+- [These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Google Holds Top Rating](https://finance.yahoo.com/m/2b47c372-177e-3051-aa01-406a8d82b220/these-7-stocks-are-analyst.html?.tsrc=rss)
+- [The Most Overlooked Reason Eli Lilly Stock Keeps Surging -- and It Has Nothing to Do With Weight Loss](https://www.fool.com/investing/2026/07/17/the-most-overlooked-reason-eli-lilly-stock-keeps-s/?.tsrc=rss)
+- [The Real Question Buried Inside Merck Stock's Premium Price](https://www.trefis.com/articles/607724/the-real-question-buried-inside-merck-stocks-premium-price/2026-07-17?.tsrc=rss)
 - [Sector Update: Healthcare Stocks Mixed Late Afternoon](https://finance.yahoo.com/healthcare/articles/sector-healthcare-stocks-mixed-afternoon-194450924.html?.tsrc=rss)
 - [Wegovy Pill Just Changed the GLP-1 Market. Here's Why Eli Lilly Stock Could Still Win](https://www.fool.com/investing/2026/07/17/wegovy-pill-just-changed-the-glp-1-market-heres-wh/?.tsrc=rss)
 - [IPO Stock Of The Week: This Eli Lilly Partner Soars 118% In Three Months](https://finance.yahoo.com/m/991149fa-1f13-316d-af1d-72a54359299c/ipo-stock-of-the-week%3A-this.html?.tsrc=rss)
 - [Eli Lilly Stock Hovers In Buy Zone, Finds Key Support Amid $3 Billion Deal](https://finance.yahoo.com/m/bc31ac41-1774-3c75-b8cf-e9565dfa8f80/eli-lilly-stock-hovers-in-buy.html?.tsrc=rss)
 - [The Next Wave Of Peptides Could Be Here; What Does It Mean For Lilly, Novo?](https://finance.yahoo.com/m/891fdcab-5d41-39b1-bfd1-98e771fb1fa8/the-next-wave-of-peptides.html?.tsrc=rss)
 - [Eli Lilly Long-Term GLP-1 Franchise Faces Limited Generic Threat, UBS Says](https://finance.yahoo.com/healthcare/articles/eli-lilly-long-term-glp-154830368.html?.tsrc=rss)
-- [Eli Lilly to Boost Neuroscience Pipeline With AtaiBeckley Buyout](https://finance.yahoo.com/healthcare/articles/eli-lilly-boost-neuroscience-pipeline-153100430.html?.tsrc=rss)
-- [Prozac Maker Eli Lilly Just Bought a Psychedelics Company for $2.8 Billion — Here’s What It Could Mean for Mental Health](https://www.entrepreneur.com/business-news/eli-lilly-just-bought-a-psychedelics-company-for-2-8-billion?.tsrc=rss)
-- [AtaiBeckley acquisition highlights growing Big Pharma interest in psychedelics](https://www.proactiveinvestors.com/companies/news/1095632/ataibeckley-acquisition-highlights-growing-big-pharma-interest-in-psychedelics-says-jefferies-1095632.html?.tsrc=rss)
-- [Atlas Healthcare Fund by VST Capital Entered Eli Lilly at $350 in 2020 — The Stock Now Trades Above $1,200](https://finance.yahoo.com/healthcare/articles/atlas-healthcare-fund-vst-capital-123600911.html?.tsrc=rss)
 
 ## 써클인터넷그룹
+- [Why Circle Stock Is the Most Divisive Name in Fintech Right Now](https://www.barchart.com/story/news/3339473/why-circle-stock-is-the-most-divisive-name-in-fintech-right-now?.tsrc=rss)
 - [Circle Stock Is Downgraded As Stablecoin Competition Heats Up](https://www.cryptoprowl.com/releases/circle-stock-is-downgraded-as-stablecoin-competition-heats-up-6187?.tsrc=rss)
 - [Circle (CRCL) Faces USDC Revenue Headwinds After Hyperliquid Partnership Change](https://finance.yahoo.com/markets/crypto/articles/circle-crcl-faces-usdc-revenue-080833253.html?.tsrc=rss)
 - [Did Circle’s OCC‑Approved National Trust Bank Just Shift Circle Internet Group's (CRCL) Investment Narrative?](https://finance.yahoo.com/markets/crypto/articles/did-circle-occ-approved-national-043204450.html?.tsrc=rss)
@@ -250,10 +251,10 @@
 - [The US sanctioned 4 of Iran's central bank crypto wallets. Here's why.](https://finance.yahoo.com/video/us-sanctioned-4-irans-central-163000538.html?.tsrc=rss)
 - [Coinbase Just Joined a 140-Company Stablecoin Alliance. Here's What It Means for the Stock.](https://www.fool.com/investing/2026/07/16/coinbase-just-joined-a-140-company-stablecoin-alli/?.tsrc=rss)
 - [Why Analysts Aren’t Worried About Coinbase’s 30% Drop](https://decrypt.co/373615/analysts-arent-worried-coinbase-drop?.tsrc=rss)
-- [Bitcoin Clawed Its Way Back Over $65,000. Here’s Why—and What to Know Now](https://www.investopedia.com/bitcoin-clawed-its-way-back-over-usd65-000-here-s-why-and-what-to-know-now-12019866?.tsrc=rss)
 
 ## GE버노바
-- [Dow Jones Futures: Google, Tesla, AMD Loom After AI Stock Sell-Off](https://finance.yahoo.com/m/6c8dacfc-1037-32fc-a343-353600ff0076/dow-jones-futures%3A-google%2C.html?.tsrc=rss)
+- [Dow Jones Futures: Iran Attack Kills Two U.S. Troops; Google, Tesla, AMD Ahead](https://finance.yahoo.com/m/6c8dacfc-1037-32fc-a343-353600ff0076/dow-jones-futures%3A-iran.html?.tsrc=rss)
+- [GE Aerospace Faces a Prove-It Moment in Q2 Earnings](https://www.marketbeat.com/articles/ge-aerospace-faces-a-prove-it-moment-in-q2-earnings/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss)
 - [Why Wall Street Thinks GE Vernova (GEV) Is Built for the Next Energy Cycle](https://finance.yahoo.com/energy/articles/why-wall-street-thinks-ge-184148387.html?.tsrc=rss)
 - [How Investors May Respond To GE Vernova (GEV) AI-Fueled Demand And Heavy Investment Ahead Of Earnings](https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-ge-vernova-171437323.html?.tsrc=rss)
 - [GE Aerospace Q2 Earnings Beat on Robust Commercial Services Growth](https://finance.yahoo.com/markets/stocks/articles/ge-aerospace-q2-earnings-beat-151800526.html?.tsrc=rss)
@@ -262,7 +263,6 @@
 - [Micron and General Mills have been highlighted as Zacks Bull and Bear of the Day](https://finance.yahoo.com/markets/stocks/articles/micron-general-mills-highlighted-zacks-073100132.html?.tsrc=rss)
 - [Is GEV Stock a Smart Investment Option Before Q2 Earnings Release?](https://finance.yahoo.com/markets/stocks/articles/gev-stock-smart-investment-option-152300904.html?.tsrc=rss)
 - [GE Vernova (GEV) Earnings Expected to Grow: What to Know Ahead of Next Week's Release](https://finance.yahoo.com/markets/stocks/articles/ge-vernova-gev-earnings-expected-140009338.html?.tsrc=rss)
-- [The AI Power Shock: Is GE Vernova or PPL the Better Stock to Buy?](https://www.fool.com/coverage/better-buy/2026/07/15/the-ai-power-shock-is-ge-vernova-or-ppl-the-better-stock-to-buy/?.tsrc=rss)
 
 ## 레드와이어
 - [Here's Why Investors Shouldn't Worry About Redwire's CEO Selling 25,369 Shares](https://www.fool.com/coverage/filings/2026/07/16/here-s-why-investors-shouldn-t-worry-about-redwire-s-ceo-selling-25-369-shares/?.tsrc=rss)
@@ -313,16 +313,16 @@
 - [Northrop Grumman (NOC) Stock Fair Value Edges Lower As Analysts Trim Targets](https://finance.yahoo.com/markets/stocks/articles/northrop-grumman-noc-stock-fair-002143480.html?.tsrc=rss)
 
 ## 로켓랩
+- [Can Iridium Communications (IRDM) Stay Below Fair Value After New Growth Moves?](https://finance.yahoo.com/markets/stocks/articles/iridium-communications-irdm-stay-below-140941824.html?.tsrc=rss)
+- [Rocket Lab (RKLB) Expands Launch Infrastructure To Support More Frequent Missions](https://finance.yahoo.com/markets/stocks/articles/rocket-lab-rklb-expands-launch-090818171.html?.tsrc=rss)
+- [UBS projects the space economy’s TAM at $1.3TN by 2040](https://finance.yahoo.com/technology/articles/ubs-projects-space-economy-tam-072340801.html?.tsrc=rss)
 - [Does Starship's Launch Abort Change the SpaceX Investment Story?](https://finance.yahoo.com/markets/stocks/articles/does-starships-launch-abort-change-175300794.html?.tsrc=rss)
+- [Why Piper Sandler Likes AST SpaceMobile (ASTS) Stock Over Other Space Stocks](https://www.barchart.com/story/news/3339359/why-piper-sandler-likes-ast-spacemobile-asts-stock-over-other-space-stocks?.tsrc=rss)
 - [Elon Musk’s SpaceX Sets New Starship Launch Date – SPCX Stock Drops To New Record Low While ASTS, RKLB Rally](https://stocktwits.com/news-articles/markets/equity/spcx-stock-spacex-record-low-starship-new-launch-date-asts-rklb-rally/cZZ7FrCR7ME?.tsrc=rss)
+- [AST SpaceMobile Stock Sinks as SpaceX Fallout Rattles Space Sector](https://www.marketbeat.com/articles/ast-spacemobile-stock-sinks-as-spacex-fallout-rattles-space-sector/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss)
 - [Rocket Lab Stock Plunges After Piper Sandler Starts Coverage at Neutral](https://finance.yahoo.com/markets/stocks/articles/rocket-lab-stock-plunges-piper-162008540.html?.tsrc=rss)
 - [AST SpaceMobile Is Down 32% in a Month and SpaceX Is Down 34%. Are Space Stocks Doomed?](https://247wallst.com/investing/2026/07/17/ast-spacemobile-is-down-32-in-a-month-and-spacex-is-down-34-are-space-stocks-doomed/?.tsrc=rss)
 - [Prediction Markets Are Betting Against Rocket Lab: Here’s What the Odds Say](https://247wallst.com/investing/2026/07/17/prediction-markets-are-betting-against-rocket-lab-heres-what-the-odds-say/?.tsrc=rss)
-- [Social Buzz: Wallstreetbets Stocks Mostly Lower Premarket Friday; Netflix, SpaceX to Decline](https://finance.yahoo.com/markets/stocks/articles/social-buzz-wallstreetbets-stocks-mostly-104141444.html?.tsrc=rss)
-- [RKLB, SPCX, ASTS Head For Over 30% July Losses — Goldman Says Space Stocks Are 5x More Volatile Than S&P 500](https://stocktwits.com/news-articles/markets/equity/rklb-spcx-asts-goldman-space-stocks-volatile-sp500/cZZ73gKR7tB?.tsrc=rss)
-- [AST SpaceMobile vs. Rocket Lab: Which Stock Is The Superior SpaceX Competitor?](https://www.fool.com/investing/2026/07/16/ast-spacemobile-vs-rocket-lab-which-stock-is-the-s/?.tsrc=rss)
-- [Why Rocket Lab (RKLB) Shares Are Plunging Today](https://finance.yahoo.com/markets/stocks/articles/why-rocket-lab-rklb-shares-220922136.html?.tsrc=rss)
-- [Why Rocket Lab Stock Is Losing Altitude Today](https://www.fool.com/investing/2026/07/16/why-rocket-lab-stock-is-losing-altitude-today/?.tsrc=rss)
 
 ## 퍼스트솔라
 - [2 Mid-Cap Stocks with Solid Fundamentals and 1 Facing Headwinds](https://finance.yahoo.com/markets/stocks/articles/2-mid-cap-stocks-solid-141746694.html?.tsrc=rss)
@@ -349,6 +349,7 @@
 - [Renewable Energy Stocks Q1 Highlights: Fluence Energy (NASDAQ:FLNC)](https://finance.yahoo.com/energy/articles/renewable-energy-stocks-q1-highlights-201006810.html?.tsrc=rss)
 
 ## 엔페이즈에너지
+- [Is Enphase Energy (ENPH) Cheap On Earnings Or Expensive On Cash Flow?](https://finance.yahoo.com/markets/stocks/articles/enphase-energy-enph-cheap-earnings-050855596.html?.tsrc=rss)
 - [Is Enphase (ENPH) Quietly Building a Stickier Home Energy Ecosystem With Its European EV Charger Push?](https://finance.yahoo.com/energy/articles/enphase-enph-quietly-building-stickier-181112152.html?.tsrc=rss)
 - [Enphase Energy (ENPH) Rolls Out New Products Across Europe Australia And New Zealand](https://finance.yahoo.com/energy/articles/enphase-energy-enph-rolls-products-121405533.html?.tsrc=rss)
 - [Enphase Energy Highlights Safety and Reliability of the IQ EV Charger 2 Across Europe](https://finance.yahoo.com/energy/articles/enphase-energy-highlights-safety-reliability-120000198.html?.tsrc=rss)
@@ -358,7 +359,6 @@
 - [Enphase Energy Expands IQ9N Microinverters with GaN Technology to Australia and New Zealand](https://finance.yahoo.com/energy/articles/enphase-energy-expands-iq9n-microinverters-120000552.html?.tsrc=rss)
 - [3 Small-Cap Stocks That Concern Us](https://finance.yahoo.com/markets/stocks/articles/3-small-cap-stocks-concern-114239911.html?.tsrc=rss)
 - [How Is First Solar Expanding Its Manufacturing Asset Base?](https://finance.yahoo.com/energy/articles/first-solar-expanding-manufacturing-asset-140700563.html?.tsrc=rss)
-- [AI Data Center Demand to Fuel Clean Tech Order Inflection, Morgan Stanley Says](https://finance.yahoo.com/energy/articles/ai-data-center-demand-fuel-130047315.html?.tsrc=rss)
 
 ## AXT
 - [AXTI Falls Below 50-Day SMA: Is It Time to Hold or Exit the Stock?](https://finance.yahoo.com/markets/stocks/articles/axti-falls-below-50-day-140700236.html?.tsrc=rss)
@@ -373,6 +373,9 @@
 - [AXT, Inc. Schedules Second Quarter 2026 Earnings Release for July 30, 2026](https://finance.yahoo.com/markets/stocks/articles/axt-inc-schedules-second-quarter-200500166.html?.tsrc=rss)
 
 ## 팔란티어
+- [What Do SpaceX, AMD, and Palantir Have in Common?](https://www.fool.com/investing/2026/07/18/what-do-spacex-amd-and-palantir-have-in-common/?.tsrc=rss)
+- [Palantir (NasdaqGS:PLTR) Teams Up With Nvidia On Sovereign AI For Governments](https://finance.yahoo.com/technology/ai/articles/palantir-nasdaqgs-pltr-teams-nvidia-140914270.html?.tsrc=rss)
+- [Palantir Stock Slipped 35% From Its Peak. Is the Artificial Intelligence (AI) Software Leader a Safe Buy for the Second Half of 2026?](https://www.fool.com/investing/2026/07/18/palantir-stock-slipped-35-from-its-peak-is-the-art/?.tsrc=rss)
 - [Joby, Archer, and EHang Are Down 40% to 60% in 2026. Are Air Taxi Stocks Damaged Beyond Repair?](https://247wallst.com/investing/2026/07/17/joby-archer-and-ehang-are-down-40-to-60-in-2026-are-air-taxi-stocks-damaged-beyond-repair/?.tsrc=rss)
 - [Meet TMGN, the 0.88% Fee ETF Betting on Tech Giants and Options Income](https://247wallst.com/investing/etf/2026/07/17/meet-tmgn-the-0-88-fee-etf-betting-on-tech-giants-and-options-income/?.tsrc=rss)
 - [Palantir co-founder Peter Thiel honoured with Axel Springer Award](https://uk.finance.yahoo.com/news/palantir-co-founder-peter-thiel-165602022.html?.tsrc=rss)
@@ -380,7 +383,4 @@
 - [How to Find the Bargains in the Software Stock Wreckage](https://finance.yahoo.com/m/8131e73a-ac96-35ca-bfe7-85018866c3e2/how-to-find-the-bargains-in.html?.tsrc=rss)
 - [With a $15 billion net worth, Palantir CEO Alex Karp predicts he will get 20x richer from AI—but that middle-class workers will get just modest raises](https://finance.yahoo.com/economy/policy/articles/15-billion-net-worth-palantir-150653679.html?.tsrc=rss)
 - [3 Hypergrowth Stocks That You Should Consider Buying in July](https://247wallst.com/investing/2026/07/17/3-hypergrowth-stocks-that-you-should-consider-buying-in-july/?.tsrc=rss)
-- [Alex Karp Grouped Palantir With These 3 Unstoppable Stocks as the Only True Artificial Intelligence (AI) Infrastructure Winners](https://www.fool.com/investing/2026/07/16/alex-karp-grouped-palantir-with-these-3-unstoppabl/?.tsrc=rss)
-- [Palantir CTO Warns AI Distillation Threat Could Undermine U.S. AI Lead](https://finance.yahoo.com/technology/ai/articles/palantir-cto-warns-ai-distillation-193451235.html?.tsrc=rss)
-- [Palantir Technologies Inc (PLTR) Pairs with SNP to Target SAP Transformation Projects](https://finance.yahoo.com/technology/ai/articles/palantir-technologies-inc-pltr-pairs-182024850.html?.tsrc=rss)
 
