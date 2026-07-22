@@ -1,22 +1,22 @@
 {
-  "date": "2026-07-22",
-  "generated_at": "2026-07-22 06:54",
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 365,
-      "win_rate": 43.6,
+      "sample": 363,
+      "win_rate": 43.8,
       "avg_return": -1.36,
-      "avg_win": 4.49,
-      "avg_loss": -5.88
+      "avg_win": 4.65,
+      "avg_loss": -6.05
     },
     "5": {
-      "sample": 291,
-      "win_rate": 21.3,
-      "avg_return": -6.84,
-      "avg_win": 10.0,
-      "avg_loss": -11.4
+      "sample": 296,
+      "win_rate": 22.3,
+      "avg_return": -6.59,
+      "avg_win": 9.37,
+      "avg_loss": -11.17
     }
   },
   "rank_horizon": "5",
@@ -38,14 +38,6 @@
       }
     },
     {
-      "date": "2026-06-13",
-      "keyword": "SK하이닉스",
-      "returns": {
-        "1": 4.11,
-        "5": 27.58
-      }
-    },
-    {
       "date": "2026-06-14",
       "keyword": "SK하이닉스",
       "returns": {
@@ -59,6 +51,14 @@
       "returns": {
         "1": 4.11,
         "5": 27.58
+      }
+    },
+    {
+      "date": "2026-07-05",
+      "keyword": "콘텐트리중앙",
+      "returns": {
+        "1": -23.75,
+        "5": 23.5
       }
     }
   ],
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 379
+  "total_signals": 375
 }
