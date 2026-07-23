@@ -1,22 +1,22 @@
 {
-  "date": "2026-07-23",
-  "generated_at": "2026-07-23 06:54",
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 363,
-      "win_rate": 43.8,
-      "avg_return": -1.36,
-      "avg_win": 4.65,
-      "avg_loss": -6.05
+      "sample": 358,
+      "win_rate": 45.3,
+      "avg_return": -1.16,
+      "avg_win": 4.75,
+      "avg_loss": -6.04
     },
     "5": {
-      "sample": 296,
-      "win_rate": 22.3,
-      "avg_return": -6.59,
-      "avg_win": 9.37,
-      "avg_loss": -11.17
+      "sample": 295,
+      "win_rate": 23.1,
+      "avg_return": -6.35,
+      "avg_win": 8.8,
+      "avg_loss": -10.89
     }
   },
   "rank_horizon": "5",
@@ -38,14 +38,6 @@
       }
     },
     {
-      "date": "2026-06-14",
-      "keyword": "SK하이닉스",
-      "returns": {
-        "1": 4.11,
-        "5": 27.58
-      }
-    },
-    {
       "date": "2026-06-15",
       "keyword": "SK하이닉스",
       "returns": {
@@ -60,17 +52,17 @@
         "1": -23.75,
         "5": 23.5
       }
+    },
+    {
+      "date": "2026-06-27",
+      "keyword": "스피어",
+      "returns": {
+        "1": 14.74,
+        "5": 20.39
+      }
     }
   ],
   "worst": [
-    {
-      "date": "2026-06-14",
-      "keyword": "모바일어플라이언스",
-      "returns": {
-        "1": -24.14,
-        "5": -44.99
-      }
-    },
     {
       "date": "2026-06-15",
       "keyword": "모바일어플라이언스",
@@ -102,7 +94,15 @@
         "1": -9.85,
         "5": -29.49
       }
+    },
+    {
+      "date": "2026-06-25",
+      "keyword": "에이팩트",
+      "returns": {
+        "1": -6.74,
+        "5": -28.0
+      }
     }
   ],
-  "total_signals": 375
+  "total_signals": 376
 }
