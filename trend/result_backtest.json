@@ -1,22 +1,22 @@
 {
-  "date": "2026-07-24",
-  "generated_at": "2026-07-24 06:54",
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 358,
+      "sample": 351,
       "win_rate": 45.3,
-      "avg_return": -1.16,
-      "avg_win": 4.75,
-      "avg_loss": -6.04
+      "avg_return": -1.17,
+      "avg_win": 4.79,
+      "avg_loss": -6.1
     },
     "5": {
-      "sample": 295,
-      "win_rate": 23.1,
-      "avg_return": -6.35,
-      "avg_win": 8.8,
-      "avg_loss": -10.89
+      "sample": 292,
+      "win_rate": 22.6,
+      "avg_return": -6.23,
+      "avg_win": 8.54,
+      "avg_loss": -10.54
     }
   },
   "rank_horizon": "5",
@@ -38,14 +38,6 @@
       }
     },
     {
-      "date": "2026-06-15",
-      "keyword": "SK하이닉스",
-      "returns": {
-        "1": 4.11,
-        "5": 27.58
-      }
-    },
-    {
       "date": "2026-07-05",
       "keyword": "콘텐트리중앙",
       "returns": {
@@ -60,17 +52,17 @@
         "1": 14.74,
         "5": 20.39
       }
+    },
+    {
+      "date": "2026-07-11",
+      "keyword": "HLB",
+      "returns": {
+        "1": 4.09,
+        "5": 18.52
+      }
     }
   ],
   "worst": [
-    {
-      "date": "2026-06-15",
-      "keyword": "모바일어플라이언스",
-      "returns": {
-        "1": -24.14,
-        "5": -44.99
-      }
-    },
     {
       "date": "2026-06-30",
       "keyword": "성호전자",
@@ -102,7 +94,15 @@
         "1": -6.74,
         "5": -28.0
       }
+    },
+    {
+      "date": "2026-07-13",
+      "keyword": "금호에이치티",
+      "returns": {
+        "1": -12.68,
+        "5": -26.8
+      }
     }
   ],
-  "total_signals": 376
+  "total_signals": 374
 }
