@@ -91,6 +91,42 @@ class TestNewsAlerts(unittest.TestCase):
         self.assertEqual(alarm_engine.score_news_title("단일판매 공급계약"), 12)
 
 
+class TestSeCoveredExclusion(unittest.TestCase):
+    """stock_expert 가 이미 감시 중인 종목은 여기서 다시 알리지 않는다(봇 통합 후 중복 방지)."""
+
+    def setUp(self):
+        self._orig = alarm_engine.load_se_covered
+
+    def tearDown(self):
+        alarm_engine.load_se_covered = self._orig
+
+    def test_price_spike_skips_covered(self):
+        alarm_engine.load_se_covered = lambda: {"하이브"}
+        stocks = [
+            {"name": "하이브", "ticker": "HYBE", "market": "KR", "change_rate": 7.0},
+            {"name": "금ETF", "ticker": "GLD", "market": "KR", "change_rate": 7.0},
+        ]
+        lines = alarm_engine.check_price_spike(stocks, _state())
+        self.assertEqual(len(lines), 1)
+        self.assertIn("금ETF", lines[0])          # SE 미커버 종목은 계속 알린다
+
+    def test_volume_spike_skips_covered(self):
+        alarm_engine.load_se_covered = lambda: {"하이브"}
+        stocks = [
+            {"name": "하이브", "ticker": "HYBE", "market": "KR", "volume": 900},
+            {"name": "엔비디아", "ticker": "NVDA", "market": "US", "volume": 900},
+        ]
+        baseline = {"HYBE": 100, "NVDA": 100}
+        lines = alarm_engine.check_volume_spike(stocks, baseline, _state())
+        self.assertEqual(len(lines), 1)
+        self.assertIn("엔비디아", lines[0])       # 미국 종목은 SE 가 못 다루므로 유지
+
+    def test_missing_file_means_no_exclusion(self):
+        """목록 파일이 없으면 예외 없이 빈 집합 → 기존대로 전부 알린다."""
+        alarm_engine.SE_COVERED_PATH = "/tmp/절대없는파일_se_covered.json"
+        self.assertEqual(alarm_engine.load_se_covered(), set())
+
+
 class TestStateLifecycle(unittest.TestCase):
     def test_empty_state_shape(self):
         s = alarm_engine._empty_state("2026-01-01")

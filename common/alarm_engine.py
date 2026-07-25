@@ -14,6 +14,8 @@ NEWS_SCORE_THRESHOLD  = 10    # EVENT_WEIGHTS 합산 점수 N점 이상이면 �
 
 STATE_PATH    = ROOT / "trend" / "_alarm_state.json"
 BASELINE_PATH = ROOT / "trend" / "_alarm_baseline.json"
+# stock_expert 의 sync_platform_watchlist 잡이 써주는 "SE 가 이미 감시 중인 종목" 목록
+SE_COVERED_PATH = ROOT / "_se_covered.json"
 
 # ── 핵심 키워드 → 점수 (scripts/add_stock.py EVENT_WEIGHTS의 축약 버전) ─
 MATERIAL_KEYWORDS = {
@@ -90,16 +92,34 @@ def save_baseline(volumes: dict) -> None:
 
 
 # ── 가격 급변 ──────────────────────────────────────────────
+def load_se_covered() -> set:
+    """stock_expert 가 이미 감시 중인 종목명 집합.
+
+    SE monitor_surges 는 국내 watchlist 를 ±3%·5분 간격으로 보고 stock-platform 은
+    ±5%·10분 간격으로 본다. 두 봇이 하나로 합쳐진 뒤로는 같은 종목이 두 번 울린다.
+    목록은 SE 의 sync_platform_watchlist 잡이 종목코드 기준으로 판정해 써준다
+    (이름 표기가 서로 달라 이름 비교로는 못 맞춘다).
+    파일이 없으면 빈 집합 = 제외 없이 기존대로 동작한다.
+    ETF·미국 종목은 SE 가 못 다루므로 목록에 안 들어가고 여기서 계속 알린다.
+    """
+    try:
+        with open(SE_COVERED_PATH, encoding="utf-8") as f:
+            return set(json.load(f).get("covered") or [])
+    except (OSError, json.JSONDecodeError):
+        return set()
+
+
 def check_price_spike(stocks: list, state: dict) -> list[str]:
     """change_rate가 ±PRICE_PCT_THRESHOLD를 처음 넘은 종목 알림 라인 반환."""
     fired = set(state.get("price_fired", []))
+    covered = load_se_covered()
     lines = []
     for it in stocks:
         rate = it.get("change_rate")
         ticker = it.get("ticker") or it.get("name")
         if rate is None or abs(rate) < PRICE_PCT_THRESHOLD:
             continue
-        if ticker in fired:
+        if ticker in fired or it.get("name") in covered:
             continue
         arrow = "▲" if rate > 0 else "▼"
         flag  = "🇰🇷" if it.get("market") == "KR" else "🇺🇸"
@@ -113,6 +133,7 @@ def check_price_spike(stocks: list, state: dict) -> list[str]:
 def check_volume_spike(stocks: list, baseline: dict, state: dict) -> list[str]:
     """현재 거래량이 베이스라인의 VOLUME_MULTIPLIER배 이상이면 알림."""
     fired = set(state.get("volume_fired", []))
+    covered = load_se_covered()
     lines = []
     for it in stocks:
         ticker = it.get("ticker") or it.get("name")
@@ -123,7 +144,7 @@ def check_volume_spike(stocks: list, baseline: dict, state: dict) -> list[str]:
         ratio = vol / base
         if ratio < VOLUME_MULTIPLIER:
             continue
-        if ticker in fired:
+        if ticker in fired or it.get("name") in covered:
             continue
         flag = "🇰🇷" if it.get("market") == "KR" else "🇺🇸"
         lines.append(
