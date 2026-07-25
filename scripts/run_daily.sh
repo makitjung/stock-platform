@@ -1,5 +1,5 @@
 #!/bin/bash
-# 매일 아침 6:50 전체 파이프라인: 뉴스 수집 → 트렌드 수집/분석 → GitHub push
+# 매일 아침 6:50 전체 파이프라인: 뉴스 수집 → 트렌드 수집/분석 (GitHub push 는 2026-07-25 제거)
 
 PLATFORM_DIR="$HOME/dev/stock-platform"
 TREND_DIR="$PLATFORM_DIR/trend"
@@ -15,7 +15,7 @@ cd "$PLATFORM_DIR"
 $PYTHON news/scripts/news_api.py >> "$NEWS_LOG" 2>&1
 echo "[1/3] 뉴스 수집 완료" | tee -a "$NEWS_LOG"
 
-# 2단계: 트렌드 전체 파이프라인 + GitHub push (news/latest_news.json도 포함)
+# 2단계: 트렌드 전체 파이프라인 (수집 → 분석 → 텔레그램)
 echo "[2/3] 트렌드 파이프라인..." | tee -a "$TREND_LOG"
 cd "$TREND_DIR"
 $PYTHON main.py >> "$TREND_LOG" 2>&1

@@ -34,6 +34,10 @@ AGENTS_FAST = [
 ]
 
 # 전체 분석 체인
+# GitHub push(push_data)는 2026-07-25 에 뺐다. Vercel 대시보드가 GitHub raw 로
+# 산출 JSON 을 읽던 구조였는데, 그 대시보드를 stock_expert 웹앱 광역스캔 탭으로
+# 흡수하면서 미러 레포로 올릴 이유가 없어졌다. 코드(push_data·common/push_github)는
+# 남겨뒀으니 되살리려면 이 목록에 다시 넣으면 된다.
 ANALYSIS_FULL = [
     ("신호 분석",        "analyzer"),
     ("신호 백테스트",    "backtest"),
@@ -42,7 +46,6 @@ ANALYSIS_FULL = [
     ("Excel 업데이트",   "build_excel"),
     ("AI 프롬프트",      "generate_prompt"),
     ("텔레그램 전송",    "notifier"),
-    ("GitHub push",      "push_data"),
 ]
 
 # 빠른 분석 체인 (리포트/Excel 생략)
@@ -50,7 +53,6 @@ ANALYSIS_FAST = [
     ("신호 분석",      "analyzer"),
     ("AI 프롬프트",    "generate_prompt"),
     ("텔레그램 전송",  "notifier"),
-    ("GitHub push",    "push_data"),
 ]
 
 
