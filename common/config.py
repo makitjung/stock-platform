@@ -6,6 +6,14 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parent.parent
+
+# API 키는 stock_expert/.env 를 단일 출처로 읽는다(2026-07-25 통합).
+# 두 레포가 NAVER·DART·TELEGRAM 키를 각자 두고 같은 무료 쿼터를 나눠 쓰고 있었고,
+# 텔레그램은 봇 토큰이 서로 달라 채팅방이 둘로 갈려 있었다.
+# 경로는 STOCK_EXPERT_ENV 로 덮어쓸 수 있다(레포 위치가 다른 환경 대비).
+SHARED_ENV = Path(os.getenv("STOCK_EXPERT_ENV", ROOT.parent / "stock_expert" / ".env"))
+load_dotenv(SHARED_ENV)
+# 로컬 .env 가 남아 있으면 보조로만 읽는다(이미 로드된 값은 덮어쓰지 않음).
 load_dotenv(ROOT / ".env")
 
 NAVER_CLIENT_ID     = os.getenv("NAVER_CLIENT_ID", "")

@@ -1,5 +1,7 @@
 # 비밀값
-.env
+# .env* 로 넓힌 이유: ".env 복사본"·".env.migrated" 같은 변형이 .env 패턴을
+# 빠져나가 커밋된 적이 있다(stock_expert 2026-06-19). 키는 stock_expert/.env 단일 출처.
+.env*
 
 # 가상환경·캐시
 venv/
