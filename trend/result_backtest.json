@@ -1,22 +1,22 @@
 {
-  "date": "2026-07-27",
-  "generated_at": "2026-07-27 06:53",
+  "date": "2026-07-28",
+  "generated_at": "2026-07-28 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 341,
-      "win_rate": 45.5,
-      "avg_return": -1.2,
-      "avg_win": 4.83,
-      "avg_loss": -6.22
+      "sample": 346,
+      "win_rate": 46.5,
+      "avg_return": -1.21,
+      "avg_win": 4.75,
+      "avg_loss": -6.39
     },
     "5": {
-      "sample": 282,
-      "win_rate": 23.0,
-      "avg_return": -6.03,
-      "avg_win": 8.63,
-      "avg_loss": -10.42
+      "sample": 314,
+      "win_rate": 29.6,
+      "avg_return": -5.34,
+      "avg_win": 7.59,
+      "avg_loss": -10.78
     }
   },
   "rank_horizon": "5",
@@ -64,45 +64,45 @@
   ],
   "worst": [
     {
+      "date": "2026-07-20",
+      "keyword": "진영",
+      "returns": {
+        "1": -30.0,
+        "5": -43.8
+      }
+    },
+    {
+      "date": "2026-07-17",
+      "keyword": "기가레인",
+      "returns": {
+        "1": -27.41,
+        "5": -42.49
+      }
+    },
+    {
+      "date": "2026-07-18",
+      "keyword": "기가레인",
+      "returns": {
+        "1": -27.41,
+        "5": -42.49
+      }
+    },
+    {
+      "date": "2026-07-19",
+      "keyword": "기가레인",
+      "returns": {
+        "1": -27.41,
+        "5": -42.49
+      }
+    },
+    {
       "date": "2026-06-30",
       "keyword": "성호전자",
       "returns": {
         "1": 3.2,
         "5": -34.57
       }
-    },
-    {
-      "date": "2026-07-01",
-      "keyword": "삼성전기",
-      "returns": {
-        "1": -12.65,
-        "5": -32.93
-      }
-    },
-    {
-      "date": "2026-07-05",
-      "keyword": "삼성전기",
-      "returns": {
-        "1": -9.85,
-        "5": -29.49
-      }
-    },
-    {
-      "date": "2026-06-25",
-      "keyword": "에이팩트",
-      "returns": {
-        "1": -6.74,
-        "5": -28.0
-      }
-    },
-    {
-      "date": "2026-07-13",
-      "keyword": "금호에이치티",
-      "returns": {
-        "1": -12.68,
-        "5": -26.8
-      }
     }
   ],
-  "total_signals": 382
+  "total_signals": 384
 }
