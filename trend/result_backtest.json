@@ -1,22 +1,22 @@
 {
-  "date": "2026-07-30",
-  "generated_at": "2026-07-30 06:54",
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 365,
-      "win_rate": 43.3,
-      "avg_return": -1.84,
+      "sample": 364,
+      "win_rate": 44.2,
+      "avg_return": -1.64,
       "avg_win": 4.77,
-      "avg_loss": -6.89
+      "avg_loss": -6.73
     },
     "5": {
-      "sample": 309,
-      "win_rate": 29.1,
-      "avg_return": -5.54,
-      "avg_win": 7.56,
-      "avg_loss": -10.93
+      "sample": 304,
+      "win_rate": 28.6,
+      "avg_return": -5.84,
+      "avg_win": 7.61,
+      "avg_loss": -11.24
     }
   },
   "rank_horizon": "5",
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 389
+  "total_signals": 390
 }
