@@ -1,22 +1,22 @@
 {
-  "date": "2026-08-04",
-  "generated_at": "2026-08-04 06:54",
+  "date": "2026-08-05",
+  "generated_at": "2026-08-05 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 360,
-      "win_rate": 46.4,
-      "avg_return": -1.12,
-      "avg_win": 5.26,
-      "avg_loss": -6.64
+      "sample": 378,
+      "win_rate": 48.1,
+      "avg_return": -0.94,
+      "avg_win": 5.06,
+      "avg_loss": -6.51
     },
     "5": {
-      "sample": 316,
-      "win_rate": 27.2,
-      "avg_return": -6.06,
-      "avg_win": 7.4,
-      "avg_loss": -11.09
+      "sample": 314,
+      "win_rate": 28.3,
+      "avg_return": -5.82,
+      "avg_win": 7.47,
+      "avg_loss": -11.08
     }
   },
   "rank_horizon": "5",
@@ -46,19 +46,19 @@
       }
     },
     {
+      "date": "2026-07-28",
+      "keyword": "한솔테크닉스",
+      "returns": {
+        "1": -7.87,
+        "5": 20.63
+      }
+    },
+    {
       "date": "2026-06-27",
       "keyword": "스피어",
       "returns": {
         "1": 14.74,
         "5": 20.39
-      }
-    },
-    {
-      "date": "2026-07-11",
-      "keyword": "HLB",
-      "returns": {
-        "1": 4.09,
-        "5": 18.52
       }
     }
   ],
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 403
+  "total_signals": 402
 }
