@@ -1,22 +1,22 @@
 {
-  "date": "2026-08-06",
-  "generated_at": "2026-08-06 06:54",
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
       "sample": 377,
-      "win_rate": 48.5,
-      "avg_return": -0.92,
-      "avg_win": 5.04,
-      "avg_loss": -6.54
+      "win_rate": 48.3,
+      "avg_return": -0.98,
+      "avg_win": 5.0,
+      "avg_loss": -6.57
     },
     "5": {
-      "sample": 310,
-      "win_rate": 31.0,
-      "avg_return": -5.0,
-      "avg_win": 8.38,
-      "avg_loss": -11.0
+      "sample": 313,
+      "win_rate": 34.5,
+      "avg_return": -3.94,
+      "avg_win": 9.21,
+      "avg_loss": -10.88
     }
   },
   "rank_horizon": "5",
@@ -27,6 +27,14 @@
       "returns": {
         "1": 29.94,
         "5": 189.82
+      }
+    },
+    {
+      "date": "2026-07-30",
+      "keyword": "대우건설",
+      "returns": {
+        "1": 14.11,
+        "5": 50.62
       }
     },
     {
@@ -46,19 +54,11 @@
       }
     },
     {
-      "date": "2026-06-30",
-      "keyword": "삼호개발",
+      "date": "2026-07-30",
+      "keyword": "LG이노텍",
       "returns": {
-        "1": 29.91,
-        "5": 28.53
-      }
-    },
-    {
-      "date": "2026-07-05",
-      "keyword": "콘텐트리중앙",
-      "returns": {
-        "1": -23.75,
-        "5": 23.5
+        "1": 21.23,
+        "5": 30.66
       }
     }
   ],
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 402
+  "total_signals": 401
 }
