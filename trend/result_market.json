@@ -1,392 +1,251 @@
 {
   "date": "2026-08-10",
   "kospi": {
+    "상한가": [],
+    "하한가": [],
+    "급등": [
+      {
+        "ticker": "008490",
+        "name": "서흥",
+        "close": 27900,
+        "change_rate": 17.97
+      },
+      {
+        "ticker": "017900",
+        "name": "광전자",
+        "close": 9150,
+        "change_rate": 17.16
+      },
+      {
+        "ticker": "062040",
+        "name": "산일전기",
+        "close": 178900,
+        "change_rate": 13.73
+      },
+      {
+        "ticker": "010130",
+        "name": "고려아연",
+        "close": 1230000,
+        "change_rate": 11.21
+      }
+    ],
+    "급락": []
+  },
+  "kosdaq": {
     "상한가": [
       {
-        "ticker": "001290",
-        "name": "상상인증권",
-        "close": 1203,
-        "change_rate": 29.91
+        "ticker": "203400",
+        "name": "에이비온",
+        "close": 841,
+        "change_rate": 29.98
       },
       {
-        "ticker": "003010",
-        "name": "혜인",
-        "close": 5910,
-        "change_rate": 29.89
+        "ticker": "225190",
+        "name": "LK삼양",
+        "close": 812,
+        "change_rate": 29.92
       },
       {
-        "ticker": "011330",
-        "name": "유니켐",
-        "close": 5910,
-        "change_rate": 29.89
+        "ticker": "050090",
+        "name": "비케이홀딩스",
+        "close": 673,
+        "change_rate": 29.92
+      },
+      {
+        "ticker": "377220",
+        "name": "프롬바이오",
+        "close": 3330,
+        "change_rate": 29.82
       }
     ],
     "하한가": [],
     "급등": [
       {
-        "ticker": "017900",
-        "name": "광전자",
-        "close": 7810,
-        "change_rate": 15.02
+        "ticker": "321370",
+        "name": "센서뷰",
+        "close": 1617,
+        "change_rate": 25.74
       },
       {
-        "ticker": "282330",
-        "name": "BGF리테일",
-        "close": 153100,
-        "change_rate": 14.68
+        "ticker": "222040",
+        "name": "코스맥스엔비티",
+        "close": 10750,
+        "change_rate": 24.57
       },
       {
-        "ticker": "006490",
-        "name": "프리티",
-        "close": 989,
-        "change_rate": 13.55
+        "ticker": "174900",
+        "name": "앱클론",
+        "close": 34800,
+        "change_rate": 24.29
       },
       {
-        "ticker": "066970",
-        "name": "엘앤에프",
-        "close": 90200,
-        "change_rate": 13.03
+        "ticker": "147760",
+        "name": "피엠티",
+        "close": 3750,
+        "change_rate": 23.15
       },
       {
-        "ticker": "280360",
-        "name": "롯데웰푸드",
-        "close": 116900,
-        "change_rate": 12.4
+        "ticker": "036710",
+        "name": "심텍홀딩스",
+        "close": 4480,
+        "change_rate": 22.74
       },
       {
-        "ticker": "010060",
-        "name": "OCI홀딩스",
-        "close": 272500,
-        "change_rate": 11.68
+        "ticker": "115180",
+        "name": "큐리언트",
+        "close": 27750,
+        "change_rate": 21.18
       },
       {
-        "ticker": "009830",
-        "name": "한화솔루션",
-        "close": 33900,
-        "change_rate": 11.51
+        "ticker": "076610",
+        "name": "해성옵틱스",
+        "close": 1280,
+        "change_rate": 20.87
       },
       {
-        "ticker": "096770",
-        "name": "SK이노베이션",
-        "close": 120300,
-        "change_rate": 10.77
+        "ticker": "900250",
+        "name": "크리스탈신소재",
+        "close": 1292,
+        "change_rate": 20.86
       },
       {
-        "ticker": "006110",
-        "name": "삼아알미늄",
-        "close": 47200,
-        "change_rate": 10.28
+        "ticker": "488900",
+        "name": "비츠로넥스텍",
+        "close": 10730,
+        "change_rate": 20.29
       },
       {
-        "ticker": "010950",
-        "name": "S-Oil",
-        "close": 137600,
-        "change_rate": 10.17
-      }
-    ],
-    "급락": [
-      {
-        "ticker": "023530",
-        "name": "롯데쇼핑",
-        "close": 99700,
-        "change_rate": -12.93
-      },
-      {
-        "ticker": "210980",
-        "name": "SK디앤디",
-        "close": 5230,
-        "change_rate": -11.95
-      },
-      {
-        "ticker": "010130",
-        "name": "고려아연",
-        "close": 1106000,
-        "change_rate": -10.37
-      }
-    ]
-  },
-  "kosdaq": {
-    "상한가": [
-      {
-        "ticker": "025900",
-        "name": "동화기업",
-        "close": 8060,
-        "change_rate": 30.0
-      },
-      {
-        "ticker": "162300",
-        "name": "신스틸",
-        "close": 1852,
-        "change_rate": 29.96
+        "ticker": "291810",
+        "name": "핀텔",
+        "close": 1482,
+        "change_rate": 18.09
       },
       {
         "ticker": "900340",
         "name": "윙입푸드",
-        "close": 1554,
-        "change_rate": 29.93
+        "close": 1834,
+        "change_rate": 18.02
       },
       {
-        "ticker": "062970",
-        "name": "한국첨단소재",
-        "close": 3020,
-        "change_rate": 29.89
+        "ticker": "067080",
+        "name": "대화제약",
+        "close": 11010,
+        "change_rate": 16.51
       },
       {
-        "ticker": "042040",
-        "name": "케이피엠테크",
-        "close": 5590,
-        "change_rate": 29.85
+        "ticker": "064760",
+        "name": "티씨케이",
+        "close": 194300,
+        "change_rate": 16.14
       },
       {
-        "ticker": "226340",
-        "name": "본느",
-        "close": 6200,
-        "change_rate": 29.84
-      }
-    ],
-    "하한가": [
-      {
-        "ticker": "043090",
-        "name": "더테크놀로지",
-        "close": 103,
-        "change_rate": -50.95
-      }
-    ],
-    "급등": [
-      {
-        "ticker": "083470",
-        "name": "이엠앤아이",
-        "close": 980,
-        "change_rate": 20.99
+        "ticker": "310210",
+        "name": "보로노이",
+        "close": 170800,
+        "change_rate": 15.64
       },
       {
-        "ticker": "348370",
-        "name": "엔켐",
-        "close": 24850,
-        "change_rate": 18.62
+        "ticker": "355150",
+        "name": "코스텍시스",
+        "close": 23550,
+        "change_rate": 15.44
       },
       {
-        "ticker": "138080",
-        "name": "오이솔루션",
-        "close": 26550,
-        "change_rate": 18.53
-      },
-      {
-        "ticker": "318020",
-        "name": "포인트모바일",
-        "close": 2495,
-        "change_rate": 16.59
-      },
-      {
-        "ticker": "397810",
-        "name": "애드포러스",
-        "close": 5080,
-        "change_rate": 16.25
-      },
-      {
-        "ticker": "114190",
-        "name": "강원에너지",
-        "close": 9380,
-        "change_rate": 15.52
-      },
-      {
-        "ticker": "347700",
-        "name": "스피어",
-        "close": 23050,
-        "change_rate": 14.96
-      },
-      {
-        "ticker": "295310",
-        "name": "에이치브이엠",
-        "close": 50200,
+        "ticker": "468530",
+        "name": "프로티나",
+        "close": 29650,
         "change_rate": 14.48
       },
       {
-        "ticker": "126730",
-        "name": "코칩",
-        "close": 14690,
-        "change_rate": 13.88
+        "ticker": "477850",
+        "name": "마키나락스",
+        "close": 33150,
+        "change_rate": 14.11
       },
       {
-        "ticker": "234300",
-        "name": "에스트래픽",
-        "close": 3065,
-        "change_rate": 13.73
+        "ticker": "323280",
+        "name": "태성",
+        "close": 44350,
+        "change_rate": 13.86
       },
       {
-        "ticker": "179900",
-        "name": "유티아이",
-        "close": 2230,
-        "change_rate": 13.2
+        "ticker": "027580",
+        "name": "상보",
+        "close": 1964,
+        "change_rate": 13.53
       },
       {
-        "ticker": "050090",
-        "name": "비케이홀딩스",
-        "close": 518,
-        "change_rate": 12.85
+        "ticker": "365270",
+        "name": "큐라클",
+        "close": 11210,
+        "change_rate": 13.23
       },
       {
-        "ticker": "027040",
-        "name": "서울전자통신",
-        "close": 2225,
-        "change_rate": 12.83
+        "ticker": "196170",
+        "name": "알테오젠",
+        "close": 345000,
+        "change_rate": 13.11
       },
       {
-        "ticker": "073190",
-        "name": "듀오백",
-        "close": 1559,
-        "change_rate": 12.56
+        "ticker": "484120",
+        "name": "도우인시스",
+        "close": 19350,
+        "change_rate": 12.96
       },
       {
-        "ticker": "084650",
-        "name": "랩지노믹스",
-        "close": 882,
-        "change_rate": 12.5
+        "ticker": "387690",
+        "name": "레메디",
+        "close": 11870,
+        "change_rate": 12.73
       },
       {
-        "ticker": "053260",
-        "name": "금강철강",
-        "close": 5320,
-        "change_rate": 12.47
+        "ticker": "045100",
+        "name": "한양이엔지",
+        "close": 33650,
+        "change_rate": 12.17
       },
       {
-        "ticker": "950220",
-        "name": "네오이뮨텍",
-        "close": 1529,
-        "change_rate": 12.01
+        "ticker": "314140",
+        "name": "알피바이오",
+        "close": 6930,
+        "change_rate": 12.14
       },
       {
-        "ticker": "089600",
-        "name": "KT나스미디어",
-        "close": 11530,
-        "change_rate": 11.94
+        "ticker": "027360",
+        "name": "아주IB투자",
+        "close": 3540,
+        "change_rate": 11.85
       },
       {
-        "ticker": "189330",
-        "name": "씨이랩",
-        "close": 11700,
-        "change_rate": 11.43
+        "ticker": "052460",
+        "name": "아이크래프트",
+        "close": 7000,
+        "change_rate": 11.82
       },
       {
-        "ticker": "452200",
-        "name": "민테크",
-        "close": 1447,
-        "change_rate": 11.31
+        "ticker": "010170",
+        "name": "대한광통신",
+        "close": 12810,
+        "change_rate": 11.78
       },
       {
-        "ticker": "091580",
-        "name": "상신이디피",
-        "close": 15840,
-        "change_rate": 11.31
+        "ticker": "100790",
+        "name": "미래에셋벤처투자",
+        "close": 15850,
+        "change_rate": 11.7
       },
       {
-        "ticker": "294140",
-        "name": "레몬",
-        "close": 2080,
-        "change_rate": 10.93
-      },
-      {
-        "ticker": "054220",
-        "name": "비츠로시스",
-        "close": 1589,
-        "change_rate": 10.65
-      },
-      {
-        "ticker": "340360",
-        "name": "다보링크",
-        "close": 1001,
-        "change_rate": 10.49
-      },
-      {
-        "ticker": "149980",
-        "name": "하이로닉",
-        "close": 5340,
-        "change_rate": 10.33
+        "ticker": "170920",
+        "name": "엘티씨",
+        "close": 39700,
+        "change_rate": 11.67
       }
     ],
     "급락": [
       {
-        "ticker": "008830",
-        "name": "대동기어",
-        "close": 5850,
-        "change_rate": -22.21
-      },
-      {
-        "ticker": "900100",
-        "name": "파이온엑스",
-        "close": 2095,
-        "change_rate": -17.84
-      },
-      {
-        "ticker": "376900",
-        "name": "로킷헬스케어",
-        "close": 31100,
-        "change_rate": -12.64
-      },
-      {
-        "ticker": "040160",
-        "name": "누리플렉스",
-        "close": 4840,
-        "change_rate": -12.64
-      },
-      {
-        "ticker": "038060",
-        "name": "루멘스",
-        "close": 886,
-        "change_rate": -12.45
-      },
-      {
-        "ticker": "223310",
-        "name": "사토시홀딩스",
-        "close": 3565,
-        "change_rate": -12.3
-      },
-      {
-        "ticker": "457600",
-        "name": "벡트",
-        "close": 3330,
-        "change_rate": -12.25
-      },
-      {
-        "ticker": "148780",
-        "name": "비큐AI",
-        "close": 4450,
-        "change_rate": -11.88
-      },
-      {
-        "ticker": "476060",
-        "name": "온코닉테라퓨틱스",
-        "close": 14050,
-        "change_rate": -11.86
-      },
-      {
-        "ticker": "024840",
-        "name": "KBI메탈",
-        "close": 4810,
-        "change_rate": -11.25
-      },
-      {
-        "ticker": "459550",
-        "name": "알트",
-        "close": 1660,
-        "change_rate": -11.23
-      },
-      {
-        "ticker": "069410",
-        "name": "엔텔스",
-        "close": 2850,
-        "change_rate": -10.94
-      },
-      {
-        "ticker": "153890",
-        "name": "져스텍",
-        "close": 8750,
-        "change_rate": -10.53
-      },
-      {
-        "ticker": "124500",
-        "name": "아이티센글로벌",
-        "close": 22700,
+        "ticker": "208640",
+        "name": "썸에이지",
+        "close": 908,
         "change_rate": -10.28
       }
     ]
