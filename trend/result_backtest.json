@@ -1,22 +1,22 @@
 {
-  "date": "2026-08-12",
-  "generated_at": "2026-08-12 06:54",
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 376,
-      "win_rate": 48.7,
-      "avg_return": -0.99,
-      "avg_win": 4.68,
+      "sample": 373,
+      "win_rate": 49.6,
+      "avg_return": -0.89,
+      "avg_win": 4.69,
       "avg_loss": -6.38
     },
     "5": {
-      "sample": 315,
-      "win_rate": 41.9,
-      "avg_return": -1.49,
-      "avg_win": 10.17,
-      "avg_loss": -9.9
+      "sample": 317,
+      "win_rate": 43.5,
+      "avg_return": -1.0,
+      "avg_win": 10.31,
+      "avg_loss": -9.71
     }
   },
   "rank_horizon": "5",
@@ -27,6 +27,14 @@
       "returns": {
         "1": 29.94,
         "5": 189.82
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "keyword": "금호건설",
+      "returns": {
+        "1": -1.13,
+        "5": 52.81
       }
     },
     {
@@ -51,14 +59,6 @@
       "returns": {
         "1": -6.82,
         "5": 35.02
-      }
-    },
-    {
-      "date": "2026-07-29",
-      "keyword": "LG이노텍",
-      "returns": {
-        "1": -7.42,
-        "5": 31.22
       }
     }
   ],
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 393
+  "total_signals": 401
 }
