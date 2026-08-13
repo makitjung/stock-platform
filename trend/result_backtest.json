@@ -1,22 +1,22 @@
 {
-  "date": "2026-08-13",
-  "generated_at": "2026-08-13 06:54",
+  "date": "2026-08-14",
+  "generated_at": "2026-08-14 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
       "sample": 373,
-      "win_rate": 49.6,
-      "avg_return": -0.89,
-      "avg_win": 4.69,
-      "avg_loss": -6.38
+      "win_rate": 50.4,
+      "avg_return": -0.75,
+      "avg_win": 4.68,
+      "avg_loss": -6.26
     },
     "5": {
-      "sample": 317,
-      "win_rate": 43.5,
-      "avg_return": -1.0,
-      "avg_win": 10.31,
-      "avg_loss": -9.71
+      "sample": 320,
+      "win_rate": 46.6,
+      "avg_return": -0.17,
+      "avg_win": 10.56,
+      "avg_loss": -9.52
     }
   },
   "rank_horizon": "5",
@@ -46,19 +46,19 @@
       }
     },
     {
+      "date": "2026-08-06",
+      "keyword": "금호건설",
+      "returns": {
+        "1": 1.14,
+        "5": 48.76
+      }
+    },
+    {
       "date": "2026-08-02",
       "keyword": "한화솔루션",
       "returns": {
         "1": 8.06,
         "5": 42.14
-      }
-    },
-    {
-      "date": "2026-07-29",
-      "keyword": "대우건설",
-      "returns": {
-        "1": -6.82,
-        "5": 35.02
       }
     }
   ],
