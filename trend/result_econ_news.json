@@ -1,8 +1,8 @@
 {
   "date": "2026-08-15",
-  "collected_at": "2026-08-15 19:00",
-  "total_articles": 328,
-  "matched_count": 116,
+  "collected_at": "2026-08-15 20:00",
+  "total_articles": 329,
+  "matched_count": 117,
   "top_news": [
     {
       "source": "매일경제",
@@ -35,8 +35,8 @@
       "via": "naver_api",
       "importance": 12,
       "matched_keywords": [
-        "반도체",
-        "AMD"
+        "AMD",
+        "반도체"
       ],
       "score": 16
     },
@@ -61,20 +61,6 @@
       "importance": 10,
       "matched_keywords": [],
       "score": 10
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "TSMC 3분기 매출 최대 458억달러 제시",
-      "link": "https://www.tokenpost.kr/news/cryptocurrency/391394",
-      "desc": "로이터는 실적 발표 당일 미국 상장 TSMC 주가가 2.5% 내렸고, 필라델피아 반도체지수도 3.8% 하락했다고 전했다. AI 수요 확인과 투자비 회수 우려가 동시에 반영된 흐름으로 해석된다. 한국 투자자에게도 이...",
-      "pub": "Sat, 15 Aug 2026 18:06:00 +0900",
-      "via": "naver_api",
-      "importance": 10,
-      "matched_keywords": [
-        "반도체",
-        "TSMC"
-      ],
-      "score": 14
     },
     {
       "source": "한국경제",
@@ -185,6 +171,17 @@
         "반도체"
       ],
       "score": 9
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "3026만달러 손실, 솔라나컴퍼니 매출 252만달러",
+      "link": "https://www.tokenpost.kr/news/cryptocurrency/391315",
+      "desc": "솔라나(SOL)를 보유·운용하는 나스닥 상장사의 실적이라는 점에서, 이번 공시는 토큰 보유 기업의 회계... 이번 실적은 솔라나 네트워크 자체의 재무 결과가 아니라 나스닥 상장사 솔라나컴퍼니의 분기...",
+      "pub": "Sat, 15 Aug 2026 11:42:00 +0900",
+      "via": "naver_api",
+      "importance": 8,
+      "matched_keywords": [],
+      "score": 8
     }
   ],
   "articles": [
@@ -197,8 +194,24 @@
       "via": "naver_api",
       "importance": 12,
       "matched_keywords": [
-        "반도체",
-        "AMD"
+        "AMD",
+        "반도체"
+      ],
+      "score": 16
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "올 2분기 상장 바이오·제약 빅10 순위 요동… 셀트리온 1위, 녹십자 8위",
+      "link": "http://www.ggmedinews.com/news/articleView.html?idxno=6746",
+      "desc": "© 경기메디뉴스 올 2분기 상장 바이오·제약기업의 '빅10'의 매출액 순위는 1분기에 비해 변동 폭이 컸다. 특히 1분기 2위였던 셀트리온이 삼성바이오로직스를 제치고 1위로 올라섰다. 15일 경기메디뉴스가 상장...",
+      "pub": "Sat, 15 Aug 2026 19:32:00 +0900",
+      "via": "naver_api",
+      "importance": 6,
+      "matched_keywords": [
+        "제약",
+        "바이오",
+        "셀트리온",
+        "삼성바이오로직스"
       ],
       "score": 16
     },
@@ -225,11 +238,11 @@
       "via": "rss",
       "importance": 7,
       "matched_keywords": [
-        "삼성전자",
-        "반도체",
-        "미래에셋증권",
         "SK하이닉스",
-        "SK텔레콤"
+        "삼성전자",
+        "SK텔레콤",
+        "미래에셋증권",
+        "반도체"
       ],
       "score": 14
     },
@@ -242,23 +255,9 @@
       "via": "rss",
       "importance": 5,
       "matched_keywords": [
+        "DB하이텍",
         "반도체",
-        "DB",
-        "DB하이텍"
-      ],
-      "score": 14
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "TSMC 3분기 매출 최대 458억달러 제시",
-      "link": "https://www.tokenpost.kr/news/cryptocurrency/391394",
-      "desc": "로이터는 실적 발표 당일 미국 상장 TSMC 주가가 2.5% 내렸고, 필라델피아 반도체지수도 3.8% 하락했다고 전했다. AI 수요 확인과 투자비 회수 우려가 동시에 반영된 흐름으로 해석된다. 한국 투자자에게도 이...",
-      "pub": "Sat, 15 Aug 2026 18:06:00 +0900",
-      "via": "naver_api",
-      "importance": 10,
-      "matched_keywords": [
-        "반도체",
-        "TSMC"
+        "DB"
       ],
       "score": 14
     },
@@ -271,10 +270,10 @@
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "셀트리온",
-        "삼성바이오로직스",
         "제약",
-        "바이오"
+        "바이오",
+        "셀트리온",
+        "삼성바이오로직스"
       ],
       "score": 14
     },
@@ -287,10 +286,10 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "셀트리온",
-        "삼성바이오로직스",
         "제약",
-        "바이오"
+        "바이오",
+        "셀트리온",
+        "삼성바이오로직스"
       ],
       "score": 14
     },
@@ -304,8 +303,8 @@
       "importance": 4,
       "matched_keywords": [
         "제약",
-        "동국제약",
-        "바이오"
+        "바이오",
+        "동국제약"
       ],
       "score": 13
     },
@@ -318,23 +317,9 @@
       "via": "rss",
       "importance": 3,
       "matched_keywords": [
+        "로봇",
         "현대차",
-        "디아이씨",
-        "로봇"
-      ],
-      "score": 12
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "저스템, 반도체 투자 수혜 본격화…실적 성장 어디까지",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=477738",
-      "desc": "더해질 경우 저스템의 실적 성장세가 지속될 것으로 전망했다. 글로벌 반도체 기업들의 생산 효율 개선과 설비 투자가 맞물리는 환경이 저스템에는 우호적인 셈이다. 목표주가와 투자의견은 별도로 제시하지 않았다.",
-      "pub": "Sat, 15 Aug 2026 18:14:00 +0900",
-      "via": "naver_api",
-      "importance": 6,
-      "matched_keywords": [
-        "반도체",
-        "저스템"
+        "디아이씨"
       ],
       "score": 12
     },
@@ -348,8 +333,8 @@
       "importance": 6,
       "matched_keywords": [
         "삼성전자",
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 11
     },
@@ -362,8 +347,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "LG",
         "레이",
+        "LG",
         "LG디스플레이"
       ],
       "score": 11
@@ -392,8 +377,8 @@
       "via": "rss",
       "importance": 7,
       "matched_keywords": [
-        "HMM",
-        "팬오션"
+        "팬오션",
+        "HMM"
       ],
       "score": 11
     },
@@ -412,6 +397,20 @@
     },
     {
       "source": "네이버뉴스",
+      "title": "[미르의 글로벌 레이더] '베트남산' 현대차, 멕시코·호주로 간다…현지...",
+      "link": "https://www.mediapen.com/news/view/1116753",
+      "desc": "하지만 글로벌 자동차 공급망이 재편되면서 생산비용과 물류, 관세, 자유무역협정(FTA) 등을 종합적으로 고려해 한 국가에서 생산한 차량을 여러 시장으로 공급하는 방식이...",
+      "pub": "Sat, 15 Aug 2026 19:52:00 +0900",
+      "via": "naver_api",
+      "importance": 5,
+      "matched_keywords": [
+        "레이",
+        "현대차"
+      ],
+      "score": 11
+    },
+    {
+      "source": "네이버뉴스",
       "title": "450억 CB·10대1 액면병합...CMG제약, 시간과 성장의 함수",
       "link": "https://www.pharmnews.com/news/articleView.html?idxno=305636",
       "desc": "제약바이오 기업은 연구개발과 제품 상업화 과정에서 장기간 비용 투입이 필요한 만큼, 단기 유동성 부담 완화는 경영 안정성 측면에서 의미가 있다. 다만 CB는 양면성을 가진다. 회사 입장에서는 자금을 확보하는...",
@@ -420,8 +419,8 @@
       "importance": 4,
       "matched_keywords": [
         "제약",
-        "CMG제약",
-        "바이오"
+        "바이오",
+        "CMG제약"
       ],
       "score": 11
     },
@@ -447,8 +446,8 @@
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 10
     },
@@ -461,8 +460,8 @@
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 10
     },
@@ -475,8 +474,8 @@
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "비에이치",
-        "비에이치아이"
+        "비에이치아이",
+        "비에이치"
       ],
       "score": 10
     },
@@ -489,8 +488,8 @@
       "via": "rss",
       "importance": 3,
       "matched_keywords": [
-        "LG",
-        "LG전자"
+        "LG전자",
+        "LG"
       ],
       "score": 9
     },
@@ -516,9 +515,9 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "반도체",
         "원텍",
-        "바이오"
+        "바이오",
+        "반도체"
       ],
       "score": 9
     },
@@ -530,19 +529,6 @@
       "pub": "Sat, 15 Aug 2026 18:26:00 +0900",
       "via": "naver_api",
       "importance": 8,
-      "matched_keywords": [
-        "반도체"
-      ],
-      "score": 9
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "반도체 반등에 서학개미 '속슬' 다시 담는다…이틀간 9천억 대거 순매수",
-      "link": "https://n.news.naver.com/mnews/article/030/0003457703?sid=104",
-      "desc": "미국 반도체 업황 고점론에 대한 우려가 완화되고 관련 주가가 반등세를 나타내면서 미국 증시에 투자하는 국내 개인 투자자(서학개미)들이 레버리지 상장지수펀드(ETF) 매수에 다시 발을 담그고 있다. 15일...",
-      "pub": "Sat, 15 Aug 2026 15:04:00 +0900",
-      "via": "naver_api",
-      "importance": 6,
       "matched_keywords": [
         "반도체"
       ],
@@ -570,9 +556,9 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
+        "SK하이닉스",
         "삼성전자",
-        "반도체",
-        "SK하이닉스"
+        "반도체"
       ],
       "score": 9
     },
@@ -598,8 +584,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "비에이치",
-        "비에이치아이"
+        "비에이치아이",
+        "비에이치"
       ],
       "score": 8
     },
@@ -665,8 +651,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "LG",
-        "인공지능"
+        "인공지능",
+        "LG"
       ],
       "score": 8
     },
@@ -679,8 +665,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "엔터",
-        "카카오"
+        "카카오",
+        "엔터"
       ],
       "score": 8
     },
@@ -693,8 +679,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "로봇",
-        "인공지능"
+        "인공지능",
+        "로봇"
       ],
       "score": 8
     },
@@ -707,8 +693,8 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "HMM",
-        "팬오션"
+        "팬오션",
+        "HMM"
       ],
       "score": 8
     },
@@ -831,6 +817,19 @@
     },
     {
       "source": "네이버뉴스",
+      "title": "며칠 전엔 2조원 던지더니 ‘대반전’…서학개미 9000억 쓸어담은 ‘이...",
+      "link": "https://n.news.naver.com/mnews/article/011/0004652110?sid=101",
+      "desc": "이달 초 미국 증시에서 ‘3배 ETF’(상장지수펀드)를 대거 매도했던 서학 개미들이 불과 며칠 만에 다시 매수로 돌아섰다. 반도체 업황을 둘러싼 ‘피크아웃’(정점 후 하락) 우려가 잦아들고 글로벌...",
+      "pub": "Sat, 15 Aug 2026 19:02:00 +0900",
+      "via": "naver_api",
+      "importance": 6,
+      "matched_keywords": [
+        "반도체"
+      ],
+      "score": 7
+    },
+    {
+      "source": "네이버뉴스",
       "title": "'AI 대전' 구글·아마존·MS…이제는 '비용 버티기' 승부[주末머니]",
       "link": "https://n.news.naver.com/mnews/article/277/0005803541?sid=101",
       "desc": "반도체 기업들의 실적과 칩 가격 상승 기대 역시 여전히 유효하다. 다만 시장은 AI 투자를 더 까다롭게 보기 시작했다. AI 확산에 긍정적으로 평가되던 토큰 가격 하락도 속도가 너무 빠르면 다른 의미를 갖는다. 경쟁이...",
@@ -857,16 +856,27 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "생명경외클럽 VVC, 충남 홍성군 결성면에서 의료봉사활동 펼쳐",
-      "link": "https://www.dailyvet.co.kr/news/animalwelfare/293371",
-      "desc": "유한양행, 다산제약, GC녹십자, 대웅바이오, 대원제약, 동아ST, 보령, 삼일제약, 삼진제약, 삼천당제약, 셀트리온, 안국약품, 알보젠코리아, 종근당, 팜젠사이언스, 한국팜비오, 한미약품, 한올바이오파마는 의약품을...",
-      "pub": "Sat, 15 Aug 2026 15:52:00 +0900",
+      "title": "“빌려서라도 지금 투자해야”, 증시 훈풍에 늘어난 20대 ‘빚투’",
+      "link": "https://magazine.hankyung.com/job-joy/article/202608153396d",
+      "desc": "미국 시장을 중심으로 장기 투자하고 있으며 최근 코스피 상승세를 계기로 국내 반도체 종목에도 관심을... 신용거래는 자기자본보다 큰 규모의 투자가 가능하다는 장점이 있지만, 주가가 하락하면 손실도 그만큼...",
+      "pub": "Sat, 15 Aug 2026 19:16:00 +0900",
+      "via": "naver_api",
+      "importance": 6,
+      "matched_keywords": [
+        "반도체"
+      ],
+      "score": 7
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "반도체 반등에 태세 전환…서학개미, ‘3배 ETF’ 이틀간 9400억 매수",
+      "link": "https://www.g-enews.com/view.php?ud=202608151913282214e30fcb1ba8_1",
+      "desc": "미국 반도체주가 다시 강세를 보이자 이달 초 3배 레버리지 상장지수펀드(ETF)를 대거 처분했던 서학개미들이 재매수에 나섰다. 15일 한국예탁결제원 세이브로에 따르면 국내 투자자들은 지난 12~13일...",
+      "pub": "Sat, 15 Aug 2026 19:16:00 +0900",
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "셀트리온",
-        "제약",
-        "바이오"
+        "반도체"
       ],
       "score": 7
     },
@@ -934,8 +944,8 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "LG",
-        "로봇"
+        "로봇",
+        "LG"
       ],
       "score": 6
     },
@@ -976,8 +986,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "반도체",
-        "바이오"
+        "바이오",
+        "반도체"
       ],
       "score": 6
     },
@@ -1186,9 +1196,9 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "LG",
         "레이",
-        "로봇"
+        "로봇",
+        "LG"
       ],
       "score": 5
     },
@@ -1259,6 +1269,19 @@
     },
     {
       "source": "네이버뉴스",
+      "title": "이틀새 9000억 몰렸다…서학개미 쓸어담은 '이 종목'",
+      "link": "https://n.news.naver.com/mnews/article/018/0006352466?sid=101",
+      "desc": "미국 반도체 업황의 ‘피크아웃(정점 후 하락)’ 우려 완화와 관련 주가 반등에 국내 개인 투자자들의 레버리지 상장지수펀드(ETF) 매수세가 되살아나고 있다. 뉴욕증권거래소. (사진=AFP 연합뉴스) 15일...",
+      "pub": "Sat, 15 Aug 2026 19:11:00 +0900",
+      "via": "naver_api",
+      "importance": 4,
+      "matched_keywords": [
+        "반도체"
+      ],
+      "score": 5
+    },
+    {
+      "source": "네이버뉴스",
       "title": "스태그플레이션 뒤엔 세상이 바뀌었다…다가오는 ‘블록경제’ [스태그...",
       "link": "https://n.news.naver.com/mnews/article/022/0004151130?sid=101",
       "desc": "산업 인프라를 확충하기 보다는 원자재 수출 비중을 늘렸고, 벌어들인 돈은 산업에 투자하는게 아닌, 국민들에게 분배하는데 초점을 맞췄죠. 잔치가 끝나면 청구서가 날아옵니다. 석유파동이 끝나고 국제유가는...",
@@ -1279,8 +1302,8 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "레이",
-        "유진투자증권"
+        "유진투자증권",
+        "레이"
       ],
       "score": 4
     },
@@ -1293,10 +1316,10 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "삼성전자",
-        "미래에셋증권",
         "SK하이닉스",
-        "SK텔레콤"
+        "삼성전자",
+        "SK텔레콤",
+        "미래에셋증권"
       ],
       "score": 4
     },
@@ -1309,8 +1332,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "삼성전기",
-        "SK스퀘어"
+        "SK스퀘어",
+        "삼성전기"
       ],
       "score": 4
     },
@@ -1323,8 +1346,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "반도체",
-        "SK하이닉스"
+        "SK하이닉스",
+        "반도체"
       ],
       "score": 4
     },
@@ -1364,8 +1387,8 @@
       "via": "naver_api",
       "importance": 0,
       "matched_keywords": [
-        "레이",
-        "SK하이닉스"
+        "SK하이닉스",
+        "레이"
       ],
       "score": 4
     },
@@ -1604,19 +1627,6 @@
       "score": 3
     },
     {
-      "source": "네이버뉴스",
-      "title": "‘9440억’ 재산분할 소송 새 국면…“최 회장 주식·현금 제안에 노 관...",
-      "link": "https://n.news.naver.com/mnews/article/020/0003741108?sid=101",
-      "desc": "하지만 대주주가 지분을 대량 처분하면 주가와 시장 전반에 미칠 파장이 크다고 판단해 실행에 옮기지... ● “과거 반도체 사업 반대” 주장도…HBM 흥행 기여도 논란 예상 최 회장 측 재상고로 역대 최대 규모(9440억 원)...",
-      "pub": "Sat, 15 Aug 2026 18:18:00 +0900",
-      "via": "naver_api",
-      "importance": 2,
-      "matched_keywords": [
-        "반도체"
-      ],
-      "score": 3
-    },
-    {
       "source": "매일경제",
       "title": "상반기 재계 ‘연봉킹’ 두산 박정원 455억…이재용은 0원",
       "link": "https://www.mk.co.kr/news/business/12128344",
@@ -1625,8 +1635,8 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "삼성전자",
-        "SK하이닉스"
+        "SK하이닉스",
+        "삼성전자"
       ],
       "score": 2
     },
@@ -1771,8 +1781,24 @@
       "via": "naver_api",
       "importance": 12,
       "matched_keywords": [
-        "반도체",
-        "AMD"
+        "AMD",
+        "반도체"
+      ],
+      "score": 16
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "올 2분기 상장 바이오·제약 빅10 순위 요동… 셀트리온 1위, 녹십자 8위",
+      "link": "http://www.ggmedinews.com/news/articleView.html?idxno=6746",
+      "desc": "© 경기메디뉴스 올 2분기 상장 바이오·제약기업의 '빅10'의 매출액 순위는 1분기에 비해 변동 폭이 컸다. 특히 1분기 2위였던 셀트리온이 삼성바이오로직스를 제치고 1위로 올라섰다. 15일 경기메디뉴스가 상장...",
+      "pub": "Sat, 15 Aug 2026 19:32:00 +0900",
+      "via": "naver_api",
+      "importance": 6,
+      "matched_keywords": [
+        "제약",
+        "바이오",
+        "셀트리온",
+        "삼성바이오로직스"
       ],
       "score": 16
     },
@@ -1799,11 +1825,11 @@
       "via": "rss",
       "importance": 7,
       "matched_keywords": [
-        "삼성전자",
-        "반도체",
-        "미래에셋증권",
         "SK하이닉스",
-        "SK텔레콤"
+        "삼성전자",
+        "SK텔레콤",
+        "미래에셋증권",
+        "반도체"
       ],
       "score": 14
     },
@@ -1816,23 +1842,9 @@
       "via": "rss",
       "importance": 5,
       "matched_keywords": [
+        "DB하이텍",
         "반도체",
-        "DB",
-        "DB하이텍"
-      ],
-      "score": 14
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "TSMC 3분기 매출 최대 458억달러 제시",
-      "link": "https://www.tokenpost.kr/news/cryptocurrency/391394",
-      "desc": "로이터는 실적 발표 당일 미국 상장 TSMC 주가가 2.5% 내렸고, 필라델피아 반도체지수도 3.8% 하락했다고 전했다. AI 수요 확인과 투자비 회수 우려가 동시에 반영된 흐름으로 해석된다. 한국 투자자에게도 이...",
-      "pub": "Sat, 15 Aug 2026 18:06:00 +0900",
-      "via": "naver_api",
-      "importance": 10,
-      "matched_keywords": [
-        "반도체",
-        "TSMC"
+        "DB"
       ],
       "score": 14
     },
@@ -1845,10 +1857,10 @@
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "셀트리온",
-        "삼성바이오로직스",
         "제약",
-        "바이오"
+        "바이오",
+        "셀트리온",
+        "삼성바이오로직스"
       ],
       "score": 14
     },
@@ -1861,10 +1873,10 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "셀트리온",
-        "삼성바이오로직스",
         "제약",
-        "바이오"
+        "바이오",
+        "셀트리온",
+        "삼성바이오로직스"
       ],
       "score": 14
     },
@@ -1878,8 +1890,8 @@
       "importance": 4,
       "matched_keywords": [
         "제약",
-        "동국제약",
-        "바이오"
+        "바이오",
+        "동국제약"
       ],
       "score": 13
     },
@@ -1892,23 +1904,9 @@
       "via": "rss",
       "importance": 3,
       "matched_keywords": [
+        "로봇",
         "현대차",
-        "디아이씨",
-        "로봇"
-      ],
-      "score": 12
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "저스템, 반도체 투자 수혜 본격화…실적 성장 어디까지",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=477738",
-      "desc": "더해질 경우 저스템의 실적 성장세가 지속될 것으로 전망했다. 글로벌 반도체 기업들의 생산 효율 개선과 설비 투자가 맞물리는 환경이 저스템에는 우호적인 셈이다. 목표주가와 투자의견은 별도로 제시하지 않았다.",
-      "pub": "Sat, 15 Aug 2026 18:14:00 +0900",
-      "via": "naver_api",
-      "importance": 6,
-      "matched_keywords": [
-        "반도체",
-        "저스템"
+        "디아이씨"
       ],
       "score": 12
     },
@@ -1922,8 +1920,8 @@
       "importance": 6,
       "matched_keywords": [
         "삼성전자",
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 11
     },
@@ -1936,8 +1934,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "LG",
         "레이",
+        "LG",
         "LG디스플레이"
       ],
       "score": 11
@@ -1966,8 +1964,8 @@
       "via": "rss",
       "importance": 7,
       "matched_keywords": [
-        "HMM",
-        "팬오션"
+        "팬오션",
+        "HMM"
       ],
       "score": 11
     },
@@ -1986,6 +1984,20 @@
     },
     {
       "source": "네이버뉴스",
+      "title": "[미르의 글로벌 레이더] '베트남산' 현대차, 멕시코·호주로 간다…현지...",
+      "link": "https://www.mediapen.com/news/view/1116753",
+      "desc": "하지만 글로벌 자동차 공급망이 재편되면서 생산비용과 물류, 관세, 자유무역협정(FTA) 등을 종합적으로 고려해 한 국가에서 생산한 차량을 여러 시장으로 공급하는 방식이...",
+      "pub": "Sat, 15 Aug 2026 19:52:00 +0900",
+      "via": "naver_api",
+      "importance": 5,
+      "matched_keywords": [
+        "레이",
+        "현대차"
+      ],
+      "score": 11
+    },
+    {
+      "source": "네이버뉴스",
       "title": "450억 CB·10대1 액면병합...CMG제약, 시간과 성장의 함수",
       "link": "https://www.pharmnews.com/news/articleView.html?idxno=305636",
       "desc": "제약바이오 기업은 연구개발과 제품 상업화 과정에서 장기간 비용 투입이 필요한 만큼, 단기 유동성 부담 완화는 경영 안정성 측면에서 의미가 있다. 다만 CB는 양면성을 가진다. 회사 입장에서는 자금을 확보하는...",
@@ -1994,8 +2006,8 @@
       "importance": 4,
       "matched_keywords": [
         "제약",
-        "CMG제약",
-        "바이오"
+        "바이오",
+        "CMG제약"
       ],
       "score": 11
     },
@@ -2021,8 +2033,8 @@
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 10
     },
@@ -2035,8 +2047,8 @@
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 10
     },
@@ -2049,23 +2061,23 @@
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "비에이치",
-        "비에이치아이"
+        "비에이치아이",
+        "비에이치"
       ],
       "score": 10
     }
   ],
   "keyword_summary": {
-    "현대차": 7,
+    "현대차": 8,
     "NHN": 1,
     "LG": 11,
     "네이버": 3,
     "SG": 2,
-    "디아이씨": 1,
     "로봇": 4,
+    "디아이씨": 1,
     "SK증권": 1,
-    "비에이치": 2,
     "비에이치아이": 2,
+    "비에이치": 2,
     "DB": 5,
     "LG전자": 1,
     "반도체": 29,
@@ -2079,8 +2091,8 @@
     "삼성전자": 9,
     "미래에셋증권": 3,
     "인공지능": 14,
-    "레이": 6,
     "유진투자증권": 1,
+    "레이": 7,
     "삼성물산": 1,
     "태양광": 2,
     "스테이블코인": 1,
@@ -2088,8 +2100,8 @@
     "두산에너빌리티": 1,
     "DB하이텍": 1,
     "골드앤에스": 1,
-    "삼성전기": 1,
     "SK스퀘어": 1,
+    "삼성전기": 1,
     "방산": 1,
     "현대해상": 1,
     "원전": 3,
@@ -2098,19 +2110,17 @@
     "원텍": 1,
     "현대건설": 1,
     "LG디스플레이": 1,
-    "엔터": 1,
     "카카오": 1,
+    "엔터": 1,
     "대한항공": 1,
     "클라우드": 2,
-    "HMM": 2,
     "팬오션": 2,
+    "HMM": 2,
     "대한전선": 1,
-    "저스템": 1,
-    "TSMC": 1,
     "AMD": 1,
-    "CMG제약": 1,
-    "동국제약": 1,
     "셀트리온": 3,
-    "삼성바이오로직스": 2
+    "삼성바이오로직스": 3,
+    "CMG제약": 1,
+    "동국제약": 1
   }
 }
