@@ -1,34 +1,26 @@
 {
-  "date": "2026-08-16",
-  "generated_at": "2026-08-16 06:54",
+  "date": "2026-08-17",
+  "generated_at": "2026-08-17 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 370,
-      "win_rate": 52.7,
-      "avg_return": -0.43,
-      "avg_win": 4.7,
-      "avg_loss": -6.14
+      "sample": 360,
+      "win_rate": 52.8,
+      "avg_return": -0.48,
+      "avg_win": 4.62,
+      "avg_loss": -6.18
     },
     "5": {
-      "sample": 310,
-      "win_rate": 50.6,
-      "avg_return": 0.78,
-      "avg_win": 10.66,
-      "avg_loss": -9.35
+      "sample": 300,
+      "win_rate": 50.3,
+      "avg_return": 0.25,
+      "avg_win": 9.76,
+      "avg_loss": -9.38
     }
   },
   "rank_horizon": "5",
   "best": [
-    {
-      "date": "2026-07-08",
-      "keyword": "한성기업",
-      "returns": {
-        "1": 29.94,
-        "5": 189.82
-      }
-    },
     {
       "date": "2026-08-05",
       "keyword": "금호건설",
@@ -59,6 +51,14 @@
       "returns": {
         "1": 8.06,
         "5": 42.14
+      }
+    },
+    {
+      "date": "2026-08-07",
+      "keyword": "금호건설",
+      "returns": {
+        "1": -9.52,
+        "5": 37.15
       }
     }
   ],
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 399
+  "total_signals": 397
 }
