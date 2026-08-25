@@ -1,22 +1,22 @@
 {
-  "date": "2026-08-25",
-  "generated_at": "2026-08-25 06:54",
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 343,
-      "win_rate": 51.3,
-      "avg_return": -0.69,
-      "avg_win": 4.38,
-      "avg_loss": -6.03
+      "sample": 356,
+      "win_rate": 51.4,
+      "avg_return": -0.62,
+      "avg_win": 4.19,
+      "avg_loss": -5.7
     },
     "5": {
-      "sample": 292,
-      "win_rate": 55.8,
-      "avg_return": 1.56,
-      "avg_win": 10.51,
-      "avg_loss": -9.74
+      "sample": 314,
+      "win_rate": 51.6,
+      "avg_return": 1.07,
+      "avg_win": 10.44,
+      "avg_loss": -8.92
     }
   },
   "rank_horizon": "5",
@@ -80,14 +80,6 @@
       }
     },
     {
-      "date": "2026-07-17",
-      "keyword": "기가레인",
-      "returns": {
-        "1": -27.41,
-        "5": -42.49
-      }
-    },
-    {
       "date": "2026-07-18",
       "keyword": "기가레인",
       "returns": {
@@ -102,7 +94,15 @@
         "1": -27.41,
         "5": -42.49
       }
+    },
+    {
+      "date": "2026-07-23",
+      "keyword": "SK하이닉스",
+      "returns": {
+        "1": -8.34,
+        "5": -31.11
+      }
     }
   ],
-  "total_signals": 375
+  "total_signals": 372
 }
