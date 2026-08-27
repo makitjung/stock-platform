@@ -1,22 +1,22 @@
 {
-  "date": "2026-08-27",
-  "generated_at": "2026-08-27 06:53",
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28 06:53",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 356,
-      "win_rate": 51.1,
-      "avg_return": -0.53,
-      "avg_win": 4.24,
-      "avg_loss": -5.52
+      "sample": 352,
+      "win_rate": 50.3,
+      "avg_return": -0.43,
+      "avg_win": 4.46,
+      "avg_loss": -5.38
     },
     "5": {
-      "sample": 314,
-      "win_rate": 51.6,
-      "avg_return": 1.23,
-      "avg_win": 10.52,
-      "avg_loss": -8.67
+      "sample": 307,
+      "win_rate": 50.8,
+      "avg_return": 1.28,
+      "avg_win": 10.67,
+      "avg_loss": -8.42
     }
   },
   "rank_horizon": "5",
@@ -80,14 +80,6 @@
       }
     },
     {
-      "date": "2026-07-19",
-      "keyword": "기가레인",
-      "returns": {
-        "1": -27.41,
-        "5": -42.49
-      }
-    },
-    {
       "date": "2026-07-23",
       "keyword": "SK하이닉스",
       "returns": {
@@ -102,7 +94,15 @@
         "1": -9.28,
         "5": -27.45
       }
+    },
+    {
+      "date": "2026-07-24",
+      "keyword": "OCI홀딩스",
+      "returns": {
+        "1": -17.6,
+        "5": -23.88
+      }
     }
   ],
-  "total_signals": 377
+  "total_signals": 376
 }
