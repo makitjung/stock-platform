@@ -1,8 +1,8 @@
 {
   "date": "2026-08-29",
-  "collected_at": "2026-08-29 19:00",
-  "total_articles": 332,
-  "matched_count": 82,
+  "collected_at": "2026-08-29 20:00",
+  "total_articles": 334,
+  "matched_count": 83,
   "top_news": [
     {
       "source": "매일경제",
@@ -35,6 +35,17 @@
       "desc": "코스피 지수가 27일 엔비디아의 호실적에 힘입어 장 초반 7000선에 다가섰지만 한국은행의 기준금리 인상 결정 이후 상승폭을 일부 반납했다. 이날 코스피는 전장 대비 104.16포..",
       "pub": "Thu, 27 Aug 2026 16:20:54 +09:00",
       "via": "rss",
+      "importance": 12,
+      "matched_keywords": [],
+      "score": 12
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "9월 금융시장 변동성 확대…연준부터 앤트로픽 IPO까지",
+      "link": "https://www.thefairnews.co.kr/news/articleView.html?idxno=86495",
+      "desc": "외환, 원자재 시장 전반의 변동성이 확대될 가능성이 제기된다. 가장 먼저 주목되는 부분은 이란 전쟁 이후 이어지고 있는 에너지 시장 불안이다. 국제유가와 천연가스 가격은 주요 해상 운송로인 호르무즈 해협의 운영...",
+      "pub": "Sat, 29 Aug 2026 19:50:00 +0900",
+      "via": "naver_api",
       "importance": 12,
       "matched_keywords": [],
       "score": 12
@@ -75,17 +86,6 @@
       "score": 11
     },
     {
-      "source": "네이버뉴스",
-      "title": "3300억달러 비용에도 호르무즈 유가는 버텼다",
-      "link": "https://www.tokenpost.kr/news/economy/400145",
-      "desc": "앞서 금리와 유가가 같은 방향으로 오르면 성장주와 원자재, 안전자산의 가격 흐름이 동시에 흔들릴 수 있다는 본지 보도도 있었다. 호르무즈 충격이 완전한 공급 중단으로 번지지 않았더라도 에너지 비용이 오래 높은...",
-      "pub": "Sat, 29 Aug 2026 08:40:00 +0900",
-      "via": "naver_api",
-      "importance": 11,
-      "matched_keywords": [],
-      "score": 11
-    },
-    {
       "source": "매일경제",
       "title": "“저금리 시대가 끝났다” 월가가 찾은 새 주도주는",
       "link": "https://www.mk.co.kr/news/stock/12138488",
@@ -116,10 +116,10 @@
       "via": "naver_api",
       "importance": 10,
       "matched_keywords": [
-        "삼성전자",
-        "SK하이닉스",
         "삼성바이오로직스",
-        "바이오"
+        "삼성전자",
+        "바이오",
+        "SK하이닉스"
       ],
       "score": 14
     },
@@ -154,8 +154,8 @@
       "via": "naver_api",
       "importance": 10,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 12
     },
@@ -168,8 +168,8 @@
       "via": "naver_api",
       "importance": 10,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 12
     },
@@ -196,9 +196,9 @@
       "importance": 8,
       "matched_keywords": [
         "삼성전자",
-        "SK하이닉스",
+        "인공지능",
         "반도체",
-        "인공지능"
+        "SK하이닉스"
       ],
       "score": 16
     },
@@ -238,10 +238,10 @@
       "via": "naver_api",
       "importance": 10,
       "matched_keywords": [
-        "삼성전자",
-        "SK하이닉스",
         "삼성바이오로직스",
-        "바이오"
+        "삼성전자",
+        "바이오",
+        "SK하이닉스"
       ],
       "score": 14
     },
@@ -254,9 +254,9 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "반도체",
         "방산",
-        "원전"
+        "원전",
+        "반도체"
       ],
       "score": 13
     },
@@ -297,9 +297,9 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "반도체",
+        "인공지능",
         "TSMC",
-        "인공지능"
+        "반도체"
       ],
       "score": 13
     },
@@ -326,8 +326,8 @@
       "importance": 7,
       "matched_keywords": [
         "삼성전자",
-        "SK하이닉스",
-        "반도체"
+        "반도체",
+        "SK하이닉스"
       ],
       "score": 12
     },
@@ -340,8 +340,8 @@
       "via": "naver_api",
       "importance": 10,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 12
     },
@@ -354,8 +354,8 @@
       "via": "naver_api",
       "importance": 10,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 12
     },
@@ -383,8 +383,8 @@
       "importance": 6,
       "matched_keywords": [
         "전기차",
-        "이차전지",
-        "인공지능"
+        "인공지능",
+        "이차전지"
       ],
       "score": 11
     },
@@ -412,8 +412,8 @@
       "importance": 7,
       "matched_keywords": [
         "삼성전자",
-        "SK하이닉스",
-        "반도체"
+        "반도체",
+        "SK하이닉스"
       ],
       "score": 10
     },
@@ -433,6 +433,19 @@
     },
     {
       "source": "네이버뉴스",
+      "title": "1,550원서 1,370원대로…'고환율' 흐름 꺾이나",
+      "link": "https://n.news.naver.com/mnews/article/422/0000900747?sid=161",
+      "desc": "다만 9월 연준의 금리 결정 결과에 따라서는 환율이 다시 1,400원대에 근접하거나 이를 넘어설 가능성도 있다고 내다봤습니다. 연합뉴스TV 김채영입니다. [영상편집 김은채] [그래픽 문수진] [뉴스리뷰] #환율 #SK하이닉스...",
+      "pub": "Sat, 29 Aug 2026 19:12:00 +0900",
+      "via": "naver_api",
+      "importance": 9,
+      "matched_keywords": [
+        "SK하이닉스"
+      ],
+      "score": 10
+    },
+    {
+      "source": "네이버뉴스",
       "title": "‘AI 열풍 안 끝났다’ 광통신 시장 4배 커진다…AI 반도체 빨라질수록...",
       "link": "https://n.news.naver.com/mnews/article/016/0002690055?sid=101",
       "desc": "인공지능(AI) 데이터센터에 들어가는 광통신 장비·부품 시장이 앞으로 2년 내 4배로 커질 수 있다는 전망이... 지난 6월에는 CPO 양산이 2028~2029년까지 늦어질 수 있다는 우려가 제기되면서 관련주의 성장 시점도 뒤로...",
@@ -440,8 +453,8 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 10
     },
@@ -454,8 +467,8 @@
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
-        "반도체",
-        "AMD"
+        "AMD",
+        "반도체"
       ],
       "score": 10
     },
@@ -469,19 +482,6 @@
       "importance": 6,
       "matched_keywords": [
         "반도체"
-      ],
-      "score": 9
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "SK하이닉스, 조정은 기회인가… 미래에셋 &quot;성장세는 여전히 선명&quot;",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=481749",
-      "desc": "단기적으로는 글로벌 경기와 금리, 환율 등 거시 변수에 따라 변동성이 확대될 수 있지만 메모리 업황과 HBM 수요라는 핵심 펀더멘털에는 큰 변화가 없다는 판단이다. SK하이닉스가 높은 HBM 경쟁력을 바탕으로 실적...",
-      "pub": "Sat, 29 Aug 2026 16:54:00 +0900",
-      "via": "naver_api",
-      "importance": 6,
-      "matched_keywords": [
-        "SK하이닉스"
       ],
       "score": 9
     },
@@ -521,8 +521,8 @@
       "via": "naver_api",
       "importance": 5,
       "matched_keywords": [
-        "SK하이닉스",
-        "반도체"
+        "반도체",
+        "SK하이닉스"
       ],
       "score": 9
     },
@@ -576,8 +576,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "SK하이닉스",
-        "반도체"
+        "반도체",
+        "SK하이닉스"
       ],
       "score": 8
     },
@@ -603,8 +603,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "SK하이닉스",
-        "반도체"
+        "반도체",
+        "SK하이닉스"
       ],
       "score": 8
     },
@@ -617,8 +617,8 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 8
     },
@@ -645,8 +645,22 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
+      ],
+      "score": 8
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "친환경 바이오 에너지 전문 기업 SBK㈜ 군산국가산단에 '생촉매 공정 기...",
+      "link": "http://www.domin.co.kr/news/articleView.html?idxno=1566783",
+      "desc": "이런 첨단 시설을 원동력으로 기존 상용 바이오디젤 공정인 알칼리 촉매 반응 대비 생촉매 공정을 채택해 산도가 높아 처리가 곤란했던 고산가 저급 유지를 제약 없이 원료로 쓸 수 있다. 또한, 비누로부터 유분을...",
+      "pub": "Sat, 29 Aug 2026 19:08:00 +0900",
+      "via": "naver_api",
+      "importance": 4,
+      "matched_keywords": [
+        "제약",
+        "바이오"
       ],
       "score": 8
     },
@@ -659,8 +673,8 @@
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "바이오",
-        "제약"
+        "제약",
+        "바이오"
       ],
       "score": 8
     },
@@ -673,8 +687,8 @@
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "바이오",
-        "제약"
+        "제약",
+        "바이오"
       ],
       "score": 8
     },
@@ -727,8 +741,8 @@
       "importance": 2,
       "matched_keywords": [
         "삼성전자",
-        "SK하이닉스",
-        "바이오"
+        "바이오",
+        "SK하이닉스"
       ],
       "score": 7
     },
@@ -807,7 +821,20 @@
       "importance": 4,
       "matched_keywords": [
         "삼성전자",
-        "SK하이닉스",
+        "반도체",
+        "SK하이닉스"
+      ],
+      "score": 7
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "[돈이 보이는 경제] 잇단 호재에도 주가는 지지부진…반도체 상승장은 ...",
+      "link": "https://n.news.naver.com/mnews/article/448/0000636365?sid=101",
+      "desc": "엔비디아의 깜짝실적과 삼성, SK의 주주환원 정책에도 반도체 관련 주가는 지지부진한 상황입니다. 반도체 기업들의 주가 부진 이유와 전망을 [돈이 보이는 경제]에서 서영일 기자가 알아봤습니다. [리포트] 지난 목요일...",
+      "pub": "Sat, 29 Aug 2026 19:30:00 +0900",
+      "via": "naver_api",
+      "importance": 4,
+      "matched_keywords": [
         "반도체"
       ],
       "score": 7
@@ -847,8 +874,8 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "로봇",
-        "현대차"
+        "현대차",
+        "로봇"
       ],
       "score": 6
     },
@@ -889,8 +916,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "SK하이닉스",
-        "반도체"
+        "반도체",
+        "SK하이닉스"
       ],
       "score": 6
     },
@@ -938,6 +965,34 @@
     },
     {
       "source": "네이버뉴스",
+      "title": "한화 4거래일 34.10% 상승, 방산 지주 평가론",
+      "link": "https://www.tokenpost.kr/news/market/400346",
+      "desc": "인적분할은 기존 주주가 분할 전 회사 지분율에 따라 존속회사와 신설회사 지분을 나눠 갖는 방식이다.... 분할 전에도 투자자산가치에서 한화에어로스페이스가 차지하는 비중이 약 70%였으나, 시큐리티·반도체 장비...",
+      "pub": "Sat, 29 Aug 2026 19:10:00 +0900",
+      "via": "naver_api",
+      "importance": 2,
+      "matched_keywords": [
+        "방산",
+        "반도체"
+      ],
+      "score": 6
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "석달 새 5조원 잇달아 기술수출한 한미약품…‘R&amp;D의 힘’",
+      "link": "https://n.news.naver.com/mnews/article/029/0003044912?sid=105",
+      "desc": "한국제약바이오협회 관계자는 “한미약품의 축적된 신약개발 역량과 글로벌 경쟁력이 성과로 이어지고 있다”며 “특히 비만·대사질환 분야에서 자체 플랫폼과 차별화된 파이프라인의 가치가 글로벌 제약사에게...",
+      "pub": "Sat, 29 Aug 2026 19:31:00 +0900",
+      "via": "naver_api",
+      "importance": 4,
+      "matched_keywords": [
+        "제약",
+        "바이오"
+      ],
+      "score": 6
+    },
+    {
+      "source": "네이버뉴스",
       "title": "고양특례시 국토교통부에 자족도시 지원 요청",
       "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3073590",
       "desc": "현재 고양시 전역은 수도권정비계획법상 과밀억제권역으로 지정돼 산업시설 확충과 기업 유치에 제약을... (UAM)·의료·바이오 산업을 집중 육성할 계획입니다. 기업 유치와 일자리 확대를 통해 지역 안에서 생산과 소비가...",
@@ -945,36 +1000,8 @@
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "바이오",
-        "제약"
-      ],
-      "score": 6
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "'베드타운 넘어 자족도시로'…민경선 시장, 김윤덕 장관에 &quot;산업·일자리...",
-      "link": "https://www.joongangenews.com/news/articleView.html?idxno=543881",
-      "desc": "시는 전 지역이 '수도권정비계획법'상 '과밀억제권역'으로 지정돼 산업시설 확충과 기업 유치에 제약을 받고... 의료·바이오 등 미래산업을 집중 육성한다는 구상이다. 이를 통해 주거 중심 도시 구조에서 벗어나 기업과...",
-      "pub": "Sat, 29 Aug 2026 16:28:00 +0900",
-      "via": "naver_api",
-      "importance": 4,
-      "matched_keywords": [
-        "바이오",
-        "제약"
-      ],
-      "score": 6
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "민경선, 국토부장관 만나 &quot;고양, 베드타운 넘어 자족도시로&quot;… 공업물량...",
-      "link": "https://n.news.naver.com/mnews/article/047/0002527102?sid=100",
-      "desc": "유치에 제약받고 있다. 인구 107만 명 규모의 특례시지만 산업용지는 도시 규모에 비해 부족하다. 이에 민경선... 의료·바이오 등 미래산업을 집중 육성한다는 구상이다. 민 시장은 이날 SNS를 통해서도 &quot;고양은...",
-      "pub": "Sat, 29 Aug 2026 16:11:00 +0900",
-      "via": "naver_api",
-      "importance": 4,
-      "matched_keywords": [
-        "바이오",
-        "제약"
+        "제약",
+        "바이오"
       ],
       "score": 6
     },
@@ -1149,19 +1176,6 @@
       "score": 5
     },
     {
-      "source": "네이버뉴스",
-      "title": "&quot;최대 반도체주에서 새 매수기회&quot;",
-      "link": "https://www.businessplus.kr/news/articleView.html?idxno=116099",
-      "desc": "반도체주가 미국 뉴욕 주식시장의 스탠더드앤드푸어스(S&amp;P)500지수 대비 투자자 포트폴리오에서 상대적으로 과도하게 높은 비중을 차지하고 있다는 것이다. 월스트리트의 다른 애널리스트들은 다소 신중한 입장을...",
-      "pub": "Sat, 29 Aug 2026 17:02:00 +0900",
-      "via": "naver_api",
-      "importance": 2,
-      "matched_keywords": [
-        "반도체"
-      ],
-      "score": 5
-    },
-    {
       "source": "매일경제",
       "title": "\"오디세이 모니터, 영화같은 몰입감\" 삼성, 게임용 OLED 4종 獨서 선봬",
       "link": "https://www.mk.co.kr/news/business/12138062",
@@ -1317,9 +1331,9 @@
       "importance": 8,
       "matched_keywords": [
         "삼성전자",
-        "SK하이닉스",
+        "인공지능",
         "반도체",
-        "인공지능"
+        "SK하이닉스"
       ],
       "score": 16
     },
@@ -1359,10 +1373,10 @@
       "via": "naver_api",
       "importance": 10,
       "matched_keywords": [
-        "삼성전자",
-        "SK하이닉스",
         "삼성바이오로직스",
-        "바이오"
+        "삼성전자",
+        "바이오",
+        "SK하이닉스"
       ],
       "score": 14
     },
@@ -1375,9 +1389,9 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "반도체",
         "방산",
-        "원전"
+        "원전",
+        "반도체"
       ],
       "score": 13
     },
@@ -1418,9 +1432,9 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "반도체",
+        "인공지능",
         "TSMC",
-        "인공지능"
+        "반도체"
       ],
       "score": 13
     },
@@ -1447,8 +1461,8 @@
       "importance": 7,
       "matched_keywords": [
         "삼성전자",
-        "SK하이닉스",
-        "반도체"
+        "반도체",
+        "SK하이닉스"
       ],
       "score": 12
     },
@@ -1461,8 +1475,8 @@
       "via": "naver_api",
       "importance": 10,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 12
     },
@@ -1475,8 +1489,8 @@
       "via": "naver_api",
       "importance": 10,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 12
     },
@@ -1504,8 +1518,8 @@
       "importance": 6,
       "matched_keywords": [
         "전기차",
-        "이차전지",
-        "인공지능"
+        "인공지능",
+        "이차전지"
       ],
       "score": 11
     },
@@ -1533,8 +1547,8 @@
       "importance": 7,
       "matched_keywords": [
         "삼성전자",
-        "SK하이닉스",
-        "반도체"
+        "반도체",
+        "SK하이닉스"
       ],
       "score": 10
     },
@@ -1554,6 +1568,19 @@
     },
     {
       "source": "네이버뉴스",
+      "title": "1,550원서 1,370원대로…'고환율' 흐름 꺾이나",
+      "link": "https://n.news.naver.com/mnews/article/422/0000900747?sid=161",
+      "desc": "다만 9월 연준의 금리 결정 결과에 따라서는 환율이 다시 1,400원대에 근접하거나 이를 넘어설 가능성도 있다고 내다봤습니다. 연합뉴스TV 김채영입니다. [영상편집 김은채] [그래픽 문수진] [뉴스리뷰] #환율 #SK하이닉스...",
+      "pub": "Sat, 29 Aug 2026 19:12:00 +0900",
+      "via": "naver_api",
+      "importance": 9,
+      "matched_keywords": [
+        "SK하이닉스"
+      ],
+      "score": 10
+    },
+    {
+      "source": "네이버뉴스",
       "title": "‘AI 열풍 안 끝났다’ 광통신 시장 4배 커진다…AI 반도체 빨라질수록...",
       "link": "https://n.news.naver.com/mnews/article/016/0002690055?sid=101",
       "desc": "인공지능(AI) 데이터센터에 들어가는 광통신 장비·부품 시장이 앞으로 2년 내 4배로 커질 수 있다는 전망이... 지난 6월에는 CPO 양산이 2028~2029년까지 늦어질 수 있다는 우려가 제기되면서 관련주의 성장 시점도 뒤로...",
@@ -1561,8 +1588,8 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "반도체",
-        "인공지능"
+        "인공지능",
+        "반도체"
       ],
       "score": 10
     },
@@ -1575,42 +1602,29 @@
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
-        "반도체",
-        "AMD"
-      ],
-      "score": 10
-    },
-    {
-      "source": "매일경제",
-      "title": "SK에코플랜트·SK에코엔지니어링 합병…반도체·AI 인프라 경쟁력 강화",
-      "link": "https://www.mk.co.kr/news/stock/12138153",
-      "desc": "SK에코플랜트는 27일 공시를 통해 100% 자회사인 SK에코엔지니어링을 흡수·합병한다고 밝혔다. 합병기일은 오는 12월 1일이다. 합병 목적은 경영 효율화와 AI 인프라 사업의 ..",
-      "pub": "Thu, 27 Aug 2026 18:03:32 +09:00",
-      "via": "rss",
-      "importance": 6,
-      "matched_keywords": [
+        "AMD",
         "반도체"
       ],
-      "score": 9
+      "score": 10
     }
   ],
   "keyword_summary": {
     "조선": 3,
     "바이오": 15,
-    "방산": 2,
+    "방산": 3,
     "원전": 2,
-    "반도체": 30,
+    "반도체": 31,
     "삼성바이오로직스": 7,
     "삼성전자": 18,
-    "로봇": 3,
     "현대차": 4,
+    "로봇": 3,
     "제약": 6,
     "게임": 4,
     "SK하이닉스": 18,
     "스테이블코인": 1,
     "전기차": 3,
-    "이차전지": 1,
     "인공지능": 11,
+    "이차전지": 1,
     "카카오": 2,
     "기아": 2,
     "TSMC": 1,
