@@ -1,22 +1,108 @@
 {
-  "date": "2026-08-29",
-  "generated_at": "2026-08-29 06:50",
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30 06:53",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 0,
-      "win_rate": null,
-      "avg_return": null
+      "sample": 349,
+      "win_rate": 49.9,
+      "avg_return": -0.4,
+      "avg_win": 4.33,
+      "avg_loss": -5.11
     },
     "5": {
-      "sample": 0,
-      "win_rate": null,
-      "avg_return": null
+      "sample": 296,
+      "win_rate": 51.4,
+      "avg_return": 1.68,
+      "avg_win": 10.76,
+      "avg_loss": -7.9
     }
   },
-  "rank_horizon": null,
-  "best": [],
-  "worst": [],
-  "total_signals": 367
+  "rank_horizon": "5",
+  "best": [
+    {
+      "date": "2026-08-08",
+      "keyword": "금호건설",
+      "returns": {
+        "1": 29.98,
+        "5": 57.81
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "keyword": "금호건설",
+      "returns": {
+        "1": -1.13,
+        "5": 52.81
+      }
+    },
+    {
+      "date": "2026-07-30",
+      "keyword": "대우건설",
+      "returns": {
+        "1": 14.11,
+        "5": 50.62
+      }
+    },
+    {
+      "date": "2026-08-06",
+      "keyword": "금호건설",
+      "returns": {
+        "1": 1.14,
+        "5": 48.76
+      }
+    },
+    {
+      "date": "2026-08-02",
+      "keyword": "한화솔루션",
+      "returns": {
+        "1": 8.06,
+        "5": 42.14
+      }
+    }
+  ],
+  "worst": [
+    {
+      "date": "2026-07-24",
+      "keyword": "SK이터닉스",
+      "returns": {
+        "1": -29.42,
+        "5": -43.82
+      }
+    },
+    {
+      "date": "2026-07-23",
+      "keyword": "SK하이닉스",
+      "returns": {
+        "1": -8.34,
+        "5": -31.11
+      }
+    },
+    {
+      "date": "2026-07-24",
+      "keyword": "OCI홀딩스",
+      "returns": {
+        "1": -17.6,
+        "5": -23.88
+      }
+    },
+    {
+      "date": "2026-07-22",
+      "keyword": "SK하이닉스",
+      "returns": {
+        "1": 4.86,
+        "5": -23.44
+      }
+    },
+    {
+      "date": "2026-07-23",
+      "keyword": "리가켐바이오",
+      "returns": {
+        "1": -5.51,
+        "5": -23.4
+      }
+    }
+  ],
+  "total_signals": 370
 }
