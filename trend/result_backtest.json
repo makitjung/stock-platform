@@ -1,22 +1,22 @@
 {
-  "date": "2026-08-30",
-  "generated_at": "2026-08-30 06:53",
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 349,
-      "win_rate": 49.9,
-      "avg_return": -0.4,
-      "avg_win": 4.33,
+      "sample": 342,
+      "win_rate": 48.8,
+      "avg_return": -0.52,
+      "avg_win": 4.28,
       "avg_loss": -5.11
     },
     "5": {
-      "sample": 296,
-      "win_rate": 51.4,
-      "avg_return": 1.68,
+      "sample": 289,
+      "win_rate": 52.6,
+      "avg_return": 2.01,
       "avg_win": 10.76,
-      "avg_loss": -7.9
+      "avg_loss": -7.7
     }
   },
   "rank_horizon": "5",
@@ -88,21 +88,21 @@
       }
     },
     {
-      "date": "2026-07-22",
-      "keyword": "SK하이닉스",
-      "returns": {
-        "1": 4.86,
-        "5": -23.44
-      }
-    },
-    {
       "date": "2026-07-23",
       "keyword": "리가켐바이오",
       "returns": {
         "1": -5.51,
         "5": -23.4
       }
+    },
+    {
+      "date": "2026-07-23",
+      "keyword": "삼성전자",
+      "returns": {
+        "1": -7.59,
+        "5": -23.33
+      }
     }
   ],
-  "total_signals": 370
+  "total_signals": 374
 }
