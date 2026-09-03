@@ -1,22 +1,22 @@
 {
-  "date": "2026-09-02",
-  "generated_at": "2026-09-02 06:54",
+  "date": "2026-09-03",
+  "generated_at": "2026-09-03 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 356,
-      "win_rate": 49.4,
-      "avg_return": -0.29,
-      "avg_win": 4.21,
-      "avg_loss": -4.7
+      "sample": 362,
+      "win_rate": 48.9,
+      "avg_return": -0.15,
+      "avg_win": 4.19,
+      "avg_loss": -4.3
     },
     "5": {
-      "sample": 303,
-      "win_rate": 57.8,
-      "avg_return": 3.31,
-      "avg_win": 10.5,
-      "avg_loss": -6.51
+      "sample": 301,
+      "win_rate": 58.1,
+      "avg_return": 3.6,
+      "avg_win": 10.82,
+      "avg_loss": -6.42
     }
   },
   "rank_horizon": "5",
@@ -38,6 +38,14 @@
       }
     },
     {
+      "date": "2026-08-26",
+      "keyword": "넥사다이내믹스",
+      "returns": {
+        "1": 29.9,
+        "5": 53.34
+      }
+    },
+    {
       "date": "2026-08-05",
       "keyword": "금호건설",
       "returns": {
@@ -51,14 +59,6 @@
       "returns": {
         "1": 14.11,
         "5": 50.62
-      }
-    },
-    {
-      "date": "2026-08-06",
-      "keyword": "금호건설",
-      "returns": {
-        "1": 1.14,
-        "5": 48.76
       }
     }
   ],
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 382
+  "total_signals": 387
 }
