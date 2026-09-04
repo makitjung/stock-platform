@@ -1,22 +1,22 @@
 {
-  "date": "2026-09-04",
-  "generated_at": "2026-09-04 06:54",
+  "date": "2026-09-05",
+  "generated_at": "2026-09-05 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 365,
-      "win_rate": 49.0,
-      "avg_return": 0.06,
-      "avg_win": 4.19,
-      "avg_loss": -3.91
+      "sample": 369,
+      "win_rate": 51.2,
+      "avg_return": 0.43,
+      "avg_win": 4.14,
+      "avg_loss": -3.47
     },
     "5": {
       "sample": 307,
-      "win_rate": 58.0,
-      "avg_return": 3.63,
-      "avg_win": 10.9,
-      "avg_loss": -6.39
+      "win_rate": 59.0,
+      "avg_return": 4.03,
+      "avg_win": 11.07,
+      "avg_loss": -6.08
     }
   },
   "rank_horizon": "5",
@@ -72,14 +72,6 @@
       }
     },
     {
-      "date": "2026-07-27",
-      "keyword": "SK이터닉스",
-      "returns": {
-        "1": -14.71,
-        "5": -18.48
-      }
-    },
-    {
       "date": "2026-08-15",
       "keyword": "성호전자",
       "returns": {
@@ -102,7 +94,15 @@
         "1": -8.21,
         "5": -17.53
       }
+    },
+    {
+      "date": "2026-07-31",
+      "keyword": "SK하이닉스",
+      "returns": {
+        "1": -8.79,
+        "5": -17.23
+      }
     }
   ],
-  "total_signals": 390
+  "total_signals": 388
 }
