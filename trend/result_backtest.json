@@ -1,22 +1,22 @@
 {
-  "date": "2026-09-07",
-  "generated_at": "2026-09-07 06:54",
+  "date": "2026-09-08",
+  "generated_at": "2026-09-08 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 350,
-      "win_rate": 52.6,
-      "avg_return": 0.62,
-      "avg_win": 4.16,
-      "avg_loss": -3.3
+      "sample": 346,
+      "win_rate": 51.7,
+      "avg_return": 0.23,
+      "avg_win": 3.57,
+      "avg_loss": -3.36
     },
     "5": {
-      "sample": 288,
-      "win_rate": 56.2,
-      "avg_return": 3.49,
-      "avg_win": 10.92,
-      "avg_loss": -6.08
+      "sample": 295,
+      "win_rate": 53.9,
+      "avg_return": 2.94,
+      "avg_win": 10.48,
+      "avg_loss": -5.88
     }
   },
   "rank_horizon": "5",
@@ -54,11 +54,11 @@
       }
     },
     {
-      "date": "2026-07-30",
-      "keyword": "대우건설",
+      "date": "2026-08-06",
+      "keyword": "금호건설",
       "returns": {
-        "1": 14.11,
-        "5": 50.62
+        "1": 1.14,
+        "5": 48.76
       }
     }
   ],
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 390
+  "total_signals": 381
 }
