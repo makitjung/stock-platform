@@ -1,108 +1,22 @@
 {
-  "date": "2026-09-08",
-  "generated_at": "2026-09-08 06:54",
+  "date": "2026-09-09",
+  "generated_at": "2026-09-09 06:51",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 346,
-      "win_rate": 51.7,
-      "avg_return": 0.23,
-      "avg_win": 3.57,
-      "avg_loss": -3.36
+      "sample": 0,
+      "win_rate": null,
+      "avg_return": null
     },
     "5": {
-      "sample": 295,
-      "win_rate": 53.9,
-      "avg_return": 2.94,
-      "avg_win": 10.48,
-      "avg_loss": -5.88
+      "sample": 0,
+      "win_rate": null,
+      "avg_return": null
     }
   },
-  "rank_horizon": "5",
-  "best": [
-    {
-      "date": "2026-08-25",
-      "keyword": "넥사다이내믹스",
-      "returns": {
-        "1": 18.61,
-        "5": 88.52
-      }
-    },
-    {
-      "date": "2026-08-08",
-      "keyword": "금호건설",
-      "returns": {
-        "1": 29.98,
-        "5": 57.81
-      }
-    },
-    {
-      "date": "2026-08-26",
-      "keyword": "넥사다이내믹스",
-      "returns": {
-        "1": 29.9,
-        "5": 53.34
-      }
-    },
-    {
-      "date": "2026-08-05",
-      "keyword": "금호건설",
-      "returns": {
-        "1": -1.13,
-        "5": 52.81
-      }
-    },
-    {
-      "date": "2026-08-06",
-      "keyword": "금호건설",
-      "returns": {
-        "1": 1.14,
-        "5": 48.76
-      }
-    }
-  ],
-  "worst": [
-    {
-      "date": "2026-08-08",
-      "keyword": "상상인증권",
-      "returns": {
-        "1": -9.54,
-        "5": -19.59
-      }
-    },
-    {
-      "date": "2026-08-15",
-      "keyword": "성호전자",
-      "returns": {
-        "1": -8.21,
-        "5": -17.53
-      }
-    },
-    {
-      "date": "2026-08-16",
-      "keyword": "성호전자",
-      "returns": {
-        "1": -8.21,
-        "5": -17.53
-      }
-    },
-    {
-      "date": "2026-08-17",
-      "keyword": "성호전자",
-      "returns": {
-        "1": -8.21,
-        "5": -17.53
-      }
-    },
-    {
-      "date": "2026-07-31",
-      "keyword": "SK하이닉스",
-      "returns": {
-        "1": -8.79,
-        "5": -17.23
-      }
-    }
-  ],
-  "total_signals": 381
+  "rank_horizon": null,
+  "best": [],
+  "worst": [],
+  "total_signals": 370
 }
