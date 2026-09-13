@@ -1,8 +1,8 @@
 {
   "date": "2026-09-13",
-  "collected_at": "2026-09-13 20:00",
-  "total_articles": 335,
-  "matched_count": 120,
+  "collected_at": "2026-09-13 21:00",
+  "total_articles": 329,
+  "matched_count": 111,
   "top_news": [
     {
       "source": "매일경제",
@@ -45,10 +45,21 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "원화 강세·금리 급등…코스피 ‘수급절벽’ 오나",
-      "link": "https://n.news.naver.com/mnews/article/029/0003047716?sid=101",
-      "desc": "원·달러 환율이 가파르게 내리막을 타며 수출기업들의 실적 전망에 빨간불이 켜지면서 미국 10년 만기 국채 금리가 ‘심리적 마지노선’인 연 5% 돌파를 앞두는 등 매크로 위기가 커진 탓이다. 외국인에 이어...",
-      "pub": "Sun, 13 Sep 2026 17:28:00 +0900",
+      "title": "‘7천피’ 넘을까…이번주 FOMC·100달러 유가가 분수령",
+      "link": "https://www.etoday.co.kr/news/view/2624799",
+      "desc": "유가 상승은 단순한 원자재 가격 부담에 그치지 않는다. 고유가가 물가를 다시 끌어올리면 연준의 긴축 장기화 우려가 커지고 국채금리 상승으로 이어질 수 있다. 고유가가 고물가와 고금리를 다시 밀어 올리는...",
+      "pub": "Sun, 13 Sep 2026 18:00:00 +0900",
+      "via": "naver_api",
+      "importance": 15,
+      "matched_keywords": [],
+      "score": 15
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "유가·물가·금리 ‘3고 충격’에 글로벌 긴축 본격화…어두워진 한국 ...",
+      "link": "https://n.news.naver.com/mnews/article/025/0003551008?sid=101",
+      "desc": "국제유가와 원자재 가격, 주요국 국채금리가 동시다발적으로 급등하는 ‘3고(고유가·고물가·고금리) 충격’이 한국 경제를 위협하고 있다. 인플레이션(지속적인 물가 상승)을 잡기 위한 글로벌 긴축 사이클이...",
+      "pub": "Sun, 13 Sep 2026 17:51:00 +0900",
       "via": "naver_api",
       "importance": 15,
       "matched_keywords": [],
@@ -149,33 +160,22 @@
       "score": 11
     },
     {
-      "source": "네이버뉴스",
-      "title": "AI가 띄운 코스피, 중동 악재에 찬물…이번주 7,000선 안착할까",
-      "link": "https://n.news.naver.com/mnews/article/215/0001265789?sid=101",
-      "desc": "다우존스30 산업평균지수는 0.98%, 스탠더드앤드푸어스(S&amp;P) 500지수는 0.86% 뛰었고, 기술주 중심의 나스닥 종합지수도 0.96% 올랐다. 연일 치솟던 국제유가가 큰 폭으로 하락하면서 안도감이 확산했다. 브렌트유...",
-      "pub": "Sun, 13 Sep 2026 14:49:00 +0900",
-      "via": "naver_api",
-      "importance": 10,
-      "matched_keywords": [],
-      "score": 10
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "배당수익 높은 종목 선별투자... 하락장에는 리스크 줄여 방어 [이런 펀...",
-      "link": "https://n.news.naver.com/mnews/article/014/0005575005?sid=101",
-      "desc": "지정학적 리스크와 금리·환율 변동성 등으로 증시 불확실성이 커지자, 안정적인 현금흐름을 제공하는 고배당 상품에 투자자들의 관심이 쏠리고 있다. 삼성액티브자산운용의 'KoAct 고배당액티브' 등 배당의...",
-      "pub": "Sun, 13 Sep 2026 19:14:00 +0900",
-      "via": "naver_api",
-      "importance": 10,
-      "matched_keywords": [],
-      "score": 10
-    },
-    {
       "source": "한국경제",
       "title": "중동發 '물가 쇼크'…美 기준금리 인상 가능성 커졌다",
       "link": "https://www.hankyung.com/article/2026091199201",
       "desc": "",
       "pub": "Fri, 11 Sep 2026 23:04:17 +0900",
+      "via": "rss",
+      "importance": 9,
+      "matched_keywords": [],
+      "score": 9
+    },
+    {
+      "source": "한국경제",
+      "title": "코스피, 유가·금리 공포 속 낙폭 줄여 6900선 마감…코스닥도 하락",
+      "link": "https://www.hankyung.com/article/2026091192816",
+      "desc": "",
+      "pub": "Fri, 11 Sep 2026 15:48:58 +0900",
       "via": "rss",
       "importance": 9,
       "matched_keywords": [],
@@ -192,11 +192,11 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
         "반도체",
-        "DB하이텍",
         "DB",
-        "로봇"
+        "DB하이텍",
+        "로봇",
+        "인공지능"
       ],
       "score": 17
     },
@@ -243,6 +243,20 @@
     },
     {
       "source": "네이버뉴스",
+      "title": "&quot;AI 거품 터지면 미국증시·나스닥 폭락?&quot;…삼성전자·SK하이닉스까지 ...",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16191710",
+      "desc": "영국 중앙은행인 영란은행은 지난 7월 금융안정보고서에서 미국 증시에서 AI 관련 기업들이 차지하는 비중이 2022년 약 4분의 1에서 올해 약 절반으로 높아졌다고 분석했다. AI주에 대한 기대가 흔들릴 경우 충격이 개별...",
+      "pub": "Sun, 13 Sep 2026 20:26:00 +0900",
+      "via": "naver_api",
+      "importance": 9,
+      "matched_keywords": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "score": 15
+    },
+    {
+      "source": "네이버뉴스",
       "title": "AI 뜨자 에스피소프트·에스투더블유 폭등… IT서비스株 희비",
       "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=486532",
       "desc": "데이터·AI 소프트웨어 관련주도 강세를 보였다. 심플랫폼과 씨이랩, 데이타솔루션, 미디어젠, 비투엔 등이 상승했다. 아이지넷과 엠브레인, 인포뱅크, 케이웨더 등도 오름세로 거래를 마쳤다. IT 인프라와 클라우드 관련...",
@@ -250,11 +264,11 @@
       "via": "naver_api",
       "importance": 5,
       "matched_keywords": [
-        "에스피소프트",
         "씨이랩",
+        "에스피소프트",
         "에스투더블유",
-        "비투엔",
-        "클라우드"
+        "클라우드",
+        "비투엔"
       ],
       "score": 14
     },
@@ -267,9 +281,9 @@
       "via": "naver_api",
       "importance": 9,
       "matched_keywords": [
-        "인공지능",
         "반도체",
-        "원전"
+        "원전",
+        "인공지능"
       ],
       "score": 14
     },
@@ -301,6 +315,20 @@
     },
     {
       "source": "네이버뉴스",
+      "title": "[미리보는 이데일리 신문]현대차, 3년 내 자율주행차 양산 ‘승부수’",
+      "link": "https://n.news.naver.com/mnews/article/018/0006368692?sid=103",
+      "desc": "고금리…10년물 1%p 쑥 -두달간 200원 넘게 떨어진 환율…美 긴축에 다시 반등할까 △종합 -재개발하면 가구수 늘어난다더니…서울 19곳 중 절반은 줄었다 -韓 반도체 美 수출길, 中서 아세안으로 뒤집혔다 -대세론 깨고...",
+      "pub": "Sun, 13 Sep 2026 20:58:00 +0900",
+      "via": "naver_api",
+      "importance": 8,
+      "matched_keywords": [
+        "현대차",
+        "반도체"
+      ],
+      "score": 12
+    },
+    {
+      "source": "네이버뉴스",
       "title": "용혜인 사퇴로 한시름 던 이 대통령…'김승원·파병' 고심",
       "link": "https://www.gnnews.co.kr/news/articleView.html?idxno=645303",
       "desc": "국민의힘 등 보수 야권은 제넨셀 신약 임상시험 승인 청탁과 주가조작, 가족 인건비 특혜 의혹 등을... 수천억 달러 규모의 대미 투자 패키지와 반도체 관세 협상 등 한미 간 굵직한 현안이 맞물려 있어 미국의 파병 요청을...",
@@ -322,8 +350,8 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "반도체",
-        "알파칩스"
+        "알파칩스",
+        "반도체"
       ],
       "score": 12
     },
@@ -336,8 +364,8 @@
       "via": "rss",
       "importance": 7,
       "matched_keywords": [
-        "인공지능",
-        "LG"
+        "LG",
+        "인공지능"
       ],
       "score": 11
     },
@@ -363,9 +391,9 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
+        "LG",
         "인공지능",
-        "LG디스플레이",
-        "LG"
+        "LG디스플레이"
       ],
       "score": 11
     },
@@ -378,8 +406,8 @@
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
-        "삼성전자",
         "반도체",
+        "삼성전자",
         "SK하이닉스"
       ],
       "score": 11
@@ -406,9 +434,9 @@
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "바이오",
+        "바이오니아",
         "제약",
-        "바이오니아"
+        "바이오"
       ],
       "score": 11
     },
@@ -421,8 +449,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "바이오",
-        "반도체"
+        "반도체",
+        "바이오"
       ],
       "score": 10
     },
@@ -476,8 +504,8 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
-        "반도체"
+        "반도체",
+        "인공지능"
       ],
       "score": 10
     },
@@ -497,19 +525,6 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "코스피 7000 재도전…美 FOMC가 변수 [주간 증시 전망]",
-      "link": "https://n.news.naver.com/mnews/article/014/0005575007?sid=101",
-      "desc": "반도체 투자심리가 살아났지만 미국 연방공개시장위원회(FOMC)를 앞둔 경계감이 상승 탄력을 제한할 수... 코스피가 주중 7000선을 회복한 시점에도 이익 전망이 함께 높아지면서 12개월 선행 주가수익비율(PER)은 5....",
-      "pub": "Sun, 13 Sep 2026 19:15:00 +0900",
-      "via": "naver_api",
-      "importance": 9,
-      "matched_keywords": [
-        "반도체"
-      ],
-      "score": 10
-    },
-    {
-      "source": "네이버뉴스",
       "title": "'원전 8기·가스발전' 패키지 윤곽…트럼프 청구서 시작됐다",
       "link": "http://www.newstomato.com/ReadNews.aspx?no=1313518&inflow=N",
       "desc": "올해 1월 취임 1주년 기자회견에서는 &quot;한국, 일본과의 무역 합의에서 전례 없는 규모의 자금이 들어올 수... 트럼프 대통령이 글로벌 관세 부과를 본격화하며 한국에 대한 투자 압박을 강화하고 있는 만큼, 한미 조선...",
@@ -517,8 +532,8 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "조선",
-        "원전"
+        "원전",
+        "조선"
       ],
       "score": 10
     },
@@ -531,8 +546,8 @@
       "via": "rss",
       "importance": 7,
       "matched_keywords": [
-        "인공지능",
-        "엔터"
+        "엔터",
+        "인공지능"
       ],
       "score": 9
     },
@@ -558,9 +573,9 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "제약",
+        "삼성전기",
         "알테오젠",
-        "삼성전기"
+        "제약"
       ],
       "score": 9
     },
@@ -625,8 +640,8 @@
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "삼성전자",
         "반도체",
+        "삼성전자",
         "SK하이닉스"
       ],
       "score": 9
@@ -640,24 +655,11 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "바이오",
+        "테스",
         "제약",
-        "테스"
+        "바이오"
       ],
       "score": 9
-    },
-    {
-      "source": "한국경제",
-      "title": "샘표, 370억 규모 자사주 소각 소식에 연이틀 '급등'",
-      "link": "https://www.hankyung.com/article/2026091182896",
-      "desc": "",
-      "pub": "Fri, 11 Sep 2026 09:34:02 +0900",
-      "via": "rss",
-      "importance": 5,
-      "matched_keywords": [
-        "샘표"
-      ],
-      "score": 8
     },
     {
       "source": "한국경제",
@@ -668,21 +670,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "LG디스플레이",
-        "LG"
-      ],
-      "score": 8
-    },
-    {
-      "source": "한국경제",
-      "title": "지거국 수시 몰렸다…반도체학과는 '신고가'",
-      "link": "https://www.hankyung.com/article/2026091313361",
-      "desc": "",
-      "pub": "Sun, 13 Sep 2026 19:33:14 +0900",
-      "via": "rss",
-      "importance": 5,
-      "matched_keywords": [
-        "반도체"
+        "LG",
+        "LG디스플레이"
       ],
       "score": 8
     },
@@ -695,10 +684,10 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
+        "KT",
         "삼성전자",
         "삼성전자우",
-        "로보티즈",
-        "KT"
+        "로보티즈"
       ],
       "score": 8
     },
@@ -725,8 +714,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "인공지능",
-        "삼성전자"
+        "삼성전자",
+        "인공지능"
       ],
       "score": 8
     },
@@ -739,8 +728,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "인공지능",
-        "LG"
+        "LG",
+        "인공지능"
       ],
       "score": 8
     },
@@ -753,34 +742,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "삼성전자",
-        "반도체"
-      ],
-      "score": 8
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "서학개미, 환율 하락에도 이번 달 미국 증시 순매도",
-      "link": "https://n.news.naver.com/mnews/article/052/0002406433?sid=101",
-      "desc": "원·달러 환율 하락에도 미국 주식에 투자하는 국내 개인 투자자, 서학개미는 이번 달 들어서 순매도세로... 또 한국 증시를 3배 추종하는 '코루'도 6천529만 달러 순매도하고 SK하이닉스 ADR은 5천96만 달러...",
-      "pub": "Sun, 13 Sep 2026 16:09:00 +0900",
-      "via": "naver_api",
-      "importance": 7,
-      "matched_keywords": [
-        "SK하이닉스"
-      ],
-      "score": 8
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "수에즈 막히는데 고유가까지 엎친데 덮친격...운임 심리적 저항선 붕괴",
-      "link": "https://www.ajunews.com/view/20260913145725267",
-      "desc": "해운사, 운임 상승 가능성에도 비상 경영 체제 고유가에 저속운항 강화...유효 선복량 감소 고유가·고운임에 기업 실적 악화와 물가 상승 우려 아주경제=강일용 기자 zero@ajunews.com [사진=아주경제DB] 해상 운임이 역대...",
-      "pub": "Sun, 13 Sep 2026 18:02:00 +0900",
-      "via": "naver_api",
-      "importance": 7,
-      "matched_keywords": [
-        "DB"
+        "반도체",
+        "삼성전자"
       ],
       "score": 8
     },
@@ -799,6 +762,20 @@
       "score": 8
     },
     {
+      "source": "네이버뉴스",
+      "title": "AI와 웃음이 꽃피우는 전남·광주의 新 르네상스 / 김영식",
+      "link": "http://www.kjdaily.com/article.php?aid=1789296827686703028",
+      "desc": "미래학자들의 전망처럼 AI와 자율주행, 최첨단 바이오 기술의 발전은 기존의 수도권 집중이나 특정 주거지의 가치관을 뒤흔들고 있다. 공간의 제약이 사라지는 AI 시대의 명품 도시 조건은 비싼 아파트 단지가 아니다....",
+      "pub": "Sun, 13 Sep 2026 20:00:00 +0900",
+      "via": "naver_api",
+      "importance": 6,
+      "matched_keywords": [
+        "제약",
+        "바이오"
+      ],
+      "score": 8
+    },
+    {
       "source": "한국경제",
       "title": "삼성바이오 3조 유상증자…금감원 심사 문턱 넘었다",
       "link": "https://www.hankyung.com/article/2026091196041",
@@ -808,19 +785,6 @@
       "importance": 4,
       "matched_keywords": [
         "바이오"
-      ],
-      "score": 7
-    },
-    {
-      "source": "한국경제",
-      "title": "\"카티스, 사상 최대 수주잔고 바탕으로 실적 반등할 것\"-밸류파인더",
-      "link": "https://www.hankyung.com/article/2026091185336",
-      "desc": "",
-      "pub": "Fri, 11 Sep 2026 10:36:33 +0900",
-      "via": "rss",
-      "importance": 4,
-      "matched_keywords": [
-        "카티스"
       ],
       "score": 7
     },
@@ -891,16 +855,14 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "동양칼럼/ 제조업의 역습-생산성 향상 시대, 지역고용의 새로운 과제",
-      "link": "https://www.dynews.co.kr/news/articleView.html?idxno=865657",
-      "desc": "반도체와 전자부품, 이차전지, 바이오·의약품, 전기장비, 식품 등 제조업은 생산과 수출을 넘어 우리 충북... OECD도 미국 자동차산업의 구조조정 과정에서 미시간주가 2004~2009년 15만 2천 개 이상의 자동차 관련 일자리를...",
-      "pub": "Sun, 13 Sep 2026 19:48:00 +0900",
+      "title": "SCFI 5000 보인다...코로나 물류대란 재현 가능성에 기업들 '벌벌'",
+      "link": "https://www.ajunews.com/view/20260913134535050",
+      "desc": "재계 관계자는 &quot;상반기 고유가와 원자재 가격 상승으로 어려움을 겪은 한국 기업들이 고운임이라는 부담까지 짊어지게 됐다&quot;며 &quot;특히 전자 기업들은 반도체 가격 급등까지 더해져 '퍼펙트 스톰(삼중고)'을 피하기...",
+      "pub": "Sun, 13 Sep 2026 18:02:00 +0900",
       "via": "naver_api",
-      "importance": 4,
+      "importance": 6,
       "matched_keywords": [
-        "바이오",
-        "반도체",
-        "이차전지"
+        "반도체"
       ],
       "score": 7
     },
@@ -913,23 +875,8 @@
       "via": "naver_api",
       "importance": 5,
       "matched_keywords": [
-        "바이오",
-        "제약"
-      ],
-      "score": 7
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "'박카스 현금' 직접 쥐는 동아쏘시오…신약 투자 힘 싣나",
-      "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260913010004634",
-      "desc": "박카스와 일반의약품(OTC) 등 안정적인 현금창출원을 지주사가 직접 품는 동시에 그룹 안에서는 신약과 항체-약물접합체(ADC), 바이오의약품 생산 등 투자 수요도 커지고 있다. 합병 이후 동아제약의 현금을 어디에...",
-      "pub": "Sun, 13 Sep 2026 17:28:00 +0900",
-      "via": "naver_api",
-      "importance": 2,
-      "matched_keywords": [
-        "바이오",
         "제약",
-        "카스"
+        "바이오"
       ],
       "score": 7
     },
@@ -970,20 +917,6 @@
       "importance": 3,
       "matched_keywords": [
         "SG"
-      ],
-      "score": 6
-    },
-    {
-      "source": "한국경제",
-      "title": "비에이치아이, 고용부의 '일자리 으뜸기업' 선정",
-      "link": "https://www.hankyung.com/article/2026091185436",
-      "desc": "",
-      "pub": "Fri, 11 Sep 2026 10:39:22 +0900",
-      "via": "rss",
-      "importance": 0,
-      "matched_keywords": [
-        "비에이치",
-        "비에이치아이"
       ],
       "score": 6
     },
@@ -1050,8 +983,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "인공지능",
-        "로봇"
+        "로봇",
+        "인공지능"
       ],
       "score": 6
     },
@@ -1068,6 +1001,19 @@
         "원전"
       ],
       "score": 6
+    },
+    {
+      "source": "한국경제",
+      "title": "원전 ETF 상위권 점령…원유선물 상품도 '양호'",
+      "link": "https://www.hankyung.com/article/2026091313101",
+      "desc": "",
+      "pub": "Sun, 13 Sep 2026 19:03:48 +0900",
+      "via": "rss",
+      "importance": 2,
+      "matched_keywords": [
+        "원전"
+      ],
+      "score": 5
     },
     {
       "source": "한국경제",
@@ -1135,32 +1081,6 @@
       "score": 5
     },
     {
-      "source": "한국경제",
-      "title": "원전 ETF 상위권 점령…원유선물 상품도 '양호'",
-      "link": "https://www.hankyung.com/article/2026091313101",
-      "desc": "",
-      "pub": "Sun, 13 Sep 2026 19:03:48 +0900",
-      "via": "rss",
-      "importance": 2,
-      "matched_keywords": [
-        "원전"
-      ],
-      "score": 5
-    },
-    {
-      "source": "한국경제",
-      "title": "'눈 주사' 하나로 매출 10조…제약사 \"황반변성 치료제가 황금알\"",
-      "link": "https://www.hankyung.com/article/2026091312811",
-      "desc": "",
-      "pub": "Sun, 13 Sep 2026 18:45:47 +0900",
-      "via": "rss",
-      "importance": 2,
-      "matched_keywords": [
-        "제약"
-      ],
-      "score": 5
-    },
-    {
       "source": "매일경제",
       "title": "금융위 “AI 에이전트 결제, 신용정보법·망분리 규제 단계적 완화”",
       "link": "https://www.mk.co.kr/news/stock/12150730",
@@ -1182,8 +1102,8 @@
       "via": "rss",
       "importance": 3,
       "matched_keywords": [
-        "삼성전자",
-        "삼성전기"
+        "삼성전기",
+        "삼성전자"
       ],
       "score": 5
     },
@@ -1332,19 +1252,6 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "스카이랩스·씨어스, 건보 급여로 급성장.. 데이터 기반 서비스·해외시...",
-      "link": "https://n.news.naver.com/mnews/article/014/0005574924?sid=103",
-      "desc": "웨어러블 헬스케어 기업의 실적은 건강보험 급여 진입 여부에 따라 갈린다. 급여를 확보한 제품은 병·의원 도입과 사용량이 늘며 매출로 직결되는 반면, 비급여 제품은 소비자 판매나 기업간거래(B2B)로 별도...",
-      "pub": "Sun, 13 Sep 2026 18:11:00 +0900",
-      "via": "naver_api",
-      "importance": 2,
-      "matched_keywords": [
-        "스카이랩스"
-      ],
-      "score": 5
-    },
-    {
-      "source": "네이버뉴스",
       "title": "오픈AI 무기한 선물 13.42% 하락…AI 속도 조절론 전해진 뒤 약세",
       "link": "https://www.tokenpost.kr/news/cryptocurrency/407178",
       "desc": "오픈AI 연계 상품은 24시간 동안 13.42% 내렸고, 앤트로픽과 반도체 기업 연계 상품도 약세를 보였다. 13일... 이 상품들은 기초자산의 현물 주가가 거래되지 않는 시간에도 가격이 움직일 수 있다는 특징이 있다....",
@@ -1378,10 +1285,23 @@
       "via": "naver_api",
       "importance": 2,
       "matched_keywords": [
-        "바이오",
-        "제약"
+        "제약",
+        "바이오"
       ],
       "score": 4
+    },
+    {
+      "source": "한국경제",
+      "title": "에쓰오일·KB금융·삼전우…외국인 지분율 가장 높아",
+      "link": "https://www.hankyung.com/article/2026091313141",
+      "desc": "",
+      "pub": "Sun, 13 Sep 2026 19:17:06 +0900",
+      "via": "rss",
+      "importance": 0,
+      "matched_keywords": [
+        "KB금융"
+      ],
+      "score": 3
     },
     {
       "source": "한국경제",
@@ -1393,19 +1313,6 @@
       "importance": 0,
       "matched_keywords": [
         "LG"
-      ],
-      "score": 3
-    },
-    {
-      "source": "한국경제",
-      "title": "HD현대마린솔루션, 5%대 강세…\"데이터센터 엔진 사업 수혜\"",
-      "link": "https://www.hankyung.com/article/2026091183716",
-      "desc": "",
-      "pub": "Fri, 11 Sep 2026 09:54:30 +0900",
-      "via": "rss",
-      "importance": 0,
-      "matched_keywords": [
-        "HD현대마린솔루션"
       ],
       "score": 3
     },
@@ -1489,19 +1396,6 @@
     },
     {
       "source": "한국경제",
-      "title": "에쓰오일·KB금융·삼전우…외국인 지분율 가장 높아",
-      "link": "https://www.hankyung.com/article/2026091313141",
-      "desc": "",
-      "pub": "Sun, 13 Sep 2026 19:17:06 +0900",
-      "via": "rss",
-      "importance": 0,
-      "matched_keywords": [
-        "KB금융"
-      ],
-      "score": 3
-    },
-    {
-      "source": "한국경제",
       "title": "박지원, 용혜인 사퇴에 \"만시지탄…靑 인사라인 책임\"",
       "link": "https://www.hankyung.com/article/2026091314617",
       "desc": "",
@@ -1510,19 +1404,6 @@
       "importance": 0,
       "matched_keywords": [
         "혜인"
-      ],
-      "score": 3
-    },
-    {
-      "source": "한국경제",
-      "title": "셀트리온·삼성도 공격 출시…치료비 부담 낮아진다",
-      "link": "https://www.hankyung.com/article/2026091312821",
-      "desc": "",
-      "pub": "Sun, 13 Sep 2026 18:45:36 +0900",
-      "via": "rss",
-      "importance": 0,
-      "matched_keywords": [
-        "셀트리온"
       ],
       "score": 3
     },
@@ -1810,11 +1691,11 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
         "반도체",
-        "DB하이텍",
         "DB",
-        "로봇"
+        "DB하이텍",
+        "로봇",
+        "인공지능"
       ],
       "score": 17
     },
@@ -1861,6 +1742,20 @@
     },
     {
       "source": "네이버뉴스",
+      "title": "&quot;AI 거품 터지면 미국증시·나스닥 폭락?&quot;…삼성전자·SK하이닉스까지 ...",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16191710",
+      "desc": "영국 중앙은행인 영란은행은 지난 7월 금융안정보고서에서 미국 증시에서 AI 관련 기업들이 차지하는 비중이 2022년 약 4분의 1에서 올해 약 절반으로 높아졌다고 분석했다. AI주에 대한 기대가 흔들릴 경우 충격이 개별...",
+      "pub": "Sun, 13 Sep 2026 20:26:00 +0900",
+      "via": "naver_api",
+      "importance": 9,
+      "matched_keywords": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "score": 15
+    },
+    {
+      "source": "네이버뉴스",
       "title": "AI 뜨자 에스피소프트·에스투더블유 폭등… IT서비스株 희비",
       "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=486532",
       "desc": "데이터·AI 소프트웨어 관련주도 강세를 보였다. 심플랫폼과 씨이랩, 데이타솔루션, 미디어젠, 비투엔 등이 상승했다. 아이지넷과 엠브레인, 인포뱅크, 케이웨더 등도 오름세로 거래를 마쳤다. IT 인프라와 클라우드 관련...",
@@ -1868,11 +1763,11 @@
       "via": "naver_api",
       "importance": 5,
       "matched_keywords": [
-        "에스피소프트",
         "씨이랩",
+        "에스피소프트",
         "에스투더블유",
-        "비투엔",
-        "클라우드"
+        "클라우드",
+        "비투엔"
       ],
       "score": 14
     },
@@ -1885,9 +1780,9 @@
       "via": "naver_api",
       "importance": 9,
       "matched_keywords": [
-        "인공지능",
         "반도체",
-        "원전"
+        "원전",
+        "인공지능"
       ],
       "score": 14
     },
@@ -1919,6 +1814,20 @@
     },
     {
       "source": "네이버뉴스",
+      "title": "[미리보는 이데일리 신문]현대차, 3년 내 자율주행차 양산 ‘승부수’",
+      "link": "https://n.news.naver.com/mnews/article/018/0006368692?sid=103",
+      "desc": "고금리…10년물 1%p 쑥 -두달간 200원 넘게 떨어진 환율…美 긴축에 다시 반등할까 △종합 -재개발하면 가구수 늘어난다더니…서울 19곳 중 절반은 줄었다 -韓 반도체 美 수출길, 中서 아세안으로 뒤집혔다 -대세론 깨고...",
+      "pub": "Sun, 13 Sep 2026 20:58:00 +0900",
+      "via": "naver_api",
+      "importance": 8,
+      "matched_keywords": [
+        "현대차",
+        "반도체"
+      ],
+      "score": 12
+    },
+    {
+      "source": "네이버뉴스",
       "title": "용혜인 사퇴로 한시름 던 이 대통령…'김승원·파병' 고심",
       "link": "https://www.gnnews.co.kr/news/articleView.html?idxno=645303",
       "desc": "국민의힘 등 보수 야권은 제넨셀 신약 임상시험 승인 청탁과 주가조작, 가족 인건비 특혜 의혹 등을... 수천억 달러 규모의 대미 투자 패키지와 반도체 관세 협상 등 한미 간 굵직한 현안이 맞물려 있어 미국의 파병 요청을...",
@@ -1940,8 +1849,8 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "반도체",
-        "알파칩스"
+        "알파칩스",
+        "반도체"
       ],
       "score": 12
     },
@@ -1954,8 +1863,8 @@
       "via": "rss",
       "importance": 7,
       "matched_keywords": [
-        "인공지능",
-        "LG"
+        "LG",
+        "인공지능"
       ],
       "score": 11
     },
@@ -1981,9 +1890,9 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
+        "LG",
         "인공지능",
-        "LG디스플레이",
-        "LG"
+        "LG디스플레이"
       ],
       "score": 11
     },
@@ -1996,8 +1905,8 @@
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
-        "삼성전자",
         "반도체",
+        "삼성전자",
         "SK하이닉스"
       ],
       "score": 11
@@ -2024,9 +1933,9 @@
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "바이오",
+        "바이오니아",
         "제약",
-        "바이오니아"
+        "바이오"
       ],
       "score": 11
     },
@@ -2039,8 +1948,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "바이오",
-        "반도체"
+        "반도체",
+        "바이오"
       ],
       "score": 10
     },
@@ -2056,66 +1965,32 @@
         "인공지능"
       ],
       "score": 10
-    },
-    {
-      "source": "매일경제",
-      "title": "“삼전닉스 ETF 팔고 금·원전 샀다”…조정장에 눈 돌린 개미들",
-      "link": "https://www.mk.co.kr/news/stock/12151267",
-      "desc": "자동차·AI·화장품 등 ‘골고루’ 반도체는 ‘팔자’세 강하게 나타나 “쏠림 완화 후 순환매 활발해져 금융 등 비반도체 주도주 함께 가야”코스피가 좀처럼 상승탄력을 받지 못하면서 개..",
-      "pub": "Sun, 13 Sep 2026 10:27:00 +09:00",
-      "via": "rss",
-      "importance": 6,
-      "matched_keywords": [
-        "반도체",
-        "원전"
-      ],
-      "score": 10
-    },
-    {
-      "source": "매일경제",
-      "title": "“반도체만 보다가 놓칠뻔”…9월 ETF 순위 치고 올라온 ‘이것’",
-      "link": "https://www.mk.co.kr/news/stock/12150387",
-      "desc": "반도체 ETF 1~9위 휩쓸어 원유 ETF 한 달 새 262계단↑ 원전 4종도 수익률 톱20 진입올해 반도체의 독주가 이어졌던 국내 상장지수펀드(ETF) 시장에서 최근 원유·원자력..",
-      "pub": "Fri, 11 Sep 2026 13:54:35 +09:00",
-      "via": "rss",
-      "importance": 6,
-      "matched_keywords": [
-        "반도체",
-        "원전"
-      ],
-      "score": 10
     }
   ],
   "keyword_summary": {
-    "삼성전자": 12,
+    "반도체": 29,
+    "바이오": 9,
+    "KB금융": 8,
+    "원전": 7,
+    "삼성전자": 13,
     "삼성전자우": 2,
-    "반도체": 30,
     "삼성전기": 4,
     "LG": 6,
     "솔루스첨단소재": 1,
-    "바이오": 10,
     "SG": 4,
-    "비에이치": 1,
-    "비에이치아이": 1,
-    "카티스": 2,
-    "HD현대마린솔루션": 1,
-    "샘표": 1,
     "조선": 2,
-    "KB금융": 8,
     "기아": 1,
     "LG디스플레이": 2,
-    "현대차": 2,
+    "현대차": 3,
     "게임": 2,
     "KT": 2,
-    "원전": 7,
     "혜인": 3,
-    "제약": 8,
-    "셀트리온": 1,
-    "인공지능": 20,
     "엔터": 1,
+    "인공지능": 20,
     "알테오젠": 1,
+    "제약": 7,
+    "DB": 1,
     "DB하이텍": 1,
-    "DB": 2,
     "로봇": 2,
     "아티스트스튜디오": 1,
     "루멘스": 1,
@@ -2128,20 +2003,20 @@
     "한화오션": 1,
     "대한항공": 2,
     "전기차": 1,
-    "카스": 2,
+    "카스": 1,
     "삼성물산": 1,
     "카카오": 1,
     "태양광": 1,
     "원풍물산": 1,
     "SK하이닉스": 5,
-    "스카이랩스": 1,
-    "이차전지": 2,
-    "에스피소프트": 1,
     "씨이랩": 1,
+    "에스피소프트": 1,
     "에스투더블유": 1,
-    "비투엔": 1,
     "클라우드": 1,
+    "비투엔": 1,
+    "카티스": 1,
     "알파칩스": 1,
+    "이차전지": 1,
     "바이오니아": 1,
     "테스": 1
   }
