@@ -1,22 +1,22 @@
 {
-  "date": "2026-09-16",
-  "generated_at": "2026-09-16 06:54",
+  "date": "2026-09-17",
+  "generated_at": "2026-09-17 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 308,
-      "win_rate": 46.8,
-      "avg_return": -0.12,
-      "avg_win": 3.4,
-      "avg_loss": -3.2
+      "sample": 306,
+      "win_rate": 46.4,
+      "avg_return": -0.18,
+      "avg_win": 3.23,
+      "avg_loss": -3.13
     },
     "5": {
-      "sample": 293,
-      "win_rate": 46.4,
-      "avg_return": 1.15,
-      "avg_win": 9.41,
-      "avg_loss": -6.0
+      "sample": 283,
+      "win_rate": 45.9,
+      "avg_return": 0.9,
+      "avg_win": 8.9,
+      "avg_loss": -5.89
     }
   },
   "rank_horizon": "5",
@@ -38,14 +38,6 @@
       }
     },
     {
-      "date": "2026-08-08",
-      "keyword": "금호건설",
-      "returns": {
-        "1": 29.98,
-        "5": 57.81
-      }
-    },
-    {
       "date": "2026-08-26",
       "keyword": "넥사다이내믹스",
       "returns": {
@@ -60,17 +52,17 @@
         "1": 6.3,
         "5": 47.7
       }
+    },
+    {
+      "date": "2026-08-28",
+      "keyword": "넥사다이내믹스",
+      "returns": {
+        "1": 14.42,
+        "5": 45.22
+      }
     }
   ],
   "worst": [
-    {
-      "date": "2026-08-08",
-      "keyword": "상상인증권",
-      "returns": {
-        "1": -9.54,
-        "5": -19.59
-      }
-    },
     {
       "date": "2026-09-05",
       "keyword": "모아데이타",
@@ -102,7 +94,15 @@
         "1": -8.21,
         "5": -17.53
       }
+    },
+    {
+      "date": "2026-08-17",
+      "keyword": "성호전자",
+      "returns": {
+        "1": -8.21,
+        "5": -17.53
+      }
     }
   ],
-  "total_signals": 326
+  "total_signals": 324
 }

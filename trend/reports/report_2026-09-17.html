@@ -1,0 +1,2644 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>주식 트렌드 리포트 2026-09-17</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:#f4f6fb;--surface:#fff;--surface2:#f8f9fc;--border:#e5e9f2;
+    --text:#1a1f36;--text-muted:#6b7280;--accent:#2563eb;
+    --red:#e53935;--yellow:#f59e0b;--green:#16a34a;--blue:#2563eb;--purple:#7c3aed;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{font-family:'Pretendard',-apple-system,sans-serif;background:var(--bg);color:var(--text);padding:24px 20px;}
+  .container{max-width:1400px;margin:0 auto;}
+  .header{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:24px 28px;margin-bottom:16px;display:flex;align-items:center;justify-content:space-between;position:relative;overflow:hidden;box-shadow:0 1px 4px rgba(0,0,0,.05);}
+  .header::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,#2563eb,#7c3aed,#db2777);}
+  .header h1{font-size:20px;font-weight:800;letter-spacing:-.5px;}
+  .header h1 span{color:var(--accent);}
+  .header-meta{font-size:12px;color:var(--text-muted);margin-top:4px;font-family:'JetBrains Mono',monospace;}
+  .mode-badge{background:#eff6ff;border:1px solid #bfdbfe;color:var(--accent);padding:5px 14px;border-radius:20px;font-size:12px;font-weight:700;}
+  .stats-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:16px;}
+  .stat-card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:18px 20px;box-shadow:0 1px 3px rgba(0,0,0,.04);}
+  .stat-num{font-size:32px;font-weight:800;font-family:'JetBrains Mono',monospace;line-height:1;}
+  .stat-label{font-size:12px;color:var(--text-muted);margin-top:5px;font-weight:500;}
+  .market-section{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px 20px;margin-bottom:16px;box-shadow:0 1px 3px rgba(0,0,0,.04);}
+  .market-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;}
+  .market-label{font-size:11px;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;}
+  .main-grid{display:grid;grid-template-columns:1fr 320px;gap:16px;margin-bottom:16px;}
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:22px 24px;box-shadow:0 1px 3px rgba(0,0,0,.04);}
+  .card-title{font-size:14px;font-weight:700;margin-bottom:16px;padding-bottom:10px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;}
+  .card-sub{font-size:12px;color:var(--text-muted);font-weight:400;}
+  table{width:100%;border-collapse:collapse;font-size:13px;}
+  thead th{background:var(--surface2);color:var(--text-muted);padding:8px 12px;text-align:left;font-weight:600;font-size:11px;text-transform:uppercase;letter-spacing:.5px;border-bottom:2px solid var(--border);}
+  .data-row td{padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:middle;}
+  .data-row:last-child td{border-bottom:none;}
+  .data-row:hover td{background:#f8faff;}
+  .rank-cell{color:var(--text-muted);font-family:'JetBrains Mono',monospace;font-size:12px;width:32px;text-align:center;}
+  .tier-dot{width:8px;height:8px;border-radius:50%;flex-shrink:0;}
+  .dot-red{background:var(--red);box-shadow:0 0 0 3px rgba(229,57,53,.15);}
+  .dot-yellow{background:var(--yellow);box-shadow:0 0 0 3px rgba(245,158,11,.15);}
+  .dot-gray{background:#d1d5db;}
+  .keyword-name{font-weight:700;font-size:13px;display:block;color:var(--text);text-decoration:none;}
+  .keyword-name:hover{color:var(--accent);text-decoration:underline;}
+  .tier-label{font-size:10px;color:var(--text-muted);margin-top:1px;display:block;}
+  .score-cell{text-align:center;width:48px;}
+  .score-num{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:50%;font-weight:800;font-size:12px;font-family:'JetBrains Mono',monospace;}
+  .sc-high{background:#fef2f2;color:var(--red);border:1.5px solid #fecaca;}
+  .sc-mid{background:#fffbeb;color:var(--yellow);border:1.5px solid #fde68a;}
+  .sc-low{background:#f0fdf4;color:var(--green);border:1.5px solid #bbf7d0;}
+  .num-cell{text-align:center;font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--text-muted);width:44px;}
+  .streak-badge{display:inline-block;background:#fff7ed;color:#c2410c;border:1px solid #fed7aa;padding:1px 7px;border-radius:10px;font-size:11px;font-weight:700;font-family:'JetBrains Mono',monospace;}
+  .bt-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;}
+  .bt-card{background:var(--surface2);border:1px solid var(--border);border-radius:10px;padding:14px 16px;}
+  .bt-h{font-size:11px;color:var(--text-muted);font-weight:600;margin-bottom:6px;}
+  .bt-win{font-size:24px;font-weight:800;font-family:'JetBrains Mono',monospace;}
+  .bt-sub{font-size:11px;color:var(--text-muted);margin-top:3px;}
+  .price-cell{text-align:center;width:72px;font-family:'JetBrains Mono',monospace;font-size:12px;}
+  .chg-none{color:#d1d5db;}
+  .badge{display:inline-block;padding:2px 6px;border-radius:4px;font-size:10px;font-weight:700;margin-right:2px;margin-bottom:2px;}
+  .badge-cell{width:140px;}
+  .signal-cell{font-size:12px;color:var(--text-muted);line-height:1.5;}
+  .side-panel{display:flex;flex-direction:column;gap:16px;}
+  .trend-pills{display:flex;flex-wrap:wrap;gap:6px;}
+  .trend-pill{background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:5px 12px;border-radius:20px;font-size:12px;font-weight:500;}
+  .no-data{font-size:13px;color:var(--text-muted);}
+  .notice{background:#fffbeb;border:1px solid #fde68a;color:#92400e;padding:10px 14px;border-radius:8px;font-size:12px;margin-top:14px;line-height:1.6;}
+  .divider{height:1px;background:var(--border);margin:12px 0;}
+  .section-sep{font-size:12px;font-weight:700;color:var(--text-muted);padding:8px 12px;background:var(--surface2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);letter-spacing:.3px;}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- 헤더 -->
+  <div class="header">
+    <div>
+      <h1>📈 주식 트렌드 <span>조기 감지</span> 리포트</h1>
+      <div class="header-meta">Generated 2026-09-17 06:54 KST &nbsp;·&nbsp; 7개 소스 통합 분석 &nbsp;·&nbsp; 네이버 기준 2026-09-17 06:51</div>
+    </div>
+    <div class="mode-badge">분석 모드: 7일비교</div>
+  </div>
+
+  <!-- 요약 통계 -->
+  <div class="stats-grid">
+    <div class="stat-card"><div class="stat-num" style="color:var(--blue);">213</div><div class="stat-label">분석 종목 수</div></div>
+    <div class="stat-card"><div class="stat-num" style="color:var(--green);">50</div><div class="stat-label">신호 감지 종목</div></div>
+    <div class="stat-card"><div class="stat-num" style="color:var(--red);">13</div><div class="stat-label">강한 신호 (7점↑)</div></div>
+    <div class="stat-card"><div class="stat-num" style="color:var(--purple);">8</div><div class="stat-label">누적 트렌드 신호</div></div>
+  </div>
+
+  <!-- 시장 현황 -->
+  <div class="market-section">
+    <div style="font-size:13px;font-weight:700;color:var(--text-muted);margin-bottom:12px;">
+      📊 시장 현황 <span style="font-weight:400;font-size:12px;">(2026-09-17 전일 기준)</span>
+    </div>
+    <div style="margin-bottom:14px;">
+      <div class="market-label">🇰🇷 KOSPI</div>
+      <div class="market-grid"><div style="background:#fff;border:1px solid #e5e9f2;border-radius:12px;overflow:hidden;">
+        <div style="background:#ef4444;padding:8px 12px;
+                    display:flex;justify-content:space-between;align-items:center;">
+            <span style="color:#fff;font-weight:700;font-size:13px;">🔴 상한가</span>
+            <span style="color:rgba(255,255,255,0.8);font-size:11px;">0종목</span>
+        </div>
+        <div style="max-height:200px;overflow-y:auto;">
+            <table style="width:100%;border-collapse:collapse;"><tbody><tr><td colspan="2" style="padding:14px;text-align:center;color:#d1d5db;font-size:12px;">해당 없음</td></tr></tbody></table>
+        </div>
+    </div><div style="background:#fff;border:1px solid #e5e9f2;border-radius:12px;overflow:hidden;">
+        <div style="background:#f97316;padding:8px 12px;
+                    display:flex;justify-content:space-between;align-items:center;">
+            <span style="color:#fff;font-weight:700;font-size:13px;">🟠 급등주</span>
+            <span style="color:rgba(255,255,255,0.8);font-size:11px;">3종목</span>
+        </div>
+        <div style="max-height:200px;overflow-y:auto;">
+            <table style="width:100%;border-collapse:collapse;"><tbody><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=195870" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">해성디에스</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">195870</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲19.09%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=024900" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">디와이덕양</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">024900</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲18.52%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=229640" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">LS에코에너지</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">229640</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲13.54%
+            </td>
+        </tr></tbody></table>
+        </div>
+    </div><div style="background:#fff;border:1px solid #e5e9f2;border-radius:12px;overflow:hidden;">
+        <div style="background:#3b82f6;padding:8px 12px;
+                    display:flex;justify-content:space-between;align-items:center;">
+            <span style="color:#fff;font-weight:700;font-size:13px;">🔵 급락주</span>
+            <span style="color:rgba(255,255,255,0.8);font-size:11px;">5종목</span>
+        </div>
+        <div style="max-height:200px;overflow-y:auto;">
+            <table style="width:100%;border-collapse:collapse;"><tbody><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=001770" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">SHD</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">001770</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼27.14%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=002785" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">진흥기업우B</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">002785</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼20.56%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=001527" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">동양2우B</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">001527</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼13.08%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=377300" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">카카오페이</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">377300</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼11.48%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=002070" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">비비안</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">002070</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼10.04%
+            </td>
+        </tr></tbody></table>
+        </div>
+    </div><div style="background:#fff;border:1px solid #e5e9f2;border-radius:12px;overflow:hidden;">
+        <div style="background:#6366f1;padding:8px 12px;
+                    display:flex;justify-content:space-between;align-items:center;">
+            <span style="color:#fff;font-weight:700;font-size:13px;">🟣 하한가</span>
+            <span style="color:rgba(255,255,255,0.8);font-size:11px;">1종목</span>
+        </div>
+        <div style="max-height:200px;overflow-y:auto;">
+            <table style="width:100%;border-collapse:collapse;"><tbody><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=002787" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">진흥기업2우B</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">002787</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#4f46e5;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼29.92%
+            </td>
+        </tr></tbody></table>
+        </div>
+    </div></div>
+    </div>
+    <div>
+      <div class="market-label">📊 KOSDAQ</div>
+      <div class="market-grid"><div style="background:#fff;border:1px solid #e5e9f2;border-radius:12px;overflow:hidden;">
+        <div style="background:#ef4444;padding:8px 12px;
+                    display:flex;justify-content:space-between;align-items:center;">
+            <span style="color:#fff;font-weight:700;font-size:13px;">🔴 상한가</span>
+            <span style="color:rgba(255,255,255,0.8);font-size:11px;">7종목</span>
+        </div>
+        <div style="max-height:200px;overflow-y:auto;">
+            <table style="width:100%;border-collapse:collapse;"><tbody><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=348080" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">큐라티스</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">348080</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#dc2626;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲30.00%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=088800" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">에이스테크</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">088800</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#dc2626;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲29.97%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=432980" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">엠에프씨</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">432980</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#dc2626;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲29.96%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=201490" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">미투온</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">201490</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#dc2626;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲29.95%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=049080" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">기가레인</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">049080</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#dc2626;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲29.91%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=406820" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">뷰티스킨</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">406820</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#dc2626;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲29.86%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=232830" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">아이티센피엔에스</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">232830</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#dc2626;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲29.85%
+            </td>
+        </tr></tbody></table>
+        </div>
+    </div><div style="background:#fff;border:1px solid #e5e9f2;border-radius:12px;overflow:hidden;">
+        <div style="background:#f97316;padding:8px 12px;
+                    display:flex;justify-content:space-between;align-items:center;">
+            <span style="color:#fff;font-weight:700;font-size:13px;">🟠 급등주</span>
+            <span style="color:rgba(255,255,255,0.8);font-size:11px;">30종목</span>
+        </div>
+        <div style="max-height:200px;overflow-y:auto;">
+            <table style="width:100%;border-collapse:collapse;"><tbody><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=072950" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">빛샘전자</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">072950</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲26.45%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=357580" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">아모센스</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">357580</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲26.03%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=371950" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">풍원정밀</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">371950</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲21.91%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=452280" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">한선엔지니어링</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">452280</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲21.61%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=457370" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">한켐</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">457370</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲19.24%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=321370" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">센서뷰</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">321370</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲19.10%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=140430" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">카티스</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">140430</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲17.14%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=950190" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">고스트스튜디오</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">950190</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲15.85%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=126340" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">비나텍</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">126340</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲15.34%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=219130" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">타이거일렉</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">219130</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲15.08%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=439580" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">블루엠텍</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">439580</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲14.54%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=238090" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">앤디포스</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">238090</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲14.03%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=228340" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">동양파일</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">228340</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲13.87%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=010170" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">대한광통신</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">010170</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲13.86%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=468530" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">프로티나</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">468530</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲13.61%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=005160" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">동국산업</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">005160</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲13.50%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=288980" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">모아데이타</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">288980</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲12.70%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=032500" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">케이엠더블유</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">032500</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲12.01%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=039560" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">다산네트웍스</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">039560</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲11.83%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=046070" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">코다코</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">046070</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#ea580c;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▲11.79%
+            </td>
+        </tr></tbody></table>
+        </div>
+    </div><div style="background:#fff;border:1px solid #e5e9f2;border-radius:12px;overflow:hidden;">
+        <div style="background:#3b82f6;padding:8px 12px;
+                    display:flex;justify-content:space-between;align-items:center;">
+            <span style="color:#fff;font-weight:700;font-size:13px;">🔵 급락주</span>
+            <span style="color:rgba(255,255,255,0.8);font-size:11px;">17종목</span>
+        </div>
+        <div style="max-height:200px;overflow-y:auto;">
+            <table style="width:100%;border-collapse:collapse;"><tbody><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=061250" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">화일약품</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">061250</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼24.27%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=199730" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">바이오인프라</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">199730</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼20.65%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=008290" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">원풍물산</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">008290</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼20.00%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=301300" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">바이브컴퍼니</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">301300</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼19.33%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=462860" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">더즌</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">462860</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼18.31%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=058450" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">한주에이알티</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">058450</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼17.41%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=294570" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">쿠콘</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">294570</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼16.47%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=234340" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">헥토파이낸셜</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">234340</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼16.32%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=187660" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">페니트리움바이오</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">187660</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼13.59%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=240600" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">유진테크놀로지</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">240600</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼13.19%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=021045" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">대호특수강우</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">021045</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼12.97%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=014950" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">삼익제약</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">014950</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼12.40%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=334970" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">프레스티지바이오로직스</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">334970</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼11.65%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=234300" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">에스트래픽</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">234300</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼11.49%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=491000" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">리브스메드</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">491000</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼10.47%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=331740" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">아우토크립트</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">331740</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼10.27%
+            </td>
+        </tr><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=064260" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">다날</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">064260</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#2563eb;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼10.20%
+            </td>
+        </tr></tbody></table>
+        </div>
+    </div><div style="background:#fff;border:1px solid #e5e9f2;border-radius:12px;overflow:hidden;">
+        <div style="background:#6366f1;padding:8px 12px;
+                    display:flex;justify-content:space-between;align-items:center;">
+            <span style="color:#fff;font-weight:700;font-size:13px;">🟣 하한가</span>
+            <span style="color:rgba(255,255,255,0.8);font-size:11px;">1종목</span>
+        </div>
+        <div style="max-height:200px;overflow-y:auto;">
+            <table style="width:100%;border-collapse:collapse;"><tbody><tr>
+            <td style="padding:6px 10px;">
+                <a href="https://finance.naver.com/item/main.naver?code=082660" target="_blank"
+                   style="font-weight:600;color:#1a1f36;text-decoration:none;font-size:12px;">코스나인</a>
+                <span style="display:block;font-size:10px;color:#9ca3af;
+                             font-family:'JetBrains Mono',monospace;">082660</span>
+            </td>
+            <td style="padding:6px 10px;text-align:right;color:#4f46e5;font-weight:700;
+                       font-family:'JetBrains Mono',monospace;font-size:12px;">
+                ▼40.00%
+            </td>
+        </tr></tbody></table>
+        </div>
+    </div></div>
+    </div>
+  </div>
+
+  <!-- 강신호 백테스트 -->
+  <div class="card" style="margin-bottom:16px;"><div class="card-title">🎯 강신호 적중률 <span class="card-sub">7점↑ 신호 이후 주가 · 누적 데이터 검증</span></div><div class="bt-grid"><div class="bt-card"><div class="bt-h">신호 +1거래일 후</div><div class="bt-win" style="color:#e53935;">46.4%</div><div class="bt-sub">평균 <span style="color:#1e88e5;font-weight:700;">-0.18%</span> · 표본 306건</div></div><div class="bt-card"><div class="bt-h">신호 +5거래일 후</div><div class="bt-win" style="color:#e53935;">45.9%</div><div class="bt-sub">평균 <span style="color:#e53935;font-weight:700;">+0.90%</span> · 표본 283건</div></div></div></div>
+
+  <div class="main-grid">
+    <div>
+
+      <!-- 개별 종목 -->
+      <div class="card" style="margin-bottom:16px;">
+        <div class="card-title">
+          📈 개별 종목 신호
+          <span class="card-sub">39개</span>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th><th>종목</th>
+              <th style="text-align:center;">총점</th>
+              <th style="text-align:center;">연속</th>
+              <th style="text-align:center;">당일</th>
+              <th style="text-align:center;">3일</th>
+              <th style="text-align:center;">7일</th>
+              <th style="text-align:center;">주가(당일)</th>
+              <th style="text-align:center;">주가(7일)</th>
+              <th>소스</th><th>신호 내용</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr class="data-row">
+            <td class="rank-cell">1</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-red"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=000660" target="_blank">SK하이닉스</a>
+                        <span class="tier-label">강한 신호</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-high">17</span></td>
+            <td class="num-cell"><span class="streak-badge">3일</span></td>
+            <td class="num-cell">17</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲2.63%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼5.33%</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">매일경제 기사 언급 · 매일경제 헤드라인 언급 · 매일경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">2</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-red"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=078930" target="_blank">GS</a>
+                        <span class="tier-label">강한 신호</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-high">14</span></td>
+            <td class="num-cell"><span class="streak-badge">3일</span></td>
+            <td class="num-cell">14</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼2.96%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼8.76%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#03C75A;color:white;">네이버</span></td>
+            <td class="signal-cell">매일경제 기사 언급 · 매일경제 헤드라인 언급 · 네이버뉴스 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">3</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-red"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=005930" target="_blank">삼성전자</a>
+                        <span class="tier-label">강한 신호</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-high">11</span></td>
+            <td class="num-cell"><span class="streak-badge">120일</span></td>
+            <td class="num-cell">11</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲1.20%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼5.94%</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">한국경제 헤드라인 언급 · 매일경제 기사 언급 · 매일경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">4</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-red"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=003490" target="_blank">대한항공</a>
+                        <span class="tier-label">강한 신호</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-high">10</span></td>
+            <td class="num-cell"><span class="streak-badge">2일</span></td>
+            <td class="num-cell">10</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼0.34%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼1.85%</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">매일경제 헤드라인 언급 · 매일경제 헤드라인 언급 · 한국경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">5</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-red"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=201490" target="_blank">미투온</a>
+                        <span class="tier-label">강한 신호</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-high">7</span></td>
+            <td class="num-cell"><span class="streak-badge">2일</span></td>
+            <td class="num-cell">7</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼4.71%</span></td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲38.38%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#03C75A;color:white;">네이버</span><span class="badge" style="background:#1A73E8;color:white;">공시</span></td>
+            <td class="signal-cell">네이버 검색 당일 +194% · 중요공시 2건 · 한국경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">6</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-red"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=424870" target="_blank">이뮨온시아</a>
+                        <span class="tier-label">강한 신호</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-high">7</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">7</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼2.56%</span></td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲18.92%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#03C75A;color:white;">네이버</span><span class="badge" style="background:#1A73E8;color:white;">공시</span></td>
+            <td class="signal-cell">네이버 검색 당일 +103% · 중요공시 2건 · 매일경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">7</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-red"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=006360" target="_blank">GS건설</a>
+                        <span class="tier-label">강한 신호</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-high">7</span></td>
+            <td class="num-cell"><span class="streak-badge">2일</span></td>
+            <td class="num-cell">7</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼3.54%</span></td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲3.52%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#1A73E8;color:white;">공시</span></td>
+            <td class="signal-cell">중요공시 2건 · 매일경제 헤드라인 언급 · 매일경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">8</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-red"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=003550" target="_blank">LG</a>
+                        <span class="tier-label">강한 신호</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-high">7</span></td>
+            <td class="num-cell"><span class="streak-badge">6일</span></td>
+            <td class="num-cell">7</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼0.35%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼5.04%</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">매일경제 헤드라인 언급 · 매일경제 기사 언급 · 매일경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">9</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=040300" target="_blank">YTN</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">6</span></td>
+            <td class="num-cell"><span class="streak-badge">2일</span></td>
+            <td class="num-cell">6</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼9.30%</span></td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲19.98%</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">매일경제 헤드라인 언급 · 매일경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">10</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=035720" target="_blank">카카오</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">6</span></td>
+            <td class="num-cell"><span class="streak-badge">2일</span></td>
+            <td class="num-cell">6</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼3.03%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼3.99%</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">한국경제 헤드라인 언급 · 매일경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">11</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=003850" target="_blank">보령</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">6</span></td>
+            <td class="num-cell"><span class="streak-badge">2일</span></td>
+            <td class="num-cell">6</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲1.50%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼1.01%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#1A73E8;color:white;">공시</span><span class="badge" style="background:#03C75A;color:white;">네이버</span></td>
+            <td class="signal-cell">중요공시 5건 · 네이버뉴스 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">12</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=307870" target="_blank">비투엔</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">6</span></td>
+            <td class="num-cell"><span class="streak-badge">2일</span></td>
+            <td class="num-cell">4</td>
+            <td class="num-cell">2</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼1.64%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼10.58%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#1A73E8;color:white;">공시</span><span class="badge" style="background:#03C75A;color:white;">네이버</span></td>
+            <td class="signal-cell">중요공시 3건 · 중요공시 3일 +200% · 네이버뉴스 기사 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">13</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=000720" target="_blank">현대건설</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">6</span></td>
+            <td class="num-cell"><span class="streak-badge">3일</span></td>
+            <td class="num-cell">1</td>
+            <td class="num-cell">2</td>
+            <td class="num-cell">3</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼3.73%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼7.19%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#1A73E8;color:white;">공시</span></td>
+            <td class="signal-cell">중요공시 2건 · 중요공시 3일 +100% · 중요공시 7일 +100%</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">14</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=083650" target="_blank">비에이치아이</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">6</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">1</td>
+            <td class="num-cell">2</td>
+            <td class="num-cell">3</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼3.65%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼4.95%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#1A73E8;color:white;">공시</span></td>
+            <td class="signal-cell">중요공시 2건 · 중요공시 3일 +100% · 중요공시 7일 +100%</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">15</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=298380" target="_blank">에이비엘바이오</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">6</span></td>
+            <td class="num-cell"><span class="streak-badge">2일</span></td>
+            <td class="num-cell">6</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼4.86%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼17.68%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#03C75A;color:white;">네이버</span></td>
+            <td class="signal-cell">매일경제 헤드라인 언급 · 네이버뉴스 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">16</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=005380" target="_blank">현대차</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">6</span></td>
+            <td class="num-cell"><span class="streak-badge">4일</span></td>
+            <td class="num-cell">6</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼1.89%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼6.57%</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">한국경제 헤드라인 언급 · 매일경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">17</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=000990" target="_blank">DB하이텍</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">5</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">5</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲5.34%</span></td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲13.18%</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">한국경제 헤드라인 언급 · 한국경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">18</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=391710" target="_blank">코닉오토메이션</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">4</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">4</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼5.91%</span></td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲29.35%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#03C75A;color:white;">네이버</span><span class="badge" style="background:#1A73E8;color:white;">공시</span></td>
+            <td class="signal-cell">네이버 검색 당일 +211% · 중요공시 1건</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">19</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=005935" target="_blank">삼성전자우</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">4</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">4</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲2.70%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼1.62%</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">매일경제 기사 언급 · 매일경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">20</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=009410" target="_blank">태영건설</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">4</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">1</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">3</td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲0.18%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼1.06%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#1A73E8;color:white;">공시</span></td>
+            <td class="signal-cell">중요공시 2건 · 중요공시 7일 +100%</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">21</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=207940" target="_blank">삼성바이오로직스</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">4</span></td>
+            <td class="num-cell"><span class="streak-badge">4일</span></td>
+            <td class="num-cell">1</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">3</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼0.28%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼3.24%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#1A73E8;color:white;">공시</span></td>
+            <td class="signal-cell">중요공시 2건 · 중요공시 7일 +100%</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">22</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=028050" target="_blank">삼성E&A</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">4</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">4</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼1.76%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼1.18%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#1A73E8;color:white;">공시</span></td>
+            <td class="signal-cell">중요공시 1건 · 매일경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">23</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=293490" target="_blank">카카오게임즈</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">4</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">4</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼2.73%</span></td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲8.96%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#1A73E8;color:white;">공시</span></td>
+            <td class="signal-cell">중요공시 1건 · 한국경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">24</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=066570" target="_blank">LG전자</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">4</span></td>
+            <td class="num-cell"><span class="streak-badge">3일</span></td>
+            <td class="num-cell">4</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼1.19%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼2.40%</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">매일경제 헤드라인 언급 · 매일경제 기사 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">25</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-gray"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=005160" target="_blank">동국산업</a>
+                        <span class="tier-label">감지</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-low">3</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">3</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲10.06%</span></td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲34.79%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#03C75A;color:white;">네이버</span></td>
+            <td class="signal-cell">네이버 검색 당일 +131%</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">26</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-gray"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=411080" target="_blank">샌즈랩</a>
+                        <span class="tier-label">감지</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-low">3</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">3</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲6.27%</span></td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲66.36%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#03C75A;color:white;">네이버</span></td>
+            <td class="signal-cell">네이버 검색 당일 +108%</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">27</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-gray"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=062970" target="_blank">한국첨단소재</a>
+                        <span class="tier-label">감지</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-low">3</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">3</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲0.15%</span></td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲74.35%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#03C75A;color:white;">네이버</span><span class="badge" style="background:#1A73E8;color:white;">공시</span></td>
+            <td class="signal-cell">네이버 검색 당일 +88% · 중요공시 1건</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">28</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-gray"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=014950" target="_blank">삼익제약</a>
+                        <span class="tier-label">감지</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-low">3</span></td>
+            <td class="num-cell"><span class="streak-badge">2일</span></td>
+            <td class="num-cell">3</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼9.89%</span></td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲14.21%</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">매일경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">29</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-gray"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=093370" target="_blank">후성</a>
+                        <span class="tier-label">감지</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-low">3</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">3</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼0.27%</span></td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲9.36%</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">매일경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">30</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-gray"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=092220" target="_blank">KEC</a>
+                        <span class="tier-label">감지</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-low">3</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">3</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲4.06%</span></td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲12.38%</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">매일경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">31</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-gray"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=010140" target="_blank">삼성중공업</a>
+                        <span class="tier-label">감지</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-low">3</span></td>
+            <td class="num-cell"><span class="streak-badge">3일</span></td>
+            <td class="num-cell">1</td>
+            <td class="num-cell">2</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼2.86%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼5.79%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#1A73E8;color:white;">공시</span></td>
+            <td class="signal-cell">중요공시 2건 · 중요공시 3일 +100%</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">32</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-gray"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=010170" target="_blank">대한광통신</a>
+                        <span class="tier-label">감지</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-low">3</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">3</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲13.34%</span></td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲8.49%</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">매일경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">33</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-gray"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=261780" target="_blank">아리바이오랩</a>
+                        <span class="tier-label">감지</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-low">3</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">3</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲8.01%</span></td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲22.95%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#03C75A;color:white;">네이버</span></td>
+            <td class="signal-cell">네이버뉴스 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">34</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-gray"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=224060" target="_blank">더코디</a>
+                        <span class="tier-label">감지</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-low">3</span></td>
+            <td class="num-cell"><span class="streak-badge">2일</span></td>
+            <td class="num-cell">3</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲5.84%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼2.37%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#1A73E8;color:white;">공시</span></td>
+            <td class="signal-cell">중요공시 5건</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">35</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-gray"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=061250" target="_blank">화일약품</a>
+                        <span class="tier-label">감지</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-low">3</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">3</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼22.09%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼12.79%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#1A73E8;color:white;">공시</span></td>
+            <td class="signal-cell">중요공시 4건</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">36</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-gray"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=351320" target="_blank">넥사다이내믹스</a>
+                        <span class="tier-label">감지</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-low">3</span></td>
+            <td class="num-cell"><span class="streak-badge">3일</span></td>
+            <td class="num-cell">3</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼5.97%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼22.80%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#1A73E8;color:white;">공시</span></td>
+            <td class="signal-cell">중요공시 3건</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">37</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-gray"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=130660" target="_blank">한전산업</a>
+                        <span class="tier-label">감지</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-low">3</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">3</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼3.06%</span></td>
+            <td class="price-cell"><span style="color:#1e88e5;font-weight:700;">▼5.72%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#1A73E8;color:white;">공시</span></td>
+            <td class="signal-cell">중요공시 3건</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">38</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-gray"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=065450" target="_blank">빅텍</a>
+                        <span class="tier-label">감지</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-low">3</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">1</td>
+            <td class="num-cell">2</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲0.89%</span></td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲0.53%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#1A73E8;color:white;">공시</span></td>
+            <td class="signal-cell">중요공시 2건 · 중요공시 3일 +100%</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">39</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-gray"></span>
+                    <div>
+                        <a class="keyword-name" href="https://finance.naver.com/item/main.naver?code=355390" target="_blank">크라우드웍스</a>
+                        <span class="tier-label">감지</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-low">3</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">1</td>
+            <td class="num-cell">2</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲8.43%</span></td>
+            <td class="price-cell"><span style="color:#e53935;font-weight:700;">▲2.00%</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#1A73E8;color:white;">공시</span></td>
+            <td class="signal-cell">중요공시 2건 · 중요공시 3일 +100%</td>
+        </tr></tbody>
+        </table>
+        <div class="notice">※ 투자 권유가 아닌 정보 제공 목적입니다. 투자 결정은 반드시 본인 판단으로 하시기 바랍니다.</div>
+      </div>
+
+      <!-- 섹터/테마 -->
+      <div class="card" style="margin-bottom:16px;">
+        <div class="card-title">
+          🏭 섹터/테마 신호
+          <span class="card-sub">11개</span>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>#</th><th>키워드</th>
+              <th style="text-align:center;">총점</th>
+              <th style="text-align:center;">연속</th>
+              <th style="text-align:center;">당일</th>
+              <th style="text-align:center;">3일</th>
+              <th style="text-align:center;">7일</th>
+              <th style="text-align:center;">주가(당일)</th>
+              <th style="text-align:center;">주가(7일)</th>
+              <th>소스</th><th>신호 내용</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr class="data-row">
+            <td class="rank-cell">1</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-red"></span>
+                    <div>
+                        <a class="keyword-name" href="https://search.naver.com/search.naver?query=%EB%B0%98%EB%8F%84%EC%B2%B4+주가" target="_blank">반도체</a>
+                        <span class="tier-label">강한 신호</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-high">30</span></td>
+            <td class="num-cell"><span class="streak-badge">119일</span></td>
+            <td class="num-cell">30</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#03C75A;color:white;">네이버</span></td>
+            <td class="signal-cell">매일경제 기사 언급 · 네이버뉴스 헤드라인 언급 · 네이버뉴스 기사 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">2</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-red"></span>
+                    <div>
+                        <a class="keyword-name" href="https://search.naver.com/search.naver?query=%EB%B0%94%EC%9D%B4%EC%98%A4+주가" target="_blank">바이오</a>
+                        <span class="tier-label">강한 신호</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-high">26</span></td>
+            <td class="num-cell"><span class="streak-badge">46일</span></td>
+            <td class="num-cell">26</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#03C75A;color:white;">네이버</span></td>
+            <td class="signal-cell">매일경제 헤드라인 언급 · 네이버뉴스 헤드라인 언급 · 매일경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">3</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-red"></span>
+                    <div>
+                        <a class="keyword-name" href="https://search.naver.com/search.naver?query=%EC%A0%9C%EC%95%BD+주가" target="_blank">제약</a>
+                        <span class="tier-label">강한 신호</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-high">15</span></td>
+            <td class="num-cell"><span class="streak-badge">46일</span></td>
+            <td class="num-cell">15</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#03C75A;color:white;">네이버</span></td>
+            <td class="signal-cell">매일경제 기사 언급 · 네이버뉴스 헤드라인 언급 · 매일경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">4</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-red"></span>
+                    <div>
+                        <a class="keyword-name" href="https://search.naver.com/search.naver?query=%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5+주가" target="_blank">인공지능</a>
+                        <span class="tier-label">강한 신호</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-high">10</span></td>
+            <td class="num-cell"><span class="streak-badge">119일</span></td>
+            <td class="num-cell">10</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#03C75A;color:white;">네이버</span></td>
+            <td class="signal-cell">네이버뉴스 기사 언급 · 네이버뉴스 기사 언급 · 매일경제 기사 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">5</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-red"></span>
+                    <div>
+                        <a class="keyword-name" href="https://search.naver.com/search.naver?query=TSMC+주가" target="_blank">TSMC</a>
+                        <span class="tier-label">강한 신호</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-high">7</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">7</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">한국경제 헤드라인 언급 · 한국경제 헤드라인 언급 · 매일경제 기사 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">6</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://search.naver.com/search.naver?query=%EC%88%98%EC%86%8C+주가" target="_blank">수소</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">6</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">6</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">한국경제 헤드라인 언급 · 매일경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">7</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://search.naver.com/search.naver?query=defense%20stock+주가" target="_blank">defense stock</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">5</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">5</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#F4B400;color:333;">Google</span></td>
+            <td class="signal-cell">Google 급상승 검색어 등장 (US)</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">8</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://search.naver.com/search.naver?query=%EB%B0%A9%EC%82%B0+주가" target="_blank">방산</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">5</span></td>
+            <td class="num-cell"><span class="streak-badge">5일</span></td>
+            <td class="num-cell">5</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">매일경제 기사 언급 · 한국경제 헤드라인 언급 · 매일경제 기사 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">9</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://search.naver.com/search.naver?query=%EC%9B%90%EC%A0%84+주가" target="_blank">원전</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">5</span></td>
+            <td class="num-cell"><span style="color:#d1d5db;">-</span></td>
+            <td class="num-cell">5</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">한국경제 헤드라인 언급 · 한국경제 헤드라인 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">10</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://search.naver.com/search.naver?query=%EB%A1%9C%EB%B4%87+주가" target="_blank">로봇</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">4</span></td>
+            <td class="num-cell"><span class="streak-badge">3일</span></td>
+            <td class="num-cell">4</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="badge-cell"><span class="badge" style="background:#03C75A;color:white;">네이버</span></td>
+            <td class="signal-cell">매일경제 헤드라인 언급 · 네이버뉴스 기사 언급</td>
+        </tr>
+        <tr class="data-row">
+            <td class="rank-cell">11</td>
+            <td class="keyword-cell">
+                <div style="display:flex;align-items:center;gap:8px;">
+                    <span class="tier-dot dot-yellow"></span>
+                    <div>
+                        <a class="keyword-name" href="https://search.naver.com/search.naver?query=%EC%A0%84%EA%B8%B0%EC%B0%A8+주가" target="_blank">전기차</a>
+                        <span class="tier-label">관심</span>
+                    </div>
+                </div>
+            </td>
+            <td class="score-cell"><span class="score-num sc-mid">4</span></td>
+            <td class="num-cell"><span class="streak-badge">3일</span></td>
+            <td class="num-cell">4</td>
+            <td class="num-cell">-</td>
+            <td class="num-cell">-</td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="price-cell"><span class="chg-none">-</span></td>
+            <td class="badge-cell"></td>
+            <td class="signal-cell">한국경제 헤드라인 언급 · 매일경제 기사 언급</td>
+        </tr></tbody>
+        </table>
+      </div>
+
+      <!-- 구글 트렌드 -->
+      <div class="card">
+        <div class="card-title">🔥 Google 급상승 검색어</div>
+        <div style="margin-bottom:12px;">
+          <div style="font-size:11px;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;">🇰🇷 한국 (KR)</div>
+          <div class="trend-pills"><span class="trend-pill">🔍 삼성 갤럭시</span><span class="trend-pill">🔍 농심</span><span class="trend-pill">🔍 밀란 대 벤피카</span><span class="trend-pill">🔍 후티</span><span class="trend-pill">🔍 barcelona vs racing santander</span><span class="trend-pill">🔍 김지민</span><span class="trend-pill">🔍 hd현대</span><span class="trend-pill">🔍 แมนยู พบ ไบรตัน</span><span class="trend-pill">🔍 정준원</span><span class="trend-pill">🔍 김구라</span></div>
+        </div>
+        <div class="divider"></div>
+        <div>
+          <div style="font-size:11px;font-weight:700;color:var(--text-muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:8px;">🇺🇸 미국 (US)</div>
+          <div class="trend-pills"><span class="trend-pill">🔍 joan garcía</span><span class="trend-pill">🔍 carabao cup draw</span><span class="trend-pill">🔍 ldu quito - palmeiras</span><span class="trend-pill">🔍 de</span><span class="trend-pill">🔍 caitlin clark indiana fever</span><span class="trend-pill">🔍 pennsylvania measles outbreak</span><span class="trend-pill">🔍 saidah belo-osagie</span><span class="trend-pill">🔍 atlético mineiro vs santos</span><span class="trend-pill">🔍 measles symptoms</span><span class="trend-pill">🔍 twins</span></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- 사이드 패널 -->
+    <div class="side-panel">
+
+      <!-- 네이버 검색 추이 -->
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.04);">
+        <div style="padding:14px 16px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;">
+          <span style="font-size:14px;font-weight:700;">📈 네이버 검색 추이</span>
+          <span style="font-size:11px;color:var(--text-muted);">2026-09-17 06:51 기준</span>
+        </div>
+        <div style="max-height:300px;overflow-y:auto;">
+          <table style="width:100%;border-collapse:collapse;"><tbody><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">코닉오토메이션</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">5.1</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#e53935;font-family:'JetBrains Mono',monospace;">▲210.7%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">미투온</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">32.9</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#e53935;font-family:'JetBrains Mono',monospace;">▲193.9%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">동국산업</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">8.6</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#e53935;font-family:'JetBrains Mono',monospace;">▲130.8%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">샌즈랩</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">0.3</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#e53935;font-family:'JetBrains Mono',monospace;">▲107.8%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">이뮨온시아</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">41.3</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#e53935;font-family:'JetBrains Mono',monospace;">▲102.6%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">라온시큐어</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">26.1</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#e53935;font-family:'JetBrains Mono',monospace;">▲99.0%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">한국첨단소재</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">8.1</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#e53935;font-family:'JetBrains Mono',monospace;">▲88.3%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">아톤</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">15.7</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#e53935;font-family:'JetBrains Mono',monospace;">▲76.0%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">빛샘전자</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">21.9</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#e53935;font-family:'JetBrains Mono',monospace;">▲61.7%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">한컴위드</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">12.5</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#e53935;font-family:'JetBrains Mono',monospace;">▲47.6%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">광전자</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">1.1</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#e53935;font-family:'JetBrains Mono',monospace;">▲38.0%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">지니언스</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">6.4</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#e53935;font-family:'JetBrains Mono',monospace;">▲31.6%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">엔젠바이오</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">1.0</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#e53935;font-family:'JetBrains Mono',monospace;">▲27.7%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">티엠씨</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">22.8</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#e53935;font-family:'JetBrains Mono',monospace;">▲25.7%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">카티스</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">0.1</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#e53935;font-family:'JetBrains Mono',monospace;">▲25.2%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">동국S&C</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">2.8</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#e53935;font-family:'JetBrains Mono',monospace;">▲7.4%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">삼익제약</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">0.6</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼0.9%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">드림시큐리티</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">59.5</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼1.2%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">엑스게이트</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">59.7</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼10.3%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">동국홀딩스</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">2.5</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼16.2%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">SFA반도체</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">32.9</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼16.5%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">우리넷</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">11.7</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼23.8%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">후성</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">53.7</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼24.0%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">더즌</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">2.5</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼30.5%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">YTN</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">11.2</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼32.9%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">에스피소프트</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">17.3</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼33.4%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">LS머트리얼즈</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">3.8</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼37.3%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">우리금융지주</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">48.7</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼40.4%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">PS일렉트로닉스</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">32.4</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼46.1%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">드림텍</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">4.9</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼47.9%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">코칩</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">0.3</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼48.8%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">한화갤러리아</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">24.7</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼49.6%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">페니트리움바이오</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">50.0</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼50.0%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">KEC</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">6.2</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼50.3%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">빛과전자</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">19.5</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼51.4%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">삼성중공업</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">45.1</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼52.8%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">씨피시스템</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">2.3</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼53.3%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">기가레인</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">14.8</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼53.9%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">하이딥</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">0.1</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼54.0%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">우리로</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">44.7</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼55.3%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">한국화장품제조</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">2.4</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼55.6%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">기산텔레콤</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">0.2</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼55.8%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">한화머시너리앤서비스홀딩스</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">2.6</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼55.9%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">코스나인</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">0.8</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼56.5%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">원익홀딩스</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">1.1</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼58.4%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">뷰티스킨</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">1.0</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼59.3%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">금호전기</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">18.7</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼59.4%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">이노인스트루먼트</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">0.0</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼59.5%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">흥구석유</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">0.9</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼59.5%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">한화생명</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">31.9</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼59.6%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">다날</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">20.3</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼60.4%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">아주IB투자</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">0.4</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼60.9%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">쏠리드</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">11.8</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼61.1%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">대한광통신</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">36.8</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼61.3%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">디와이덕양</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">1.4</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼62.4%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">한켐</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">1.5</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼62.7%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">라이콤</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">2.7</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼62.8%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">삼성전자우</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">30.6</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼63.7%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">한온시스템</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">13.7</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼63.9%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">LG디스플레이</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">31.8</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼64.2%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">팬오션</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">14.1</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼64.5%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">한화투자증권</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">5.5</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼64.7%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">아리바이오랩</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">8.4</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼65.1%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">KBI메탈</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">0.5</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼65.5%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">카카오</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">16.1</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼66.0%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">삼성전자</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">28.1</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼66.1%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">한선엔지니어링</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">2.7</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼66.2%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">아모센스</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">1.3</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼66.4%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">흥아해운</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">4.0</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼66.7%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">코다코</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">1.1</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼66.7%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">SK증권</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">13.0</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼66.7%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">센서뷰</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">5.6</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼67.0%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">아모그린텍</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">0.2</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼67.0%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">수성웹툰</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">2.9</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼67.1%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">SK하이닉스</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">26.8</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼67.1%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">금호건설</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">7.4</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼67.1%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">골드앤에스</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">0.5</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼67.2%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">유니슨</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">1.6</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼67.7%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">현대바이오</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">4.0</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼68.6%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">성호전자</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">31.3</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼68.7%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">대원전선</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">24.6</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼68.9%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">우리기술투자</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">2.6</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼69.2%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">JW신약</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">25.0</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼70.9%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">원익</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">5.9</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼71.0%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">우리기술</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">1.9</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼71.0%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">두산에너빌리티</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">27.4</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼71.4%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">현대약품</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">28.4</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼71.6%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">대우건설</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">28.3</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼71.7%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">코데즈컴바인</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">10.7</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼71.9%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">액스비스</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">4.3</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼73.4%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">머큐리</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">1.6</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼74.2%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">모아데이타</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">3.2</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼74.3%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">서산</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">14.6</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼75.6%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">강동씨앤엘</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">13.2</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼76.7%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">한빛레이저</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">0.3</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼77.6%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">피노</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">9.4</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼78.1%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">카프로</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">9.2</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼79.4%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">원풍물산</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">3.5</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼81.0%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">동양파일</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">5.5</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼81.1%</td>
+        </tr><tr style="border-bottom:1px solid #f1f5f9;">
+            <td style="padding:8px 14px;font-size:13px;font-weight:500;color:#374151;">스카이랩스</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;color:#9ca3af;
+                       font-family:'JetBrains Mono',monospace;">5.2</td>
+            <td style="padding:8px 14px;text-align:right;font-size:12px;font-weight:700;
+                       color:#1e88e5;font-family:'JetBrains Mono',monospace;">▼86.4%</td>
+        </tr></tbody></table>
+        </div>
+      </div>
+
+      <!-- 경제 뉴스 -->
+      <div style="background:var(--surface);border:1px solid var(--border);border-radius:14px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.04);flex:1;">
+        <div style="padding:14px 16px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;">
+          <span style="font-size:14px;font-weight:700;">📰 경제 뉴스</span>
+          <span style="font-size:11px;color:var(--text-muted);text-align:right;">84/315건 · 2026-09-17 06:50 기준</span>
+        </div>
+        <div style="max-height:620px;overflow-y:auto;"><div style="padding:10px 14px;border-bottom:1px solid #f1f5f9;">
+            <a href="https://www.mk.co.kr/news/stock/12154897" target="_blank"
+               style="font-size:13px;color:#374151;text-decoration:none;line-height:1.4;display:block;">코스닥 시총 상위 10곳 중 7곳이었는데…바이오 기업, 이제 한 곳만 남았다</a>
+            <div style="margin-top:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+                <span style="font-size:11px;color:#9ca3af;">매일경제</span>
+                <span style="background:#f1f5f9;color:#64748b;padding:1px 6px;border-radius:4px;font-size:10px;margin-right:3px;">제약</span><span style="background:#f1f5f9;color:#64748b;padding:1px 6px;border-radius:4px;font-size:10px;margin-right:3px;">반도체</span>
+                <span style="font-size:11px;color:#d1d5db;margin-left:auto;">점수 21</span>
+            </div>
+        </div><div style="padding:10px 14px;border-bottom:1px solid #f1f5f9;">
+            <a href="https://www.mk.co.kr/news/world/12154906" target="_blank"
+               style="font-size:13px;color:#374151;text-decoration:none;line-height:1.4;display:block;">워시 “인플레 너무 높아” 추가 인상 예고…美증시·채권 약세</a>
+            <div style="margin-top:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+                <span style="font-size:11px;color:#9ca3af;">매일경제</span>
+                
+                <span style="font-size:11px;color:#d1d5db;margin-left:auto;">점수 15</span>
+            </div>
+        </div><div style="padding:10px 14px;border-bottom:1px solid #f1f5f9;">
+            <a href="https://www.mk.co.kr/news/world/12154882" target="_blank"
+               style="font-size:13px;color:#374151;text-decoration:none;line-height:1.4;display:block;">3년만에 금리 올린 연준…연내 추가 인상 예고</a>
+            <div style="margin-top:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+                <span style="font-size:11px;color:#9ca3af;">매일경제</span>
+                
+                <span style="font-size:11px;color:#d1d5db;margin-left:auto;">점수 15</span>
+            </div>
+        </div><div style="padding:10px 14px;border-bottom:1px solid #f1f5f9;">
+            <a href="https://www.mk.co.kr/news/economy/12154615" target="_blank"
+               style="font-size:13px;color:#374151;text-decoration:none;line-height:1.4;display:block;">장관님 혹시 뉴스 안보시나요?…국채금리 발작중인데 “최고의 성과”</a>
+            <div style="margin-top:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+                <span style="font-size:11px;color:#9ca3af;">매일경제</span>
+                
+                <span style="font-size:11px;color:#d1d5db;margin-left:auto;">점수 15</span>
+            </div>
+        </div><div style="padding:10px 14px;border-bottom:1px solid #f1f5f9;">
+            <a href="https://www.seoulfn.com/news/articleView.html?idxno=638167" target="_blank"
+               style="font-size:13px;color:#374151;text-decoration:none;line-height:1.4;display:block;">[뉴욕증시] 워시 &quot;물가 너무 높다&quot; 반락 마감···은행 '된서리'·반도...</a>
+            <div style="margin-top:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+                <span style="font-size:11px;color:#9ca3af;">네이버뉴스</span>
+                
+                <span style="font-size:11px;color:#d1d5db;margin-left:auto;">점수 15</span>
+            </div>
+        </div><div style="padding:10px 14px;border-bottom:1px solid #f1f5f9;">
+            <a href="https://www.slist.kr/news/articleView.html?idxno=766705" target="_blank"
+               style="font-size:13px;color:#374151;text-decoration:none;line-height:1.4;display:block;">뉴욕증시, 연준 금리인상·워시 매파발언에 하락…다우 1.2%↓</a>
+            <div style="margin-top:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+                <span style="font-size:11px;color:#9ca3af;">네이버뉴스</span>
+                
+                <span style="font-size:11px;color:#d1d5db;margin-left:auto;">점수 15</span>
+            </div>
+        </div><div style="padding:10px 14px;border-bottom:1px solid #f1f5f9;">
+            <a href="https://n.news.naver.com/mnews/article/629/0000534556?sid=104" target="_blank"
+               style="font-size:13px;color:#374151;text-decoration:none;line-height:1.4;display:block;">뉴욕증시, 美 연준 기준금리 인상에 하락…다우 1.21% 하락</a>
+            <div style="margin-top:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+                <span style="font-size:11px;color:#9ca3af;">네이버뉴스</span>
+                <span style="background:#f1f5f9;color:#64748b;padding:1px 6px;border-radius:4px;font-size:10px;margin-right:3px;">반도체</span>
+                <span style="font-size:11px;color:#d1d5db;margin-left:auto;">점수 16</span>
+            </div>
+        </div><div style="padding:10px 14px;border-bottom:1px solid #f1f5f9;">
+            <a href="https://www.thefairnews.co.kr/news/articleView.html?idxno=88290" target="_blank"
+               style="font-size:13px;color:#374151;text-decoration:none;line-height:1.4;display:block;">유가·국채금리 하락 뉴욕증시 혼조 출발...연준 결정 주목</a>
+            <div style="margin-top:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+                <span style="font-size:11px;color:#9ca3af;">네이버뉴스</span>
+                <span style="background:#f1f5f9;color:#64748b;padding:1px 6px;border-radius:4px;font-size:10px;margin-right:3px;">인공지능</span><span style="background:#f1f5f9;color:#64748b;padding:1px 6px;border-radius:4px;font-size:10px;margin-right:3px;">AMD</span>
+                <span style="font-size:11px;color:#d1d5db;margin-left:auto;">점수 17</span>
+            </div>
+        </div><div style="padding:10px 14px;border-bottom:1px solid #f1f5f9;">
+            <a href="https://n.news.naver.com/mnews/article/005/0001873520?sid=104" target="_blank"
+               style="font-size:13px;color:#374151;text-decoration:none;line-height:1.4;display:block;">美 연준, 기준금리 인상에 트럼프 “1% 이하여야” 비판…연준은 추가 ...</a>
+            <div style="margin-top:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+                <span style="font-size:11px;color:#9ca3af;">네이버뉴스</span>
+                
+                <span style="font-size:11px;color:#d1d5db;margin-left:auto;">점수 15</span>
+            </div>
+        </div><div style="padding:10px 14px;border-bottom:1px solid #f1f5f9;">
+            <a href="https://www.mk.co.kr/news/stock/12153902" target="_blank"
+               style="font-size:13px;color:#374151;text-decoration:none;line-height:1.4;display:block;">오락가락 증시서 로봇이 먼저 뛰어올랐다…로보티즈 한달새 50% 급등, 코스닥 10위</a>
+            <div style="margin-top:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+                <span style="font-size:11px;color:#9ca3af;">매일경제</span>
+                <span style="background:#f1f5f9;color:#64748b;padding:1px 6px;border-radius:4px;font-size:10px;margin-right:3px;">로봇</span><span style="background:#f1f5f9;color:#64748b;padding:1px 6px;border-radius:4px;font-size:10px;margin-right:3px;">로보티즈</span>
+                <span style="font-size:11px;color:#d1d5db;margin-left:auto;">점수 20</span>
+            </div>
+        </div><div style="padding:10px 14px;border-bottom:1px solid #f1f5f9;">
+            <a href="https://n.news.naver.com/mnews/article/014/0005577056?sid=101" target="_blank"
+               style="font-size:13px;color:#374151;text-decoration:none;line-height:1.4;display:block;">외국인 1.6조 매도폭탄에도, '삼전·닉스' 강세… 오늘도 버틸까</a>
+            <div style="margin-top:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+                <span style="font-size:11px;color:#9ca3af;">네이버뉴스</span>
+                
+                <span style="font-size:11px;color:#d1d5db;margin-left:auto;">점수 14</span>
+            </div>
+        </div><div style="padding:10px 14px;border-bottom:1px solid #f1f5f9;">
+            <a href="https://n.news.naver.com/mnews/article/366/0001192884?sid=104" target="_blank"
+               style="font-size:13px;color:#374151;text-decoration:none;line-height:1.4;display:block;">연준 금리 인상·워시 매파 발언에 뉴욕증시 사흘째 하락</a>
+            <div style="margin-top:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+                <span style="font-size:11px;color:#9ca3af;">네이버뉴스</span>
+                
+                <span style="font-size:11px;color:#d1d5db;margin-left:auto;">점수 14</span>
+            </div>
+        </div><div style="padding:10px 14px;border-bottom:1px solid #f1f5f9;">
+            <a href="https://www.ebn.co.kr/news/articleView.html?idxno=1724532" target="_blank"
+               style="font-size:13px;color:#374151;text-decoration:none;line-height:1.4;display:block;">반도체가 버텨도 고유가 부담…韓 증시 발목 잡는 장기악재 되나</a>
+            <div style="margin-top:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+                <span style="font-size:11px;color:#9ca3af;">네이버뉴스</span>
+                <span style="background:#f1f5f9;color:#64748b;padding:1px 6px;border-radius:4px;font-size:10px;margin-right:3px;">반도체</span>
+                <span style="font-size:11px;color:#d1d5db;margin-left:auto;">점수 17</span>
+            </div>
+        </div><div style="padding:10px 14px;border-bottom:1px solid #f1f5f9;">
+            <a href="https://www.hankyung.com/article/202609179714i" target="_blank"
+               style="font-size:13px;color:#374151;text-decoration:none;line-height:1.4;display:block;">[속보] Fed, 美 기준금리 연 3.75~4%로 인상...'만장일치' [Fed 워치]</a>
+            <div style="margin-top:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+                <span style="font-size:11px;color:#9ca3af;">한국경제</span>
+                
+                <span style="font-size:11px;color:#d1d5db;margin-left:auto;">점수 13</span>
+            </div>
+        </div><div style="padding:10px 14px;border-bottom:1px solid #f1f5f9;">
+            <a href="https://www.mk.co.kr/news/stock/12153825" target="_blank"
+               style="font-size:13px;color:#374151;text-decoration:none;line-height:1.4;display:block;">“9월중엔 주식창 안볼랍니다”…美긴축공포에 코스피 대형주 피눈물</a>
+            <div style="margin-top:5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;">
+                <span style="font-size:11px;color:#9ca3af;">매일경제</span>
+                <span style="background:#f1f5f9;color:#64748b;padding:1px 6px;border-radius:4px;font-size:10px;margin-right:3px;">방산</span><span style="background:#f1f5f9;color:#64748b;padding:1px 6px;border-radius:4px;font-size:10px;margin-right:3px;">조선</span>
+                <span style="font-size:11px;color:#d1d5db;margin-left:auto;">점수 15</span>
+            </div>
+        </div></div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
