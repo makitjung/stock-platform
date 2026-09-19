@@ -1,8 +1,8 @@
 {
   "date": "2026-09-19",
-  "collected_at": "2026-09-19 15:00",
-  "total_articles": 322,
-  "matched_count": 89,
+  "collected_at": "2026-09-19 16:00",
+  "total_articles": 334,
+  "matched_count": 94,
   "top_news": [
     {
       "source": "매일경제",
@@ -22,6 +22,17 @@
       "desc": "10% 하락 환율이 상승 충격 상쇄 “3∼8월 휘발유 2.1%·경유 8.4% 소비 감소”정부가 휘발유·경유·등유 등 국내 석유제품 최고가격을 4주 더 동결한다. 중동 정세 악화로 ..",
       "pub": "Fri, 18 Sep 2026 18:03:31 +09:00",
       "via": "rss",
+      "importance": 14,
+      "matched_keywords": [],
+      "score": 14
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "日 금리 올렸는데 엔화는 급락…당국 '레이트 체크'로 개입 경고",
+      "link": "https://n.news.naver.com/mnews/article/001/0016322286?sid=104",
+      "desc": "전날 일본은행이 금융정책결정회의에서 기준금리를 '1% 정도'에서 '1.25% 정도'로 올린 뒤 달러당 156엔대이던 엔/달러 환율은 같은 날 밤 달러당 158엔대까지 올랐다. 금리 인상에 정책위원 2명이 반대하면서 향후 추가 인상...",
+      "pub": "Sat, 19 Sep 2026 15:22:00 +0900",
+      "via": "naver_api",
       "importance": 14,
       "matched_keywords": [],
       "score": 14
@@ -86,6 +97,32 @@
       "score": 11
     },
     {
+      "source": "네이버뉴스",
+      "title": "日, 연휴 전 '레이트 체크'…엔화, 달러당 156엔대 급반등",
+      "link": "https://n.news.naver.com/mnews/article/277/0005818746?sid=101",
+      "desc": "기준금리 인상에도 엔화 약세가 이어지자 시장 압박에 나선 것이다. 엔화는 달러당 158엔대에서 156엔대로... 레이트 체크는 중앙은행이 시장 참가자에게 환율 수준을 확인하는 절차로 당국이 외환시장 개입 직전 보내는...",
+      "pub": "Sat, 19 Sep 2026 15:41:00 +0900",
+      "via": "naver_api",
+      "importance": 11,
+      "matched_keywords": [],
+      "score": 11
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "네오클라우드 엔스케일, 엔비디아 지원으로 뉴욕증시 상장 추진",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=215489",
+      "desc": "최근 AI 개발 속도 조절론이 확산하면서 데이터센터와 반도체 기업의 주가가 흔들렸고, 미국 원전 기업 홀텍 인터내셔널은 투자자들의 우려를 이유로 IPO를 철회했다. 그럼에도 엔스케일은 대규모 AI 컴퓨팅...",
+      "pub": "Sat, 19 Sep 2026 15:18:00 +0900",
+      "via": "naver_api",
+      "importance": 11,
+      "matched_keywords": [
+        "반도체",
+        "원전",
+        "클라우드"
+      ],
+      "score": 16
+    },
+    {
       "source": "매일경제",
       "title": "악재 버티고 호재엔 '점프'… 삼전닉스發 랠리 재개되나",
       "link": "https://www.mk.co.kr/news/stock/12156726",
@@ -107,23 +144,10 @@
       "via": "naver_api",
       "importance": 10,
       "matched_keywords": [
-        "클라우드",
-        "인공지능"
+        "인공지능",
+        "클라우드"
       ],
       "score": 12
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "다음주 방미 앞둔 시진핑... 브릭스 만찬 불참에 ‘건강이상설’ 제기",
-      "link": "https://n.news.naver.com/mnews/article/023/0003999396?sid=104",
-      "desc": "협상 테이블에는 관세, 희토류, 이란 전쟁, 대만, AI(인공지능) 등 미·중 패권 경쟁의 난제가 한꺼번에 오를... 정상회담에 앞서 스콧 베선트 미 재무장관과 허리펑 중국 부총리도 이번 주말 뉴욕에서 먼저 만나 무역과...",
-      "pub": "Sat, 19 Sep 2026 13:42:00 +0900",
-      "via": "naver_api",
-      "importance": 10,
-      "matched_keywords": [
-        "인공지능"
-      ],
-      "score": 11
     },
     {
       "source": "한국경제",
@@ -157,36 +181,6 @@
       "importance": 9,
       "matched_keywords": [],
       "score": 9
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "반도체주는 고금리 파도를 넘을 수 있을까[주末머니]",
-      "link": "https://n.news.naver.com/mnews/article/277/0005818740?sid=101",
-      "desc": "다만 글로벌 인공지능(AI) 투자 수요가 워낙 커서 삼성전자와 SK하이닉스 등 메모리 반도체 업체들의 이익 개선이 지속되며 주가 역시 견조할 가능성이 있다는 분석도 나온다. 19일 KB증권은 올해 글로벌 반도체 시장의...",
-      "pub": "Sat, 19 Sep 2026 14:48:00 +0900",
-      "via": "naver_api",
-      "importance": 9,
-      "matched_keywords": [
-        "삼성전자",
-        "인공지능",
-        "SK하이닉스",
-        "반도체"
-      ],
-      "score": 15
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "[비즈 인사이트] '샌디스크' 올해 7배 폭등…'HBM 다음은 NAND' AI 메모리...",
-      "link": "https://www.moneystorm.kr/news/articleView.html?idxno=6646",
-      "desc": "인공지능(AI) 데이터센터 확대로 낸드플래시와 기업용 SSD 수요가 빠르게 늘어나는 가운데 메모리 공급... 18일에는 샌디스크뿐 아니라 마이크론과 SK하이닉스 미국 상장주식 등 메모리 관련주가 일제히 상승했고...",
-      "pub": "Sat, 19 Sep 2026 13:27:00 +0900",
-      "via": "naver_api",
-      "importance": 9,
-      "matched_keywords": [
-        "인공지능",
-        "SK하이닉스"
-      ],
-      "score": 11
     }
   ],
   "articles": [
@@ -199,13 +193,28 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "현대약품",
-        "한화시스템",
         "미투온",
-        "하나마이크론",
-        "한화엔진"
+        "현대약품",
+        "한화엔진",
+        "한화시스템",
+        "하나마이크론"
       ],
       "score": 17
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "네오클라우드 엔스케일, 엔비디아 지원으로 뉴욕증시 상장 추진",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=215489",
+      "desc": "최근 AI 개발 속도 조절론이 확산하면서 데이터센터와 반도체 기업의 주가가 흔들렸고, 미국 원전 기업 홀텍 인터내셔널은 투자자들의 우려를 이유로 IPO를 철회했다. 그럼에도 엔스케일은 대규모 AI 컴퓨팅...",
+      "pub": "Sat, 19 Sep 2026 15:18:00 +0900",
+      "via": "naver_api",
+      "importance": 11,
+      "matched_keywords": [
+        "반도체",
+        "원전",
+        "클라우드"
+      ],
+      "score": 16
     },
     {
       "source": "네이버뉴스",
@@ -216,10 +225,10 @@
       "via": "naver_api",
       "importance": 9,
       "matched_keywords": [
-        "삼성전자",
-        "인공지능",
+        "반도체",
         "SK하이닉스",
-        "반도체"
+        "인공지능",
+        "삼성전자"
       ],
       "score": 15
     },
@@ -233,8 +242,8 @@
       "importance": 8,
       "matched_keywords": [
         "LG디스플레이",
-        "LG",
-        "반도체"
+        "반도체",
+        "LG"
       ],
       "score": 15
     },
@@ -248,6 +257,23 @@
       "importance": 12,
       "matched_keywords": [
         "클라우드"
+      ],
+      "score": 13
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "[제약공시 책갈피] 9월 3주차 - 보령·한국유니온제약 外",
+      "link": "https://www.medipana.com/news/articleView.html?idxno=417931",
+      "desc": "SK바이오팜, '세노바메이트' 공급계약 체결…누적 4529억 - 신풍제약, 급성 허혈성 뇌졸중 신약 'SP-8203' 임상 3상 변경 승인 신청 - 이뮨온시아, 면역항암제 'IMC-002' 1상 변경 신청…췌관선암종 코호트 추가 - 신라젠...",
+      "pub": "Sat, 19 Sep 2026 12:52:00 +0900",
+      "via": "naver_api",
+      "importance": 6,
+      "matched_keywords": [
+        "이뮨온시아",
+        "신라젠",
+        "신풍",
+        "바이오",
+        "제약"
       ],
       "score": 13
     },
@@ -273,10 +299,10 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "삼성전자",
-        "인공지능",
+        "반도체",
         "SK하이닉스",
-        "반도체"
+        "인공지능",
+        "삼성전자"
       ],
       "score": 12
     },
@@ -289,8 +315,8 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "삼성전자",
-        "SK하이닉스"
+        "SK하이닉스",
+        "삼성전자"
       ],
       "score": 12
     },
@@ -303,7 +329,21 @@
       "via": "naver_api",
       "importance": 10,
       "matched_keywords": [
-        "클라우드",
+        "인공지능",
+        "클라우드"
+      ],
+      "score": 12
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "AI·반도체 반등에 ETF도 쏟아진다…메모리·HBM·에이전틱AI까지 세분화",
+      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1724942",
+      "desc": "인공지능(AI)과 반도체 관련주가 '속도조절론'을 딛고 반등에 나서면서 관련 ETF(상장지수펀드) 출시도 잇따르고 있다. AI 인프라 투자에 대한 기대가 이어지는 가운데 메모리·HBM(고대역폭메모리)·에이전틱 AI 등...",
+      "pub": "Sat, 19 Sep 2026 12:56:00 +0900",
+      "via": "naver_api",
+      "importance": 8,
+      "matched_keywords": [
+        "반도체",
         "인공지능"
       ],
       "score": 12
@@ -370,9 +410,9 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
+        "반도체",
         "SK하이닉스",
-        "반도체"
+        "인공지능"
       ],
       "score": 11
     },
@@ -391,19 +431,6 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "AI·반도체 반등에 ETF도 쏟아진다…메모리·HBM·에이전틱AI까지 세분화",
-      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1724942",
-      "desc": "NH-Amundi자산운용의 'HANARO 미국에이전틱AI TOP2+'는 미국 증시에 상장된 에이전틱 AI 및 관련 기술 생태계 기업 10개 종목에 투자한다. 에이전틱 AI는 사용자의 구체적인 지시를 기다리기보다 스스로 목표를 설정하고...",
-      "pub": "Sat, 19 Sep 2026 12:56:00 +0900",
-      "via": "naver_api",
-      "importance": 8,
-      "matched_keywords": [
-        "반도체"
-      ],
-      "score": 11
-    },
-    {
-      "source": "네이버뉴스",
       "title": "[비즈 인사이트] '샌디스크' 올해 7배 폭등…'HBM 다음은 NAND' AI 메모리...",
       "link": "https://www.moneystorm.kr/news/articleView.html?idxno=6646",
       "desc": "인공지능(AI) 데이터센터 확대로 낸드플래시와 기업용 SSD 수요가 빠르게 늘어나는 가운데 메모리 공급... 18일에는 샌디스크뿐 아니라 마이크론과 SK하이닉스 미국 상장주식 등 메모리 관련주가 일제히 상승했고...",
@@ -411,33 +438,7 @@
       "via": "naver_api",
       "importance": 9,
       "matched_keywords": [
-        "인공지능",
-        "SK하이닉스"
-      ],
-      "score": 11
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "루비오가 먼저 꺼낸 반도체…한미회담서 호르무즈보다 뜨거웠던 쟁점 보...",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=488689",
-      "desc": "미국은 최근 외국산 반도체에 대한 관세 정책을 추진하는 동시에 글로벌 반도체 기업의 미국 내 생산 확대를... 무역·통상과 대미 투자 협상이 진전을 보이지 못하면서 안보 분야 협의도 속도가 나지 않았으며, 투자 협상이...",
-      "pub": "Sat, 19 Sep 2026 13:52:00 +0900",
-      "via": "naver_api",
-      "importance": 8,
-      "matched_keywords": [
-        "반도체"
-      ],
-      "score": 11
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "다음주 방미 앞둔 시진핑... 브릭스 만찬 불참에 ‘건강이상설’ 제기",
-      "link": "https://n.news.naver.com/mnews/article/023/0003999396?sid=104",
-      "desc": "협상 테이블에는 관세, 희토류, 이란 전쟁, 대만, AI(인공지능) 등 미·중 패권 경쟁의 난제가 한꺼번에 오를... 정상회담에 앞서 스콧 베선트 미 재무장관과 허리펑 중국 부총리도 이번 주말 뉴욕에서 먼저 만나 무역과...",
-      "pub": "Sat, 19 Sep 2026 13:42:00 +0900",
-      "via": "naver_api",
-      "importance": 10,
-      "matched_keywords": [
+        "SK하이닉스",
         "인공지능"
       ],
       "score": 11
@@ -451,8 +452,8 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "두산테스나",
-        "반도체"
+        "반도체",
+        "두산테스나"
       ],
       "score": 10
     },
@@ -465,8 +466,8 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
-        "반도체"
+        "반도체",
+        "인공지능"
       ],
       "score": 10
     },
@@ -479,10 +480,10 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "삼성전자",
         "SK하이닉스",
         "미래에셋증권",
-        "삼성전자우"
+        "삼성전자우",
+        "삼성전자"
       ],
       "score": 10
     },
@@ -508,35 +509,49 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "철강",
-        "원전"
+        "원전",
+        "철강"
       ],
       "score": 10
     },
     {
       "source": "네이버뉴스",
-      "title": "젠슨 황에 웃고 트럼프에 울고…이란 리스크와 국장 [주간 증시해설서]",
-      "link": "https://n.news.naver.com/mnews/article/665/0000008188?sid=101",
-      "desc": "반도체 관련주도 뒷심을 발휘했다. 이번에도 젠슨 황 엔비디아 최고경영자(CEO)의 말이 재료가 됐다. 젠슨 황 CEO는 17일 참석한 스코틀랜드 인공지능(AI) 서밋 행사에서 &quot;내년 엔비디아 칩 판매량이 올해보다 2배...",
-      "pub": "Sat, 19 Sep 2026 10:04:00 +0900",
+      "title": "'엔비디아 관련주' 英 AI인프라 기업 엔스케일, 美증시 상장 신청",
+      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1724952",
+      "desc": "엔비디아의 투자를 받은 영국계 인공지능(AI) 클라우드 인프라 기업 엔스케일이 미국 증시 상장을 신청했다. 상장 대표 주관사는 골드만삭스, JP모건, 모건스탠리 등이다. 외신에 따르면 엔스케일은 18일(현지시간)...",
+      "pub": "Sat, 19 Sep 2026 15:00:00 +0900",
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
         "인공지능",
-        "반도체"
+        "클라우드"
       ],
       "score": 10
     },
     {
       "source": "네이버뉴스",
-      "title": "미중 정상회담 ‘AI’ ‘관세’ 주요 의제…미 빅테크 CEO들 만찬 참석",
-      "link": "https://n.news.naver.com/mnews/article/028/0002823831?sid=104",
-      "desc": "18일(현지시각) 로이터·에이피(AP) 통신 등 외신 보도를 보면, 미국 고위 당국자들은 다음 주 워싱턴에서 열리는 미·중 정상회담에서 무역과 관세, 희토류 공급망, 인공지능 문제가 논의될 예정이라고 밝혔다. 트럼프...",
-      "pub": "Sat, 19 Sep 2026 14:48:00 +0900",
+      "title": "국회 모빌리티포럼 '국내 전기차산업 경쟁력 강화 필요' 세미나 성료",
+      "link": "https://www.todayenergy.kr/news/articleView.html?idxno=303279",
+      "desc": "미국과 유럽 등 주요국은 자국 산업 보호를 위한 관세와 보조금 정책을 강화하고 있어, 단일 기업 경쟁을... 또한 무역·통상 측면에서의 대응 전략과 국제협력 강화 방안도 병행해야 한다는 의견이 제시됐다. 국회의원들은...",
+      "pub": "Sat, 19 Sep 2026 15:36:00 +0900",
       "via": "naver_api",
-      "importance": 9,
+      "importance": 7,
       "matched_keywords": [
-        "인공지능"
+        "전기차"
+      ],
+      "score": 10
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "맥쿼리PE, 화성코스메틱·나우코스 인수 계약[시그널]",
+      "link": "https://n.news.naver.com/mnews/article/011/0004663599?sid=101",
+      "desc": "제약·바이오 제조 분야에서 축적한 노하우를 바탕으로, 이번에 인수하는 두 기업 역시 체질 개선과 글로벌 시장 확장에 속도를 낼 전망이다. IB 업계 관계자는 “화성코스메틱·나우코스는 이번 피인수를 계기로...",
+      "pub": "Sat, 19 Sep 2026 15:13:00 +0900",
+      "via": "naver_api",
+      "importance": 8,
+      "matched_keywords": [
+        "바이오",
+        "제약"
       ],
       "score": 10
     },
@@ -549,9 +564,9 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
+        "반도체",
         "SK하이닉스",
-        "반도체"
+        "인공지능"
       ],
       "score": 9
     },
@@ -638,17 +653,46 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "삼성전기, 주가는 고점 대비 38%↓...3분기 영업익 6601억 전망",
-      "link": "https://www.insight.co.kr/news/574315",
-      "desc": "삼성전기 주가가 6월 고점보다 38% 낮은 수준에 머물렀다. 최근 3개월간 미국 빅테크를 상대로... AI 서버용 MLCC와 반도체 패키지기판인 FCBGA 설비의 완전가동, 판매가격 인상, 고부가 제품 비중 확대를 근거로...",
-      "pub": "Sat, 19 Sep 2026 13:54:00 +0900",
+      "title": "[메가캐리어의 역설①] 알짜노선 내준 '통합' 대한항공의 딜레마",
+      "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=854165",
+      "desc": "안정성 제약을 넘기 쉽지 않다&quot;라고 토로했다. ◆규모의 경제 환상과 '승자의 덫' 과거 아메리칸항공과... 익명을 요구한 항공물류 및 재무 전문가는 &quot;장거리 여객 매출 공백을 만회하기 위해 첨단 반도체 및 바이오 화물 등...",
+      "pub": "Sat, 19 Sep 2026 15:00:00 +0900",
       "via": "naver_api",
-      "importance": 4,
+      "importance": 2,
       "matched_keywords": [
-        "삼성전기",
-        "반도체"
+        "대한항공",
+        "반도체",
+        "바이오",
+        "제약"
       ],
       "score": 8
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "올릭스 신주 178만주 상장… 오버행 걷히고 기술이전 기대 커지나",
+      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=488686",
+      "desc": "올릭스는 RNA 간섭(RNAi) 기술을 기반으로 신약을 개발하는 바이오 기업이다. RNAi는 특정 유전자의 발현을... 글로벌 제약사들이 관련 치료제 개발에 적극적으로 뛰어들면서 경쟁도 치열해지고 있다. 올릭스가 보유한...",
+      "pub": "Sat, 19 Sep 2026 13:34:00 +0900",
+      "via": "naver_api",
+      "importance": 6,
+      "matched_keywords": [
+        "바이오",
+        "제약"
+      ],
+      "score": 8
+    },
+    {
+      "source": "한국경제",
+      "title": "\"AI·반도체 주도주 2개면 충분\"…압축형 상품 '봇물' [이수의 ETF줌인]",
+      "link": "https://www.hankyung.com/article/2026091842676",
+      "desc": "",
+      "pub": "Sat, 19 Sep 2026 15:00:05 +0900",
+      "via": "rss",
+      "importance": 4,
+      "matched_keywords": [
+        "반도체"
+      ],
+      "score": 7
     },
     {
       "source": "한국경제",
@@ -685,9 +729,9 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "삼성전자",
         "미래에셋증권",
-        "삼성SDI"
+        "삼성SDI",
+        "삼성전자"
       ],
       "score": 7
     },
@@ -713,9 +757,9 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
+        "현대모비스",
         "HMM",
-        "인공지능",
-        "현대모비스"
+        "인공지능"
       ],
       "score": 7
     },
@@ -747,7 +791,7 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "'나스닥100 VS 코스피200' 1억원 투자...16년 뒤 승자는?",
+      "title": "16년 전 '나스닥100 VS 코스피200' 1억원 투자...승자는?",
       "link": "https://n.news.naver.com/mnews/article/018/0006372455?sid=101",
       "desc": "미국 나스닥과 S&amp;P500 등 해외 지수형 국내 상장 ETF에 대한 투자 수요가 늘고 있다. 반면 삼성전자와... 이로인해 향후 국내 대표 지수인 코스피200과 미국 나스닥 100지수 등의 장기간 투자 및 수익률에 대한...",
       "pub": "Sat, 19 Sep 2026 14:37:00 +0900",
@@ -755,6 +799,19 @@
       "importance": 6,
       "matched_keywords": [
         "삼성전자"
+      ],
+      "score": 7
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "변동성 커진 철강 수요 예측, AI 머신러닝·뉴스 데이터로 정확도↑",
+      "link": "https://kidd.co.kr/news/247477",
+      "desc": "무역마칠·정책변화 등 즉각 데이터화가 어려운 변수가 늘면서 과거·현재 수치에 의존하는 기존 전망 방식이 변화를 제때 반영하지 못하는 문제가 발생하고 있다. 세계철강협회(worldsteel)은 지난해 4월 미국 관세...",
+      "pub": "Sat, 19 Sep 2026 15:20:00 +0900",
+      "via": "naver_api",
+      "importance": 4,
+      "matched_keywords": [
+        "철강"
       ],
       "score": 7
     },
@@ -793,8 +850,21 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "삼성전자",
-        "SK하이닉스"
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "score": 6
+    },
+    {
+      "source": "매일경제",
+      "title": "“주식은 무섭고 예금은 아쉬웠는데”…‘연 5.5%’ 파격 금리 준다는데",
+      "link": "https://www.mk.co.kr/news/stock/12157103",
+      "desc": "삼성증권, 1호 발행어음 출시 예정 금리 ‘연 5.5%’…21일부터 판매 지금까지 나온 상품 중 최고 수준고금리 환경과 국내 증시의 부진 속에 투자 심리가 얼어붙고 있다. 증시 자..",
+      "pub": "Sat, 19 Sep 2026 15:08:52 +09:00",
+      "via": "rss",
+      "importance": 5,
+      "matched_keywords": [
+        "삼성증권"
       ],
       "score": 6
     },
@@ -807,8 +877,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "에코프로비엠",
-        "에코프로"
+        "에코프로",
+        "에코프로비엠"
       ],
       "score": 6
     },
@@ -821,8 +891,8 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "LG",
-        "LG전자"
+        "LG전자",
+        "LG"
       ],
       "score": 6
     },
@@ -835,8 +905,22 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "삼성전자",
-        "인공지능"
+        "인공지능",
+        "삼성전자"
+      ],
+      "score": 6
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "한국의약품판촉영업자협회, 사단법인 '3수' 인가 향한 배수진",
+      "link": "https://www.yakup.com/news/index.html?mode=view&cat=12&nid=332786",
+      "desc": "이번 총회에서는 임충모 사무총장을 비롯해 차상준(CSO 플랫폼), 이보름(CSO 직접 영업), 유호림(제약바이오) 부회장 등 정책·교육·학술·홍보를 아우르는 29명의 이사와 2명의 감사 등 총 31명의 임원진 선임을...",
+      "pub": "Sat, 19 Sep 2026 15:20:00 +0900",
+      "via": "naver_api",
+      "importance": 4,
+      "matched_keywords": [
+        "바이오",
+        "제약"
       ],
       "score": 6
     },
@@ -915,19 +999,6 @@
       "importance": 2,
       "matched_keywords": [
         "전기차"
-      ],
-      "score": 5
-    },
-    {
-      "source": "한국경제",
-      "title": "[토요칼럼] 인공지능의 브레이크는 누가 밟나",
-      "link": "https://www.hankyung.com/article/2026091845371",
-      "desc": "",
-      "pub": "Sat, 19 Sep 2026 07:00:10 +0900",
-      "via": "rss",
-      "importance": 2,
-      "matched_keywords": [
-        "인공지능"
       ],
       "score": 5
     },
@@ -1039,6 +1110,19 @@
     },
     {
       "source": "네이버뉴스",
+      "title": "유럽서 빠르게 침투한 옴니클로…셀트리온 새 성장동력 되나",
+      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=488707",
+      "desc": "미국은 세계 최대 의약품 시장인 만큼 제품 하나의 성공 여부가 전체 기업 실적에도 상당한 영향을 줄 수 있다. 다만 미국 시장에서는 보험 급여와 처방 구조, 경쟁 제품의 가격 정책 등 다양한 변수가 존재하기 때문에 실제...",
+      "pub": "Sat, 19 Sep 2026 15:54:00 +0900",
+      "via": "naver_api",
+      "importance": 2,
+      "matched_keywords": [
+        "셀트리온"
+      ],
+      "score": 5
+    },
+    {
+      "source": "네이버뉴스",
       "title": "'AI면 원전도 뜬다' 공식 흔들…미국 원전 '옥석 가리기'",
       "link": "https://news.mtn.co.kr/news-detail/2026091813572474218",
       "desc": "원전과 우라늄 관련 기업에 투자하는 VanEck Uranium and Nuclear ETF는 올해 들어 13% 하락했고, 원전 부품·서비스 기업 BWX테크놀로지스도 19% 떨어졌다.원전주에 영향을 미쳤던 AI 관련주도 이달 들어 조정을 받았다. 지난...",
@@ -1073,8 +1157,8 @@
       "via": "naver_api",
       "importance": 2,
       "matched_keywords": [
-        "반도체",
-        "게임"
+        "게임",
+        "반도체"
       ],
       "score": 4
     },
@@ -1101,19 +1185,6 @@
       "importance": 0,
       "matched_keywords": [
         "로봇"
-      ],
-      "score": 3
-    },
-    {
-      "source": "한국경제",
-      "title": "아로마티카 '뜀박질'…K뷰티주 상승률 1위",
-      "link": "https://www.hankyung.com/article/2026091720811",
-      "desc": "",
-      "pub": "Thu, 17 Sep 2026 17:37:13 +0900",
-      "via": "rss",
-      "importance": 0,
-      "matched_keywords": [
-        "아로마티카"
       ],
       "score": 3
     },
@@ -1184,14 +1255,14 @@
     },
     {
       "source": "한국경제",
-      "title": "서경덕 \"욱일기 응원 막아야\"…日 아시안게임 개막에 '경고'",
-      "link": "https://www.hankyung.com/article/2026091949657",
+      "title": "\"2.5초 맞추면 공짜\"…잠실 GS25 부스에 구름 인파 [2026청춘커피페스티벌]",
+      "link": "https://www.hankyung.com/article/202609195186i",
       "desc": "",
-      "pub": "Sat, 19 Sep 2026 09:07:42 +0900",
+      "pub": "Sat, 19 Sep 2026 15:11:42 +0900",
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "게임"
+        "GS"
       ],
       "score": 3
     },
@@ -1314,10 +1385,10 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "“어? 사장님 김밥에 ‘시금치’가 빠졌는데요?”…한 달 만에 가격 52%...",
-      "link": "https://n.news.naver.com/mnews/article/011/0004663592?sid=101",
-      "desc": "반도체는 1.4%, 컴퓨터 및 주변기기는 6.3% 올랐지만 와이어링하네스가 8.8% 내리며 공산품 전체 오름폭을 제한했다. 서비스 물가는 보합세였다. 호텔(6.5%)과 제과점(2.4%) 가격이 올랐지만 주가 하락으로...",
-      "pub": "Sat, 19 Sep 2026 13:30:00 +0900",
+      "title": "[장덕수의 원샷원킬] 이재명 대통령, 지금은 '억강부약'이 아니라 '부약...",
+      "link": "https://www.ilyoseoul.co.kr/news/articleView.html?idxno=522794",
+      "desc": "반도체와 첨단산업, 기업 투자, 자본시장 활성화에 힘을 실었다. 과거의 이재명에게서 보기 어려웠던... 주가가 오른다고 주택 수요가 사라지는 것이 아니다. 오히려 금융자산에서 얻은 소득이 다시 주택시장으로 들어올...",
+      "pub": "Sat, 19 Sep 2026 15:24:00 +0900",
       "via": "naver_api",
       "importance": 2,
       "matched_keywords": [
@@ -1401,13 +1472,28 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "현대약품",
-        "한화시스템",
         "미투온",
-        "하나마이크론",
-        "한화엔진"
+        "현대약품",
+        "한화엔진",
+        "한화시스템",
+        "하나마이크론"
       ],
       "score": 17
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "네오클라우드 엔스케일, 엔비디아 지원으로 뉴욕증시 상장 추진",
+      "link": "https://www.aitimes.com/news/articleView.html?idxno=215489",
+      "desc": "최근 AI 개발 속도 조절론이 확산하면서 데이터센터와 반도체 기업의 주가가 흔들렸고, 미국 원전 기업 홀텍 인터내셔널은 투자자들의 우려를 이유로 IPO를 철회했다. 그럼에도 엔스케일은 대규모 AI 컴퓨팅...",
+      "pub": "Sat, 19 Sep 2026 15:18:00 +0900",
+      "via": "naver_api",
+      "importance": 11,
+      "matched_keywords": [
+        "반도체",
+        "원전",
+        "클라우드"
+      ],
+      "score": 16
     },
     {
       "source": "네이버뉴스",
@@ -1418,10 +1504,10 @@
       "via": "naver_api",
       "importance": 9,
       "matched_keywords": [
-        "삼성전자",
-        "인공지능",
+        "반도체",
         "SK하이닉스",
-        "반도체"
+        "인공지능",
+        "삼성전자"
       ],
       "score": 15
     },
@@ -1435,8 +1521,8 @@
       "importance": 8,
       "matched_keywords": [
         "LG디스플레이",
-        "LG",
-        "반도체"
+        "반도체",
+        "LG"
       ],
       "score": 15
     },
@@ -1450,6 +1536,23 @@
       "importance": 12,
       "matched_keywords": [
         "클라우드"
+      ],
+      "score": 13
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "[제약공시 책갈피] 9월 3주차 - 보령·한국유니온제약 外",
+      "link": "https://www.medipana.com/news/articleView.html?idxno=417931",
+      "desc": "SK바이오팜, '세노바메이트' 공급계약 체결…누적 4529억 - 신풍제약, 급성 허혈성 뇌졸중 신약 'SP-8203' 임상 3상 변경 승인 신청 - 이뮨온시아, 면역항암제 'IMC-002' 1상 변경 신청…췌관선암종 코호트 추가 - 신라젠...",
+      "pub": "Sat, 19 Sep 2026 12:52:00 +0900",
+      "via": "naver_api",
+      "importance": 6,
+      "matched_keywords": [
+        "이뮨온시아",
+        "신라젠",
+        "신풍",
+        "바이오",
+        "제약"
       ],
       "score": 13
     },
@@ -1475,10 +1578,10 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "삼성전자",
-        "인공지능",
+        "반도체",
         "SK하이닉스",
-        "반도체"
+        "인공지능",
+        "삼성전자"
       ],
       "score": 12
     },
@@ -1491,8 +1594,8 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "삼성전자",
-        "SK하이닉스"
+        "SK하이닉스",
+        "삼성전자"
       ],
       "score": 12
     },
@@ -1505,7 +1608,21 @@
       "via": "naver_api",
       "importance": 10,
       "matched_keywords": [
-        "클라우드",
+        "인공지능",
+        "클라우드"
+      ],
+      "score": 12
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "AI·반도체 반등에 ETF도 쏟아진다…메모리·HBM·에이전틱AI까지 세분화",
+      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1724942",
+      "desc": "인공지능(AI)과 반도체 관련주가 '속도조절론'을 딛고 반등에 나서면서 관련 ETF(상장지수펀드) 출시도 잇따르고 있다. AI 인프라 투자에 대한 기대가 이어지는 가운데 메모리·HBM(고대역폭메모리)·에이전틱 AI 등...",
+      "pub": "Sat, 19 Sep 2026 12:56:00 +0900",
+      "via": "naver_api",
+      "importance": 8,
+      "matched_keywords": [
+        "반도체",
         "인공지능"
       ],
       "score": 12
@@ -1572,9 +1689,9 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
+        "반도체",
         "SK하이닉스",
-        "반도체"
+        "인공지능"
       ],
       "score": 11
     },
@@ -1593,19 +1710,6 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "AI·반도체 반등에 ETF도 쏟아진다…메모리·HBM·에이전틱AI까지 세분화",
-      "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1724942",
-      "desc": "NH-Amundi자산운용의 'HANARO 미국에이전틱AI TOP2+'는 미국 증시에 상장된 에이전틱 AI 및 관련 기술 생태계 기업 10개 종목에 투자한다. 에이전틱 AI는 사용자의 구체적인 지시를 기다리기보다 스스로 목표를 설정하고...",
-      "pub": "Sat, 19 Sep 2026 12:56:00 +0900",
-      "via": "naver_api",
-      "importance": 8,
-      "matched_keywords": [
-        "반도체"
-      ],
-      "score": 11
-    },
-    {
-      "source": "네이버뉴스",
       "title": "[비즈 인사이트] '샌디스크' 올해 7배 폭등…'HBM 다음은 NAND' AI 메모리...",
       "link": "https://www.moneystorm.kr/news/articleView.html?idxno=6646",
       "desc": "인공지능(AI) 데이터센터 확대로 낸드플래시와 기업용 SSD 수요가 빠르게 늘어나는 가운데 메모리 공급... 18일에는 샌디스크뿐 아니라 마이크론과 SK하이닉스 미국 상장주식 등 메모리 관련주가 일제히 상승했고...",
@@ -1613,33 +1717,7 @@
       "via": "naver_api",
       "importance": 9,
       "matched_keywords": [
-        "인공지능",
-        "SK하이닉스"
-      ],
-      "score": 11
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "루비오가 먼저 꺼낸 반도체…한미회담서 호르무즈보다 뜨거웠던 쟁점 보...",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=488689",
-      "desc": "미국은 최근 외국산 반도체에 대한 관세 정책을 추진하는 동시에 글로벌 반도체 기업의 미국 내 생산 확대를... 무역·통상과 대미 투자 협상이 진전을 보이지 못하면서 안보 분야 협의도 속도가 나지 않았으며, 투자 협상이...",
-      "pub": "Sat, 19 Sep 2026 13:52:00 +0900",
-      "via": "naver_api",
-      "importance": 8,
-      "matched_keywords": [
-        "반도체"
-      ],
-      "score": 11
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "다음주 방미 앞둔 시진핑... 브릭스 만찬 불참에 ‘건강이상설’ 제기",
-      "link": "https://n.news.naver.com/mnews/article/023/0003999396?sid=104",
-      "desc": "협상 테이블에는 관세, 희토류, 이란 전쟁, 대만, AI(인공지능) 등 미·중 패권 경쟁의 난제가 한꺼번에 오를... 정상회담에 앞서 스콧 베선트 미 재무장관과 허리펑 중국 부총리도 이번 주말 뉴욕에서 먼저 만나 무역과...",
-      "pub": "Sat, 19 Sep 2026 13:42:00 +0900",
-      "via": "naver_api",
-      "importance": 10,
-      "matched_keywords": [
+        "SK하이닉스",
         "인공지능"
       ],
       "score": 11
@@ -1653,8 +1731,8 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "두산테스나",
-        "반도체"
+        "반도체",
+        "두산테스나"
       ],
       "score": 10
     },
@@ -1667,60 +1745,65 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
-        "반도체"
+        "반도체",
+        "인공지능"
       ],
       "score": 10
     }
   ],
   "keyword_summary": {
     "반도체": 24,
-    "바이오": 2,
+    "바이오": 7,
     "삼성전자": 11,
     "엔에프씨": 1,
     "SK하이닉스": 12,
     "삼성중공업": 1,
-    "삼성전기": 5,
-    "삼성증권": 1,
+    "삼성전기": 4,
+    "삼성증권": 2,
     "로봇": 2,
-    "아로마티카": 1,
     "해성디에스": 1,
     "현대차": 2,
     "LG": 5,
     "한화시스템": 3,
-    "전기차": 1,
+    "전기차": 2,
     "스테이블코인": 2,
-    "게임": 2,
-    "인공지능": 20,
+    "GS": 1,
     "두산테스나": 1,
-    "클라우드": 3,
+    "클라우드": 5,
+    "인공지능": 18,
     "한화솔루션": 1,
     "미래에셋증권": 2,
     "삼성전자우": 1,
     "네이버": 1,
     "삼성SDI": 1,
     "스피어": 1,
-    "현대약품": 1,
     "미투온": 1,
-    "하나마이크론": 1,
+    "현대약품": 1,
     "한화엔진": 1,
+    "하나마이크론": 1,
     "현대해상": 1,
-    "HMM": 1,
     "현대모비스": 1,
-    "에코프로비엠": 1,
+    "HMM": 1,
     "에코프로": 1,
+    "에코프로비엠": 1,
     "한화오션": 2,
     "LS마린솔루션": 1,
-    "대한항공": 1,
+    "대한항공": 2,
     "방산": 1,
     "LG전자": 1,
     "Apple": 1,
     "카카오": 1,
-    "철강": 2,
-    "원전": 2,
+    "원전": 3,
+    "철강": 3,
     "태양광": 1,
     "삼성물산": 1,
+    "게임": 1,
     "빛샘전자": 1,
-    "LG디스플레이": 1
+    "셀트리온": 1,
+    "LG디스플레이": 1,
+    "제약": 5,
+    "이뮨온시아": 1,
+    "신라젠": 1,
+    "신풍": 1
   }
 }
