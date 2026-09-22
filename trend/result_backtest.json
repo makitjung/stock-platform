@@ -1,22 +1,22 @@
 {
-  "date": "2026-09-22",
-  "generated_at": "2026-09-22 06:54",
+  "date": "2026-09-23",
+  "generated_at": "2026-09-23 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 280,
-      "win_rate": 43.6,
-      "avg_return": -0.39,
-      "avg_win": 3.11,
-      "avg_loss": -3.1
+      "sample": 285,
+      "win_rate": 45.6,
+      "avg_return": -0.35,
+      "avg_win": 3.01,
+      "avg_loss": -3.17
     },
     "5": {
-      "sample": 248,
-      "win_rate": 46.8,
-      "avg_return": 0.98,
-      "avg_win": 8.59,
-      "avg_loss": -5.72
+      "sample": 245,
+      "win_rate": 48.6,
+      "avg_return": 1.22,
+      "avg_win": 8.54,
+      "avg_loss": -5.69
     }
   },
   "rank_horizon": "5",
@@ -64,6 +64,14 @@
   ],
   "worst": [
     {
+      "date": "2026-09-15",
+      "keyword": "KS인더스트리",
+      "returns": {
+        "1": 0.0,
+        "5": -33.22
+      }
+    },
+    {
       "date": "2026-09-05",
       "keyword": "모아데이타",
       "returns": {
@@ -94,15 +102,7 @@
         "1": -8.21,
         "5": -17.53
       }
-    },
-    {
-      "date": "2026-08-17",
-      "keyword": "성호전자",
-      "returns": {
-        "1": -8.21,
-        "5": -17.53
-      }
     }
   ],
-  "total_signals": 303
+  "total_signals": 301
 }
