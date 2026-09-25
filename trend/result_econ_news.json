@@ -1,8 +1,8 @@
 {
   "date": "2026-09-25",
-  "collected_at": "2026-09-25 20:00",
-  "total_articles": 331,
-  "matched_count": 88,
+  "collected_at": "2026-09-25 21:00",
+  "total_articles": 333,
+  "matched_count": 89,
   "top_news": [
     {
       "source": "매일경제",
@@ -13,8 +13,8 @@
       "via": "rss",
       "importance": 15,
       "matched_keywords": [
-        "인공지능",
-        "반도체"
+        "반도체",
+        "인공지능"
       ],
       "score": 19
     },
@@ -49,8 +49,8 @@
       "via": "rss",
       "importance": 13,
       "matched_keywords": [
-        "인공지능",
-        "반도체"
+        "반도체",
+        "인공지능"
       ],
       "score": 15
     },
@@ -87,11 +87,24 @@
       "via": "naver_api",
       "importance": 13,
       "matched_keywords": [
-        "인공지능",
         "반도체",
+        "인공지능",
         "테스"
       ],
       "score": 16
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "'3高 폭탄'에도 &quot;강력한 방어&quot;…내년 영업익 2배 넘게 뛴다 [주식R]",
+      "link": "https://n.news.naver.com/mnews/article/215/0001267196?sid=101",
+      "desc": "이어 &quot;대한항공의 이익 창출 능력은 크게 개선된 상황이며 환율, 유가, 금리 등 대외환경이 평균적 수준으로 회귀할 경우 대한항공의 영업이익은 더 상향 조정될 것&quot;이라고 평가했다. 한편 한국거래소에 따르면 지난...",
+      "pub": "Fri, 25 Sep 2026 20:26:00 +0900",
+      "via": "naver_api",
+      "importance": 12,
+      "matched_keywords": [
+        "대한항공"
+      ],
+      "score": 13
     },
     {
       "source": "매일경제",
@@ -171,19 +184,6 @@
       "importance": 11,
       "matched_keywords": [],
       "score": 11
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "유가·국채금리 출렁…뉴욕증시 혼조 마감",
-      "link": "https://www.thefairnews.co.kr/news/articleView.html?idxno=89009",
-      "desc": "특히 높은 금리는 그동안 증시 상승을 주도했던 인공지능(AI) 관련주에 부담을 주고 있다. 국채금리가 상승하면 상대적으로 높은 밸류에이션을 적용받는 성장주의 투자 매력이 낮아지는 데다 기업의 자금 조달 비용도...",
-      "pub": "Fri, 25 Sep 2026 13:24:00 +0900",
-      "via": "naver_api",
-      "importance": 11,
-      "matched_keywords": [
-        "인공지능"
-      ],
-      "score": 12
     }
   ],
   "articles": [
@@ -196,8 +196,8 @@
       "via": "rss",
       "importance": 15,
       "matched_keywords": [
-        "인공지능",
-        "반도체"
+        "반도체",
+        "인공지능"
       ],
       "score": 19
     },
@@ -227,10 +227,10 @@
       "via": "rss",
       "importance": 10,
       "matched_keywords": [
-        "LG전자",
-        "인공지능",
         "전기차",
-        "반도체"
+        "반도체",
+        "LG전자",
+        "인공지능"
       ],
       "score": 16
     },
@@ -243,8 +243,8 @@
       "via": "naver_api",
       "importance": 13,
       "matched_keywords": [
-        "인공지능",
         "반도체",
+        "인공지능",
         "테스"
       ],
       "score": 16
@@ -258,8 +258,8 @@
       "via": "rss",
       "importance": 13,
       "matched_keywords": [
-        "인공지능",
-        "반도체"
+        "반도체",
+        "인공지능"
       ],
       "score": 15
     },
@@ -289,6 +289,19 @@
         "인공지능"
       ],
       "score": 14
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "'3高 폭탄'에도 &quot;강력한 방어&quot;…내년 영업익 2배 넘게 뛴다 [주식R]",
+      "link": "https://n.news.naver.com/mnews/article/215/0001267196?sid=101",
+      "desc": "이어 &quot;대한항공의 이익 창출 능력은 크게 개선된 상황이며 환율, 유가, 금리 등 대외환경이 평균적 수준으로 회귀할 경우 대한항공의 영업이익은 더 상향 조정될 것&quot;이라고 평가했다. 한편 한국거래소에 따르면 지난...",
+      "pub": "Fri, 25 Sep 2026 20:26:00 +0900",
+      "via": "naver_api",
+      "importance": 12,
+      "matched_keywords": [
+        "대한항공"
+      ],
+      "score": 13
     },
     {
       "source": "매일경제",
@@ -325,10 +338,10 @@
       "via": "rss",
       "importance": 8,
       "matched_keywords": [
-        "방산",
         "전기차",
-        "태양광",
-        "반도체"
+        "반도체",
+        "방산",
+        "태양광"
       ],
       "score": 12
     },
@@ -465,25 +478,12 @@
       "via": "rss",
       "importance": 3,
       "matched_keywords": [
-        "NAVER",
         "SK하이닉스",
         "삼성SDI",
-        "삼성전자우",
+        "NAVER",
         "삼성전자",
+        "삼성전자우",
         "삼성전기"
-      ],
-      "score": 9
-    },
-    {
-      "source": "매일경제",
-      "title": "셀리드, 100억원 규모 유상증자 실시",
-      "link": "https://www.mk.co.kr/news/stock/12159701",
-      "desc": "코스닥 상장사 셀리드가 99억 9999만 9855원 규모의 제3자배정증자를 실시한다고 2026년 9월 21일 공시했다. 이번 유상증자에서 신주 발행 주식 수는 보통주 479만 61..",
-      "pub": "Tue, 22 Sep 2026 18:02:13 +09:00",
-      "via": "rss",
-      "importance": 6,
-      "matched_keywords": [
-        "셀리드"
       ],
       "score": 9
     },
@@ -509,9 +509,9 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "현대차",
         "전기차",
-        "반도체"
+        "반도체",
+        "현대차"
       ],
       "score": 9
     },
@@ -524,9 +524,9 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
         "반도체",
-        "삼성전자"
+        "삼성전자",
+        "인공지능"
       ],
       "score": 9
     },
@@ -539,8 +539,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "제약",
-        "삼성제약"
+        "삼성제약",
+        "제약"
       ],
       "score": 8
     },
@@ -595,8 +595,8 @@
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "클라우드",
-        "반도체"
+        "반도체",
+        "클라우드"
       ],
       "score": 8
     },
@@ -615,20 +615,6 @@
       "score": 8
     },
     {
-      "source": "네이버뉴스",
-      "title": "&quot;허가·중단·재신청…&quot; 추석 연휴 'K바이오 운명' 갈랐다",
-      "link": "https://n.news.naver.com/mnews/article/014/0005580845?sid=101",
-      "desc": "추석 연휴를 전후해 국내 제약·바이오 기업들의 신약 개발 성적표가 극명하게 엇갈렸다. 미국 식품의약국(FDA) 허가부터 임상 3상 진입, 적응증 개발 중단과 임상시험계획(IND) 자진취하까지 상반된 이벤트가 한꺼번에...",
-      "pub": "Fri, 25 Sep 2026 16:16:00 +0900",
-      "via": "naver_api",
-      "importance": 4,
-      "matched_keywords": [
-        "바이오",
-        "제약"
-      ],
-      "score": 8
-    },
-    {
       "source": "한국경제",
       "title": "중동 큰손 '러브콜'…K방산, 수십조 수주 '잭팟' 기대 '들썩'",
       "link": "https://www.hankyung.com/article/202609244517i",
@@ -638,6 +624,19 @@
       "importance": 4,
       "matched_keywords": [
         "방산"
+      ],
+      "score": 7
+    },
+    {
+      "source": "한국경제",
+      "title": "[속보] 한국 3대3 남자농구, 아시안게임 사상 첫 금메달 쾌거",
+      "link": "https://www.hankyung.com/article/2026092560257",
+      "desc": "",
+      "pub": "Fri, 25 Sep 2026 19:57:33 +0900",
+      "via": "rss",
+      "importance": 4,
+      "matched_keywords": [
+        "게임"
       ],
       "score": 7
     },
@@ -697,19 +696,6 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "[N2 포커스] “다시 미장으로”…서학개미 미국 주식 순매수 행렬",
-      "link": "https://www.news2day.co.kr/article/20260925500080",
-      "desc": "[그림=Gemini] [뉴스투데이=정진욱 기자] 미국 증시에 투자하는 이른바 ‘서학개미’가 다시 움직이기 시작했다. 인공지능(AI) 낙관론에 기반해 기술주를 중심으로 미국 증시가 회복세를 보이는 영향으로...",
-      "pub": "Fri, 25 Sep 2026 15:50:00 +0900",
-      "via": "naver_api",
-      "importance": 6,
-      "matched_keywords": [
-        "인공지능"
-      ],
-      "score": 7
-    },
-    {
-      "source": "네이버뉴스",
       "title": "AI 투자축 GPU서 CPU·메모리로 확장…판 뒤집힌다 “삼전닉스 가치 재평...",
       "link": "https://n.news.naver.com/mnews/article/030/0003469911?sid=101",
       "desc": "GPU 중심으로 형성됐던 AI 반도체 투자 사이클이 CPU와 메모리, 저장장치 등으로 확산하면서 국내 메모리 업체들의 실적과 기업가치에 새로운 변수가 될 수 있다는 분석이다.",
@@ -745,8 +731,8 @@
       "matched_keywords": [
         "현대건설",
         "삼성SDI",
-        "삼성전자우",
-        "삼성전자"
+        "삼성전자",
+        "삼성전자우"
       ],
       "score": 6
     },
@@ -789,6 +775,20 @@
       "matched_keywords": [
         "SK하이닉스",
         "삼성전자"
+      ],
+      "score": 6
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "[메디컬 인사이트 155회] 뇌와 장이 보내는 위험신호 '과민성 대장증후...",
+      "link": "https://n.news.naver.com/mnews/article/052/0002411157?sid=102",
+      "desc": "활동에 제약이 발생하게 됩니다. 또 야간에도 혹은 자기 전, 자다가 일어나서 복통, 배변 신호로 인해서... 그래서 이러할 경우에는 바이오 피드백 치료라는 것을 하게 되고요. 할 수 있는 병원이 사실 많지는 않다 보니까...",
+      "pub": "Fri, 25 Sep 2026 20:40:00 +0900",
+      "via": "naver_api",
+      "importance": 4,
+      "matched_keywords": [
+        "바이오",
+        "제약"
       ],
       "score": 6
     },
@@ -1175,6 +1175,19 @@
     },
     {
       "source": "매일경제",
+      "title": "“삼전으로 번 1천만원은 0원, 엔비디아는 165만원”…추석에 정리하는 투자세금",
+      "link": "https://www.mk.co.kr/news/stock/12161462",
+      "desc": "해외주식 年250만원 기본공제 손익통산하면 세금 줄어들어 ETF·배당도 과세방식 제각각올해 삼성전자와 엔비디아에 각각 투자해 똑같이 1000만원씩 벌었다면 내야 할 세금도 같을까...",
+      "pub": "Fri, 25 Sep 2026 20:54:20 +09:00",
+      "via": "rss",
+      "importance": 2,
+      "matched_keywords": [
+        "삼성전자"
+      ],
+      "score": 3
+    },
+    {
+      "source": "매일경제",
       "title": "“연휴 들어가기 전 팔아 말아”…불안한 투자자에 증권가 조언은",
       "link": "https://www.mk.co.kr/news/stock/12160178",
       "desc": "추석 거래대금 최근 5년 연속 감소세 “펀더멘털 양호…반도체 투자 비중 유지”이날을 끝으로 추석 연휴로 2일간 국내 주식 시장이 휴장하는 가운데 불안한 종목을 연휴 전 정리해야하나..",
@@ -1299,8 +1312,8 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "철강",
-        "이차전지"
+        "이차전지",
+        "철강"
       ],
       "score": 2
     },
@@ -1393,8 +1406,8 @@
       "via": "rss",
       "importance": 15,
       "matched_keywords": [
-        "인공지능",
-        "반도체"
+        "반도체",
+        "인공지능"
       ],
       "score": 19
     },
@@ -1424,10 +1437,10 @@
       "via": "rss",
       "importance": 10,
       "matched_keywords": [
-        "LG전자",
-        "인공지능",
         "전기차",
-        "반도체"
+        "반도체",
+        "LG전자",
+        "인공지능"
       ],
       "score": 16
     },
@@ -1440,8 +1453,8 @@
       "via": "naver_api",
       "importance": 13,
       "matched_keywords": [
-        "인공지능",
         "반도체",
+        "인공지능",
         "테스"
       ],
       "score": 16
@@ -1455,8 +1468,8 @@
       "via": "rss",
       "importance": 13,
       "matched_keywords": [
-        "인공지능",
-        "반도체"
+        "반도체",
+        "인공지능"
       ],
       "score": 15
     },
@@ -1486,6 +1499,19 @@
         "인공지능"
       ],
       "score": 14
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "'3高 폭탄'에도 &quot;강력한 방어&quot;…내년 영업익 2배 넘게 뛴다 [주식R]",
+      "link": "https://n.news.naver.com/mnews/article/215/0001267196?sid=101",
+      "desc": "이어 &quot;대한항공의 이익 창출 능력은 크게 개선된 상황이며 환율, 유가, 금리 등 대외환경이 평균적 수준으로 회귀할 경우 대한항공의 영업이익은 더 상향 조정될 것&quot;이라고 평가했다. 한편 한국거래소에 따르면 지난...",
+      "pub": "Fri, 25 Sep 2026 20:26:00 +0900",
+      "via": "naver_api",
+      "importance": 12,
+      "matched_keywords": [
+        "대한항공"
+      ],
+      "score": 13
     },
     {
       "source": "매일경제",
@@ -1522,10 +1548,10 @@
       "via": "rss",
       "importance": 8,
       "matched_keywords": [
-        "방산",
         "전기차",
-        "태양광",
-        "반도체"
+        "반도체",
+        "방산",
+        "태양광"
       ],
       "score": 12
     },
@@ -1652,31 +1678,13 @@
         "태양광"
       ],
       "score": 9
-    },
-    {
-      "source": "매일경제",
-      "title": "금리 불확실성 안정되나…삼전닉스 추격 매수 [주식 초고수는 지금]",
-      "link": "https://www.mk.co.kr/news/stock/12160364",
-      "desc": "상위 1% 초고수 투자자들은 23일 오후 SK하이닉스, NAVER, 삼성전자, 삼성SDI, 이수스페셜티케미컬 등을 가장 많이 순매수했다. 반면 삼성전자우, 삼성전기, 삼성E&amp;A, ..",
-      "pub": "Wed, 23 Sep 2026 15:16:24 +09:00",
-      "via": "rss",
-      "importance": 3,
-      "matched_keywords": [
-        "NAVER",
-        "SK하이닉스",
-        "삼성SDI",
-        "삼성전자우",
-        "삼성전자",
-        "삼성전기"
-      ],
-      "score": 9
     }
   ],
   "keyword_summary": {
     "제우스": 1,
     "한화갤러리아": 1,
     "반도체": 27,
-    "삼성전자": 16,
+    "삼성전자": 17,
     "한화솔루션": 1,
     "OCI홀딩스": 1,
     "태양광": 2,
@@ -1686,13 +1694,13 @@
     "로봇": 3,
     "방산": 2,
     "스테이블코인": 2,
-    "게임": 2,
-    "제약": 5,
+    "게임": 3,
     "삼성제약": 1,
-    "인공지능": 15,
-    "NAVER": 1,
+    "제약": 5,
+    "인공지능": 14,
     "SK하이닉스": 5,
     "삼성SDI": 2,
+    "NAVER": 1,
     "삼성전자우": 2,
     "삼성전기": 2,
     "현대건설": 1,
@@ -1701,15 +1709,15 @@
     "SK스퀘어": 1,
     "아모텍": 1,
     "와이즈플래닛컴퍼니": 1,
-    "대한항공": 4,
+    "대한항공": 5,
     "아시아나항공": 1,
-    "셀리드": 2,
+    "셀리드": 1,
     "LG전자": 3,
     "노타": 1,
     "카카오": 3,
     "한화손해보험": 1,
-    "철강": 1,
     "이차전지": 1,
+    "철강": 1,
     "LG디스플레이": 1,
     "삼표시멘트": 1,
     "엔터": 2,
