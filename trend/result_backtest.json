@@ -1,22 +1,22 @@
 {
-  "date": "2026-09-28",
-  "generated_at": "2026-09-28 06:53",
+  "date": "2026-09-29",
+  "generated_at": "2026-09-29 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 251,
+      "sample": 255,
       "win_rate": 49.4,
-      "avg_return": -0.01,
-      "avg_win": 2.74,
-      "avg_loss": -2.69
+      "avg_return": 0.0,
+      "avg_win": 2.71,
+      "avg_loss": -2.64
     },
     "5": {
-      "sample": 214,
-      "win_rate": 52.3,
-      "avg_return": 1.77,
-      "avg_win": 8.77,
-      "avg_loss": -5.92
+      "sample": 217,
+      "win_rate": 53.0,
+      "avg_return": 1.74,
+      "avg_win": 8.63,
+      "avg_loss": -6.03
     }
   },
   "rank_horizon": "5",
@@ -96,13 +96,13 @@
       }
     },
     {
-      "date": "2026-09-07",
-      "keyword": "본느",
+      "date": "2026-09-17",
+      "keyword": "미투온",
       "returns": {
-        "1": -0.18,
-        "5": -17.4
+        "1": -8.24,
+        "5": -19.12
       }
     }
   ],
-  "total_signals": 295
+  "total_signals": 298
 }
