@@ -1,22 +1,22 @@
 {
-  "date": "2026-09-29",
-  "generated_at": "2026-09-29 06:54",
+  "date": "2026-09-30",
+  "generated_at": "2026-09-30 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 255,
-      "win_rate": 49.4,
-      "avg_return": 0.0,
-      "avg_win": 2.71,
-      "avg_loss": -2.64
+      "sample": 285,
+      "win_rate": 49.1,
+      "avg_return": -0.31,
+      "avg_win": 2.58,
+      "avg_loss": -3.09
     },
     "5": {
-      "sample": 217,
-      "win_rate": 53.0,
-      "avg_return": 1.74,
-      "avg_win": 8.63,
-      "avg_loss": -6.03
+      "sample": 218,
+      "win_rate": 52.3,
+      "avg_return": 1.57,
+      "avg_win": 8.66,
+      "avg_loss": -6.2
     }
   },
   "rank_horizon": "5",
@@ -80,6 +80,14 @@
       }
     },
     {
+      "date": "2026-09-18",
+      "keyword": "KS인더스트리",
+      "returns": {
+        "1": -5.06,
+        "5": -20.48
+      }
+    },
+    {
       "date": "2026-09-05",
       "keyword": "모아데이타",
       "returns": {
@@ -94,15 +102,7 @@
         "1": -1.48,
         "5": -19.23
       }
-    },
-    {
-      "date": "2026-09-17",
-      "keyword": "미투온",
-      "returns": {
-        "1": -8.24,
-        "5": -19.12
-      }
     }
   ],
-  "total_signals": 298
+  "total_signals": 300
 }
