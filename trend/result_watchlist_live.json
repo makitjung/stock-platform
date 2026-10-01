@@ -1,574 +1,150 @@
 {
-  "date": "2026-09-30",
-  "collected_at": "2026-09-30 15:50",
-  "kr": [
-    {
-      "name": "삼성전자",
-      "ticker": "005930",
-      "sector": "반도체",
-      "price": 269500,
-      "change_rate": -1.1,
-      "volume": 7237173,
-      "market": "KR"
-    },
-    {
-      "name": "한미반도체",
-      "ticker": "042700",
-      "sector": "반도체",
-      "price": 253500,
-      "change_rate": 0.6,
-      "volume": 227215,
-      "market": "KR"
-    },
-    {
-      "name": "동진쎄미켐",
-      "ticker": "005290",
-      "sector": "반도체",
-      "price": 47900,
-      "change_rate": 2.79,
-      "volume": 563414,
-      "market": "KR"
-    },
-    {
-      "name": "DB하이텍",
-      "ticker": "000990",
-      "sector": "반도체",
-      "price": 134700,
-      "change_rate": -3.65,
-      "volume": 295473,
-      "market": "KR"
-    },
-    {
-      "name": "에코프로비엠",
-      "ticker": "247540",
-      "sector": "2차전지",
-      "price": 108100,
-      "change_rate": 1.89,
-      "volume": 121153,
-      "market": "KR"
-    },
-    {
-      "name": "LG에너지솔루션",
-      "ticker": "373220",
-      "sector": "2차전지",
-      "price": 355500,
-      "change_rate": 0.85,
-      "volume": 99276,
-      "market": "KR"
-    },
-    {
-      "name": "포스코퓨처엠",
-      "ticker": "003670",
-      "sector": "2차전지",
-      "price": 180400,
-      "change_rate": 2.85,
-      "volume": 115679,
-      "market": "KR"
-    },
-    {
-      "name": "에코프로",
-      "ticker": "086520",
-      "sector": "2차전지",
-      "price": 80300,
-      "change_rate": 1.9,
-      "volume": 269565,
-      "market": "KR"
-    },
-    {
-      "name": "NAVER",
-      "ticker": "035420",
-      "sector": "플랫폼",
-      "price": 193500,
-      "change_rate": -0.67,
-      "volume": 234788,
-      "market": "KR"
-    },
-    {
-      "name": "카카오",
-      "ticker": "035720",
-      "sector": "플랫폼",
-      "price": 33600,
-      "change_rate": -0.3,
-      "volume": 394790,
-      "market": "KR"
-    },
-    {
-      "name": "카카오페이",
-      "ticker": "377300",
-      "sector": "금융",
-      "price": 40100,
-      "change_rate": 0.0,
-      "volume": 34953,
-      "market": "KR"
-    },
-    {
-      "name": "현대차",
-      "ticker": "005380",
-      "sector": "자동차",
-      "price": 346500,
-      "change_rate": -1.0,
-      "volume": 193652,
-      "market": "KR"
-    },
-    {
-      "name": "기아",
-      "ticker": "000270",
-      "sector": "자동차",
-      "price": 114200,
-      "change_rate": -1.55,
-      "volume": 279551,
-      "market": "KR"
-    },
-    {
-      "name": "현대모비스",
-      "ticker": "012330",
-      "sector": "자동차",
-      "price": 365500,
-      "change_rate": -0.41,
-      "volume": 88113,
-      "market": "KR"
-    },
-    {
-      "name": "셀트리온",
-      "ticker": "068270",
-      "sector": "바이오",
-      "price": 178800,
-      "change_rate": -0.06,
-      "volume": 155406,
-      "market": "KR"
-    },
-    {
-      "name": "유한양행",
-      "ticker": "000100",
-      "sector": "바이오",
-      "price": 73300,
-      "change_rate": 0.41,
-      "volume": 94653,
-      "market": "KR"
-    },
-    {
-      "name": "한미약품",
-      "ticker": "128940",
-      "sector": "바이오",
-      "price": 502000,
-      "change_rate": -0.99,
-      "volume": 54578,
-      "market": "KR"
-    },
-    {
-      "name": "HD현대중공업",
-      "ticker": "329180",
-      "sector": "조선",
-      "price": 435500,
-      "change_rate": 1.52,
-      "volume": 80490,
-      "market": "KR"
-    },
-    {
-      "name": "한화오션",
-      "ticker": "042660",
-      "sector": "조선",
-      "price": 79100,
-      "change_rate": 0.64,
-      "volume": 341131,
-      "market": "KR"
-    },
-    {
-      "name": "한화에어로스페이스",
-      "ticker": "012450",
-      "sector": "방산",
-      "price": 1011000,
-      "change_rate": -0.1,
-      "volume": 37590,
-      "market": "KR"
-    },
-    {
-      "name": "KB금융",
-      "ticker": "105560",
-      "sector": "금융",
-      "price": 171200,
-      "change_rate": -1.33,
-      "volume": 350472,
-      "market": "KR"
-    },
-    {
-      "name": "카카오뱅크",
-      "ticker": "323410",
-      "sector": "금융",
-      "price": 19920,
-      "change_rate": -1.63,
-      "volume": 424183,
-      "market": "KR"
-    },
-    {
-      "name": "두산에너빌리티",
-      "ticker": "034020",
-      "sector": "원전",
-      "price": 81300,
-      "change_rate": 2.01,
-      "volume": 820841,
-      "market": "KR"
-    },
-    {
-      "name": "LG화학",
-      "ticker": "051910",
-      "sector": "화학",
-      "price": 250500,
-      "change_rate": 0.2,
-      "volume": 74292,
-      "market": "KR"
-    },
-    {
-      "name": "CJ제일제당",
-      "ticker": "097950",
-      "sector": "유통",
-      "price": 178500,
-      "change_rate": -0.45,
-      "volume": 19997,
-      "market": "KR"
-    },
-    {
-      "name": "하이브",
-      "ticker": "352820",
-      "sector": "엔터",
-      "price": 158200,
-      "change_rate": -0.32,
-      "volume": 63764,
-      "market": "KR"
-    },
-    {
-      "name": "크래프톤",
-      "ticker": "259960",
-      "sector": "게임",
-      "price": 195700,
-      "change_rate": -1.51,
-      "volume": 48185,
-      "market": "KR"
-    },
-    {
-      "name": "대륙제관",
-      "ticker": "004780",
-      "sector": "소재",
-      "price": 4175,
-      "change_rate": 0.0,
-      "volume": 10021,
-      "market": "KR"
-    },
-    {
-      "name": "명신산업",
-      "ticker": "009900",
-      "sector": "자동차",
-      "price": 8180,
-      "change_rate": 1.11,
-      "volume": 45751,
-      "market": "KR"
-    },
-    {
-      "name": "아세아텍",
-      "ticker": "050860",
-      "sector": "기계",
-      "price": 1706,
-      "change_rate": 1.49,
-      "volume": 9091,
-      "market": "KR"
-    },
-    {
-      "name": "제이씨현시스템",
-      "ticker": "033320",
-      "sector": "유통",
-      "price": 3055,
-      "change_rate": -0.33,
-      "volume": 24791,
-      "market": "KR"
-    },
-    {
-      "name": "필에너지",
-      "ticker": "378340",
-      "sector": "2차전지",
-      "price": 12160,
-      "change_rate": 1.67,
-      "volume": 33762,
-      "market": "KR"
-    },
-    {
-      "name": "대한전선",
-      "ticker": "001440",
-      "sector": "전선",
-      "price": 29850,
-      "change_rate": 1.19,
-      "volume": 1582707,
-      "market": "KR"
-    },
-    {
-      "name": "한전KPS",
-      "ticker": "051600",
-      "sector": "전력",
-      "price": 44200,
-      "change_rate": -2.1,
-      "volume": 99186,
-      "market": "KR"
-    },
-    {
-      "name": "알테오젠",
-      "ticker": "196170",
-      "sector": "바이오",
-      "price": 258000,
-      "change_rate": 1.78,
-      "volume": 138940,
-      "market": "KR"
-    },
-    {
-      "name": "JYP Ent.",
-      "ticker": "035900",
-      "sector": "엔터",
-      "price": 37950,
-      "change_rate": -0.13,
-      "volume": 52212,
-      "market": "KR"
-    },
-    {
-      "name": "정다운",
-      "ticker": "208140",
-      "sector": "식품",
-      "price": 2260,
-      "change_rate": 0.0,
-      "volume": 20444,
-      "market": "KR"
-    },
-    {
-      "name": "코스모로보틱스",
-      "ticker": "439960",
-      "sector": "로봇",
-      "price": 7520,
-      "change_rate": -29.98,
-      "volume": 419997,
-      "market": "KR"
-    },
-    {
-      "name": "우리금융지주",
-      "ticker": "316140",
-      "sector": "봇추천",
-      "price": 34750,
-      "change_rate": -4.53,
-      "volume": 1752344,
-      "market": "KR"
-    },
-    {
-      "name": "파세코",
-      "ticker": "037070",
-      "sector": "봇추천",
-      "price": 6640,
-      "change_rate": -0.45,
-      "volume": 19340,
-      "market": "KR"
-    },
-    {
-      "name": "한화엔진",
-      "ticker": "082740",
-      "sector": "봇추천",
-      "price": 49300,
-      "change_rate": 5.91,
-      "volume": 676224,
-      "market": "KR"
-    },
-    {
-      "name": "SK하이닉스",
-      "ticker": "000660",
-      "sector": "반도체",
-      "price": 1784000,
-      "change_rate": 1.08,
-      "volume": 1681001,
-      "market": "KR"
-    },
-    {
-      "name": "대한광통신",
-      "ticker": "010170",
-      "sector": "봇추천",
-      "price": 16660,
-      "change_rate": 0.36,
-      "volume": 4448542,
-      "market": "KR"
-    },
-    {
-      "name": "한진칼",
-      "ticker": "180640",
-      "sector": "봇추천",
-      "price": 134300,
-      "change_rate": -1.4,
-      "volume": 38472,
-      "market": "KR"
-    },
-    {
-      "name": "리가켐바이오",
-      "ticker": "141080",
-      "sector": "봇추천",
-      "price": 80500,
-      "change_rate": 1.26,
-      "volume": 75565,
-      "market": "KR"
-    },
-    {
-      "name": "가온전선",
-      "ticker": "000500",
-      "sector": "봇추천",
-      "price": 312500,
-      "change_rate": -0.64,
-      "volume": 75653,
-      "market": "KR"
-    },
-    {
-      "name": "해성산업",
-      "ticker": "034810",
-      "sector": "봇추천",
-      "price": 5900,
-      "change_rate": -1.5,
-      "volume": 2432,
-      "market": "KR"
-    }
-  ],
+  "date": "2026-10-01",
+  "collected_at": "2026-10-01 09:20",
+  "kr": [],
   "us": [
     {
       "name": "엑센츄어",
       "ticker": "ACN",
       "sector": "IT 서비스/컨설팅",
-      "price": 177.12,
-      "change_rate": 1.52,
-      "volume": 6358600,
+      "price": NaN,
+      "change_rate": NaN,
+      "volume": 9198665,
       "market": "US"
     },
     {
       "name": "오라클",
       "ticker": "ORCL",
       "sector": "소프트웨어/클라우드",
-      "price": 137.79,
-      "change_rate": 3.91,
-      "volume": 45597900,
+      "price": NaN,
+      "change_rate": NaN,
+      "volume": 22038293,
       "market": "US"
     },
     {
       "name": "노보노디스크",
       "ticker": "NVO",
       "sector": "바이오/제약",
-      "price": 38.31,
-      "change_rate": -1.03,
-      "volume": 9388100,
+      "price": NaN,
+      "change_rate": NaN,
+      "volume": 20595820,
       "market": "US"
     },
     {
       "name": "일라이릴리",
       "ticker": "LLY",
       "sector": "바이오/제약",
-      "price": 1184.63,
-      "change_rate": -0.01,
-      "volume": 1658100,
+      "price": NaN,
+      "change_rate": NaN,
+      "volume": 3397477,
       "market": "US"
     },
     {
       "name": "써클인터넷그룹",
       "ticker": "CRCL",
       "sector": "핀테크/스테이블코인",
-      "price": 83.7,
-      "change_rate": -2.45,
-      "volume": 7480600,
+      "price": NaN,
+      "change_rate": NaN,
+      "volume": 8535583,
       "market": "US"
     },
     {
       "name": "GE버노바",
       "ticker": "GEV",
       "sector": "에너지/발전",
-      "price": 962.49,
-      "change_rate": 1.34,
-      "volume": 1472200,
+      "price": NaN,
+      "change_rate": NaN,
+      "volume": 1749317,
       "market": "US"
     },
     {
       "name": "레드와이어",
       "ticker": "RDW",
       "sector": "우주/방위",
-      "price": 10.73,
-      "change_rate": -4.2,
-      "volume": 13715100,
+      "price": NaN,
+      "change_rate": NaN,
+      "volume": 11828657,
       "market": "US"
     },
     {
       "name": "파카하니핀",
       "ticker": "PH",
       "sector": "산업기계",
-      "price": 970.37,
-      "change_rate": 0.08,
-      "volume": 390300,
+      "price": NaN,
+      "change_rate": NaN,
+      "volume": 672003,
       "market": "US"
     },
     {
       "name": "허니웰인터내셔널",
       "ticker": "HON",
       "sector": "산업/항공우주",
-      "price": 210.13,
-      "change_rate": -0.66,
-      "volume": 2026600,
+      "price": NaN,
+      "change_rate": NaN,
+      "volume": 1890950,
       "market": "US"
     },
     {
       "name": "노스롭그루먼",
       "ticker": "NOC",
       "sector": "방위산업",
-      "price": 504.61,
-      "change_rate": -0.24,
-      "volume": 682400,
+      "price": NaN,
+      "change_rate": NaN,
+      "volume": 1470166,
       "market": "US"
     },
     {
       "name": "로켓랩",
       "ticker": "RKLB",
       "sector": "우주발사체",
-      "price": 69.7,
-      "change_rate": -3.45,
-      "volume": 19603700,
+      "price": NaN,
+      "change_rate": NaN,
+      "volume": 21802367,
       "market": "US"
     },
     {
       "name": "퍼스트솔라",
       "ticker": "FSLR",
       "sector": "태양광",
-      "price": 176.93,
-      "change_rate": 2.29,
-      "volume": 2402000,
+      "price": NaN,
+      "change_rate": NaN,
+      "volume": 1916617,
       "market": "US"
     },
     {
       "name": "플루언스에너지",
       "ticker": "FLNC",
       "sector": "에너지저장",
-      "price": 7.82,
-      "change_rate": 4.27,
-      "volume": 7236800,
+      "price": NaN,
+      "change_rate": NaN,
+      "volume": 5246457,
       "market": "US"
     },
     {
       "name": "엔페이즈에너지",
       "ticker": "ENPH",
       "sector": "태양광/ESS",
-      "price": 31.83,
-      "change_rate": 2.98,
-      "volume": 5704100,
+      "price": NaN,
+      "change_rate": NaN,
+      "volume": 5711093,
       "market": "US"
     },
     {
       "name": "AXT",
       "ticker": "AXTI",
       "sector": "반도체 기판",
-      "price": 78.18,
-      "change_rate": 6.12,
-      "volume": 9138700,
+      "price": NaN,
+      "change_rate": NaN,
+      "volume": 7095596,
       "market": "US"
     },
     {
       "name": "팔란티어",
       "ticker": "PLTR",
       "sector": "AI/데이터분석",
-      "price": 186.97,
-      "change_rate": -0.27,
-      "volume": 14723400,
+      "price": NaN,
+      "change_rate": NaN,
+      "volume": 16726991,
       "market": "US"
     }
   ]
