@@ -1,34 +1,26 @@
 {
-  "date": "2026-10-03",
-  "generated_at": "2026-10-03 06:54",
+  "date": "2026-10-04",
+  "generated_at": "2026-10-04 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 287,
-      "win_rate": 49.8,
-      "avg_return": -0.25,
-      "avg_win": 2.67,
-      "avg_loss": -3.16
+      "sample": 279,
+      "win_rate": 49.5,
+      "avg_return": -0.34,
+      "avg_win": 2.6,
+      "avg_loss": -3.22
     },
     "5": {
-      "sample": 226,
-      "win_rate": 44.7,
-      "avg_return": 0.77,
-      "avg_win": 9.06,
+      "sample": 218,
+      "win_rate": 42.7,
+      "avg_return": 0.27,
+      "avg_win": 8.58,
       "avg_loss": -5.92
     }
   },
   "rank_horizon": "5",
   "best": [
-    {
-      "date": "2026-08-25",
-      "keyword": "넥사다이내믹스",
-      "returns": {
-        "1": 18.61,
-        "5": 88.52
-      }
-    },
     {
       "date": "2026-09-01",
       "keyword": "넥사다이내믹스",
@@ -59,6 +51,14 @@
       "returns": {
         "1": 14.42,
         "5": 45.22
+      }
+    },
+    {
+      "date": "2026-09-06",
+      "keyword": "에넥스",
+      "returns": {
+        "1": 1.46,
+        "5": 29.96
       }
     }
   ],
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 292
+  "total_signals": 289
 }
