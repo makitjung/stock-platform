@@ -2,14 +2,296 @@
   "date": "2026-10-06",
   "kospi": {
     "상한가": [],
-    "하한가": [],
-    "급등": [],
-    "급락": []
+    "하한가": [
+      {
+        "ticker": "005110",
+        "name": "한창",
+        "close": 74,
+        "change_rate": -33.93
+      }
+    ],
+    "급등": [
+      {
+        "ticker": "003580",
+        "name": "HLB글로벌",
+        "close": 2115,
+        "change_rate": 19.42
+      },
+      {
+        "ticker": "480370",
+        "name": "씨케이솔루션",
+        "close": 2280,
+        "change_rate": 19.0
+      },
+      {
+        "ticker": "281820",
+        "name": "케이씨텍",
+        "close": 104800,
+        "change_rate": 13.91
+      },
+      {
+        "ticker": "006110",
+        "name": "삼아알미늄",
+        "close": 70500,
+        "change_rate": 12.62
+      }
+    ],
+    "급락": [
+      {
+        "ticker": "015260",
+        "name": "에이엔피",
+        "close": 168,
+        "change_rate": -16.83
+      },
+      {
+        "ticker": "020120",
+        "name": "키다리스튜디오",
+        "close": 7420,
+        "change_rate": -10.49
+      }
+    ]
   },
   "kosdaq": {
-    "상한가": [],
+    "상한가": [
+      {
+        "ticker": "411080",
+        "name": "샌즈랩",
+        "close": 8970,
+        "change_rate": 30.0
+      },
+      {
+        "ticker": "042510",
+        "name": "라온시큐어",
+        "close": 14870,
+        "change_rate": 29.98
+      },
+      {
+        "ticker": "047920",
+        "name": "HLB제약",
+        "close": 13010,
+        "change_rate": 29.97
+      },
+      {
+        "ticker": "278650",
+        "name": "HLB바이오스텝",
+        "close": 3735,
+        "change_rate": 29.91
+      },
+      {
+        "ticker": "250930",
+        "name": "예선테크",
+        "close": 687,
+        "change_rate": 29.87
+      }
+    ],
     "하한가": [],
-    "급등": [],
-    "급락": []
+    "급등": [
+      {
+        "ticker": "065770",
+        "name": "CS",
+        "close": 1003,
+        "change_rate": 26.32
+      },
+      {
+        "ticker": "365590",
+        "name": "하이딥",
+        "close": 1625,
+        "change_rate": 25.29
+      },
+      {
+        "ticker": "158430",
+        "name": "아톤",
+        "close": 6840,
+        "change_rate": 24.36
+      },
+      {
+        "ticker": "067630",
+        "name": "HLB생명과학",
+        "close": 4410,
+        "change_rate": 23.36
+      },
+      {
+        "ticker": "263860",
+        "name": "지니언스",
+        "close": 24800,
+        "change_rate": 21.57
+      },
+      {
+        "ticker": "200350",
+        "name": "아티스트스튜디오",
+        "close": 4010,
+        "change_rate": 21.52
+      },
+      {
+        "ticker": "060480",
+        "name": "국일신동",
+        "close": 1040,
+        "change_rate": 21.35
+      },
+      {
+        "ticker": "289010",
+        "name": "아이스크림에듀",
+        "close": 817,
+        "change_rate": 20.15
+      },
+      {
+        "ticker": "160190",
+        "name": "하이젠알앤엠",
+        "close": 33800,
+        "change_rate": 17.77
+      },
+      {
+        "ticker": "085910",
+        "name": "네오티스",
+        "close": 20200,
+        "change_rate": 17.72
+      },
+      {
+        "ticker": "150900",
+        "name": "파수AI",
+        "close": 4600,
+        "change_rate": 17.65
+      },
+      {
+        "ticker": "027040",
+        "name": "서울전자통신",
+        "close": 2020,
+        "change_rate": 16.76
+      },
+      {
+        "ticker": "115610",
+        "name": "이미지스",
+        "close": 1925,
+        "change_rate": 16.6
+      },
+      {
+        "ticker": "028300",
+        "name": "HLB",
+        "close": 47050,
+        "change_rate": 16.32
+      },
+      {
+        "ticker": "036930",
+        "name": "주성엔지니어링",
+        "close": 275500,
+        "change_rate": 16.24
+      },
+      {
+        "ticker": "115500",
+        "name": "케이씨에스",
+        "close": 12390,
+        "change_rate": 15.69
+      },
+      {
+        "ticker": "046210",
+        "name": "HLB파나진",
+        "close": 1422,
+        "change_rate": 15.61
+      },
+      {
+        "ticker": "488280",
+        "name": "에스투더블유",
+        "close": 17750,
+        "change_rate": 15.56
+      },
+      {
+        "ticker": "354320",
+        "name": "알멕",
+        "close": 50300,
+        "change_rate": 15.1
+      },
+      {
+        "ticker": "340450",
+        "name": "지씨지놈",
+        "close": 10220,
+        "change_rate": 15.09
+      },
+      {
+        "ticker": "115450",
+        "name": "HLB테라퓨틱스",
+        "close": 2840,
+        "change_rate": 14.98
+      },
+      {
+        "ticker": "079190",
+        "name": "케스피온",
+        "close": 1679,
+        "change_rate": 14.84
+      },
+      {
+        "ticker": "000250",
+        "name": "삼천당제약",
+        "close": 237500,
+        "change_rate": 14.73
+      },
+      {
+        "ticker": "053800",
+        "name": "안랩",
+        "close": 88300,
+        "change_rate": 14.68
+      },
+      {
+        "ticker": "042000",
+        "name": "카페24",
+        "close": 23700,
+        "change_rate": 14.49
+      },
+      {
+        "ticker": "184230",
+        "name": "SGA솔루션즈",
+        "close": 2340,
+        "change_rate": 14.15
+      },
+      {
+        "ticker": "065150",
+        "name": "대산F&B",
+        "close": 1325,
+        "change_rate": 14.13
+      },
+      {
+        "ticker": "434480",
+        "name": "모니터랩",
+        "close": 3300,
+        "change_rate": 13.99
+      },
+      {
+        "ticker": "136150",
+        "name": "원일티엔아이",
+        "close": 14160,
+        "change_rate": 13.83
+      },
+      {
+        "ticker": "456010",
+        "name": "아이씨티케이",
+        "close": 28300,
+        "change_rate": 13.65
+      }
+    ],
+    "급락": [
+      {
+        "ticker": "196490",
+        "name": "디에이테크놀로지",
+        "close": 80,
+        "change_rate": -20.0
+      },
+      {
+        "ticker": "0161M0",
+        "name": "네오사피엔스",
+        "close": 14460,
+        "change_rate": -13.05
+      },
+      {
+        "ticker": "247660",
+        "name": "나노씨엠에스",
+        "close": 3670,
+        "change_rate": -11.03
+      },
+      {
+        "ticker": "206400",
+        "name": "베노티앤알",
+        "close": 742,
+        "change_rate": -10.71
+      }
+    ]
   }
 }
