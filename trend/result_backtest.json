@@ -1,22 +1,22 @@
 {
-  "date": "2026-10-08",
-  "generated_at": "2026-10-08 06:54",
+  "date": "2026-10-09",
+  "generated_at": "2026-10-09 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 265,
-      "win_rate": 45.3,
-      "avg_return": -0.82,
-      "avg_win": 2.18,
-      "avg_loss": -3.3
+      "sample": 260,
+      "win_rate": 45.0,
+      "avg_return": -0.84,
+      "avg_win": 2.22,
+      "avg_loss": -3.34
     },
     "5": {
-      "sample": 229,
-      "win_rate": 47.2,
-      "avg_return": 0.21,
-      "avg_win": 7.47,
-      "avg_loss": -6.28
+      "sample": 226,
+      "win_rate": 46.9,
+      "avg_return": 0.25,
+      "avg_win": 7.71,
+      "avg_loss": -6.34
     }
   },
   "rank_horizon": "5",
@@ -38,6 +38,14 @@
       }
     },
     {
+      "date": "2026-09-30",
+      "keyword": "모아데이타",
+      "returns": {
+        "1": 10.45,
+        "5": 30.85
+      }
+    },
+    {
       "date": "2026-09-06",
       "keyword": "에넥스",
       "returns": {
@@ -51,14 +59,6 @@
       "returns": {
         "1": 1.46,
         "5": 29.96
-      }
-    },
-    {
-      "date": "2026-09-03",
-      "keyword": "두산퓨얼셀",
-      "returns": {
-        "1": 12.44,
-        "5": 28.46
       }
     }
   ],
