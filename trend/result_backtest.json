@@ -1,34 +1,26 @@
 {
-  "date": "2026-10-10",
-  "generated_at": "2026-10-10 06:54",
+  "date": "2026-10-11",
+  "generated_at": "2026-10-11 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 249,
-      "win_rate": 45.0,
-      "avg_return": -0.84,
-      "avg_win": 2.24,
-      "avg_loss": -3.36
+      "sample": 233,
+      "win_rate": 47.6,
+      "avg_return": -0.67,
+      "avg_win": 2.26,
+      "avg_loss": -3.34
     },
     "5": {
-      "sample": 215,
-      "win_rate": 47.0,
-      "avg_return": 0.07,
-      "avg_win": 7.46,
-      "avg_loss": -6.49
+      "sample": 199,
+      "win_rate": 45.2,
+      "avg_return": -0.43,
+      "avg_win": 7.18,
+      "avg_loss": -6.71
     }
   },
   "rank_horizon": "5",
   "best": [
-    {
-      "date": "2026-09-01",
-      "keyword": "넥사다이내믹스",
-      "returns": {
-        "1": -3.53,
-        "5": 60.26
-      }
-    },
     {
       "date": "2026-09-30",
       "keyword": "모아데이타",
@@ -59,6 +51,14 @@
       "returns": {
         "1": 12.44,
         "5": 28.46
+      }
+    },
+    {
+      "date": "2026-09-24",
+      "keyword": "스피어",
+      "returns": {
+        "1": -4.26,
+        "5": 21.3
       }
     }
   ],
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 273
+  "total_signals": 262
 }
