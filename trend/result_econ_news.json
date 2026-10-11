@@ -1,8 +1,8 @@
 {
   "date": "2026-10-11",
-  "collected_at": "2026-10-11 20:00",
-  "total_articles": 312,
-  "matched_count": 109,
+  "collected_at": "2026-10-11 21:00",
+  "total_articles": 319,
+  "matched_count": 111,
   "top_news": [
     {
       "source": "매일경제",
@@ -55,6 +55,17 @@
         "철강"
       ],
       "score": 19
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "美 CPI 발표 앞두고, 비트코인 짙은 ‘관망세’…고금리 장기화 여부 촉...",
+      "link": "https://n.news.naver.com/mnews/article/138/0002244278?sid=101",
+      "desc": "현재 원달러 환율로 1억1136만원 수준이다. 시장 전반의 투자 심리 역시 위축된 모습이다. 일주일전과... 특히 9월 미 CPI 결과에 따라 올 연말 미 연준의 추가 금리 정책이 방향성이 결정될 것이란 전망인데, 현재로선 미...",
+      "pub": "Sun, 11 Oct 2026 20:22:00 +0900",
+      "via": "naver_api",
+      "importance": 14,
+      "matched_keywords": [],
+      "score": 14
     },
     {
       "source": "네이버뉴스",
@@ -180,23 +191,29 @@
         "반도체"
       ],
       "score": 12
-    },
-    {
-      "source": "매일경제",
-      "title": "소재까지 품귀…반도체값 더 뛴다",
-      "link": "https://www.mk.co.kr/news/business/12172452",
-      "desc": "인공지능(AI) 반도체 수요 폭증으로 소재 가격까지 급등하면서 반도체 생태계 전반에 공급난이 확산하고 있다. 주문을 감당하지 못하는 소재 기업들이 가격을 대폭 인상할 경우 결국 반..",
-      "pub": "Fri, 09 Oct 2026 17:32:33 +09:00",
-      "via": "rss",
-      "importance": 9,
-      "matched_keywords": [
-        "인공지능",
-        "반도체"
-      ],
-      "score": 13
     }
   ],
   "articles": [
+    {
+      "source": "네이버뉴스",
+      "title": "[공시] HLB바이오스텝 '투자경고', HLB테라퓨틱스·KS인더스트리 '공매도...",
+      "link": "https://www.newstnt.com/news/articleView.html?idxno=722245",
+      "desc": "◆ HLB바이오스텝 투자경고 지정…HLB제약·동양고속 등 7개 종목 예고 한국거래소가 지난 8일 공시한 투자유의종목 지정 현황에 따르면 HLB바이오스텝(278650)이 투자경고종목으로 지정됐다. 투자경고종목...",
+      "pub": "Sun, 11 Oct 2026 20:14:00 +0900",
+      "via": "naver_api",
+      "importance": 4,
+      "matched_keywords": [
+        "제약",
+        "HLB바이오스텝",
+        "동양",
+        "동양고속",
+        "HLB제약",
+        "바이오",
+        "HLB",
+        "HLB테라퓨틱스"
+      ],
+      "score": 20
+    },
     {
       "source": "네이버뉴스",
       "title": "강달러 뚫은 ‘반도체 흑자’…원·달러 환율 1330원대로",
@@ -247,9 +264,9 @@
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
+        "SK하이닉스",
         "바이오",
         "반도체",
-        "SK하이닉스",
         "삼성전자"
       ],
       "score": 16
@@ -264,9 +281,9 @@
       "importance": 6,
       "matched_keywords": [
         "한미반도체",
-        "반도체",
         "주성엔지니어링",
-        "SK하이닉스"
+        "SK하이닉스",
+        "반도체"
       ],
       "score": 16
     },
@@ -308,8 +325,8 @@
       "via": "rss",
       "importance": 5,
       "matched_keywords": [
-        "LG",
         "LG전자",
+        "LG",
         "반도체"
       ],
       "score": 14
@@ -353,9 +370,9 @@
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
+        "제약",
         "바이오",
-        "아리바이오홀딩스",
-        "제약"
+        "아리바이오홀딩스"
       ],
       "score": 13
     },
@@ -407,8 +424,8 @@
       "via": "rss",
       "importance": 8,
       "matched_keywords": [
-        "인공지능",
-        "삼성전기"
+        "삼성전기",
+        "인공지능"
       ],
       "score": 12
     },
@@ -434,11 +451,11 @@
       "via": "rss",
       "importance": 3,
       "matched_keywords": [
-        "삼성SDI",
-        "SK스퀘어",
         "삼성전기",
         "SK하이닉스",
-        "삼성전자"
+        "삼성SDI",
+        "삼성전자",
+        "SK스퀘어"
       ],
       "score": 12
     },
@@ -464,9 +481,9 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "한창",
+        "인공지능",
         "방산",
-        "인공지능"
+        "한창"
       ],
       "score": 11
     },
@@ -479,10 +496,10 @@
       "via": "rss",
       "importance": 5,
       "matched_keywords": [
-        "HPSP",
         "한미반도체",
-        "반도체",
-        "주성엔지니어링"
+        "주성엔지니어링",
+        "HPSP",
+        "반도체"
       ],
       "score": 11
     },
@@ -495,9 +512,9 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "AMD",
         "인공지능",
-        "반도체"
+        "반도체",
+        "AMD"
       ],
       "score": 11
     },
@@ -510,8 +527,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "LG",
         "LG전자",
+        "LG",
         "반도체"
       ],
       "score": 11
@@ -538,9 +555,9 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
+        "제약",
         "바이오",
-        "반도체",
-        "제약"
+        "반도체"
       ],
       "score": 11
     },
@@ -673,8 +690,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "LG",
         "LG디스플레이",
+        "LG",
         "반도체"
       ],
       "score": 9
@@ -743,8 +760,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "인공지능",
-        "원전"
+        "원전",
+        "인공지능"
       ],
       "score": 8
     },
@@ -879,8 +896,8 @@
       "via": "rss",
       "importance": 5,
       "matched_keywords": [
-        "반도체",
-        "주성엔지니어링"
+        "주성엔지니어링",
+        "반도체"
       ],
       "score": 7
     },
@@ -907,6 +924,32 @@
       "importance": 4,
       "matched_keywords": [
         "방산"
+      ],
+      "score": 7
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "“반도체 성과급, 소비 진작 효과 제한적”",
+      "link": "https://n.news.naver.com/mnews/article/032/0003475587?sid=101",
+      "desc": "반도체 호황으로 기업 실적과 임금이 크게 늘고 있지만, 소득 증가가 민간소비 확대로 이어지는 효과는 제한적일 것이라는 분석이 나왔다. 11일 국회예산정책처가 최근 발표한 ‘2027년 NABO 경제전망: 2026~2030’ 보고서를...",
+      "pub": "Sun, 11 Oct 2026 20:10:00 +0900",
+      "via": "naver_api",
+      "importance": 4,
+      "matched_keywords": [
+        "반도체"
+      ],
+      "score": 7
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "240억 규모 '지역 주도형 AI 대전환' 가속화",
+      "link": "http://www.ujeil.com/news/articleView.html?idxno=393301",
+      "desc": "및 실적 보고, 참여기업 대표 우수사례 발표 등으로 진행됐다. 특히 인공지능 해결책과 기술 검증 지원을 받은 기업들의 매출 향상, 불량률 감소 등 구체적인 성과가 집중적으로 소개됐다. 또 중소벤처기업진흥공단과...",
+      "pub": "Sun, 11 Oct 2026 20:04:00 +0900",
+      "via": "naver_api",
+      "importance": 6,
+      "matched_keywords": [
+        "인공지능"
       ],
       "score": 7
     },
@@ -947,9 +990,9 @@
       "via": "rss",
       "importance": 3,
       "matched_keywords": [
+        "주성엔지니어링",
         "HPSP",
-        "삼성물산",
-        "주성엔지니어링"
+        "삼성물산"
       ],
       "score": 6
     },
@@ -962,8 +1005,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "반도체",
-        "주성엔지니어링"
+        "주성엔지니어링",
+        "반도체"
       ],
       "score": 6
     },
@@ -976,8 +1019,8 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "LG",
-        "LG전자"
+        "LG전자",
+        "LG"
       ],
       "score": 6
     },
@@ -1030,8 +1073,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "반도체",
-        "SK하이닉스"
+        "SK하이닉스",
+        "반도체"
       ],
       "score": 6
     },
@@ -1044,8 +1087,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "반도체",
-        "아이씨티케이"
+        "아이씨티케이",
+        "반도체"
       ],
       "score": 6
     },
@@ -1058,8 +1101,8 @@
       "via": "naver_api",
       "importance": 2,
       "matched_keywords": [
-        "반도체",
-        "SK하이닉스"
+        "SK하이닉스",
+        "반도체"
       ],
       "score": 6
     },
@@ -1072,22 +1115,22 @@
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "바이오",
-        "제약"
+        "제약",
+        "바이오"
       ],
       "score": 6
     },
     {
       "source": "네이버뉴스",
-      "title": "판매부진에 생산중단·공급부족 의약품 급증",
+      "title": "판매 부진에 생산 중단·공급 부족 의약품 '급증'",
       "link": "https://www.dailymedi.com/news/news_view.php?wr_id=941308",
-      "desc": "﻿﻿ ﻿제약사가 채산성 문제나 판매부진을 이유로 공급중단 또는 공급부족을 보고한 의약품이 올해... 신부전 환자 치료에 쓰는 복막투석액(페리퓨어 3종, 보령바이오파마)과 국가예방접종(NIP) 대상인 자궁경부암...",
+      "desc": "﻿﻿﻿ ﻿제약사가 채산성 문제나 판매 부진을 이유로 공급 중단 및 부족을 보고한 의약품이 올해... 신부전 환자 치료에 쓰는 복막투석액(페리퓨어 3종, 보령바이오파마)과 국가예방접종(NIP) 대상인 자궁경부암 백신...",
       "pub": "Sun, 11 Oct 2026 18:40:00 +0900",
       "via": "naver_api",
       "importance": 4,
       "matched_keywords": [
-        "바이오",
-        "제약"
+        "제약",
+        "바이오"
       ],
       "score": 6
     },
@@ -1256,9 +1299,9 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "게임",
         "인공지능",
-        "로봇"
+        "로봇",
+        "게임"
       ],
       "score": 5
     },
@@ -1349,8 +1392,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "반도체",
-        "SK하이닉스"
+        "SK하이닉스",
+        "반도체"
       ],
       "score": 4
     },
@@ -1363,8 +1406,8 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "LG",
-        "LG전자"
+        "LG전자",
+        "LG"
       ],
       "score": 4
     },
@@ -1436,7 +1479,7 @@
     },
     {
       "source": "한국경제",
-      "title": "삼성전자 메모리 직원 올해 10억 받는다",
+      "title": "삼성전자 메모리 직원 10억 받는다",
       "link": "https://www.hankyung.com/article/2026101145271",
       "desc": "",
       "pub": "Sun, 11 Oct 2026 17:46:57 +0900",
@@ -1509,19 +1552,6 @@
       "importance": 0,
       "matched_keywords": [
         "게임"
-      ],
-      "score": 3
-    },
-    {
-      "source": "매일경제",
-      "title": "KKR “韓 기업 지배구조 개혁이 亞 핵심 투자 테마”",
-      "link": "https://www.mk.co.kr/news/stock/12171546",
-      "desc": "‘현장에서 본 투자 전망’ 보고서 반도체가 韓성장 80% 견인 다음 촉매는 베어허그 M&amp;A[본 기사는 10월 08일(15:22) 매일경제 자본시장 전문 유료매체인 ‘레이더M’에 보..",
-      "pub": "Thu, 08 Oct 2026 15:22:40 +09:00",
-      "via": "rss",
-      "importance": 2,
-      "matched_keywords": [
-        "반도체"
       ],
       "score": 3
     },
@@ -1687,6 +1717,26 @@
   "top20": [
     {
       "source": "네이버뉴스",
+      "title": "[공시] HLB바이오스텝 '투자경고', HLB테라퓨틱스·KS인더스트리 '공매도...",
+      "link": "https://www.newstnt.com/news/articleView.html?idxno=722245",
+      "desc": "◆ HLB바이오스텝 투자경고 지정…HLB제약·동양고속 등 7개 종목 예고 한국거래소가 지난 8일 공시한 투자유의종목 지정 현황에 따르면 HLB바이오스텝(278650)이 투자경고종목으로 지정됐다. 투자경고종목...",
+      "pub": "Sun, 11 Oct 2026 20:14:00 +0900",
+      "via": "naver_api",
+      "importance": 4,
+      "matched_keywords": [
+        "제약",
+        "HLB바이오스텝",
+        "동양",
+        "동양고속",
+        "HLB제약",
+        "바이오",
+        "HLB",
+        "HLB테라퓨틱스"
+      ],
+      "score": 20
+    },
+    {
+      "source": "네이버뉴스",
       "title": "강달러 뚫은 ‘반도체 흑자’…원·달러 환율 1330원대로",
       "link": "http://www.segyebiz.com/newsView/20261011511015?OutUrl=naver",
       "desc": "반면 원유와 원자재 수입 비중이 높고 외화 부채 부담이 컸던 항공·정유·철강업계는 유류비와 원자재... 지난 7일 유가증권시장에서 외국인이 약 2조6000억원을 순매도하면서 달러 환전 수요가 발생했다. 글로벌...",
@@ -1735,9 +1785,9 @@
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
+        "SK하이닉스",
         "바이오",
         "반도체",
-        "SK하이닉스",
         "삼성전자"
       ],
       "score": 16
@@ -1752,9 +1802,9 @@
       "importance": 6,
       "matched_keywords": [
         "한미반도체",
-        "반도체",
         "주성엔지니어링",
-        "SK하이닉스"
+        "SK하이닉스",
+        "반도체"
       ],
       "score": 16
     },
@@ -1796,8 +1846,8 @@
       "via": "rss",
       "importance": 5,
       "matched_keywords": [
-        "LG",
         "LG전자",
+        "LG",
         "반도체"
       ],
       "score": 14
@@ -1841,9 +1891,9 @@
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
+        "제약",
         "바이오",
-        "아리바이오홀딩스",
-        "제약"
+        "아리바이오홀딩스"
       ],
       "score": 13
     },
@@ -1895,8 +1945,8 @@
       "via": "rss",
       "importance": 8,
       "matched_keywords": [
-        "인공지능",
-        "삼성전기"
+        "삼성전기",
+        "인공지능"
       ],
       "score": 12
     },
@@ -1922,11 +1972,11 @@
       "via": "rss",
       "importance": 3,
       "matched_keywords": [
-        "삼성SDI",
-        "SK스퀘어",
         "삼성전기",
         "SK하이닉스",
-        "삼성전자"
+        "삼성SDI",
+        "삼성전자",
+        "SK스퀘어"
       ],
       "score": 12
     },
@@ -1952,25 +2002,9 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "한창",
+        "인공지능",
         "방산",
-        "인공지능"
-      ],
-      "score": 11
-    },
-    {
-      "source": "매일경제",
-      "title": "주성엔지니어링 ‘텐배거’에 웃은 오스템 최규옥 ... 회장님들 투자 비법",
-      "link": "https://www.mk.co.kr/news/stock/12172298",
-      "desc": "3년전 오스템 매각한 최규옥 회장 주성엔지니어링 2대 주주 등극해 당시 2만원대 초중반에 장내매집 현 주가는 12배 폭등한 26만원대   한미반도체 곽동신도 HPSP 대박 본업 주..",
-      "pub": "Fri, 09 Oct 2026 15:16:34 +09:00",
-      "via": "rss",
-      "importance": 5,
-      "matched_keywords": [
-        "HPSP",
-        "한미반도체",
-        "반도체",
-        "주성엔지니어링"
+        "한창"
       ],
       "score": 11
     }
@@ -1982,7 +2016,7 @@
     "반도체": 45,
     "TSMC": 1,
     "한컴": 1,
-    "인공지능": 21,
+    "인공지능": 22,
     "LG": 11,
     "현대차": 5,
     "로봇": 5,
@@ -1992,16 +2026,16 @@
     "조선": 5,
     "게임": 2,
     "SK하이닉스": 11,
-    "한창": 1,
     "방산": 3,
+    "한창": 1,
     "DB": 1,
+    "주성엔지니어링": 5,
     "HPSP": 2,
     "삼성물산": 1,
-    "주성엔지니어링": 5,
     "한미반도체": 2,
     "삼성전기": 3,
     "전기차": 3,
-    "제약": 5,
+    "제약": 6,
     "삼성SDI": 1,
     "SK스퀘어": 1,
     "LG전자": 4,
@@ -2010,9 +2044,15 @@
     "AI반도체": 1,
     "아이씨티케이": 1,
     "수소": 1,
-    "바이오": 5,
+    "바이오": 6,
     "엔터": 1,
     "기아": 1,
+    "HLB바이오스텝": 1,
+    "동양": 1,
+    "동양고속": 1,
+    "HLB제약": 1,
+    "HLB": 1,
+    "HLB테라퓨틱스": 1,
     "아리바이오홀딩스": 1
   }
 }
