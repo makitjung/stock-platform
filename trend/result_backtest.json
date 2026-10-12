@@ -1,22 +1,22 @@
 {
-  "date": "2026-10-12",
-  "generated_at": "2026-10-12 06:54",
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 223,
-      "win_rate": 48.9,
-      "avg_return": -0.69,
-      "avg_win": 2.22,
-      "avg_loss": -3.47
+      "sample": 214,
+      "win_rate": 46.3,
+      "avg_return": -0.98,
+      "avg_win": 2.12,
+      "avg_loss": -3.64
     },
     "5": {
-      "sample": 189,
-      "win_rate": 43.4,
-      "avg_return": -0.75,
-      "avg_win": 7.09,
-      "avg_loss": -6.76
+      "sample": 185,
+      "win_rate": 40.0,
+      "avg_return": -1.45,
+      "avg_win": 6.79,
+      "avg_loss": -6.94
     }
   },
   "rank_horizon": "5",
@@ -46,15 +46,15 @@
       }
     },
     {
-      "date": "2026-09-03",
-      "keyword": "두산퓨얼셀",
+      "date": "2026-09-24",
+      "keyword": "스피어",
       "returns": {
-        "1": 12.44,
-        "5": 28.46
+        "1": -4.26,
+        "5": 21.3
       }
     },
     {
-      "date": "2026-09-24",
+      "date": "2026-09-25",
       "keyword": "스피어",
       "returns": {
         "1": -4.26,
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 258
+  "total_signals": 248
 }
