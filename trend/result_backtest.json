@@ -1,22 +1,22 @@
 {
-  "date": "2026-10-14",
-  "generated_at": "2026-10-14 06:54",
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 233,
-      "win_rate": 41.6,
-      "avg_return": -1.32,
-      "avg_win": 2.11,
-      "avg_loss": -3.77
+      "sample": 229,
+      "win_rate": 43.7,
+      "avg_return": -1.27,
+      "avg_win": 2.07,
+      "avg_loss": -3.86
     },
     "5": {
-      "sample": 175,
-      "win_rate": 40.0,
-      "avg_return": -1.56,
-      "avg_win": 6.74,
-      "avg_loss": -7.1
+      "sample": 184,
+      "win_rate": 38.6,
+      "avg_return": -2.58,
+      "avg_win": 6.66,
+      "avg_loss": -8.38
     }
   },
   "rank_horizon": "5",
@@ -64,6 +64,14 @@
   ],
   "worst": [
     {
+      "date": "2026-10-04",
+      "keyword": "한창",
+      "returns": {
+        "1": -24.68,
+        "5": -85.71
+      }
+    },
+    {
       "date": "2026-09-25",
       "keyword": "와이즈플래닛컴퍼니",
       "returns": {
@@ -93,14 +101,6 @@
       "returns": {
         "1": 0.0,
         "5": -33.22
-      }
-    },
-    {
-      "date": "2026-09-18",
-      "keyword": "KS인더스트리",
-      "returns": {
-        "1": -5.06,
-        "5": -20.48
       }
     }
   ],
