@@ -1,34 +1,60 @@
 {
   "date": "2026-10-17",
-  "collected_at": "2026-10-17 08:00",
-  "total_articles": 305,
+  "collected_at": "2026-10-17 09:00",
+  "total_articles": 306,
   "matched_count": 95,
   "top_news": [
     {
       "source": "네이버뉴스",
-      "title": "[글로벌 증시]뉴욕증시, AI주 폭락·중동 리스크에 나스닥 2.15% 급락",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=616515",
-      "desc": "미국 뉴욕증시가 기술주를 중심으로 큰 폭의 하락세를 나타냈다. 인공지능(AI) 관련 기업들의 주가 부담이 커진 가운데 미국과 이란의 군사적 대치, 국제유가 상승, 금리 불확실성까지 겹치면서 투자심리가 위축됐다....",
-      "pub": "Sat, 17 Oct 2026 07:56:00 +0900",
+      "title": "AI 투자 우려·유가 급등에 뉴욕증시 하락…나스닥 2.15%↓",
+      "link": "http://www.kjdaily.com/article.php?aid=1792194868689369276",
+      "desc": "41달러…고유가 부담 인공지능(AI) 투자에 대한 우려와 국제유가 급등이 겹치면서 미국 뉴욕증시가 일제히 하락했다. AI 인프라 기업과 반도체주에 매도세가 집중되며 나스닥지수는 2% 넘게 떨어졌다. 16일...",
+      "pub": "Sat, 17 Oct 2026 08:58:00 +0900",
       "via": "naver_api",
       "importance": 15,
       "matched_keywords": [
+        "반도체",
         "인공지능"
       ],
-      "score": 16
+      "score": 17
     },
     {
       "source": "네이버뉴스",
-      "title": "뉴욕증시, AI 신용위험 재부각·헤지펀드 매도에 급락 마감",
-      "link": "https://www.globale.co.kr/news/articleView.html?idxno=41075",
-      "desc": "미국 뉴욕 증시가 케빈 워시 연방준비제도(Fed) 의장의 발언에 힘입어 금리 인상 공포를 덜어냈으나, 인공지능(AI) 인프라 기업의 신용위험 재부각과 글로벌 헤지펀드의 대규모 매도세가 겹치며 급락세로...",
-      "pub": "Sat, 17 Oct 2026 07:46:00 +0900",
+      "title": "AI 부채 우려에 반도체주 급락…나스닥 2.2%↓",
+      "link": "https://www.sentv.co.kr/article/view/sentv202610170008",
+      "desc": "미국 뉴욕 증시가 인공지능(AI) 인프라 투자에 대한 부채 우려와 국제유가 급등 여파로 일제히 하락했다. 특히 AI·반도체주를 중심으로 매도세가 거세지면서 나스닥 지수는 2% 넘게 급락했고, 필라델피아 반도체...",
+      "pub": "Sat, 17 Oct 2026 08:50:00 +0900",
       "via": "naver_api",
       "importance": 15,
       "matched_keywords": [
+        "반도체",
         "인공지능"
       ],
-      "score": 16
+      "score": 19
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "[로드픽] 워시 연준 의장, 인플레이션 급등에도 '신중론'…10월 금리 인...",
+      "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=65938",
+      "desc": "한국은행의 통화정책 운용 역시 물가와 성장뿐 아니라 환율과 금융시장 상황을 함께 고려해야 하는 부담이 커질 수 있다. 다만 미국의 금리 결정이 한국 금융시장에 미치는 영향은 금리 차이만으로 결정되지 않는다....",
+      "pub": "Sat, 17 Oct 2026 08:36:00 +0900",
+      "via": "naver_api",
+      "importance": 15,
+      "matched_keywords": [],
+      "score": 15
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "미국증시 나스닥 2.15% 급락…AI 투자 불안·유가 급등에 반도체 매도 확...",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16249511",
+      "desc": "금리와 환율도 함께 확인해야 한다. 16일 원·달러 환율은 1,336.8원으로 전일보다 5.7원 하락했다. 환율 하락은 원화 환산 해외자산 가치에는 부담이지만 국내증시에서는 외국인 투자자의 환위험과 자금 흐름을...",
+      "pub": "Sat, 17 Oct 2026 08:16:00 +0900",
+      "via": "naver_api",
+      "importance": 15,
+      "matched_keywords": [
+        "반도체"
+      ],
+      "score": 18
     },
     {
       "source": "매일경제",
@@ -59,21 +85,25 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "[뉴욕환시] 달러 하락…금리 인상에 신중한 연준 의장",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439730",
-      "desc": "달러는 이달 정책금리 인상에 대해 예단하지 않겠다는 케빈 워시 미 연방준비제도(연준·Fed) 의장의... 달러-엔 환율은 157.998엔으로, 전장 뉴욕장 마감 가격 158.114엔보다 0.116엔(0.073%) 하락했다. 우에다 가즈오...",
-      "pub": "Sat, 17 Oct 2026 07:36:00 +0900",
+      "title": "[반도체 쇼크]마이크론·AMD·인텔 5%대 급락…미 반도체주 매도세",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=616521",
+      "desc": "미국 뉴욕증시에서 주요 기술주들이 동반 약세를 보인 가운데 반도체 업종의 하락폭이 두드러졌다. 인공지능(AI)과 반도체 관련 종목들이 일제히 밀리면서 기술주 전반의 투자심리에도 부담이 가해지는 모습이다....",
+      "pub": "Sat, 17 Oct 2026 08:50:00 +0900",
       "via": "naver_api",
       "importance": 14,
-      "matched_keywords": [],
-      "score": 14
+      "matched_keywords": [
+        "반도체",
+        "AMD",
+        "인공지능"
+      ],
+      "score": 21
     },
     {
       "source": "네이버뉴스",
-      "title": "[다음주 환율전망] 美 국채금리 하락에 원·달러 환율 하방 압력…다음...",
-      "link": "https://www.goodkyung.com/news/articleView.html?idxno=292464",
-      "desc": "다음 주(19~23일) 원·달러 환율은 미국 국채금리 하락과 달러화 약세에 힘입어 하방 압력을 받을 전망이다. 미국 연방준비제도(Fed·연준)의 추가 긴축에 대한 경계감이 완화된 가운데 수출기업의 달러 매도 물량과 엔화...",
-      "pub": "Sat, 17 Oct 2026 07:00:00 +0900",
+      "title": "[뉴욕마켓워치] 역대 최장 하락세 앞둔 필리 지수…주식·달러↓채권 혼...",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439743",
+      "desc": "달러는 이달 정책금리 인상에 대해 예단하지 않겠다는 케빈 워시 미 연방준비제도(연준·Fed) 의장의... 달러-엔 환율은 157.998엔으로, 전장 뉴욕장 마감 가격 158.114엔보다 0.116엔(0.073%) 하락했다. 우에다 가즈오...",
+      "pub": "Sat, 17 Oct 2026 08:30:00 +0900",
       "via": "naver_api",
       "importance": 14,
       "matched_keywords": [],
@@ -92,19 +122,6 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "뉴욕증시, 유가상승·AI 우려에 일제히 하락...나스닥 2%↓",
-      "link": "https://n.news.naver.com/mnews/article/310/0000140905?sid=104",
-      "desc": "미국 뉴욕 증시수가 기술주 및 인공지능(AI) 관련주 약세와 유가가 상승 영향으로 일제히 하락했다. 16일(현지시각) 뉴욕증권거래소(NYSE)에서 다우존스30 산업평균지수는 전장보다 175.28포인트(0.34%) 내린...",
-      "pub": "Sat, 17 Oct 2026 07:32:00 +0900",
-      "via": "naver_api",
-      "importance": 12,
-      "matched_keywords": [
-        "인공지능"
-      ],
-      "score": 13
-    },
-    {
-      "source": "네이버뉴스",
       "title": "뉴욕증시 혼조 출발…다우 0.6% 상승, 나스닥 0.4% 하락",
       "link": "https://www.thefairnews.co.kr/news/articleView.html?idxno=90976",
       "desc": "ING의 원자재 전략가 워런 패터슨과 에바 맨시는 중동 정세의 불확실성과 호르무즈 해협을 통한 원유 수송 차질 우려가 국제유가에 상당한 위험 프리미엄을 반영시키고 있다고 분석했다. 미국 국채금리도...",
@@ -113,6 +130,17 @@
       "importance": 12,
       "matched_keywords": [],
       "score": 12
+    },
+    {
+      "source": "한국경제",
+      "title": "최악의 일주일 나스닥 2.2%…AI 경고등에 유가 급등까지 [뉴욕증시 브리핑]",
+      "link": "https://www.hankyung.com/article/2026101775037",
+      "desc": "",
+      "pub": "Sat, 17 Oct 2026 07:55:04 +0900",
+      "via": "rss",
+      "importance": 11,
+      "matched_keywords": [],
+      "score": 11
     },
     {
       "source": "한국경제",
@@ -153,77 +181,90 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "최악의 일주일 나스닥 2.2%…AI 경고등에 유가 급등까지 [뉴욕증시 브리...",
-      "link": "https://n.news.naver.com/mnews/article/015/0005343526?sid=101",
-      "desc": "기술주 중심의 나스닥 지수는 2% 넘게 빠지며 6월 이후 최악의 한 주를 보냈다. 이날 뉴욕증권거래소(NYSE)에서 나스닥종합지수는 전장 대비 572.99포인트(2.15%) 빠진 2만6140.03에 거래를 마쳤다. 기술주 폭락세가...",
-      "pub": "Sat, 17 Oct 2026 07:56:00 +0900",
-      "via": "naver_api",
-      "importance": 11,
-      "matched_keywords": [],
-      "score": 11
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "AI 빚폭탄 우려에 유가까지 폭등…나스닥 2% 넘게 추락",
-      "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=65935",
-      "desc": "기술주 비중이 높은 나스닥은 2% 넘게 떨어지며 7월 이후 최대 낙폭을 기록했고, 반도체 지수는 글로벌... 스탠더드앤드푸어스(S&amp;P) 500지수는 84.62포인트(1.09%) 떨어진 7,659.44를, 기술주 중심의 나스닥 종합지수는...",
-      "pub": "Sat, 17 Oct 2026 07:38:00 +0900",
+      "title": "뉴욕증시 AI 우려에 급락…나스닥 2.14%↓, 반도체 8거래일 연속 하락",
+      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3724168",
+      "desc": "기술주 중심의 나스닥지수는 주간 기준 6월 이후 최대 낙폭을 기록했다. 이날 뉴욕증권거래소에서... 나스닥종합지수는 572.99포인트(2.14%) 급락한 2만 6140.03으로 장을 마쳤다. 나스닥지수의 하루 낙폭은 7월...",
+      "pub": "Sat, 17 Oct 2026 08:50:00 +0900",
       "via": "naver_api",
       "importance": 11,
       "matched_keywords": [
         "반도체"
       ],
-      "score": 12
-    },
-    {
-      "source": "매일경제",
-      "title": "“증시 폭등 없었으면 폭락도 없었다”…국민연금 국조 꺼내든 국힘",
-      "link": "https://www.mk.co.kr/news/politics/12178257",
-      "desc": "코스피가 10월 들어 연일 폭락하며 5600대로 내려앉자 국민의힘이 국민연금 기금 운용에 대한 국정조사 카드를 꺼내들었다. 개인투자자 다수가 주가 하락으로 피해를 본 상황에서 그 ..",
-      "pub": "Fri, 16 Oct 2026 22:01:18 +09:00",
-      "via": "rss",
-      "importance": 10,
-      "matched_keywords": [],
-      "score": 10
+      "score": 14
     }
   ],
   "articles": [
     {
       "source": "네이버뉴스",
-      "title": "[주간 코스닥 기관] 순매수 1위 티에스이…심텍·브이엠·주성엔지니어...",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496058",
-      "desc": "반도체 검사장비와 부품 관련 기업부터 제약·바이오, 디스플레이 장비, 정보보안 기업까지 다양한 종목에 매수세가 유입됐다. 반도체 관련주 가운데서는 티에스이와 리노공업, 이오테크닉스, HPSP가 순매수 상위권에...",
-      "pub": "Sat, 17 Oct 2026 07:18:00 +0900",
+      "title": "[반도체 쇼크]마이크론·AMD·인텔 5%대 급락…미 반도체주 매도세",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=616521",
+      "desc": "미국 뉴욕증시에서 주요 기술주들이 동반 약세를 보인 가운데 반도체 업종의 하락폭이 두드러졌다. 인공지능(AI)과 반도체 관련 종목들이 일제히 밀리면서 기술주 전반의 투자심리에도 부담이 가해지는 모습이다....",
+      "pub": "Sat, 17 Oct 2026 08:50:00 +0900",
       "via": "naver_api",
-      "importance": 8,
+      "importance": 14,
       "matched_keywords": [
-        "제약",
         "반도체",
-        "브이엠",
-        "HPSP",
-        "바이오",
-        "심텍",
-        "리노공업"
+        "AMD",
+        "인공지능"
+      ],
+      "score": 21
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "AI 부채 우려에 반도체주 급락…나스닥 2.2%↓",
+      "link": "https://www.sentv.co.kr/article/view/sentv202610170008",
+      "desc": "미국 뉴욕 증시가 인공지능(AI) 인프라 투자에 대한 부채 우려와 국제유가 급등 여파로 일제히 하락했다. 특히 AI·반도체주를 중심으로 매도세가 거세지면서 나스닥 지수는 2% 넘게 급락했고, 필라델피아 반도체...",
+      "pub": "Sat, 17 Oct 2026 08:50:00 +0900",
+      "via": "naver_api",
+      "importance": 15,
+      "matched_keywords": [
+        "반도체",
+        "인공지능"
       ],
       "score": 19
     },
     {
       "source": "네이버뉴스",
-      "title": "[주간 거래소 기관] SK하이닉스 집중 매수… 삼성전기·이수페타시스는...",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496063",
-      "desc": "전기차 시장의 성장 속도와 배터리 업황 회복 여부, 에너지저장장치(ESS) 수요 확대 등이 관련 기업의 실적 전망을 좌우하는 변수로 꼽힌다. 반면 양극재 업체인 엘앤에프와 포스코퓨처엠은 순매도 명단에 포함돼 배터리...",
-      "pub": "Sat, 17 Oct 2026 07:30:00 +0900",
+      "title": "[마켓 포커스] 코스닥 껑충…알테오젠·삼천당제약 등 주가 '폴짝'",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=616458",
+      "desc": "AI가 생성. 코스닥이 16일 4% 넘게 상승하며 794선에서 거래를 마쳤다. 알테오젠과 삼천당제약이 8~9%대 급등한 가운데 이오테크닉스와 원익IPS 등 반도체 관련주도 강세를 보였다. 시가총액 상위 10개 종목이...",
+      "pub": "Sat, 17 Oct 2026 08:26:00 +0900",
       "via": "naver_api",
-      "importance": 6,
+      "importance": 11,
       "matched_keywords": [
-        "이수페타시스",
-        "엘앤에프",
-        "삼성전기",
-        "포스코퓨처엠",
-        "SK하이닉스",
-        "전기차"
+        "제약",
+        "알테오젠",
+        "반도체",
+        "원익IPS"
+      ],
+      "score": 19
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "미국증시 나스닥 2.15% 급락…AI 투자 불안·유가 급등에 반도체 매도 확...",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16249511",
+      "desc": "금리와 환율도 함께 확인해야 한다. 16일 원·달러 환율은 1,336.8원으로 전일보다 5.7원 하락했다. 환율 하락은 원화 환산 해외자산 가치에는 부담이지만 국내증시에서는 외국인 투자자의 환위험과 자금 흐름을...",
+      "pub": "Sat, 17 Oct 2026 08:16:00 +0900",
+      "via": "naver_api",
+      "importance": 15,
+      "matched_keywords": [
+        "반도체"
       ],
       "score": 18
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "AI 투자 우려·유가 급등에 뉴욕증시 하락…나스닥 2.15%↓",
+      "link": "http://www.kjdaily.com/article.php?aid=1792194868689369276",
+      "desc": "41달러…고유가 부담 인공지능(AI) 투자에 대한 우려와 국제유가 급등이 겹치면서 미국 뉴욕증시가 일제히 하락했다. AI 인프라 기업과 반도체주에 매도세가 집중되며 나스닥지수는 2% 넘게 떨어졌다. 16일...",
+      "pub": "Sat, 17 Oct 2026 08:58:00 +0900",
+      "via": "naver_api",
+      "importance": 15,
+      "matched_keywords": [
+        "반도체",
+        "인공지능"
+      ],
+      "score": 17
     },
     {
       "source": "매일경제",
@@ -256,50 +297,6 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "[글로벌 증시]뉴욕증시, AI주 폭락·중동 리스크에 나스닥 2.15% 급락",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=616515",
-      "desc": "미국 뉴욕증시가 기술주를 중심으로 큰 폭의 하락세를 나타냈다. 인공지능(AI) 관련 기업들의 주가 부담이 커진 가운데 미국과 이란의 군사적 대치, 국제유가 상승, 금리 불확실성까지 겹치면서 투자심리가 위축됐다....",
-      "pub": "Sat, 17 Oct 2026 07:56:00 +0900",
-      "via": "naver_api",
-      "importance": 15,
-      "matched_keywords": [
-        "인공지능"
-      ],
-      "score": 16
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "뉴욕증시, AI 신용위험 재부각·헤지펀드 매도에 급락 마감",
-      "link": "https://www.globale.co.kr/news/articleView.html?idxno=41075",
-      "desc": "미국 뉴욕 증시가 케빈 워시 연방준비제도(Fed) 의장의 발언에 힘입어 금리 인상 공포를 덜어냈으나, 인공지능(AI) 인프라 기업의 신용위험 재부각과 글로벌 헤지펀드의 대규모 매도세가 겹치며 급락세로...",
-      "pub": "Sat, 17 Oct 2026 07:46:00 +0900",
-      "via": "naver_api",
-      "importance": 15,
-      "matched_keywords": [
-        "인공지능"
-      ],
-      "score": 16
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "[주간 거래소 외국인] 현대건설·한미약품·셀트리온 폭풍 매수…삼성S...",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496061",
-      "desc": "조선·해운과 건설, 일부 제약·바이오 종목에 매수세가 유입된 반면 반도체와 전자부품, 금융 관련 종목에서는 매도 우위가 나타났다. 16일 한국거래소가 발표한 주간 거래소 외국인 순매수·순매도 상위 종목 자료에...",
-      "pub": "Sat, 17 Oct 2026 07:26:00 +0900",
-      "via": "naver_api",
-      "importance": 6,
-      "matched_keywords": [
-        "제약",
-        "반도체",
-        "조선",
-        "셀트리온",
-        "바이오",
-        "현대건설"
-      ],
-      "score": 16
-    },
-    {
-      "source": "네이버뉴스",
       "title": "[오늘의 글로벌마켓] 뉴욕증시, AI 관련주 급락에 유가 급등까지...3대지...",
       "link": "http://www.opinionnews.co.kr/news/articleView.html?idxno=145803",
       "desc": "사진=연합뉴스  뉴욕증시가 일제히 하락세로 거래를 마감했다. AI 관련주 및 반도체주가 일제히... 유럽증시, 일제히 상승 마감...국제유가는 급등 유럽증시는 나란히 상승했다. 범유럽 지수인 유로 Stoxx 50...",
@@ -313,17 +310,14 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "253개 중 상승 21개 '초토화'...듀켐바이오·유한양행·큐리옥스는 웃었...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006389922?sid=101",
-      "desc": "15일 국내 제약바이오 업종은 '검은 목요일'을 피하지 못했다. 대부분의 종목이 하락을 피하지 못했다. 제약업종은 161개 종목 중 상승 종목은 12개에 불과했다. 생명과학업종은 무려 4.90% 하락한 가운데 전체 92종목 중...",
-      "pub": "Sat, 17 Oct 2026 07:22:00 +0900",
+      "title": "뉴욕증시 AI 우려에 급락…나스닥 2.14%↓, 반도체 8거래일 연속 하락",
+      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3724168",
+      "desc": "기술주 중심의 나스닥지수는 주간 기준 6월 이후 최대 낙폭을 기록했다. 이날 뉴욕증권거래소에서... 나스닥종합지수는 572.99포인트(2.14%) 급락한 2만 6140.03으로 장을 마쳤다. 나스닥지수의 하루 낙폭은 7월...",
+      "pub": "Sat, 17 Oct 2026 08:50:00 +0900",
       "via": "naver_api",
-      "importance": 4,
+      "importance": 11,
       "matched_keywords": [
-        "듀켐바이오",
-        "제약",
-        "바이오",
-        "유한양행"
+        "반도체"
       ],
       "score": 14
     },
@@ -336,8 +330,8 @@
       "via": "rss",
       "importance": 7,
       "matched_keywords": [
-        "방산",
-        "엔터"
+        "엔터",
+        "방산"
       ],
       "score": 13
     },
@@ -357,40 +351,24 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "뉴욕증시, 유가상승·AI 우려에 일제히 하락...나스닥 2%↓",
-      "link": "https://n.news.naver.com/mnews/article/310/0000140905?sid=104",
-      "desc": "미국 뉴욕 증시수가 기술주 및 인공지능(AI) 관련주 약세와 유가가 상승 영향으로 일제히 하락했다. 16일(현지시각) 뉴욕증권거래소(NYSE)에서 다우존스30 산업평균지수는 전장보다 175.28포인트(0.34%) 내린...",
-      "pub": "Sat, 17 Oct 2026 07:32:00 +0900",
+      "title": "하루 만에 24% 뛴 NBIS 인버스 ETF…미국 기술주 하락 베팅에 자금 몰렸...",
+      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496077",
+      "desc": "미국 증시에서 개별 종목과 업종의 하락에 베팅하는 인버스 상장지수펀드(ETF)가 큰 폭으로 상승했다. 반도체와 인공지능(AI) 관련 종목을 비롯해 기업용 소프트웨어, 양자컴퓨팅, 비트코인 관련 자산을...",
+      "pub": "Sat, 17 Oct 2026 08:46:00 +0900",
       "via": "naver_api",
-      "importance": 12,
+      "importance": 10,
       "matched_keywords": [
+        "반도체",
         "인공지능"
       ],
-      "score": 13
+      "score": 12
     },
     {
       "source": "네이버뉴스",
-      "title": "[주간 코스닥 외국인] 알테오젠·파마리서치 사고 주성엔지니어링·두산...",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496057",
-      "desc": "두산테스나, 리노공업 등에는 매도세가 집중됐다는 점이다. 같은 업종 안에서도 매매 방향이 엇갈린 만큼 향후 코스닥시장에서는 외국인 수급 변화와 함께 개별 기업의 실적 및 업황 흐름을 살펴볼 필요가 있다.",
-      "pub": "Sat, 17 Oct 2026 07:14:00 +0900",
-      "via": "naver_api",
-      "importance": 4,
-      "matched_keywords": [
-        "주성엔지니어링",
-        "두산테스나",
-        "테스",
-        "알테오젠",
-        "리노공업"
-      ],
-      "score": 13
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "AI 빚폭탄 우려에 유가까지 폭등…나스닥 2% 넘게 추락",
-      "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=65935",
-      "desc": "기술주 비중이 높은 나스닥은 2% 넘게 떨어지며 7월 이후 최대 낙폭을 기록했고, 반도체 지수는 글로벌... 스탠더드앤드푸어스(S&amp;P) 500지수는 84.62포인트(1.09%) 떨어진 7,659.44를, 기술주 중심의 나스닥 종합지수는...",
-      "pub": "Sat, 17 Oct 2026 07:38:00 +0900",
+      "title": "코스피 폭락에 7거래일간 반대매매 3천억…채권에 몰려",
+      "link": "https://www.jasm.co.kr/news/view/321894/?sc=Naver",
+      "desc": "국내 투자자가 한 주간 가장 많이 순매수한 종목은 미국 반도체 지수 일간 수익률을 3배 추종하는 상장지수펀드(ETF)인 속슬(SOXL)로 26억13만달러(약 3조4659억원)에 달했다. 국내 증시 3배 추종 ETF인 코루...",
+      "pub": "Sat, 17 Oct 2026 08:58:00 +0900",
       "via": "naver_api",
       "importance": 11,
       "matched_keywords": [
@@ -407,10 +385,10 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
         "LG전자",
         "LG",
-        "삼성전자"
+        "삼성전자",
+        "인공지능"
       ],
       "score": 12
     },
@@ -424,8 +402,8 @@
       "importance": 2,
       "matched_keywords": [
         "하이트진로",
-        "LG유플러스",
-        "LG"
+        "LG",
+        "LG유플러스"
       ],
       "score": 11
     },
@@ -458,14 +436,31 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "관세로 수입 막자 美 철강값 52% 급등…4년여 만에 최고",
-      "link": "https://www.kbmaeil.com/article/20261017500007",
-      "desc": "수입산 철강에 50% 관세가 부과된 데다 캐나다와 멕시코 등 주요 교역국을 둘러싼 무역정책의 불확실성이 커지면서 구매업체들이 해외 주문을 줄였다. 데이터 분석업체 CRU그룹의 조지 스푸어스 철강 연구 수석은 철강...",
-      "pub": "Sat, 17 Oct 2026 06:50:00 +0900",
+      "title": "미국 데이터센터 값비싼 대가...트럼프 '50% 관세'에 철강 가격 4년만 최...",
+      "link": "https://n.news.naver.com/mnews/article/008/0005427705?sid=101",
+      "desc": "철강 가격이 급등한 것은 트럼프 행정부가 수입산 철강에 50% 관세를 부과한 데 이어 캐나다·멕시코 등 핵심 교역 상대국을 향한 무역 가이드라인을 수시로 바꾸면서 구매업체들이 해외 주문을 대폭 줄였기 때문이다....",
+      "pub": "Sat, 17 Oct 2026 08:34:00 +0900",
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
         "철강"
+      ],
+      "score": 11
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "해외 판매 늘어도 수익성은 부담…K-뷰티, 의료·AI로 영역 확장 [뷰티풀...",
+      "link": "https://n.news.naver.com/mnews/article/123/0002392046?sid=101",
+      "desc": "바이오 소재 분야로 사업 영역을 넓히고 있으며 정부도 인공지능(AI) 기반 맞춤형 화장품과 뷰티 서비스 육성에 나서면서 산업 구조에 변화가 나타나고 있다. 16일 화장품 업계에 따르면 에이피알과 동국제약 등 주요...",
+      "pub": "Sat, 17 Oct 2026 08:01:00 +0900",
+      "via": "naver_api",
+      "importance": 6,
+      "matched_keywords": [
+        "제약",
+        "에이피알",
+        "바이오",
+        "동국제약",
+        "인공지능"
       ],
       "score": 11
     },
@@ -478,8 +473,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "방산",
-        "엔터"
+        "엔터",
+        "방산"
       ],
       "score": 10
     },
@@ -492,8 +487,8 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "LG유플러스",
-        "LG"
+        "LG",
+        "LG유플러스"
       ],
       "score": 10
     },
@@ -506,8 +501,21 @@
       "via": "rss",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
-        "네이버"
+        "네이버",
+        "인공지능"
+      ],
+      "score": 10
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "[외환] 美 금리인상 신중론 속 1,330원 중반대",
+      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439744",
+      "desc": "다우존스30산업평균지수가 0.34% 떨어졌고 S&amp;P500지수와 나스닥종합지수는 각각 1.09%와 2.14% 미끄러졌다. 필라델피아 반도체지수는 3.83% 내렸다. 8거래일째 이어진 하락세인데 2008년 글로벌 금융위기 이후 최장 기간...",
+      "pub": "Sat, 17 Oct 2026 08:58:00 +0900",
+      "via": "naver_api",
+      "importance": 9,
+      "matched_keywords": [
+        "반도체"
       ],
       "score": 10
     },
@@ -520,9 +528,9 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "피에스케이",
         "피에스케이홀딩스",
-        "하이브"
+        "하이브",
+        "피에스케이"
       ],
       "score": 9
     },
@@ -592,34 +600,21 @@
       "importance": 2,
       "matched_keywords": [
         "클라우드",
-        "LG",
-        "HD현대일렉트릭"
+        "HD현대일렉트릭",
+        "LG"
       ],
       "score": 9
     },
     {
       "source": "네이버뉴스",
-      "title": "미국증시, 반도체 · AI인프라주 '비명'...양대 악재는?",
-      "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=172305",
-      "desc": "뉴욕증권거래소에 따르면 이날 미국증시 반도체주 흐름을 반영하는 ISHARES SEMICONDUCTOR ETF(SOXX)는 493.39로 4.14%나 추락했다. 이날 주요 반도체 종목 중에선 메모리주, AI칩주, 그리고 반도체 장비주들의 낙폭이...",
-      "pub": "Sat, 17 Oct 2026 07:18:00 +0900",
+      "title": "美 반도체 ETF 5억4천만달러 순매수…마이크론·샌디스크는 순매도",
+      "link": "http://www.kjdaily.com/article.php?aid=1792194755689368276",
+      "desc": "해당 날짜에 미국 증시에서 실제로 매매가 체결된 금액이나 국내 투자자 전체의 보유 규모와는 구분해야 한다. ※ 본 기사는 투자 참고용이며 특정 종목이나 금융상품의 투자를 권유하지 않습니다. 투자 판단과...",
+      "pub": "Sat, 17 Oct 2026 08:56:00 +0900",
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
         "반도체"
-      ],
-      "score": 9
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "미국 열연강판값 1년 새 52% 급등… 유럽의 1.5배·중국의 3배",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496068",
-      "desc": "도널드 트럼프 미국 대통령이 수입산 철강에 고율 관세를 부과하면서 해외 공급이 줄어든 데다 주요 교역국과의 무역정책을 둘러싼 불확실성까지 겹친 결과다. 미국 철강업체들은 판매가격 상승과 수입 제품과의 경쟁...",
-      "pub": "Sat, 17 Oct 2026 07:50:00 +0900",
-      "via": "naver_api",
-      "importance": 8,
-      "matched_keywords": [
-        "철강"
       ],
       "score": 9
     },
@@ -645,8 +640,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "삼성바이오로직스",
-        "바이오"
+        "바이오",
+        "삼성바이오로직스"
       ],
       "score": 8
     },
@@ -672,8 +667,8 @@
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
-        "반도체",
-        "뉴파워프라즈마"
+        "뉴파워프라즈마",
+        "반도체"
       ],
       "score": 8
     },
@@ -688,6 +683,74 @@
       "matched_keywords": [
         "한화솔루션",
         "인공지능"
+      ],
+      "score": 8
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "10월 2주차 한미반도체 주가 하락세 딛고 상승 마감",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16249563",
+      "desc": "이어 10월 14일, 한미반도체 주가는 227,500원에 시동을 걸었으나, 종가는 217,500원에 그치며 전날에 이어 하락세를 지속했다. 10월 15일에는 시가 202,000원으로 출발, 장중 저가 186,600원을 기록하며...",
+      "pub": "Sat, 17 Oct 2026 08:54:00 +0900",
+      "via": "naver_api",
+      "importance": 2,
+      "matched_keywords": [
+        "반도체",
+        "한미반도체"
+      ],
+      "score": 8
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "美 철강 가격, 4년여만에 최고…트럼프 관세로 공급 부족",
+      "link": "https://www.tfmedia.co.kr/news/article.html?no=208095",
+      "desc": "미국이 수입산 철강에 50% 관세를 부과하고, 캐나다·멕시코 등 주요 교역 상대국과의 무역 정책을 둘러싼 불확실성이 커지면서 해외 철강 공급이 줄었다. 데이터 분석업체 CRU 그룹의 조지 스푸어스 철강 연구 수석은...",
+      "pub": "Sat, 17 Oct 2026 08:52:00 +0900",
+      "via": "naver_api",
+      "importance": 5,
+      "matched_keywords": [
+        "철강"
+      ],
+      "score": 8
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "[에너지 오디세이]⑫중국산 저가 공세 맞서는 K태양광, '초격차 기술'로...",
+      "link": "https://n.news.naver.com/mnews/article/277/0005829709?sid=101",
+      "desc": "미국은 태양광 패널의 핵심 소재인 폴리실리콘과 관련 제품에 무역·관세 조치에 나서면서 중국산 저가 제품의 진입을 사실상 봉쇄하고 나섰다. 도널드 트럼프 미국 대통령은 지난 6월 외국산 폴리실리콘 파생제품에 15...",
+      "pub": "Sat, 17 Oct 2026 08:00:00 +0900",
+      "via": "naver_api",
+      "importance": 5,
+      "matched_keywords": [
+        "태양광"
+      ],
+      "score": 8
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "캐시 우드 &quot;2030년 세계 경제성장률 7.3% 가능&quot;…한화운용 초청 강연",
+      "link": "https://www.wolyo.co.kr/news/articleView.html?idxno=319174",
+      "desc": "우주 산업에서는 스페이스X의 재사용 로켓 기술을 바탕으로 우주 기반 AI 컴퓨팅이 지상 데이터센터의 전력·공간 제약을 보완할 가능성을 제시했다. 바이오 분야에서는 멀티오믹스와 AI의 결합이 유전자 교정과...",
+      "pub": "Sat, 17 Oct 2026 08:38:00 +0900",
+      "via": "naver_api",
+      "importance": 6,
+      "matched_keywords": [
+        "제약",
+        "바이오"
+      ],
+      "score": 8
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "유럽도 신약개발 '돈맥경화'…초기 투자난 K바이오도 경고등",
+      "link": "https://www.sentv.co.kr/article/view/sentv202610160197",
+      "desc": "유럽 바이오제약업계에서 초기 신약개발 자금 부족에 대한 우려가 커지고 있다. 글로벌 제약·바이오 투자가 임상 성과를 확보한 신약 후보물질에 집중되는 가운데, 개발 중인 신약의 약 75%가 초기 단계에 있는 국내...",
+      "pub": "Sat, 17 Oct 2026 08:02:00 +0900",
+      "via": "naver_api",
+      "importance": 4,
+      "matched_keywords": [
+        "제약",
+        "바이오"
       ],
       "score": 8
     },
@@ -713,8 +776,8 @@
       "via": "rss",
       "importance": 5,
       "matched_keywords": [
-        "SK텔레콤",
-        "HMM"
+        "HMM",
+        "SK텔레콤"
       ],
       "score": 7
     },
@@ -758,32 +821,6 @@
       "score": 7
     },
     {
-      "source": "네이버뉴스",
-      "title": "워시 의장 발언에 '美 긴축 경계' 덜어낸 서울환시…하단 더 열리나",
-      "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439731",
-      "desc": "그는 &quot;이달 금리 인상 가능성이 희박해진 만큼 환율이 당장 오르기는 힘든 상황인 것 같다&quot;며 &quot;당분간 1,350원대 위로 상승하기는 어려울 것&quot;이라고 내다봤다. 최근 환율 상승 압력으로 작용했던 반도체주 약세가 일부...",
-      "pub": "Sat, 17 Oct 2026 07:36:00 +0900",
-      "via": "naver_api",
-      "importance": 6,
-      "matched_keywords": [
-        "반도체"
-      ],
-      "score": 7
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "외국인 매도 놓고 해외 시각 엇갈려…'위험자산 축소' vs 'AI 쏠림 해소'",
-      "link": "http://www.newsian.co.kr/news/articleView.html?idxno=97235",
-      "desc": "지속적인 회복세를 보이려면 외국인과 국내 투자자의 시장 재진입이 필요하다고 진단했다. 특히 향후 주요 글로벌 기술기업의 실적을 통해 반도체 기업의 AI 성장 전망에 대한 신뢰가 회복되는지가 핵심이라고 평가했다.",
-      "pub": "Sat, 17 Oct 2026 06:58:00 +0900",
-      "via": "naver_api",
-      "importance": 6,
-      "matched_keywords": [
-        "반도체"
-      ],
-      "score": 7
-    },
-    {
       "source": "한국경제",
       "title": "삼성전기는 '반토막' 났는데…한 달만에 58% 급등한 '이곳' [대기업 협력사 전수분석]",
       "link": "https://www.hankyung.com/article/202610166853i",
@@ -805,8 +842,8 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "피에스케이",
-        "피에스케이홀딩스"
+        "피에스케이홀딩스",
+        "피에스케이"
       ],
       "score": 6
     },
@@ -833,8 +870,8 @@
       "importance": 3,
       "matched_keywords": [
         "삼성전기",
-        "미래에셋증권",
-        "삼성전자"
+        "삼성전자",
+        "미래에셋증권"
       ],
       "score": 6
     },
@@ -876,6 +913,20 @@
       "matched_keywords": [
         "LG전자",
         "LG"
+      ],
+      "score": 6
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "패딩 70% 할인에 치킨 27% 싸게…주말 온라인 쇼핑 어디가 저렴할까",
+      "link": "https://n.news.naver.com/mnews/article/022/0004167364?sid=101",
+      "desc": "광동제약은 제주삼다수와 비타500 등을 선보이고 일부 구매 고객에게 굿즈를 증정한다. 매일유업은 상하목장 콩물두유와 아몬드브리즈, 바이오 요거트 등을 행사 상품으로 마련했다. 쿠팡은 25일까지 '스포츠페스타...",
+      "pub": "Sat, 17 Oct 2026 08:22:00 +0900",
+      "via": "naver_api",
+      "importance": 4,
+      "matched_keywords": [
+        "제약",
+        "바이오"
       ],
       "score": 6
     },
@@ -946,27 +997,14 @@
     },
     {
       "source": "한국경제",
-      "title": "반도체 빼고 랠리…조정 끝? 데드캣 바운스? [김현석의 월스트리트나우]",
-      "link": "https://www.hankyung.com/article/202610165211i",
+      "title": "中 CXMT 차세대 D램 공포인가 위협인가 [한경 반도체포커스]",
+      "link": "https://www.hankyung.com/article/202610166994i",
       "desc": "",
-      "pub": "Fri, 16 Oct 2026 08:11:01 +0900",
+      "pub": "Sat, 17 Oct 2026 08:00:07 +0900",
       "via": "rss",
       "importance": 2,
       "matched_keywords": [
         "반도체"
-      ],
-      "score": 5
-    },
-    {
-      "source": "한국경제",
-      "title": "\"휴젤, 美 판매체제 전환에 3분기 실적 부진…목표가↓\"-현대차",
-      "link": "https://www.hankyung.com/article/2026101653636",
-      "desc": "",
-      "pub": "Fri, 16 Oct 2026 08:05:06 +0900",
-      "via": "rss",
-      "importance": 2,
-      "matched_keywords": [
-        "현대차"
       ],
       "score": 5
     },
@@ -1006,19 +1044,6 @@
       "importance": 2,
       "matched_keywords": [
         "방산"
-      ],
-      "score": 5
-    },
-    {
-      "source": "한국경제",
-      "title": "애플, 중국산 반도체 도입 '만지작'…삼성·SK 영향 주목",
-      "link": "https://www.hankyung.com/article/202610166647i",
-      "desc": "",
-      "pub": "Fri, 16 Oct 2026 15:30:03 +0900",
-      "via": "rss",
-      "importance": 2,
-      "matched_keywords": [
-        "반도체"
       ],
       "score": 5
     },
@@ -1083,8 +1108,8 @@
       "via": "rss",
       "importance": 3,
       "matched_keywords": [
-        "삼성전자",
-        "SK하이닉스"
+        "SK하이닉스",
+        "삼성전자"
       ],
       "score": 5
     },
@@ -1188,10 +1213,10 @@
       "via": "rss",
       "importance": 0,
       "matched_keywords": [
-        "삼성SDI",
         "삼성전기",
-        "미래에셋증권",
-        "삼성전자"
+        "삼성SDI",
+        "삼성전자",
+        "미래에셋증권"
       ],
       "score": 4
     },
@@ -1205,20 +1230,6 @@
       "importance": 3,
       "matched_keywords": [
         "제주항공"
-      ],
-      "score": 4
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "AI '순환투자', 선순환인가 폭탄 돌리기인가",
-      "link": "https://n.news.naver.com/mnews/article/119/0003143778?sid=101",
-      "desc": "17일 금융투자업계 등에 따르면, 미국 AI 클라우드 업체 코어위브 주가는 최근 널뛰기 흐름을 보였다. 지난... 2000년 중반 오일머니 美 투자 서브프라임 모지기에 일조 韓 반도체머니도 전철 밟나 순환투자는 글로벌 경제...",
-      "pub": "Sat, 17 Oct 2026 07:34:00 +0900",
-      "via": "naver_api",
-      "importance": 2,
-      "matched_keywords": [
-        "클라우드",
-        "반도체"
       ],
       "score": 4
     },
@@ -1284,19 +1295,6 @@
       "importance": 0,
       "matched_keywords": [
         "네이버"
-      ],
-      "score": 3
-    },
-    {
-      "source": "한국경제",
-      "title": "삼성전자 노조와 닮았네…대만서 벌어진 '뜻밖의 사태' [김대영의 노무스쿨]",
-      "link": "https://www.hankyung.com/article/202610165150g",
-      "desc": "",
-      "pub": "Fri, 16 Oct 2026 15:24:57 +0900",
-      "via": "rss",
-      "importance": 0,
-      "matched_keywords": [
-        "삼성전자"
       ],
       "score": 3
     },
@@ -1487,40 +1485,75 @@
   "top20": [
     {
       "source": "네이버뉴스",
-      "title": "[주간 코스닥 기관] 순매수 1위 티에스이…심텍·브이엠·주성엔지니어...",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496058",
-      "desc": "반도체 검사장비와 부품 관련 기업부터 제약·바이오, 디스플레이 장비, 정보보안 기업까지 다양한 종목에 매수세가 유입됐다. 반도체 관련주 가운데서는 티에스이와 리노공업, 이오테크닉스, HPSP가 순매수 상위권에...",
-      "pub": "Sat, 17 Oct 2026 07:18:00 +0900",
+      "title": "[반도체 쇼크]마이크론·AMD·인텔 5%대 급락…미 반도체주 매도세",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=616521",
+      "desc": "미국 뉴욕증시에서 주요 기술주들이 동반 약세를 보인 가운데 반도체 업종의 하락폭이 두드러졌다. 인공지능(AI)과 반도체 관련 종목들이 일제히 밀리면서 기술주 전반의 투자심리에도 부담이 가해지는 모습이다....",
+      "pub": "Sat, 17 Oct 2026 08:50:00 +0900",
       "via": "naver_api",
-      "importance": 8,
+      "importance": 14,
       "matched_keywords": [
-        "제약",
         "반도체",
-        "브이엠",
-        "HPSP",
-        "바이오",
-        "심텍",
-        "리노공업"
+        "AMD",
+        "인공지능"
+      ],
+      "score": 21
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "AI 부채 우려에 반도체주 급락…나스닥 2.2%↓",
+      "link": "https://www.sentv.co.kr/article/view/sentv202610170008",
+      "desc": "미국 뉴욕 증시가 인공지능(AI) 인프라 투자에 대한 부채 우려와 국제유가 급등 여파로 일제히 하락했다. 특히 AI·반도체주를 중심으로 매도세가 거세지면서 나스닥 지수는 2% 넘게 급락했고, 필라델피아 반도체...",
+      "pub": "Sat, 17 Oct 2026 08:50:00 +0900",
+      "via": "naver_api",
+      "importance": 15,
+      "matched_keywords": [
+        "반도체",
+        "인공지능"
       ],
       "score": 19
     },
     {
       "source": "네이버뉴스",
-      "title": "[주간 거래소 기관] SK하이닉스 집중 매수… 삼성전기·이수페타시스는...",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496063",
-      "desc": "전기차 시장의 성장 속도와 배터리 업황 회복 여부, 에너지저장장치(ESS) 수요 확대 등이 관련 기업의 실적 전망을 좌우하는 변수로 꼽힌다. 반면 양극재 업체인 엘앤에프와 포스코퓨처엠은 순매도 명단에 포함돼 배터리...",
-      "pub": "Sat, 17 Oct 2026 07:30:00 +0900",
+      "title": "[마켓 포커스] 코스닥 껑충…알테오젠·삼천당제약 등 주가 '폴짝'",
+      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=616458",
+      "desc": "AI가 생성. 코스닥이 16일 4% 넘게 상승하며 794선에서 거래를 마쳤다. 알테오젠과 삼천당제약이 8~9%대 급등한 가운데 이오테크닉스와 원익IPS 등 반도체 관련주도 강세를 보였다. 시가총액 상위 10개 종목이...",
+      "pub": "Sat, 17 Oct 2026 08:26:00 +0900",
       "via": "naver_api",
-      "importance": 6,
+      "importance": 11,
       "matched_keywords": [
-        "이수페타시스",
-        "엘앤에프",
-        "삼성전기",
-        "포스코퓨처엠",
-        "SK하이닉스",
-        "전기차"
+        "제약",
+        "알테오젠",
+        "반도체",
+        "원익IPS"
+      ],
+      "score": 19
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "미국증시 나스닥 2.15% 급락…AI 투자 불안·유가 급등에 반도체 매도 확...",
+      "link": "https://www.topstarnews.net/news/articleView.html?idxno=16249511",
+      "desc": "금리와 환율도 함께 확인해야 한다. 16일 원·달러 환율은 1,336.8원으로 전일보다 5.7원 하락했다. 환율 하락은 원화 환산 해외자산 가치에는 부담이지만 국내증시에서는 외국인 투자자의 환위험과 자금 흐름을...",
+      "pub": "Sat, 17 Oct 2026 08:16:00 +0900",
+      "via": "naver_api",
+      "importance": 15,
+      "matched_keywords": [
+        "반도체"
       ],
       "score": 18
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "AI 투자 우려·유가 급등에 뉴욕증시 하락…나스닥 2.15%↓",
+      "link": "http://www.kjdaily.com/article.php?aid=1792194868689369276",
+      "desc": "41달러…고유가 부담 인공지능(AI) 투자에 대한 우려와 국제유가 급등이 겹치면서 미국 뉴욕증시가 일제히 하락했다. AI 인프라 기업과 반도체주에 매도세가 집중되며 나스닥지수는 2% 넘게 떨어졌다. 16일...",
+      "pub": "Sat, 17 Oct 2026 08:58:00 +0900",
+      "via": "naver_api",
+      "importance": 15,
+      "matched_keywords": [
+        "반도체",
+        "인공지능"
+      ],
+      "score": 17
     },
     {
       "source": "매일경제",
@@ -1553,50 +1586,6 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "[글로벌 증시]뉴욕증시, AI주 폭락·중동 리스크에 나스닥 2.15% 급락",
-      "link": "https://www.cbci.co.kr/news/articleView.html?idxno=616515",
-      "desc": "미국 뉴욕증시가 기술주를 중심으로 큰 폭의 하락세를 나타냈다. 인공지능(AI) 관련 기업들의 주가 부담이 커진 가운데 미국과 이란의 군사적 대치, 국제유가 상승, 금리 불확실성까지 겹치면서 투자심리가 위축됐다....",
-      "pub": "Sat, 17 Oct 2026 07:56:00 +0900",
-      "via": "naver_api",
-      "importance": 15,
-      "matched_keywords": [
-        "인공지능"
-      ],
-      "score": 16
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "뉴욕증시, AI 신용위험 재부각·헤지펀드 매도에 급락 마감",
-      "link": "https://www.globale.co.kr/news/articleView.html?idxno=41075",
-      "desc": "미국 뉴욕 증시가 케빈 워시 연방준비제도(Fed) 의장의 발언에 힘입어 금리 인상 공포를 덜어냈으나, 인공지능(AI) 인프라 기업의 신용위험 재부각과 글로벌 헤지펀드의 대규모 매도세가 겹치며 급락세로...",
-      "pub": "Sat, 17 Oct 2026 07:46:00 +0900",
-      "via": "naver_api",
-      "importance": 15,
-      "matched_keywords": [
-        "인공지능"
-      ],
-      "score": 16
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "[주간 거래소 외국인] 현대건설·한미약품·셀트리온 폭풍 매수…삼성S...",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496061",
-      "desc": "조선·해운과 건설, 일부 제약·바이오 종목에 매수세가 유입된 반면 반도체와 전자부품, 금융 관련 종목에서는 매도 우위가 나타났다. 16일 한국거래소가 발표한 주간 거래소 외국인 순매수·순매도 상위 종목 자료에...",
-      "pub": "Sat, 17 Oct 2026 07:26:00 +0900",
-      "via": "naver_api",
-      "importance": 6,
-      "matched_keywords": [
-        "제약",
-        "반도체",
-        "조선",
-        "셀트리온",
-        "바이오",
-        "현대건설"
-      ],
-      "score": 16
-    },
-    {
-      "source": "네이버뉴스",
       "title": "[오늘의 글로벌마켓] 뉴욕증시, AI 관련주 급락에 유가 급등까지...3대지...",
       "link": "http://www.opinionnews.co.kr/news/articleView.html?idxno=145803",
       "desc": "사진=연합뉴스  뉴욕증시가 일제히 하락세로 거래를 마감했다. AI 관련주 및 반도체주가 일제히... 유럽증시, 일제히 상승 마감...국제유가는 급등 유럽증시는 나란히 상승했다. 범유럽 지수인 유로 Stoxx 50...",
@@ -1610,17 +1599,14 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "253개 중 상승 21개 '초토화'...듀켐바이오·유한양행·큐리옥스는 웃었...",
-      "link": "https://n.news.naver.com/mnews/article/018/0006389922?sid=101",
-      "desc": "15일 국내 제약바이오 업종은 '검은 목요일'을 피하지 못했다. 대부분의 종목이 하락을 피하지 못했다. 제약업종은 161개 종목 중 상승 종목은 12개에 불과했다. 생명과학업종은 무려 4.90% 하락한 가운데 전체 92종목 중...",
-      "pub": "Sat, 17 Oct 2026 07:22:00 +0900",
+      "title": "뉴욕증시 AI 우려에 급락…나스닥 2.14%↓, 반도체 8거래일 연속 하락",
+      "link": "https://www.gukjenews.com/news/articleView.html?idxno=3724168",
+      "desc": "기술주 중심의 나스닥지수는 주간 기준 6월 이후 최대 낙폭을 기록했다. 이날 뉴욕증권거래소에서... 나스닥종합지수는 572.99포인트(2.14%) 급락한 2만 6140.03으로 장을 마쳤다. 나스닥지수의 하루 낙폭은 7월...",
+      "pub": "Sat, 17 Oct 2026 08:50:00 +0900",
       "via": "naver_api",
-      "importance": 4,
+      "importance": 11,
       "matched_keywords": [
-        "듀켐바이오",
-        "제약",
-        "바이오",
-        "유한양행"
+        "반도체"
       ],
       "score": 14
     },
@@ -1633,8 +1619,8 @@
       "via": "rss",
       "importance": 7,
       "matched_keywords": [
-        "방산",
-        "엔터"
+        "엔터",
+        "방산"
       ],
       "score": 13
     },
@@ -1654,40 +1640,24 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "뉴욕증시, 유가상승·AI 우려에 일제히 하락...나스닥 2%↓",
-      "link": "https://n.news.naver.com/mnews/article/310/0000140905?sid=104",
-      "desc": "미국 뉴욕 증시수가 기술주 및 인공지능(AI) 관련주 약세와 유가가 상승 영향으로 일제히 하락했다. 16일(현지시각) 뉴욕증권거래소(NYSE)에서 다우존스30 산업평균지수는 전장보다 175.28포인트(0.34%) 내린...",
-      "pub": "Sat, 17 Oct 2026 07:32:00 +0900",
+      "title": "하루 만에 24% 뛴 NBIS 인버스 ETF…미국 기술주 하락 베팅에 자금 몰렸...",
+      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496077",
+      "desc": "미국 증시에서 개별 종목과 업종의 하락에 베팅하는 인버스 상장지수펀드(ETF)가 큰 폭으로 상승했다. 반도체와 인공지능(AI) 관련 종목을 비롯해 기업용 소프트웨어, 양자컴퓨팅, 비트코인 관련 자산을...",
+      "pub": "Sat, 17 Oct 2026 08:46:00 +0900",
       "via": "naver_api",
-      "importance": 12,
+      "importance": 10,
       "matched_keywords": [
+        "반도체",
         "인공지능"
       ],
-      "score": 13
+      "score": 12
     },
     {
       "source": "네이버뉴스",
-      "title": "[주간 코스닥 외국인] 알테오젠·파마리서치 사고 주성엔지니어링·두산...",
-      "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496057",
-      "desc": "두산테스나, 리노공업 등에는 매도세가 집중됐다는 점이다. 같은 업종 안에서도 매매 방향이 엇갈린 만큼 향후 코스닥시장에서는 외국인 수급 변화와 함께 개별 기업의 실적 및 업황 흐름을 살펴볼 필요가 있다.",
-      "pub": "Sat, 17 Oct 2026 07:14:00 +0900",
-      "via": "naver_api",
-      "importance": 4,
-      "matched_keywords": [
-        "주성엔지니어링",
-        "두산테스나",
-        "테스",
-        "알테오젠",
-        "리노공업"
-      ],
-      "score": 13
-    },
-    {
-      "source": "네이버뉴스",
-      "title": "AI 빚폭탄 우려에 유가까지 폭등…나스닥 2% 넘게 추락",
-      "link": "http://www.newsroad.co.kr/news/articleView.html?idxno=65935",
-      "desc": "기술주 비중이 높은 나스닥은 2% 넘게 떨어지며 7월 이후 최대 낙폭을 기록했고, 반도체 지수는 글로벌... 스탠더드앤드푸어스(S&amp;P) 500지수는 84.62포인트(1.09%) 떨어진 7,659.44를, 기술주 중심의 나스닥 종합지수는...",
-      "pub": "Sat, 17 Oct 2026 07:38:00 +0900",
+      "title": "코스피 폭락에 7거래일간 반대매매 3천억…채권에 몰려",
+      "link": "https://www.jasm.co.kr/news/view/321894/?sc=Naver",
+      "desc": "국내 투자자가 한 주간 가장 많이 순매수한 종목은 미국 반도체 지수 일간 수익률을 3배 추종하는 상장지수펀드(ETF)인 속슬(SOXL)로 26억13만달러(약 3조4659억원)에 달했다. 국내 증시 3배 추종 ETF인 코루...",
+      "pub": "Sat, 17 Oct 2026 08:58:00 +0900",
       "via": "naver_api",
       "importance": 11,
       "matched_keywords": [
@@ -1704,10 +1674,10 @@
       "via": "naver_api",
       "importance": 6,
       "matched_keywords": [
-        "인공지능",
         "LG전자",
         "LG",
-        "삼성전자"
+        "삼성전자",
+        "인공지능"
       ],
       "score": 12
     },
@@ -1721,8 +1691,8 @@
       "importance": 2,
       "matched_keywords": [
         "하이트진로",
-        "LG유플러스",
-        "LG"
+        "LG",
+        "LG유플러스"
       ],
       "score": 11
     },
@@ -1755,14 +1725,31 @@
     },
     {
       "source": "네이버뉴스",
-      "title": "관세로 수입 막자 美 철강값 52% 급등…4년여 만에 최고",
-      "link": "https://www.kbmaeil.com/article/20261017500007",
-      "desc": "수입산 철강에 50% 관세가 부과된 데다 캐나다와 멕시코 등 주요 교역국을 둘러싼 무역정책의 불확실성이 커지면서 구매업체들이 해외 주문을 줄였다. 데이터 분석업체 CRU그룹의 조지 스푸어스 철강 연구 수석은 철강...",
-      "pub": "Sat, 17 Oct 2026 06:50:00 +0900",
+      "title": "미국 데이터센터 값비싼 대가...트럼프 '50% 관세'에 철강 가격 4년만 최...",
+      "link": "https://n.news.naver.com/mnews/article/008/0005427705?sid=101",
+      "desc": "철강 가격이 급등한 것은 트럼프 행정부가 수입산 철강에 50% 관세를 부과한 데 이어 캐나다·멕시코 등 핵심 교역 상대국을 향한 무역 가이드라인을 수시로 바꾸면서 구매업체들이 해외 주문을 대폭 줄였기 때문이다....",
+      "pub": "Sat, 17 Oct 2026 08:34:00 +0900",
       "via": "naver_api",
       "importance": 8,
       "matched_keywords": [
         "철강"
+      ],
+      "score": 11
+    },
+    {
+      "source": "네이버뉴스",
+      "title": "해외 판매 늘어도 수익성은 부담…K-뷰티, 의료·AI로 영역 확장 [뷰티풀...",
+      "link": "https://n.news.naver.com/mnews/article/123/0002392046?sid=101",
+      "desc": "바이오 소재 분야로 사업 영역을 넓히고 있으며 정부도 인공지능(AI) 기반 맞춤형 화장품과 뷰티 서비스 육성에 나서면서 산업 구조에 변화가 나타나고 있다. 16일 화장품 업계에 따르면 에이피알과 동국제약 등 주요...",
+      "pub": "Sat, 17 Oct 2026 08:01:00 +0900",
+      "via": "naver_api",
+      "importance": 6,
+      "matched_keywords": [
+        "제약",
+        "에이피알",
+        "바이오",
+        "동국제약",
+        "인공지능"
       ],
       "score": 11
     },
@@ -1775,73 +1762,63 @@
       "via": "rss",
       "importance": 4,
       "matched_keywords": [
-        "방산",
-        "엔터"
+        "엔터",
+        "방산"
       ],
       "score": 10
     }
   ],
   "keyword_summary": {
-    "삼성전기": 4,
-    "바이오": 8,
-    "방산": 4,
+    "삼성전기": 3,
+    "바이오": 9,
     "엔터": 2,
+    "방산": 4,
     "게임": 1,
-    "LG유플러스": 2,
     "LG": 6,
-    "반도체": 29,
-    "피에스케이": 2,
+    "LG유플러스": 2,
+    "반도체": 32,
     "피에스케이홀딩스": 2,
     "하이브": 1,
+    "피에스케이": 2,
     "우리로": 1,
     "한화시스템": 2,
     "TS트릴리온": 1,
-    "현대차": 1,
     "하림": 1,
     "로봇": 6,
     "네이버": 2,
-    "삼성전자": 9,
     "삼성바이오로직스": 1,
     "CS": 1,
-    "제약": 4,
+    "제약": 6,
     "우진엔텍": 1,
     "삼성SDI": 1,
+    "삼성전자": 8,
     "미래에셋증권": 2,
-    "조선": 2,
-    "SK텔레콤": 1,
+    "조선": 1,
     "HMM": 1,
-    "인공지능": 13,
-    "SK하이닉스": 3,
+    "SK텔레콤": 1,
+    "인공지능": 15,
+    "SK하이닉스": 2,
     "뉴파워프라즈마": 1,
     "하이트진로": 2,
     "두산에너빌리티": 2,
     "한미사이언스": 1,
-    "클라우드": 3,
+    "클라우드": 2,
     "제주항공": 1,
     "한화솔루션": 2,
     "금호타이어": 1,
     "현대무벡스": 1,
     "기아": 1,
     "HD현대일렉트릭": 1,
-    "태양광": 2,
+    "태양광": 3,
     "LG전자": 2,
     "대한항공": 1,
-    "전기차": 2,
-    "이수페타시스": 1,
-    "엘앤에프": 1,
-    "포스코퓨처엠": 1,
-    "주성엔지니어링": 1,
-    "두산테스나": 1,
-    "테스": 1,
+    "전기차": 1,
+    "AMD": 1,
+    "한미반도체": 1,
     "알테오젠": 1,
-    "리노공업": 2,
+    "원익IPS": 1,
     "철강": 2,
-    "셀트리온": 1,
-    "현대건설": 1,
-    "듀켐바이오": 1,
-    "유한양행": 1,
-    "브이엠": 1,
-    "HPSP": 1,
-    "심텍": 1
+    "에이피알": 1,
+    "동국제약": 1
   }
 }
