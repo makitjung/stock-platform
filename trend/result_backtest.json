@@ -1,22 +1,22 @@
 {
-  "date": "2026-10-24",
-  "generated_at": "2026-10-24 06:54",
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 264,
-      "win_rate": 39.8,
-      "avg_return": -1.55,
-      "avg_win": 2.4,
-      "avg_loss": -4.15
+      "sample": 256,
+      "win_rate": 39.5,
+      "avg_return": -1.6,
+      "avg_win": 2.42,
+      "avg_loss": -4.21
     },
     "5": {
-      "sample": 207,
-      "win_rate": 31.4,
-      "avg_return": -3.91,
-      "avg_win": 6.19,
-      "avg_loss": -8.54
+      "sample": 199,
+      "win_rate": 29.6,
+      "avg_return": -4.07,
+      "avg_win": 6.26,
+      "avg_loss": -8.42
     }
   },
   "rank_horizon": "5",
@@ -88,21 +88,21 @@
       }
     },
     {
-      "date": "2026-09-15",
-      "keyword": "KS인더스트리",
-      "returns": {
-        "1": 0.0,
-        "5": -33.22
-      }
-    },
-    {
       "date": "2026-10-07",
       "keyword": "삼성전기",
       "returns": {
         "1": -2.99,
         "5": -30.18
       }
+    },
+    {
+      "date": "2026-10-08",
+      "keyword": "SK하이닉스",
+      "returns": {
+        "1": -4.8,
+        "5": -24.97
+      }
     }
   ],
-  "total_signals": 288
+  "total_signals": 289
 }
