@@ -1,22 +1,22 @@
 {
-  "date": "2026-10-25",
-  "generated_at": "2026-10-25 06:54",
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 256,
-      "win_rate": 39.5,
-      "avg_return": -1.6,
-      "avg_win": 2.42,
-      "avg_loss": -4.21
+      "sample": 246,
+      "win_rate": 38.2,
+      "avg_return": -1.7,
+      "avg_win": 2.46,
+      "avg_loss": -4.27
     },
     "5": {
-      "sample": 199,
-      "win_rate": 29.6,
-      "avg_return": -4.07,
-      "avg_win": 6.26,
-      "avg_loss": -8.42
+      "sample": 189,
+      "win_rate": 27.5,
+      "avg_return": -4.22,
+      "avg_win": 6.39,
+      "avg_loss": -8.25
     }
   },
   "rank_horizon": "5",
@@ -72,14 +72,6 @@
       }
     },
     {
-      "date": "2026-09-16",
-      "keyword": "KS인더스트리",
-      "returns": {
-        "1": -3.39,
-        "5": -36.03
-      }
-    },
-    {
       "date": "2026-09-26",
       "keyword": "대양금속",
       "returns": {
@@ -102,7 +94,15 @@
         "1": -4.8,
         "5": -24.97
       }
+    },
+    {
+      "date": "2026-10-07",
+      "keyword": "삼성전자",
+      "returns": {
+        "1": -2.23,
+        "5": -22.86
+      }
     }
   ],
-  "total_signals": 289
+  "total_signals": 287
 }
