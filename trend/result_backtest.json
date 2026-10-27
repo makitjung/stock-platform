@@ -1,22 +1,22 @@
 {
-  "date": "2026-10-27",
-  "generated_at": "2026-10-27 06:54",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 247,
-      "win_rate": 38.9,
-      "avg_return": -1.71,
-      "avg_win": 2.42,
-      "avg_loss": -4.34
+      "sample": 272,
+      "win_rate": 41.5,
+      "avg_return": -1.28,
+      "avg_win": 2.73,
+      "avg_loss": -4.12
     },
     "5": {
-      "sample": 204,
-      "win_rate": 24.0,
-      "avg_return": -4.79,
-      "avg_win": 6.78,
-      "avg_loss": -8.45
+      "sample": 211,
+      "win_rate": 23.7,
+      "avg_return": -4.71,
+      "avg_win": 7.08,
+      "avg_loss": -8.36
     }
   },
   "rank_horizon": "5",
@@ -72,6 +72,14 @@
       }
     },
     {
+      "date": "2026-10-20",
+      "keyword": "모아라이프플러스",
+      "returns": {
+        "1": -12.1,
+        "5": -37.65
+      }
+    },
+    {
       "date": "2026-09-26",
       "keyword": "대양금속",
       "returns": {
@@ -94,15 +102,7 @@
         "1": 0.51,
         "5": -28.08
       }
-    },
-    {
-      "date": "2026-10-19",
-      "keyword": "모아라이프플러스",
-      "returns": {
-        "1": 0.51,
-        "5": -28.08
-      }
     }
   ],
-  "total_signals": 288
+  "total_signals": 292
 }
