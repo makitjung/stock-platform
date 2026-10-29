@@ -1,22 +1,22 @@
 {
-  "date": "2026-10-29",
-  "generated_at": "2026-10-29 06:54",
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 275,
-      "win_rate": 42.5,
-      "avg_return": -1.15,
-      "avg_win": 2.82,
-      "avg_loss": -4.1
+      "sample": 280,
+      "win_rate": 41.8,
+      "avg_return": -1.24,
+      "avg_win": 2.78,
+      "avg_loss": -4.12
     },
     "5": {
-      "sample": 214,
-      "win_rate": 24.3,
-      "avg_return": -4.51,
-      "avg_win": 7.28,
-      "avg_loss": -8.29
+      "sample": 221,
+      "win_rate": 25.8,
+      "avg_return": -4.32,
+      "avg_win": 7.73,
+      "avg_loss": -8.5
     }
   },
   "rank_horizon": "5",
@@ -27,6 +27,14 @@
       "returns": {
         "1": 10.45,
         "5": 30.85
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "keyword": "SK하이닉스",
+      "returns": {
+        "1": 2.35,
+        "5": 22.85
       }
     },
     {
@@ -47,14 +55,6 @@
     },
     {
       "date": "2026-09-26",
-      "keyword": "스피어",
-      "returns": {
-        "1": -4.26,
-        "5": 21.3
-      }
-    },
-    {
-      "date": "2026-09-27",
       "keyword": "스피어",
       "returns": {
         "1": -4.26,
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 298
+  "total_signals": 307
 }
