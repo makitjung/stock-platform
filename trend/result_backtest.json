@@ -1,22 +1,22 @@
 {
-  "date": "2026-11-02",
-  "generated_at": "2026-11-02 06:54",
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 271,
-      "win_rate": 39.9,
-      "avg_return": -1.32,
-      "avg_win": 2.85,
-      "avg_loss": -4.09
+      "sample": 273,
+      "win_rate": 41.8,
+      "avg_return": -1.08,
+      "avg_win": 3.07,
+      "avg_loss": -4.05
     },
     "5": {
-      "sample": 209,
-      "win_rate": 28.7,
-      "avg_return": -4.16,
-      "avg_win": 7.76,
-      "avg_loss": -8.97
+      "sample": 228,
+      "win_rate": 34.2,
+      "avg_return": -3.52,
+      "avg_win": 7.14,
+      "avg_loss": -9.06
     }
   },
   "rank_horizon": "5",
@@ -38,14 +38,6 @@
       }
     },
     {
-      "date": "2026-09-24",
-      "keyword": "스피어",
-      "returns": {
-        "1": -4.26,
-        "5": 21.3
-      }
-    },
-    {
       "date": "2026-09-25",
       "keyword": "스피어",
       "returns": {
@@ -55,6 +47,14 @@
     },
     {
       "date": "2026-09-26",
+      "keyword": "스피어",
+      "returns": {
+        "1": -4.26,
+        "5": 21.3
+      }
+    },
+    {
+      "date": "2026-09-27",
       "keyword": "스피어",
       "returns": {
         "1": -4.26,
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 342
+  "total_signals": 346
 }
