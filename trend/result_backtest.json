@@ -1,22 +1,22 @@
 {
-  "date": "2026-11-03",
-  "generated_at": "2026-11-03 06:54",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 273,
-      "win_rate": 41.8,
-      "avg_return": -1.08,
-      "avg_win": 3.07,
-      "avg_loss": -4.05
+      "sample": 319,
+      "win_rate": 37.9,
+      "avg_return": -1.09,
+      "avg_win": 3.43,
+      "avg_loss": -3.86
     },
     "5": {
-      "sample": 228,
-      "win_rate": 34.2,
-      "avg_return": -3.52,
-      "avg_win": 7.14,
-      "avg_loss": -9.06
+      "sample": 227,
+      "win_rate": 33.9,
+      "avg_return": -3.42,
+      "avg_win": 6.88,
+      "avg_loss": -8.71
     }
   },
   "rank_horizon": "5",
@@ -38,14 +38,6 @@
       }
     },
     {
-      "date": "2026-09-25",
-      "keyword": "스피어",
-      "returns": {
-        "1": -4.26,
-        "5": 21.3
-      }
-    },
-    {
       "date": "2026-09-26",
       "keyword": "스피어",
       "returns": {
@@ -60,17 +52,17 @@
         "1": -4.26,
         "5": 21.3
       }
+    },
+    {
+      "date": "2026-10-21",
+      "keyword": "SK하이닉스",
+      "returns": {
+        "1": -4.19,
+        "5": 17.08
+      }
     }
   ],
   "worst": [
-    {
-      "date": "2026-09-25",
-      "keyword": "와이즈플래닛컴퍼니",
-      "returns": {
-        "1": -29.89,
-        "5": -48.14
-      }
-    },
     {
       "date": "2026-10-20",
       "keyword": "모아라이프플러스",
@@ -102,7 +94,15 @@
         "1": 0.51,
         "5": -28.08
       }
+    },
+    {
+      "date": "2026-10-19",
+      "keyword": "모아라이프플러스",
+      "returns": {
+        "1": 0.51,
+        "5": -28.08
+      }
     }
   ],
-  "total_signals": 346
+  "total_signals": 348
 }
