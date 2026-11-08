@@ -1,34 +1,26 @@
 {
-  "date": "2026-11-08",
-  "generated_at": "2026-11-08 06:54",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 333,
-      "win_rate": 37.8,
-      "avg_return": -1.12,
-      "avg_win": 3.5,
-      "avg_loss": -3.92
+      "sample": 326,
+      "win_rate": 36.8,
+      "avg_return": -1.22,
+      "avg_win": 3.45,
+      "avg_loss": -3.94
     },
     "5": {
-      "sample": 242,
-      "win_rate": 29.8,
-      "avg_return": -4.29,
-      "avg_win": 6.6,
-      "avg_loss": -8.9
+      "sample": 235,
+      "win_rate": 29.4,
+      "avg_return": -4.5,
+      "avg_win": 6.39,
+      "avg_loss": -9.03
     }
   },
   "rank_horizon": "5",
   "best": [
-    {
-      "date": "2026-09-30",
-      "keyword": "모아데이타",
-      "returns": {
-        "1": 10.45,
-        "5": 30.85
-      }
-    },
     {
       "date": "2026-10-22",
       "keyword": "SK하이닉스",
@@ -59,6 +51,14 @@
       "returns": {
         "1": 8.24,
         "5": 15.46
+      }
+    },
+    {
+      "date": "2026-10-24",
+      "keyword": "SK하이닉스",
+      "returns": {
+        "1": 6.51,
+        "5": 14.73
       }
     }
   ],
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 359
+  "total_signals": 360
 }
