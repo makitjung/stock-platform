@@ -1,22 +1,22 @@
 {
-  "date": "2026-11-09",
-  "generated_at": "2026-11-09 06:54",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 326,
-      "win_rate": 36.8,
-      "avg_return": -1.22,
-      "avg_win": 3.45,
-      "avg_loss": -3.94
+      "sample": 321,
+      "win_rate": 35.2,
+      "avg_return": -1.29,
+      "avg_win": 3.6,
+      "avg_loss": -3.95
     },
     "5": {
-      "sample": 235,
-      "win_rate": 29.4,
-      "avg_return": -4.5,
-      "avg_win": 6.39,
-      "avg_loss": -9.03
+      "sample": 280,
+      "win_rate": 27.5,
+      "avg_return": -5.98,
+      "avg_win": 6.12,
+      "avg_loss": -10.57
     }
   },
   "rank_horizon": "5",
@@ -72,37 +72,37 @@
       }
     },
     {
+      "date": "2026-11-02",
+      "keyword": "모아라이프플러스",
+      "returns": {
+        "1": -2.75,
+        "5": -36.26
+      }
+    },
+    {
+      "date": "2026-10-31",
+      "keyword": "삼성전기",
+      "returns": {
+        "1": -6.63,
+        "5": -32.42
+      }
+    },
+    {
+      "date": "2026-11-01",
+      "keyword": "삼성전기",
+      "returns": {
+        "1": -6.63,
+        "5": -32.42
+      }
+    },
+    {
       "date": "2026-10-07",
       "keyword": "삼성전기",
       "returns": {
         "1": -2.99,
         "5": -30.18
       }
-    },
-    {
-      "date": "2026-10-18",
-      "keyword": "모아라이프플러스",
-      "returns": {
-        "1": 0.51,
-        "5": -28.08
-      }
-    },
-    {
-      "date": "2026-10-19",
-      "keyword": "모아라이프플러스",
-      "returns": {
-        "1": 0.51,
-        "5": -28.08
-      }
-    },
-    {
-      "date": "2026-10-22",
-      "keyword": "엘리스",
-      "returns": {
-        "1": -3.5,
-        "5": -26.41
-      }
     }
   ],
-  "total_signals": 360
+  "total_signals": 358
 }
