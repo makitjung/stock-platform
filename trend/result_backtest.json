@@ -1,22 +1,22 @@
 {
-  "date": "2026-11-11",
-  "generated_at": "2026-11-11 06:54",
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12 06:54",
   "status": "ok",
   "min_score": 7,
   "horizons": {
     "1": {
-      "sample": 348,
-      "win_rate": 37.6,
-      "avg_return": -0.96,
-      "avg_win": 3.76,
-      "avg_loss": -3.82
+      "sample": 352,
+      "win_rate": 38.9,
+      "avg_return": -0.9,
+      "avg_win": 3.71,
+      "avg_loss": -3.84
     },
     "5": {
-      "sample": 296,
-      "win_rate": 27.0,
-      "avg_return": -6.05,
-      "avg_win": 6.39,
-      "avg_loss": -10.65
+      "sample": 303,
+      "win_rate": 26.7,
+      "avg_return": -5.88,
+      "avg_win": 6.61,
+      "avg_loss": -10.44
     }
   },
   "rank_horizon": "5",
@@ -38,6 +38,14 @@
       }
     },
     {
+      "date": "2026-11-04",
+      "keyword": "한진",
+      "returns": {
+        "1": -4.21,
+        "5": 21.47
+      }
+    },
+    {
       "date": "2026-10-21",
       "keyword": "SK하이닉스",
       "returns": {
@@ -51,14 +59,6 @@
       "returns": {
         "1": 0.0,
         "5": 15.65
-      }
-    },
-    {
-      "date": "2026-10-20",
-      "keyword": "SK하이닉스",
-      "returns": {
-        "1": 8.24,
-        "5": 15.46
       }
     }
   ],
@@ -104,5 +104,5 @@
       }
     }
   ],
-  "total_signals": 373
+  "total_signals": 384
 }
